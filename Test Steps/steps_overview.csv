@@ -1,0 +1,131 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Successful Purchase from Apple Category,"Navigate to the Apple category on the homepage. Select an item, add it to the cart, and proceed to the checkout page. Verify the contents of the cart.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on Apple category, select object, and buy
+	- Step 1: Click on link 'Apple' -> Navigate to page 'category/apple'
+	- Step 2: Click on svg
+	- Step 3: Click on label
+	- Step 4: Click on label
+	- Step 5: Click on button ' Buy'
+Step 3: Click on svg
+Step 4: Click on svg  -> Navigate to page 'cart'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+2,Verify Successful Purchase from Apple Category,"Navigate to the Apple category on the homepage. Select an item, add it to the cart, and proceed to the checkout page. Verify the contents of the cart.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on Apple category, select object, and buy
+	- Step 1: Click on link 'Apple' -> Navigate to page 'category/apple'
+	- Step 2: Click on svg
+	- Step 3: Click on label
+	- Step 4: Click on label
+	- Step 5: Click on button ' Buy'
+Step 3: Click on svg
+Step 4: Click on svg  -> Navigate to page 'cart'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+3,Verify Apple Category Object Selection,Navigate to the Apple category on the homepage. Select an object and proceed with the purchase process. Verify the selected object in the Apple category.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on svg
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button ' Buy'
+Step 7: Take full page screenshot as checkpoint
+",Trivial
+4,Verify Apple Category Object Selection,Navigate to the Apple category on the homepage. Select an object and proceed with the purchase process. Verify the selected object in the Apple category.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on svg
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button ' Buy'
+Step 7: Take full page screenshot as checkpoint
+",Trivial
+5,Verify Successful Checkout Process for Apple Category,Navigate to the Apple category on the homepage. Add items to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on link '4' -> Navigate to page 'cart'
+Step 4: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+Step 5: Click on input field 'email'
+Step 6: Enter input value in input field 'email'
+Step 7: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Click on input field 'shipping address.first name'
+Step 9: Enter input value in input field 'shipping address.first name'
+Step 10: Click on input field 'shipping address.last name'
+Step 11: Enter input value in input field 'shipping address.last name'
+Step 12: Click on input field 'shipping address.address line 1'
+Step 13: Enter input value in input field 'shipping address.address line 1'
+Step 14: Click on input field 'shipping address.zip'
+Step 15: Enter input value in input field 'shipping address.zip'
+Step 16: Click on input field 'shipping address.city'
+Step 17: Enter input value in input field 'shipping address.city'
+Step 18: Click on input field 'shipping address.state'
+Step 19: Enter input value in input field 'shipping address.state'
+Step 20: Click on input field 'shipping address.phone'
+Step 21: Enter input value in input field 'shipping address.phone'
+Step 22: Click on button 'CONTINUE TO PAYMENT'
+Step 23: Take full page screenshot as checkpoint
+",Trivial
+6,Verify Successful Checkout Process for Apple Category,Navigate to the Apple category on the homepage. Add items to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 3: Click on link '4' -> Navigate to page 'cart'
+Step 4: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+Step 5: Click on input field 'email'
+Step 6: Enter input value in input field 'email'
+Step 7: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Click on input field 'shipping address.first name'
+Step 9: Enter input value in input field 'shipping address.first name'
+Step 10: Click on input field 'shipping address.last name'
+Step 11: Enter input value in input field 'shipping address.last name'
+Step 12: Click on input field 'shipping address.address line 1'
+Step 13: Enter input value in input field 'shipping address.address line 1'
+Step 14: Click on input field 'shipping address.zip'
+Step 15: Enter input value in input field 'shipping address.zip'
+Step 16: Click on input field 'shipping address.city'
+Step 17: Enter input value in input field 'shipping address.city'
+Step 18: Click on input field 'shipping address.state'
+Step 19: Enter input value in input field 'shipping address.state'
+Step 20: Click on input field 'shipping address.phone'
+Step 21: Enter input value in input field 'shipping address.phone'
+Step 22: Click on button 'CONTINUE TO PAYMENT'
+Step 23: Take full page screenshot as checkpoint
+",Trivial
+7,Verify Apple Category Navigation,Navigate to the Apple category from the homepage. Verify the content and layout of the Apple category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple'
+Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 4: Take full page screenshot as checkpoint
+",Trivial
+8,Verify Apple Category Navigation,Navigate to the Apple category from the homepage. Verify the content and layout of the Apple category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple'
+Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 4: Take full page screenshot as checkpoint
+",Trivial
+9,Verify Successful Purchase from Samsung Category,"Navigate to the Samsung category on the homepage. Select an object, proceed with the purchase process, and verify the contents of the Samsung category.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+Step 3: Click on button
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button
+Step 7: Click on button ' Buy'
+Step 8: Take full page screenshot as checkpoint
+",Trivial
+10,Verify Successful Purchase from Samsung Category,"Navigate to the Samsung category on the homepage. Select an object, proceed with the purchase process, and verify the contents of the Samsung category.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+Step 3: Click on button
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button
+Step 7: Click on button ' Buy'
+Step 8: Take full page screenshot as checkpoint
+",Trivial
+11,Verify Successful Purchase from Apple Category ChekhlyNaIphone,"Navigate to the ChekhlyNaIphone category within Apple on the homepage. Select an object, proceed with the purchase process, and verify the contents of the ChekhlyNaIphone category.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Click on button
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button ' Buy'
+Step 7: Take full page screenshot as checkpoint
+",Trivial
+12,Verify Successful Purchase from Apple Category ChekhlyNaIphone,"Navigate to the ChekhlyNaIphone category within Apple on the homepage. Select an object, proceed with the purchase process, and verify the contents of the ChekhlyNaIphone category.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Click on button
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on button ' Buy'
+Step 7: Take full page screenshot as checkpoint
+",Trivial
