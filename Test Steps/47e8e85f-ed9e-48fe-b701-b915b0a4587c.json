@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Navigate to iPhone cases category and set price range, then search",
+        "step 3: View and purchase iPhone 15 silicone case with MagSafe",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}
