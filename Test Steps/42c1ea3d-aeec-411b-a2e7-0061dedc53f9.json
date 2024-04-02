@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'Apple' -> Navigate to page 'category/apple'",
+        "step 3: Click on link 'iPhone 15' -> Navigate to page ''",
+        "step 4: Order items in cart and proceed to checkout",
+        "step 5: Click on button 'Remove'",
+        "step 6: Click on link 'Go shopping!'",
+        "step 7: Click on link 'Apple' -> Navigate to page 'category/apple'",
+        "step 8: Click on link 'iPhone 15' -> Navigate to page 'product/*'",
+        "step 9: Click on label",
+        "step 10: Click on label",
+        "step 11: Click on svg",
+        "step 12: Click on button ' Buy'",
+        "step 13: Click on link ' Place an order' -> Navigate to page ''",
+        "step 14: Proceed to checkout, fill shipping address and proceed to payment",
+        "step 15: Click on input field 'payment method id'",
+        "step 16: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}

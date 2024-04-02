@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Browse Apple category, set price range, and search",
+        "step 3: View and order iPhone 15 silicone case with magsafe",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}
