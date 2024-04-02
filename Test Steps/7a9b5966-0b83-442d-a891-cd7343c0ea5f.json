@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click objects to buy Samsung products and proceed to checkout",
+        "step 3: Click on input field 'email'",
+        "step 4: Enter input value in input field 'email'",
+        "step 5: Click on input field 'receive marketing info'",
+        "step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'",
+        "step 7: Click on input field 'delivery id'",
+        "step 8: Click on input field 'shipping address.first name'",
+        "step 9: Enter input value in input field 'shipping address.first name'",
+        "step 10: Click on input field 'shipping address.last name'",
+        "step 11: Enter input value in input field 'shipping address.last name'",
+        "step 12: Click on input field 'shipping address.address line 1'",
+        "step 13: Enter input value in input field 'shipping address.address line 1'",
+        "step 14: Click on input field 'shipping address.zip'",
+        "step 15: Enter input value in input field 'shipping address.zip'",
+        "step 16: Click on input field 'shipping address.city'",
+        "step 17: Enter input value in input field 'shipping address.city'",
+        "step 18: Click on input field 'shipping address.state'",
+        "step 19: Enter input value in input field 'shipping address.state'",
+        "step 20: Click on input field 'shipping address.phone'",
+        "step 21: Enter input value in input field 'shipping address.phone'",
+        "step 22: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}
