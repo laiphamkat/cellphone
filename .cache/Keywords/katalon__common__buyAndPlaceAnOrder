@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "FDFCC7DDF5855EB11AFCA8F0CBE8B2F5",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.buyAndPlaceAnOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0DAF56B539D57C0FB0135159A4B93449",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectPhoneCategoryAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

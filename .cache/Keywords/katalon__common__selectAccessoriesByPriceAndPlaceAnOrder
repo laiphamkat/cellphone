@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "26175C385680208C65B5462534142A08",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectAccessoriesByPriceAndPlaceAnOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

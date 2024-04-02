@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E8F2ED8FC9AA88CAFDBFE948D493F33F",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.clickAppleCategoryAndProceedToCheckoutInformation",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

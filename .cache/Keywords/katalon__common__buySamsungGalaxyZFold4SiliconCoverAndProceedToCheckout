@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "223AA8644FF6464DBADEDCCB4013510E",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.buySamsungGalaxyZFold4SiliconCoverAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
