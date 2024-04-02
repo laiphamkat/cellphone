@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'Phone' -> Navigate to page 'category/phone'",
+        "step 3: Enter input value in input field 'price min'",
+        "step 4: Enter input value in input field 'price max'",
+        "step 5: Click on button 'Search'",
+        "step 6: Click on link 'iPhone 15' -> Navigate to page 'product/*'",
+        "step 7: Click on label",
+        "step 8: Click on label",
+        "step 9: Click on svg",
+        "step 10: Click on button ' Buy'",
+        "step 11: Click on link ' Place an order' -> Navigate to page ''",
+        "step 12: Click button and proceed to checkout page",
+        "step 13: Click on input field 'delivery id'",
+        "step 14: Click on input field 'shipping address.first name'",
+        "step 15: Enter input value in input field 'shipping address.first name'",
+        "step 16: Click on input field 'shipping address.last name'",
+        "step 17: Enter input value in input field 'shipping address.last name'",
+        "step 18: Click on input field 'shipping address.address line 1'",
+        "step 19: Enter input value in input field 'shipping address.address line 1'",
+        "step 20: Click on input field 'shipping address.zip'",
+        "step 21: Enter input value in input field 'shipping address.zip'",
+        "step 22: Click on input field 'shipping address.city'",
+        "step 23: Enter input value in input field 'shipping address.city'",
+        "step 24: Click on input field 'shipping address.state'",
+        "step 25: Enter input value in input field 'shipping address.state'",
+        "step 26: Click on input field 'shipping address.phone'",
+        "step 27: Enter input value in input field 'shipping address.phone'",
+        "step 28: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}
