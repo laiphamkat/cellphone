@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'",
+        "step 3: Click on link ' Hot!' -> Navigate to page 'product/*'",
+        "step 4: Click on label",
+        "step 5: Click on label",
+        "step 6: Click on link 'K Cellphone Shop' -> Navigate to page ''",
+        "step 7: Click on svg",
+        "step 8: Click on label",
+        "step 9: Click on label",
+        "step 10: Click on button ' Buy'",
+        "step 11: Click on main",
+        "step 12: Click on link 'Samsung' -> Navigate to page 'category/samsung'",
+        "step 13: Click on link 'By title'",
+        "step 14: Click on svg",
+        "step 15: Click on label",
+        "step 16: Click on label",
+        "step 17: Browse and order iPhone 15 plus and related accessories",
+        "step 18: Click on link 'iPhone 15' -> Navigate to page 'product/*'",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
