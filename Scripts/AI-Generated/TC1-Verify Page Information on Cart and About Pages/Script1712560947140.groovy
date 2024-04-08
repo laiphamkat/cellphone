@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling
 import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable
 
 'Initialize test session: Open browser and set view port'
@@ -38,7 +38,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_phone/hyperlink_a
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify About Page Content in Cart Section_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Page Information on Cart and About Pages_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

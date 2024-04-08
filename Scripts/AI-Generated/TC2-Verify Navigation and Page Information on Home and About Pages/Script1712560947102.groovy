@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling
 import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable
 
 'Initialize test session: Open browser and set view port'
@@ -68,7 +68,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_about'))
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify About Page Navigation and Content for Apple Products_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation and Page Information on Home and About Pages_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

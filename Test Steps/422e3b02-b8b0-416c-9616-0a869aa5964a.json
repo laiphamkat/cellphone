@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
-        "step 2: Click on link 'About' -> Navigate to page 'about'",
-        "step 3: Click on link 'Apple' -> Navigate to page 'category/apple'",
-        "step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'",
-        "step 5: Take full page screenshot as checkpoint"
-    ]
-}
