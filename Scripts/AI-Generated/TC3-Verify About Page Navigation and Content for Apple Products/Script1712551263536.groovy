@@ -1,7 +1,8 @@
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
+import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -13,7 +14,7 @@ def setup() {
 
 "Step 1: Navigate to https://cellphone-staging.aut.katalon.com/"
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
+TrueTestScripts.navigate('/')
 
 "Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'"
 
@@ -67,7 +68,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_about'))
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation to Home and About Pages_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify About Page Navigation and Content for Apple Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

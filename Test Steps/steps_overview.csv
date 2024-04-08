@@ -1,5 +1,54 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Navigation to Home and About Pages,Navigate to the home page and access the category pages for Apple and Samsung products. Return to the home page and visit the About page. Verify the content of the About page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+7,Verify Successful Checkout Process for Purchasing iPhone 15,"Navigate to the phone category, set price range, and view iPhone 15 product. Add it to the cart, proceed to checkout, and enter shipping details. Complete the payment process and verify the checkout payment page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Show (0)'
+Step 6: View iPhone 15 product and make a purchase
+	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+	- Step 2: Click on label
+	- Step 3: Click on label
+	- Step 4: Click on svg
+	- Step 5: Click on button ' Buy'
+Step 7: Click on link ' Place an order' -> Navigate to page 'cart'
+Step 8: Click on button '+'
+Step 9: Click on button 'Proceed to checkout ' -> Navigate to page 'checkout/info'
+Step 10: Click on input field 'email'
+Step 11: Enter input value in input field 'email'
+Step 12: Click on input field 'receive marketing info'
+Step 13: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+Step 14: Click on input field 'delivery id'
+Step 15: Click on input field 'shipping address.first name'
+Step 16: Enter input value in input field 'shipping address.first name'
+Step 17: Click on input field 'shipping address.last name'
+Step 18: Enter input value in input field 'shipping address.last name'
+Step 19: Click on input field 'shipping address.address line 1'
+Step 20: Enter input value in input field 'shipping address.address line 1'
+Step 21: Click on input field 'shipping address.zip'
+Step 22: Enter input value in input field 'shipping address.zip'
+Step 23: Click on input field 'shipping address.city'
+Step 24: Enter input value in input field 'shipping address.city'
+Step 25: Click on input field 'shipping address.state'
+Step 26: Enter input value in input field 'shipping address.state'
+Step 27: Click on input field 'shipping address.phone'
+Step 28: Enter input value in input field 'shipping address.phone'
+Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+Step 30: Take full page screenshot as checkpoint
+",High
+6,Verify Display of iPhone 15 Product Details,Navigate to the phone category and view the iPhone 15 product details. Verify that the product page displays the necessary information accurately.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Show (0)'
+Step 6: View iPhone 15 product and make a purchase
+	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+	- Step 2: Click on label
+	- Step 3: Click on label
+	- Step 4: Click on svg
+	- Step 5: Click on button ' Buy'
+Step 7: Take full page screenshot as checkpoint
+",High
+3,Verify About Page Navigation and Content for Apple Products,Navigate to the about page and access information related to Apple products. Explore categories like cases for iPhones and power cables for Samsung devices. Verify that the about page content is displayed correctly.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 3: Click on link 'Samsung' -> Navigate to page 'category/power-and-cables'
 Step 4: Click on link 'Apple' -> Navigate to page 'category/apple'
@@ -7,12 +56,26 @@ Step 5: Click on link 'Home' -> Navigate to page ''
 Step 6: Click on link 'About' -> Navigate to page 'about'
 Step 7: Take full page screenshot as checkpoint
 ",High
-3,Verify Navigation to About Page and Apple Category,Navigate to the home page and access the About page. Proceed to the Apple category page and verify its content.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on link 'About' -> Navigate to page 'about'
-Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
-Step 4: Take full page screenshot as checkpoint
+5,Verify Display of iPhone 15 Product Details,"Navigate to the phone category, set price range, and view the iPhone 15 product. Verify that the product page displays the necessary information accurately.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Show (0)'
+Step 6: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+Step 7: Take full page screenshot as checkpoint
 ",High
-1,Verify Navigation to Cart and About Page,Navigate to the cart page and access the phone category. Visit the About page and verify its content.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/cart
+4,Verify Display of Cases for iPhones in Apple Category,Navigate to the about page and explore Apple product categories. Access the cases for iPhones section and verify that the correct information is displayed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'About' -> Navigate to page 'about'
+Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 5: Take full page screenshot as checkpoint
+",Trivial
+1,Verify Navigation to Home Page from About Page,Navigate from the about page to the home page. Verify that the transition is smooth and the home page is displayed correctly.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'About' -> Navigate to page 'about'
+Step 3: Click on link 'Phone' -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",Trivial
+2,Verify About Page Content in Cart Section,Navigate to the cart page from the phone category and about page. Verify that the about page content is displayed accurately within the cart section.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/cart
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'About' -> Navigate to page 'about'
 Step 4: Take full page screenshot as checkpoint
