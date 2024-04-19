@@ -1,15 +1,15 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-17,Verify Successful Navigation to Product Category Page,Navigate to the home page and access the category page for 'Chekhly Na Iphone'. Click on the specific link and verify the displayed page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+17,Verify Successful Navigation and Item Verification on Category Page,Navigate to the home page and access the category page. Click on a specific item and verify the displayed page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 4: Take full page screenshot as checkpoint
 ",High
-5,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and select the phone category. Proceed to place an order and fill in the shipping information. Complete the checkout process and verify the payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+5,Verify Successful Checkout Process with Shipping Address Details,Navigate to the home page and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'By title'
 Step 4: Click on svg
 Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout and fill shipping information
+Step 6: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -35,12 +35,12 @@ Step 7: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 8: Take full page screenshot as checkpoint
 ",Medium
-11,Verify Successful Checkout and Order Completion with Payment Method,"Navigate to the home page and select the phone category. Place an order, fill in the shipping information, and proceed to payment. Select the payment method and complete the order to verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+11,Verify Successful Order Completion with Payment Method,Navigate to the home page and complete the order process after providing email and marketing info. Fill in the shipping address details and proceed to the payment page. Verify the completion page after selecting the payment method.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'By title'
 Step 4: Click on svg
 Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout and fill shipping information
+Step 6: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -68,10 +68,10 @@ Step 8: Click on input field 'payment method id'
 Step 9: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 10: Take full page screenshot as checkpoint
 ",Medium
-6,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and proceed to place an order. Fill in the shipping information and proceed to payment. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+6,Verify Successful Checkout Process with Payment Details,Navigate to the home page and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on svg
 Step 3: Click on link 'Place an order'
-Step 4: Proceed to checkout and fill shipping information
+Step 4: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -97,12 +97,12 @@ Step 5: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 6: Take full page screenshot as checkpoint
 ",Medium
-7,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and select the accessories category. Proceed to place an order and fill in the shipping information. Complete the checkout process and verify the payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+7,Verify Successful Checkout Process for Accessories Category,Navigate to the home page and access the accessories category. Click on a specific item and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 3: Click on link 'By price'
 Step 4: Click on svg
 Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout and fill shipping information
+Step 6: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -128,7 +128,7 @@ Step 7: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-12,Verify Successful Checkout and Order Completion with Payment Method,"Navigate to the home page and select the phone category. Choose specific items and place an order. Fill in the shipping information, proceed to payment, and complete the order. Verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+12,Verify Successful Order Completion for Selected Items,Navigate to the home page and access the phone category. Select specific items and place an order. Proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the completion page after selecting the payment method.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'iPhone 15'
 Step 4: Select items and place an order
@@ -137,7 +137,7 @@ Step 4: Select items and place an order
 	- Step 3: Click on svg
 	- Step 4: Click on button 'Buy'
 	- Step 5: Click on link 'Place an order'
-Step 5: Proceed to checkout and fill shipping information
+Step 5: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -165,13 +165,13 @@ Step 7: Click on input field 'payment method id'
 Step 8: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-13,Verify Successful Checkout and Order Completion with Payment Method,"Navigate to the home page and select the accessories category. Choose a specific product, proceed to buy, and place an order. Fill in the shipping information, proceed to payment, and complete the order. Verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+13,Verify Successful Order Completion for Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the home page and access the accessories category. Click on a specific Samsung product and proceed to purchase. Fill in the shipping address details and proceed to the payment page. Verify the completion page after selecting the payment method.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 3: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'
 Step 4: Click on svg
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed to checkout and fill shipping information
+Step 7: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -199,13 +199,13 @@ Step 9: Click on input field 'payment method id'
 Step 10: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-8,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and proceed to buy an item. Fill in the shipping information and proceed to payment. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+8,Verify Successful Checkout Process with Shipping Address Details,Navigate to the home page and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed to checkout and fill shipping information
+Step 7: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -231,13 +231,13 @@ Step 8: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-14,Verify Successful Checkout and Order Completion with Payment Method,"Navigate to the home page and select the 'Chekhly Na Iphone' category. Proceed to place an order, fill in the shipping information, and proceed to payment. Complete the order with the selected payment method and verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+14,Verify Successful Order Completion with Payment Method,Navigate to the home page and complete the order process after providing email and marketing info. Fill in the shipping address details and proceed to the payment page. Verify the completion page after selecting the payment method.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 3: Click on svg
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed to checkout and fill shipping information
+Step 7: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -265,7 +265,7 @@ Step 9: Click on input field 'payment method id'
 Step 10: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-2,Verify Successful Navigation and Search for Products,Navigate to the home page and access a specific category. Perform a search with the specified price range and verify the displayed cart page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Successful Navigation and Item Verification on Cart Page,Navigate to the home page and access the category page. Enter a maximum price and search for items. Click on a specific item and verify the displayed cart page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 4: Enter input value in input field 'price max'
@@ -275,16 +275,16 @@ Step 7: Click on button 'Buy'
 Step 8: Click on link 'Place an order' -> Navigate to page 'cart'
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-9,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and explore Samsung products. Proceed to place an order and fill in the shipping information. Complete the checkout process and verify the payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+9,Verify Successful Checkout Process for Samsung Products,Navigate to the home page and view Samsung products. Purchase a selected item and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
-Step 3: Explore Samsung products and make a purchase
+Step 3: View Samsung products and buy selected item
 	- Step 1: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 	- Step 2: Click on button
 	- Step 3: Click on label
 	- Step 4: Click on label
 	- Step 5: Click on button 'Buy'
 Step 4: Click on link 'Place an order'
-Step 5: Proceed to checkout and fill shipping information
+Step 5: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -310,12 +310,12 @@ Step 6: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-1,Verify Successful Navigation to K Cellphone Shop Homepage,Navigate to the 'About' page and access the 'K Cellphone Shop' link to return to the homepage. Verify the displayed homepage.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/about
+1,Verify Successful Navigation to K Cellphone Shop Home Page,Navigate to the about page and access the K Cellphone Shop. Verify the displayed home page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/about
 Step 2: Click on link 'K Cellphone Shop'
 Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",Trivial
-3,Verify Successful Checkout Process with Shipping Information,"Navigate to the home page and select the phone category. Enter the price range, search for a specific product, and proceed to place an order. Fill in the shipping information and verify the shipping address page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Verify Successful Checkout Process with Price Range and Selected Items,Navigate to the home page and access the phone category. Enter a price range and search for items. Click on a specific item and verify the displayed page. Select items and place an order. Proceed to the checkout process after providing necessary information. Verify the shipping address page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Enter input value in input field 'price min'
 Step 4: Enter input value in input field 'price max'
@@ -329,7 +329,7 @@ Step 9: Select items and place an order
 	- Step 3: Click on svg
 	- Step 4: Click on button 'Buy'
 	- Step 5: Click on link 'Place an order'
-Step 10: Proceed to checkout and fill shipping information
+Step 10: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -338,7 +338,7 @@ Step 10: Proceed to checkout and fill shipping information
 	- Step 6: Click on button 'CONTINUE TO SHIPPING'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-4,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and access the 'K Cellphone Shop' link in the 'About' section. Proceed to the cart page and navigate through the checkout process. Verify the shipping address and contact information pages.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+4,Verify Successful Checkout Process with Contact Info,Navigate to the home page and access the about page. Click on the K Cellphone Shop and proceed to the home page. Access the about page and repeat the process. Proceed to the checkout process after providing necessary information. Verify the shipping address page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'About' -> Navigate to page 'about'
 Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
 Step 4: Click on link 'About' -> Navigate to page 'about'
@@ -349,7 +349,7 @@ Step 8: Click on button 'Contact Info' -> Navigate to page 'checkout/info'
 Step 9: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
 Step 10: Take full page screenshot as checkpoint
 ",Trivial
-10,Verify Successful Checkout Process with Shipping Information,"Navigate to the home page and select the phone category. Proceed to place an order, fill in the shipping information, and proceed to payment. Verify the displayed payment page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+10,Verify Successful Checkout Process with Payment Details,Navigate to the home page and access the phone category. Click on specific items and proceed to the checkout process after providing necessary information. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'By title'
 Step 4: Click on link 'By title'
@@ -358,7 +358,7 @@ Step 6: Click on label
 Step 7: Click on label
 Step 8: Click on button 'Buy'
 Step 9: Click on link 'Place an order'
-Step 10: Proceed to checkout and fill shipping information
+Step 10: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -384,7 +384,7 @@ Step 11: Fill shipping address details and proceed to payment
 	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-15,Verify Successful Checkout and Order Completion with Payment Method,"Navigate to the home page and access the 'Apple' category. Select a product, proceed to buy, and place an order. Fill in the shipping information, proceed to payment, and complete the order. Verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+15,Verify Successful Order Completion with Payment Method,Navigate to the home page and access the accessories category. Click on specific items and proceed to purchase. Fill in the shipping address details and proceed to the payment page. Verify the completion page after selecting the payment method.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on button
@@ -414,7 +414,7 @@ Step 11: Click on input field 'payment method id'
 Step 12: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 13: Take full page screenshot as checkpoint
 ",Trivial
-16,Verify Successful Checkout Process with Shipping Information,Navigate to the home page and select Samsung products. Proceed to buy a specific item and fill in the shipping information. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+16,Verify Successful Checkout Process with Shipping Address Details,Navigate to the home page and access the Samsung category. Click on specific items and proceed to purchase. Fill in the shipping address details and proceed to the payment page. Verify the displayed payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 4: Hover over list item
@@ -424,7 +424,7 @@ Step 7: Click on svg
 Step 8: Click on button
 Step 9: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 10: Click on svg
-Step 11: Proceed to checkout and fill shipping information
+Step 11: Proceed to checkout after providing email and marketing info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Click on input field 'email'
@@ -453,10 +453,10 @@ Step 30: Click on input field 'payment method id'
 Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 32: Take full page screenshot as checkpoint
 ",Trivial
-18,Verify Successful Navigation and Product Selection,Navigate to the home page and select Samsung products. Proceed to place an order and view the cart before making a purchase. Verify the displayed category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+18,Verify Successful Navigation and Item Verification on Category Page,Navigate to the home page and access the Samsung category. Click on specific items and view Apple products. Verify the displayed page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 3: Click on button
-Step 4: Select items and view cart before buying
+Step 4: Add items to cart and view Apple products
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button 'Buy'
@@ -464,7 +464,7 @@ Step 4: Select items and view cart before buying
 	- Step 5: Click on link 'Apple'
 Step 5: Take full page screenshot as checkpoint
 ",Trivial
-19,Verify Successful Navigation and Product Selection,Navigate to the home page and select Samsung products. Proceed to buy an item and view the cart before making a purchase. Verify the displayed category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+19,Verify Successful Navigation and Item Verification on Category Page,Navigate to the home page and access the Samsung category. Click on specific items and proceed to purchase. Verify the displayed page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 3: Click on button
 Step 4: Click on label
@@ -475,7 +475,7 @@ Step 8: Click on label
 Step 9: Click on label
 Step 10: Click on button 'Buy'
 Step 11: Click on svg
-Step 12: Select items and view cart before buying
+Step 12: Add items to cart and view Apple products
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button 'Buy'
@@ -483,7 +483,7 @@ Step 12: Select items and view cart before buying
 	- Step 5: Click on link 'Apple'
 Step 13: Take full page screenshot as checkpoint
 ",Trivial
-20,Verify Successful Navigation to About Page and Apple Category,Navigate to the home page and access the 'About' section. Select the 'Apple' category within the 'K Cellphone Shop' link. Verify the displayed 'About' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+20,Verify Successful Navigation to About Page and K Cellphone Shop,Navigate to the home page and access the about page. Click on the K Cellphone Shop and proceed to the home page. Repeat the process by accessing the about page and the K Cellphone Shop. Verify the about page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'About' -> Navigate to page 'about'
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on link 'K Cellphone Shop' -> Navigate to page ''
@@ -492,7 +492,7 @@ Step 6: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 7: Click on link 'About' -> Navigate to page 'about'
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-21,Verify Successful Navigation and Viewing of iPhone Cases,Navigate to the home page and view the iPhone cases category. Click on an item and verify the displayed page for iPhone cases.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+21,Verify Successful Navigation and Item Display on Category Page,Navigate to the homepage and view the category 'Chekhly Na Iphone'. Click on the Apple link and verify the displayed category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'About' -> Navigate to page 'about'
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
