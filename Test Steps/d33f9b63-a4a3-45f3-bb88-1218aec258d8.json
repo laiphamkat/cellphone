@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
-        "step 2: Click on svg",
-        "step 3: Proceed to checkout after selecting items",
-        "step 4: Enter shipping details for payment",
-        "step 5: Take full page screenshot as checkpoint"
-    ]
-}
