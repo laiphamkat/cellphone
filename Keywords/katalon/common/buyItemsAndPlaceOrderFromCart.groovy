@@ -8,7 +8,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
-public class buyItemsAndPlaceOrder {
+public class buyItemsAndPlaceOrderFromCart {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Click on label"
@@ -31,11 +31,16 @@ public class buyItemsAndPlaceOrder {
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_ buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_ buy'))
-        "Step 5: Click on link 'Place an order'"
+        "Step 5: Click on link 'Place an order' -> Navigate to page 'cart'"
         WebUI.takeScreenshot()
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/link_ place an order'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/link_ place an order'))
+        "Step 6: Click on button '+'"
+        WebUI.takeScreenshot()
+        WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_cart/button_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_object'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {
