@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Product Category ChekhlyNaIphone on Apple Page,Navigate to the home page and access the Samsung category. Proceed to view the 'ChekhlyNaIphone' category on the Apple page. Verify the displayed category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Items in Shopping Cart for Samsung and Apple Products,Navigate to the home page and access the Samsung category. Add items to the cart and proceed to the Apple category. Verify the displayed Apple products.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 3: Click on button
 Step 4: Click on button 'Buy'
@@ -7,8 +7,8 @@ Step 5: Click on link '2' -> Navigate to page 'cart'
 Step 6: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 7: Take full page screenshot as checkpoint
 ",High
-2,Verify Successful Order Completion on Thank You Page,"Navigate to the home page and add items to the cart. Proceed to checkout, fill in shipping details, and complete the order. Verify the order completion on the Thank You page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click objects and proceed to checkout
+2,Verify Successful Order Completion on Thank You Page,"Navigate to the home page and select items for purchase. Proceed to checkout, enter shipping details, and complete the order. Verify the display of the Thank You page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click objects to buy items and proceed to checkout
 	- Step 1: Click on button
 	- Step 2: Click on label
 	- Step 3: Click on label
@@ -16,7 +16,7 @@ Step 2: Click objects and proceed to checkout
 	- Step 5: Click on button 'Buy'
 	- Step 6: Click on link '2' -> Navigate to page 'cart'
 	- Step 7: Click on button 'Proceed to checkout'
-Step 3: Fill shipping details and complete order
+Step 3: Enter shipping details and complete order
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'email'
 	- Step 3: Enter input value in input field 'email'
@@ -42,8 +42,8 @@ Step 3: Fill shipping details and complete order
 	- Step 23: Click on button 'COMPLETE ORDER'
 Step 4: Take full page screenshot as checkpoint
 ",High
-3,Verify Payment Page Display after Filling Shipping Details,"Navigate to the home page and add items to the cart. Proceed to checkout, fill in shipping details, and proceed to the payment page. Verify the displayed payment page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click objects and proceed to checkout
+3,Verify Payment Process on Checkout Payment Page,"Navigate to the home page and add items to the cart. Proceed to checkout, enter shipping details, and move to the payment section. Verify the Checkout Payment page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click objects to buy items and proceed to checkout
 	- Step 1: Click on button
 	- Step 2: Click on label
 	- Step 3: Click on label
@@ -51,7 +51,7 @@ Step 2: Click objects and proceed to checkout
 	- Step 5: Click on button 'Buy'
 	- Step 6: Click on link '2' -> Navigate to page 'cart'
 	- Step 7: Click on button 'Proceed to checkout'
-Step 3: Fill shipping details and proceed to payment
+Step 3: Enter shipping details and proceed to payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
@@ -78,7 +78,7 @@ Step 3: Fill shipping details and proceed to payment
 	- Step 24: Click on button 'CONTINUE TO PAYMENT'
 Step 4: Take full page screenshot as checkpoint
 ",Trivial
-4,Verify Successful Order Completion on Thank You Page after Payment,Navigate to the home page and access the Apple category. Add items to the cart and proceed to checkout. Fill in shipping details and proceed to payment. Complete the order and verify the order completion on the Thank You page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+4,Verify Successful Order Completion on Thank You Page after Purchasing Apple Products,Navigate to the home page and access the Apple category. Add items to the cart and proceed to checkout. Enter shipping details and complete the order. Verify the display of the Thank You page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on button
@@ -86,7 +86,7 @@ Step 5: Click on label
 Step 6: Click on label
 Step 7: Click on button 'Buy'
 Step 8: Click on svg
-Step 9: Proceed to payment after filling shipping details
+Step 9: Proceed to checkout and enter shipping details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/shipping-address'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'shipping address.first name'
@@ -115,7 +115,7 @@ Step 9: Proceed to payment after filling shipping details
 Step 10: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-5,Verify Successful Order Completion on Thank You Page after Shipping Details,"Navigate to the home page and access the Accessories category. Proceed to view Power and Cables in the Samsung category. Add items to the cart and proceed to checkout. Fill in shipping details, complete the order after email input, and verify the order completion on the Thank You page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+5,Verify Successful Order Completion on Thank You Page for Accessories and Apple Products,"Navigate to the home page and access the Accessories category. Select Samsung power and cables, then proceed to Apple products. Enter email, shipping, and payment details to complete the order. Verify the display of the Thank You page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 4: Hover over list item
@@ -125,7 +125,7 @@ Step 7: Click on svg
 Step 8: Click on button
 Step 9: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 10: Click on svg
-Step 11: Fill shipping details and complete order after email input
+Step 11: Enter email, shipping, and payment details to complete order
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
@@ -152,7 +152,7 @@ Step 11: Fill shipping details and complete order after email input
 	- Step 24: Click on button 'COMPLETE ORDER'
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-6,Verify Product Category ChekhlyNaIphone on Apple Page,Navigate to the home page and access the Samsung category. Add items to the cart and proceed to checkout. Complete the order and verify the 'ChekhlyNaIphone' category on the Apple page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+6,Verify Items in Shopping Cart for Samsung and Apple Products,Navigate to the home page and access the Samsung category. Add items to the cart and proceed to the Apple category. Verify the displayed Apple products.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 3: Click on button
 Step 4: Click on label
