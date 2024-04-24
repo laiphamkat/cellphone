@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A6467A8B1FD0CE3AC40BEAA00DA56A68",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.buyAppleProductsFromCart",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

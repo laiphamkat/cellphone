@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "37C11B7F3B6661BF48251DBE932AD64A",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.searchAppleProductsByPriceRange",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

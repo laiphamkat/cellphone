@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0BFFBD748142CCC375EA382CFEF68199",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.searchIPhoneCasesInPriceRange",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9E5388B40B0466529548603F3890A484",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.proceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

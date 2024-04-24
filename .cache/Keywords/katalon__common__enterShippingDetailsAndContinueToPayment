@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BB742CA4264F69D314C843CCC2FA427C",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterShippingDetailsAndContinueToPayment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

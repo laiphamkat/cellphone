@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "71854D2B5E503DA75D9F8E71F5747530",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.orderIphone15SiliconeCase",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

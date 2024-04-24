@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "08BF16249B7A195316D013B00899BB3C",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.searchPhonesByPriceRange",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

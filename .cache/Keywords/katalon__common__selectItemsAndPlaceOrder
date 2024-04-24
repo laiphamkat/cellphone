@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9985C5CD879139B4360B690A3DDBF821",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectItemsAndPlaceOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

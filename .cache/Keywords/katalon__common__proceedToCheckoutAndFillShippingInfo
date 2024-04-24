@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B83B4DA745D1F3AFEC20A9A7C8E126AB",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.proceedToCheckoutAndFillShippingInfo",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

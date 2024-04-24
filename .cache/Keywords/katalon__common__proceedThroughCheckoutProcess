@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2FF6C58CDDC780DF7980C3890503B380",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.proceedThroughCheckoutProcess",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

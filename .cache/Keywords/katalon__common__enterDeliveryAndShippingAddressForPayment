@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "06DCB4A7D57E53C7C2698A72977F5679",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterDeliveryAndShippingAddressForPayment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

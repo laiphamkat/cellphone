@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CC56CB599360933C5568054582A9F023",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.proceedToCheckoutWithEmailAndShippingInfo",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

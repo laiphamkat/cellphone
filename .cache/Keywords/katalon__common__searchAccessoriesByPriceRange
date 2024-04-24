@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "80C1BF261BA0E8DB5E8F83CF4E9F35F9",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.searchAccessoriesByPriceRange",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

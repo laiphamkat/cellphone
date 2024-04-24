@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "35F801ED7C6652143B2221ECCD6810E4",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.addItemsToCartAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}
