@@ -3,10 +3,10 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.model.FailureHandling
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 public class proceedToCheckoutAndProvideShippingInfo {
     
@@ -21,22 +21,27 @@ public class proceedToCheckoutAndProvideShippingInfo {
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_cart/button_proceed to checkout '), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_proceed to checkout '))
-        "Step 3: Click on input field 'email'"
+        "Step 3: Hover over div"
+        WebUI.takeScreenshot()
+        WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_checkout_info/div_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_object'))
+        "Step 4: Click on input field 'email'"
         WebUI.takeScreenshot()
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_checkout_info/input_email'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_email'))
-        "Step 4: Enter input value in input field 'email'"
+        "Step 5: Enter input value in input field 'email'"
         WebUI.takeScreenshot()
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_checkout_info/input_email'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_email'), data['input_email'])
-        "Step 5: Click on input field 'receive marketing info'"
+        "Step 6: Click on input field 'receive marketing info'"
         WebUI.takeScreenshot()
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_checkout_info/input_receive_marketing_info'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_receive_marketing_info'))
-        "Step 6: Click on button 'CONTINUE TO SHIPPING'"
+        "Step 7: Click on button 'CONTINUE TO SHIPPING'"
         WebUI.takeScreenshot()
         WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_checkout_info/button_continue to shipping'), 20, FailureHandling.CONTINUE_ON_FAILURE)
         WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
