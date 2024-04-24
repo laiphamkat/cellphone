@@ -1,168 +1,271 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and proceed through the steps to place an order. Fill in the necessary shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Successful Navigation and Item Display on Category Page,Navigate to the home page and view the 'Chekhly Na Iphone' category. Click on the Apple link and verify the displayed category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over list item
+Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 4: Take full page screenshot as checkpoint
+",High
+2,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and access the 'Phone' category. Proceed to place an order and enter shipping details for payment processing. Verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Click on link 'By title'
+Step 4: Click on svg
+Step 5: Click on link 'Place an order'
+Step 6: Proceed to checkout after entering email and shipping info
+	- Step 1: Click on button '+'
+	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 7: Enter shipping details for payment processing
+	- Step 1: Click on input field 'delivery id'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 8: Take full page screenshot as checkpoint
+",Medium
+3,Verify Successful Checkout and Order Completion with Payment Method Entry,Navigate to the home page and access the 'Phone' category. Proceed to place an order and enter shipping details for payment processing. Complete the order process by entering the payment method and verify the 'Thank You' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Click on link 'By title'
+Step 4: Click on svg
+Step 5: Click on link 'Place an order'
+Step 6: Proceed to checkout after entering email and shipping info
+	- Step 1: Click on button '+'
+	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 7: Enter shipping details for payment processing
+	- Step 1: Click on input field 'delivery id'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 8: Click on input field 'payment method id'
+Step 9: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
+Step 10: Take full page screenshot as checkpoint
+",Medium
+4,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and proceed to checkout after entering email and shipping info. Enter shipping details for payment processing and verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on svg
 Step 3: Click on link 'Place an order'
-Step 4: Proceed to checkout after selecting items
+Step 4: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 5: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 5: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 6: Take full page screenshot as checkpoint
-",High
-2,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and proceed through the steps to place an order. Fill in the necessary shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on svg
-Step 3: Proceed to checkout after selecting items
+",Medium
+5,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and access the 'Accessories' category. Proceed to place an order and enter shipping details for payment processing. Verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
+Step 3: Click on link 'By price'
+Step 4: Click on svg
+Step 5: Click on link 'Place an order'
+Step 6: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 4: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 7: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
-Step 5: Take full page screenshot as checkpoint
-",High
-3,Verify Samsung Category Page Navigation,Navigate to the home page and access the Samsung category. Verify the display and functionality of the Samsung category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Samsung' -> Navigate to page 'category/samsung'
-Step 4: Take full page screenshot as checkpoint
-",Medium
-4,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and select a Samsung product. Proceed to the cart and place an order. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item  -> Navigate to page 'category/chekhly-na-iphone'
-Step 3: Click on link 'By price'
-Step 4: Click on link 'Place an order' -> Navigate to page 'cart'
-Step 5: Take full page screenshot as checkpoint
-",Low
-5,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and proceed through the steps to place an order. Fill in the necessary shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 8: Take full page screenshot as checkpoint
+",Trivial
+6,Verify Successful Checkout and Order Completion with Payment Method Entry,Navigate to the home page and access the 'Phone' category. Proceed to buy items by placing an order and enter shipping details for payment processing. Complete the order process by entering the payment method and verify the 'Thank You' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Click on link 'iPhone 15'
+Step 4: Buy items by placing an order
+	- Step 1: Click on label
+	- Step 2: Click on label
+	- Step 3: Click on svg
+	- Step 4: Click on button 'Buy'
+	- Step 5: Click on link 'Place an order'
+Step 5: Proceed to checkout after entering email and shipping info
+	- Step 1: Click on button '+'
+	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 6: Enter shipping details for payment processing
+	- Step 1: Click on input field 'delivery id'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 7: Click on input field 'payment method id'
+Step 8: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
+Step 9: Take full page screenshot as checkpoint
+",Trivial
+7,Verify Successful Checkout and Order Completion with Payment Method Entry,Navigate to the home page and access the 'Accessories' category. Proceed to buy the 'Samsung Galaxy Z Fold4 Silicon Cover' product. Enter shipping details for payment processing and complete the order process. Verify the 'Thank You' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
+Step 3: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'
+Step 4: Click on svg
+Step 5: Click on button 'Buy'
+Step 6: Click on link 'Place an order'
+Step 7: Proceed to checkout after entering email and shipping info
+	- Step 1: Click on button '+'
+	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Enter shipping details for payment processing
+	- Step 1: Click on input field 'delivery id'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 9: Click on input field 'payment method id'
+Step 10: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+8,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and proceed to checkout after entering email and shipping info. Enter shipping details for payment processing and verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed to checkout after selecting items
+Step 7: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 8: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 9: Take full page screenshot as checkpoint
-",Low
-6,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and select a phone category. Proceed to place an order and fill in the shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
-Step 3: Click on link 'By title'
-Step 4: Click on svg
-Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout after selecting items
+",Trivial
+9,Verify Successful Checkout and Order Completion with Payment Method Entry,"Navigate to the home page and access the 'Chekhly Na Iphone' category. Click on the Apple link and proceed to place an order. Enter shipping details for payment processing, complete the order by entering the payment method, and verify the 'Thank You' page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 3: Click on svg
+Step 4: Click on label
+Step 5: Click on button 'Buy'
+Step 6: Click on link 'Place an order'
+Step 7: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 7: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
-Step 8: Take full page screenshot as checkpoint
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
+Step 9: Click on input field 'payment method id'
+Step 10: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
+Step 11: Take full page screenshot as checkpoint
 ",Trivial
-7,Verify Apple Category Page Navigation and Cart Functionality,"Navigate to the home page and access the Apple category. Input the maximum price, search for products, and add items to the cart. Verify the cart functionality and displayed items.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+10,Verify Successful Search and Cart Display,"Navigate to the home page and hover over the object. Click on the Apple link and search by entering the maximum price. Proceed to search and buy items, then verify the displayed cart page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 Step 4: Enter input value in input field 'price max'
@@ -172,174 +275,47 @@ Step 7: Click on button 'Buy'
 Step 8: Click on link 'Place an order' -> Navigate to page 'cart'
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-8,Verify Checkout Process for Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the Accessories category and select the Samsung Galaxy Z Fold4 Silicon Cover. Proceed to buy the item and complete the checkout process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/category/accessories
-Step 2: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'
-Step 3: Click on svg
-Step 4: Click on button 'Buy'
-Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout after selecting items
-	- Step 1: Click on button '+'
-	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 7: Fill shipping address details for payment
-	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
-Step 8: Take full page screenshot as checkpoint
-",Trivial
-9,Verify Navigation to K Cellphone Shop Home Page,Navigate to the About page and access the K Cellphone Shop link. Verify the redirection to the K Cellphone Shop home page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/about
-Step 2: Click on link 'K Cellphone Shop'
-Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
-",Trivial
-10,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and access the Accessories category. Proceed to place an order and fill in the shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
-Step 3: Click on link 'By price'
-Step 4: Click on svg
-Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout after selecting items
-	- Step 1: Click on button '+'
-	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 7: Fill shipping address details for payment
-	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
-Step 8: Take full page screenshot as checkpoint
-",Trivial
-11,Verify Successful Checkout Process from Samsung Category to Payment,Navigate to the home page and select a Samsung product. Proceed to place an order and fill in the shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+11,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and browse Samsung products in the 'Samsung' category. Proceed to place an order and enter shipping details for payment processing. Verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
-Step 3: Select Samsung product and proceed to buy
+Step 3: Browse and buy Samsung products
 	- Step 1: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 	- Step 2: Click on button
 	- Step 3: Click on label
 	- Step 4: Click on label
 	- Step 5: Click on button 'Buy'
 Step 4: Click on link 'Place an order'
-Step 5: Proceed to checkout after selecting items
+Step 5: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 6: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 6: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-12,Verify Successful Checkout Process from Apple Category to Thank You Page,Navigate to the home page and access the Apple category. Proceed to buy an item and complete the checkout process. Verify the redirection to the Thank You page after order completion.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
-Step 4: Click on link 'By price'
-Step 5: Click on link 'Place an order'
-Step 6: Proceed to checkout after selecting items
-	- Step 1: Click on button '+'
-	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 7: Fill shipping address details for payment
-	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
-Step 8: Click on input field 'payment method id'
-Step 9: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-Step 10: Take full page screenshot as checkpoint
+12,Verify Successful Navigation to K Cellphone Shop Home Page,Navigate to the 'About' page and click on the 'K Cellphone Shop' link. Verify the displayed home page of K Cellphone Shop.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/about
+Step 2: Click on link 'K Cellphone Shop'
+Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
 ",Trivial
-13,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and select a phone category. Proceed to place an order and fill in the shipping address details for payment on the checkout page. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+13,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and access the 'Phone' category. Proceed to place an order and enter shipping details for payment processing. Verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 3: Click on link 'By title'
 Step 4: Click on link 'By title'
@@ -348,65 +324,36 @@ Step 6: Click on label
 Step 7: Click on label
 Step 8: Click on button 'Buy'
 Step 9: Click on link 'Place an order'
-Step 10: Proceed to checkout after selecting items
+Step 10: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 11: Fill shipping address details for payment
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 11: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-14,Verify Shipping Address Details for Iphone 15 Product,Navigate to the home page and search for the Iphone 15 product. Add the item to the cart and proceed to checkout. Fill in the shipping address details and verify the correctness of the address.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
-Step 3: Enter input value in input field 'price min'
-Step 4: Enter input value in input field 'price max'
-Step 5: Click on button 'Search'
-Step 6: Click on link 'iPhone 15' -> Navigate to page 'product/*'
-Step 7: Click on label
-Step 8: Click on label
-Step 9: Click on svg
-Step 10: Click on button 'Buy'
-Step 11: Click on link 'Place an order'
-Step 12: Proceed to checkout after selecting items
-	- Step 1: Click on button '+'
-	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
-Step 13: Take full page screenshot as checkpoint
-",Trivial
-15,Verify Adding Items to Cart and Selecting Apple Product,Navigate to the home page and select a Samsung product. Proceed to the cart and add items to the cart. Select an Apple product and verify the displayed items.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+14,Verify Successful Checkout Process and Product Selection,Navigate to the home page and access the 'Samsung' category. Click on the object and buy items from the cart after selecting Apple products. Verify the displayed 'Chekhly Na Iphone' category page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 3: Click on button
-Step 4: Add items to cart and select Apple product
+Step 4: Buy items from the cart after selecting Apple products
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button 'Buy'
@@ -414,7 +361,39 @@ Step 4: Add items to cart and select Apple product
 	- Step 5: Click on link 'Apple'
 Step 5: Take full page screenshot as checkpoint
 ",Trivial
-16,Verify Successful Checkout Process from Apple Category to Thank You Page,Navigate to the home page and access the Apple category. Proceed to buy items and complete the checkout process. Verify the redirection to the Thank You page after order completion.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+15,Verify Successful Navigation to About Page and Category Display,Navigate to the home page and access the 'About' page. Click on the 'Apple' link and navigate to the K Cellphone Shop home page. Access the 'About' page again and verify the displayed 'About' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'About' -> Navigate to page 'about'
+Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 4: Click on link 'K Cellphone Shop' -> Navigate to page ''
+Step 5: Click on link 'About' -> Navigate to page 'about'
+Step 6: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 7: Click on link 'About' -> Navigate to page 'about'
+Step 8: Take full page screenshot as checkpoint
+",Trivial
+16,Verify Successful Search and Checkout Process with Shipping Address Entry,"Navigate to the home page and access the 'Phone' category. Enter the minimum and maximum prices, then search for the 'Iphone 15' product. Proceed to buy items by placing an order and enter shipping details for payment processing. Verify the displayed checkout shipping address page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Phone' -> Navigate to page 'category/phone'
+Step 3: Enter input value in input field 'price min'
+Step 4: Enter input value in input field 'price max'
+Step 5: Click on button 'Search'
+Step 6: Click on link 'iPhone 15' -> Navigate to page 'product/*'
+Step 7: Click on label
+Step 8: Click on label
+Step 9: Buy items by placing an order
+	- Step 1: Click on label
+	- Step 2: Click on label
+	- Step 3: Click on svg
+	- Step 4: Click on button 'Buy'
+	- Step 5: Click on link 'Place an order'
+Step 10: Proceed to checkout after entering email and shipping info
+	- Step 1: Click on button '+'
+	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
+Step 11: Take full page screenshot as checkpoint
+",Trivial
+17,Verify Successful Checkout and Order Completion with Payment Method Entry,Navigate to the home page and access the 'Apple' category. Click on the object and proceed to buy items. Enter the payment method and complete the order process. Verify the 'Thank You' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on button
@@ -423,46 +402,59 @@ Step 6: Click on label
 Step 7: Click on button 'Buy'
 Step 8: Click on svg  -> Navigate to page 'cart'
 Step 9: Click on button 'Proceed to checkout'
-Step 10: Fill shipping address details for payment
+Step 10: Enter shipping details for payment processing
 	- Step 1: Click on input field 'delivery id'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'shipping address.first name'
-	- Step 4: Hover over div
-	- Step 5: Enter input value in input field 'shipping address.first name'
-	- Step 6: Click on input field 'shipping address.last name'
-	- Step 7: Hover over div
-	- Step 8: Enter input value in input field 'shipping address.last name'
-	- Step 9: Click on input field 'shipping address.address line 1'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.address line 1'
-	- Step 12: Click on input field 'shipping address.zip'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.zip'
-	- Step 15: Click on input field 'shipping address.city'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.city'
-	- Step 18: Click on input field 'shipping address.state'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.state'
-	- Step 21: Click on input field 'shipping address.phone'
-	- Step 22: Enter input value in input field 'shipping address.phone'
-	- Step 23: Click on button 'CONTINUE TO PAYMENT'
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Enter input value in input field 'shipping address.first name'
+	- Step 4: Click on input field 'shipping address.last name'
+	- Step 5: Enter input value in input field 'shipping address.last name'
+	- Step 6: Click on input field 'shipping address.address line 1'
+	- Step 7: Enter input value in input field 'shipping address.address line 1'
+	- Step 8: Click on input field 'shipping address.zip'
+	- Step 9: Enter input value in input field 'shipping address.zip'
+	- Step 10: Click on input field 'shipping address.city'
+	- Step 11: Enter input value in input field 'shipping address.city'
+	- Step 12: Click on input field 'shipping address.state'
+	- Step 13: Enter input value in input field 'shipping address.state'
+	- Step 14: Click on input field 'shipping address.phone'
+	- Step 15: Enter input value in input field 'shipping address.phone'
+	- Step 16: Click on button 'CONTINUE TO PAYMENT'
 Step 11: Click on input field 'payment method id'
 Step 12: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 13: Take full page screenshot as checkpoint
 ",Trivial
-17,Verify Checkout Process from Home to Shipping Address and Contact Info,Navigate to the home page and access the About page. Visit the K Cellphone Shop and proceed to the checkout. Fill in the shipping address details and contact information. Verify the correctness of the shipping address.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+18,Verify Successful Navigation to About Page and Category Display,Navigate to the home page and access the 'About' page. Click on the 'Apple' link and navigate to the 'Chekhly Na Iphone' category. Click on the 'Samsung' link and return to the home page. Verify the displayed 'About' page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'About' -> Navigate to page 'about'
-Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
-Step 4: Click on link 'About' -> Navigate to page 'about'
-Step 5: Click on link 'K Cellphone Shop' -> Navigate to page ''
-Step 6: Click on svg  -> Navigate to page 'cart'
-Step 7: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/shipping-address'
-Step 8: Click on button 'Contact Info' -> Navigate to page 'checkout/info'
-Step 9: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-Step 10: Take full page screenshot as checkpoint
+Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 4: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 5: Click on link 'Samsung' -> Navigate to page 'category/power-and-cables'
+Step 6: Click on link 'Home' -> Navigate to page ''
+Step 7: Click on link 'About' -> Navigate to page 'about'
+Step 8: Click on link 'Apple' -> Navigate to page 'category/apple'
+Step 9: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
+Step 10: Click on link 'About' -> Navigate to page 'about'
+Step 11: Take full page screenshot as checkpoint
 ",Trivial
-18,Verify Navigation through Accessories and Power And Cables Categories,Navigate to the home page and access the Accessories category. Select Samsung products and proceed to buy items. Fill in the shipping address details for payment and complete the checkout process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+19,Verify Successful Checkout Process and Product Selection,Navigate to the home page and access the 'Samsung' category. Click on the object and buy items from the cart. Verify the displayed 'Chekhly Na Iphone' category page after selecting Apple products.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
+Step 3: Click on button
+Step 4: Click on label
+Step 5: Click on label
+Step 6: Click on label
+Step 7: Click on label
+Step 8: Click on label
+Step 9: Click on label
+Step 10: Click on button 'Buy'
+Step 11: Click on svg
+Step 12: Buy items from the cart after selecting Apple products
+	- Step 1: Click on label
+	- Step 2: Click on label
+	- Step 3: Click on button 'Buy'
+	- Step 4: Click on link '2' -> Navigate to page 'cart'
+	- Step 5: Click on link 'Apple'
+Step 13: Take full page screenshot as checkpoint
+",Trivial
+20,Verify Successful Checkout Process with Shipping Information Entry,Navigate to the home page and access the 'Accessories' category. Hover over the object and proceed to buy Samsung products in the 'Power and Cables' category. Enter shipping details for payment processing and verify the displayed checkout payment page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 4: Hover over list item
@@ -472,14 +464,13 @@ Step 7: Click on svg
 Step 8: Click on button
 Step 9: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 10: Click on svg
-Step 11: Proceed to checkout after selecting items
+Step 11: Proceed to checkout after entering email and shipping info
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 3: Hover over div
-	- Step 4: Click on input field 'email'
-	- Step 5: Enter input value in input field 'email'
-	- Step 6: Click on input field 'receive marketing info'
-	- Step 7: Click on button 'CONTINUE TO SHIPPING'
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING'
 Step 12: Enter input value in input field 'shipping address.first name'
 Step 13: Hover over div
 Step 14: Enter input value in input field 'shipping address.last name'
@@ -502,22 +493,14 @@ Step 30: Click on input field 'payment method id'
 Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 32: Take full page screenshot as checkpoint
 ",Trivial
-19,Verify Adding Items to Cart and Selecting Apple Product,Navigate to the home page and access the Samsung category. Proceed to buy items and select Apple products. Verify the displayed items and categories.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on link 'Samsung' -> Navigate to page 'category/samsung'
-Step 3: Click on button
-Step 4: Click on label
-Step 5: Click on label
-Step 6: Click on label
-Step 7: Click on label
-Step 8: Click on label
-Step 9: Click on label
-Step 10: Click on button 'Buy'
-Step 11: Click on svg
-Step 12: Add items to cart and select Apple product
-	- Step 1: Click on label
-	- Step 2: Click on label
-	- Step 3: Click on button 'Buy'
-	- Step 4: Click on link '2' -> Navigate to page 'cart'
-	- Step 5: Click on link 'Apple'
-Step 13: Take full page screenshot as checkpoint
+21,Verify Successful Navigation to iPhone Accessories Category,Navigate to the homepage and access the iPhone accessories category. Click on the desired item and verify the displayed page for iPhone accessories.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on link 'About' -> Navigate to page 'about'
+Step 3: Click on link 'K Cellphone Shop' -> Navigate to page ''
+Step 4: Click on link 'About' -> Navigate to page 'about'
+Step 5: Click on link 'K Cellphone Shop' -> Navigate to page ''
+Step 6: Click on svg  -> Navigate to page 'cart'
+Step 7: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/shipping-address'
+Step 8: Click on button 'Contact Info' -> Navigate to page 'checkout/info'
+Step 9: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+Step 10: Take full page screenshot as checkpoint
 ",Trivial
