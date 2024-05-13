@@ -1,160 +1,199 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Successful Checkout Process with Shipping Address Information,Navigate to the home page and proceed to the cart. Input shipping address details and continue to the shipping address section. Enter the required information and complete the checkout process by confirming the shipping address.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Apple' -> Navigate to page 'category/*'
-Step 4: Hover over list item
-Step 5: Click on link 'Apple'
-Step 6: Hover over link
-Step 7: Click on span  -> Navigate to page 'cart'
-Step 8: Click on button 'Proceed to checkout'
-Step 9: Hover over list item
-Step 10: Click on link 'Apple' -> Navigate to page 'category/*'
-Step 11: Hover over link
-Step 12: Click on span  -> Navigate to page 'cart'
-Step 13: Click on button 'Proceed to checkout'
-Step 14: Hover over link
-Step 15: Click on span
-Step 16: Click on button 'Proceed to checkout'
-Step 17: Click on button  -> Navigate to page 'checkout/shipping-address'
-Step 18: Hover over div
-Step 19: Click on input field 'shipping address.first name'
-Step 20: Hover over div
-Step 21: Enter input value in input field 'shipping address.first name'
-Step 22: Click on input field 'shipping address.address line 1'
-Step 23: Enter input value in input field 'shipping address.address line 1'
-Step 24: Click on div
-",High
-1,Proceed to Payment after Adding Items to Cart,Navigate to the home page and add items to the cart. Proceed to the cart page and continue to the payment section. Input the necessary details and complete the payment process by confirming the payment.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Successful Order Completion after Adding Items to Cart,"Navigate to the homepage and add items to the cart. Proceed to checkout, enter shipping details, and complete the order. Verify the completion page is displayed.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
-Step 4: Click on label
-Step 5: Click on label
-Step 6: Click on button 'Buy'
-Step 7: Click on link '1'
-Step 8: Proceed to checkout, input shipping details, and continue to payment
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+Step 4: Hover over link
+Step 5: Click on span  -> Navigate to page 'cart'
+Step 6: Click on button 'Proceed to checkout'
+Step 7: Enter shipping details and complete order
+	- Step 1: Hover over div
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Hover over div
+	- Step 4: Enter input value in input field 'shipping address.first name'
+	- Step 5: Click on input field 'shipping address.last name'
 	- Step 6: Hover over div
-	- Step 7: Click on input field 'shipping address.first name'
-	- Step 8: Hover over div
-	- Step 9: Enter input value in input field 'shipping address.first name'
-	- Step 10: Click on input field 'shipping address.last name'
-	- Step 11: Hover over div
-	- Step 12: Enter input value in input field 'shipping address.last name'
-	- Step 13: Click on input field 'shipping address.address line 1'
-	- Step 14: Hover over div
-	- Step 15: Enter input value in input field 'shipping address.address line 1'
-	- Step 16: Click on input field 'shipping address.zip'
-	- Step 17: Hover over div
-	- Step 18: Enter input value in input field 'shipping address.zip'
-	- Step 19: Click on input field 'shipping address.city'
-	- Step 20: Hover over div
-	- Step 21: Enter input value in input field 'shipping address.city'
-	- Step 22: Click on input field 'shipping address.state'
-	- Step 23: Hover over div
-	- Step 24: Enter input value in input field 'shipping address.state'
-	- Step 25: Click on input field 'shipping address.phone'
-	- Step 26: Enter input value in input field 'shipping address.phone'
-	- Step 27: Click on button 'CONTINUE TO PAYMENT'
-Step 9: Click on span
-",Low
-3,Verify Successful Order Completion after Adding Items to Cart,Navigate to the home page and add items to the cart. Proceed to the cart page and continue to the payment section. Input the necessary details and complete the payment process to finalize the order. Verify that the order is successfully completed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+	- Step 7: Enter input value in input field 'shipping address.last name'
+	- Step 8: Click on input field 'shipping address.address line 1'
+	- Step 9: Hover over div
+	- Step 10: Enter input value in input field 'shipping address.address line 1'
+	- Step 11: Click on input field 'shipping address.zip'
+	- Step 12: Hover over div
+	- Step 13: Enter input value in input field 'shipping address.zip'
+	- Step 14: Click on input field 'shipping address.city'
+	- Step 15: Hover over div
+	- Step 16: Enter input value in input field 'shipping address.city'
+	- Step 17: Click on input field 'shipping address.state'
+	- Step 18: Hover over div
+	- Step 19: Enter input value in input field 'shipping address.state'
+	- Step 20: Click on input field 'shipping address.phone'
+	- Step 21: Enter input value in input field 'shipping address.phone'
+	- Step 22: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+	- Step 23: Click on button 'COMPLETE ORDER'
+Step 8: Take full page screenshot as checkpoint
+",High
+1,Verify Successful Order Completion with Multiple Step Process,Navigate to the homepage and select items from different categories. Add items to the cart and proceed to checkout. Enter shipping details and complete the order through multiple payment steps.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/*'
 Step 4: Click on button
 Step 5: Click on label
 Step 6: Click on label
 Step 7: Click on button 'Buy'
-Step 8: Hover over link
-Step 9: Click on span
-Step 10: Proceed to checkout, input shipping details, and continue to payment
+Step 8: Click on link '1'
+Step 9: Proceed to checkout, enter email, and continue to shipping
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
 	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 6: Hover over div
-	- Step 7: Click on input field 'shipping address.first name'
-	- Step 8: Hover over div
-	- Step 9: Enter input value in input field 'shipping address.first name'
-	- Step 10: Click on input field 'shipping address.last name'
-	- Step 11: Hover over div
-	- Step 12: Enter input value in input field 'shipping address.last name'
-	- Step 13: Click on input field 'shipping address.address line 1'
-	- Step 14: Hover over div
-	- Step 15: Enter input value in input field 'shipping address.address line 1'
-	- Step 16: Click on input field 'shipping address.zip'
-	- Step 17: Hover over div
-	- Step 18: Enter input value in input field 'shipping address.zip'
-	- Step 19: Click on input field 'shipping address.city'
-	- Step 20: Hover over div
-	- Step 21: Enter input value in input field 'shipping address.city'
-	- Step 22: Click on input field 'shipping address.state'
-	- Step 23: Hover over div
-	- Step 24: Enter input value in input field 'shipping address.state'
-	- Step 25: Click on input field 'shipping address.phone'
-	- Step 26: Enter input value in input field 'shipping address.phone'
-	- Step 27: Click on button 'CONTINUE TO PAYMENT'
-Step 11: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-Step 12: Hover over list item
-Step 13: Click on link 'Apple' -> Navigate to page 'category/*'
-Step 14: Click on button
-Step 15: Click on link '1'
-Step 16: Proceed to checkout, input shipping details, and continue to payment
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 6: Hover over div
-	- Step 7: Click on input field 'shipping address.first name'
-	- Step 8: Hover over div
-	- Step 9: Enter input value in input field 'shipping address.first name'
-	- Step 10: Click on input field 'shipping address.last name'
-	- Step 11: Hover over div
-	- Step 12: Enter input value in input field 'shipping address.last name'
-	- Step 13: Click on input field 'shipping address.address line 1'
-	- Step 14: Hover over div
-	- Step 15: Enter input value in input field 'shipping address.address line 1'
-	- Step 16: Click on input field 'shipping address.zip'
-	- Step 17: Hover over div
-	- Step 18: Enter input value in input field 'shipping address.zip'
-	- Step 19: Click on input field 'shipping address.city'
-	- Step 20: Hover over div
-	- Step 21: Enter input value in input field 'shipping address.city'
-	- Step 22: Click on input field 'shipping address.state'
-	- Step 23: Hover over div
-	- Step 24: Enter input value in input field 'shipping address.state'
-	- Step 25: Click on input field 'shipping address.phone'
-	- Step 26: Enter input value in input field 'shipping address.phone'
-	- Step 27: Click on button 'CONTINUE TO PAYMENT'
-Step 17: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-Step 18: Hover over list item
-Step 19: Click on link 'Apple' -> Navigate to page 'category/*'
-Step 20: Click on button
-Step 21: Click on button
-Step 22: Click on div
-Step 23: Click on link 'Hot! New!Best choice' -> Navigate to page 'product/*'
-Step 24: Click on label
-Step 25: Click on label
-Step 26: Click on button 'Buy'
-Step 27: Click on link '0' -> Navigate to page 'cart'
-Step 28: Take full page screenshot as checkpoint
+	- Step 5: Click on button 'CONTINUE TO SHIPPING'
+Step 10: Hover over div
+Step 11: Click on input field 'shipping address.first name'
+Step 12: Hover over div
+Step 13: Enter input value in input field 'shipping address.first name'
+Step 14: Click on input field 'shipping address.last name'
+Step 15: Hover over div
+Step 16: Enter input value in input field 'shipping address.last name'
+Step 17: Click on input field 'shipping address.address line 1'
+Step 18: Hover over div
+Step 19: Click on input field 'shipping address.zip'
+Step 20: Hover over div
+Step 21: Enter input value in input field 'shipping address.zip'
+Step 22: Click on input field 'shipping address.city'
+Step 23: Enter input value in input field 'shipping address.city'
+Step 24: Hover over div
+Step 25: Enter input value in input field 'shipping address.state'
+Step 26: Click on input field 'shipping address.phone'
+Step 27: Enter input value in input field 'shipping address.phone'
+Step 28: Click on button 'CONTINUE TO PAYMENT'
+Step 29: Click on button 'CONTINUE TO PAYMENT'
+Step 30: Click on button 'CONTINUE TO PAYMENT'
+Step 31: Click on button 'CONTINUE TO PAYMENT'
+Step 32: Click on div
+Step 33: Click on button 'CONTINUE TO PAYMENT'
+Step 34: Click on button 'CONTINUE TO PAYMENT'
+Step 35: Hover over div
+Step 36: Click on input field 'shipping address.state'
+Step 37: Enter input value in input field 'shipping address.state'
+Step 38: Click on button 'CONTINUE TO PAYMENT'
+Step 39: Hover over div
+Step 40: Click on input field 'shipping address.state'
+Step 41: Enter input value in input field 'shipping address.state'
+Step 42: Click on button 'CONTINUE TO PAYMENT'
 ",Low
-4,Verify Successful Checkout Process with Email Information,Navigate to the home page and proceed to the cart. Enter the email address and continue to the shipping section. Input the required details and verify the contents of the cart.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Verify Successful Order Completion for Samsung Products,Navigate to the homepage and select Samsung products. Add items to the cart and proceed to checkout. Enter shipping details and complete the order. Verify the completion page is displayed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over list item
+Step 3: Click on link 'Samsung' -> Navigate to page 'category/*'
+Step 4: Click on button
+Step 5: Hover over list item
+Step 6: Click on link 'Samsung'
+Step 7: Click on button
+Step 8: Click on label
+Step 9: Click on label
+Step 10: Click on button 'Buy'
+Step 11: Click on link '3' -> Navigate to page 'cart'
+Step 12: Click on button 'Proceed to checkout'
+Step 13: Enter shipping details and complete order
+	- Step 1: Hover over div
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Hover over div
+	- Step 4: Enter input value in input field 'shipping address.first name'
+	- Step 5: Click on input field 'shipping address.last name'
+	- Step 6: Hover over div
+	- Step 7: Enter input value in input field 'shipping address.last name'
+	- Step 8: Click on input field 'shipping address.address line 1'
+	- Step 9: Hover over div
+	- Step 10: Enter input value in input field 'shipping address.address line 1'
+	- Step 11: Click on input field 'shipping address.zip'
+	- Step 12: Hover over div
+	- Step 13: Enter input value in input field 'shipping address.zip'
+	- Step 14: Click on input field 'shipping address.city'
+	- Step 15: Hover over div
+	- Step 16: Enter input value in input field 'shipping address.city'
+	- Step 17: Click on input field 'shipping address.state'
+	- Step 18: Hover over div
+	- Step 19: Enter input value in input field 'shipping address.state'
+	- Step 20: Click on input field 'shipping address.phone'
+	- Step 21: Enter input value in input field 'shipping address.phone'
+	- Step 22: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+	- Step 23: Click on button 'COMPLETE ORDER'
+Step 14: Take full page screenshot as checkpoint
+",Low
+4,Verify Successful Order Completion with Various Phone Models,"Navigate to the homepage and select phone models to add to the cart. Proceed to checkout, enter shipping details, and complete the order. Verify the completion page is displayed.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
-Step 5: Click on button
-Step 6: Hover over link
-Step 7: Click on span  -> Navigate to page 'cart'
-Step 8: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-Step 9: Hover over div
-Step 10: Click on input field 'email'
-Step 11: Enter input value in input field 'email'
-Step 12: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'cart'
-Step 13: Take full page screenshot as checkpoint
-",Low
+Step 5: Click on button 'Buy'
+Step 6: Click on link 'Place an order'
+Step 7: Proceed to checkout, enter email, and continue to shipping
+	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on button 'CONTINUE TO SHIPPING'
+Step 8: Enter shipping details and complete order
+	- Step 1: Hover over div
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Hover over div
+	- Step 4: Enter input value in input field 'shipping address.first name'
+	- Step 5: Click on input field 'shipping address.last name'
+	- Step 6: Hover over div
+	- Step 7: Enter input value in input field 'shipping address.last name'
+	- Step 8: Click on input field 'shipping address.address line 1'
+	- Step 9: Hover over div
+	- Step 10: Enter input value in input field 'shipping address.address line 1'
+	- Step 11: Click on input field 'shipping address.zip'
+	- Step 12: Hover over div
+	- Step 13: Enter input value in input field 'shipping address.zip'
+	- Step 14: Click on input field 'shipping address.city'
+	- Step 15: Hover over div
+	- Step 16: Enter input value in input field 'shipping address.city'
+	- Step 17: Click on input field 'shipping address.state'
+	- Step 18: Hover over div
+	- Step 19: Enter input value in input field 'shipping address.state'
+	- Step 20: Click on input field 'shipping address.phone'
+	- Step 21: Enter input value in input field 'shipping address.phone'
+	- Step 22: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+	- Step 23: Click on button 'COMPLETE ORDER'
+Step 9: Hover over list item
+Step 10: Click on link 'Phone' -> Navigate to page 'category/*'
+Step 11: Click on div
+Step 12: Click on link 'Samsung'
+Step 13: Click on button
+Step 14: Click on label
+Step 15: Click on label
+Step 16: Click on label
+Step 17: Click on label
+Step 18: Click on button 'Buy'
+Step 19: Hover over link
+Step 20: Click on span
+Step 21: Proceed to checkout, enter email, and continue to shipping
+	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on button 'CONTINUE TO SHIPPING'
+Step 22: Enter shipping details and complete order
+	- Step 1: Hover over div
+	- Step 2: Click on input field 'shipping address.first name'
+	- Step 3: Hover over div
+	- Step 4: Enter input value in input field 'shipping address.first name'
+	- Step 5: Click on input field 'shipping address.last name'
+	- Step 6: Hover over div
+	- Step 7: Enter input value in input field 'shipping address.last name'
+	- Step 8: Click on input field 'shipping address.address line 1'
+	- Step 9: Hover over div
+	- Step 10: Enter input value in input field 'shipping address.address line 1'
+	- Step 11: Click on input field 'shipping address.zip'
+	- Step 12: Hover over div
+	- Step 13: Enter input value in input field 'shipping address.zip'
+	- Step 14: Click on input field 'shipping address.city'
+	- Step 15: Hover over div
+	- Step 16: Enter input value in input field 'shipping address.city'
+	- Step 17: Click on input field 'shipping address.state'
+	- Step 18: Hover over div
+	- Step 19: Enter input value in input field 'shipping address.state'
+	- Step 20: Click on input field 'shipping address.phone'
+	- Step 21: Enter input value in input field 'shipping address.phone'
+	- Step 22: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+	- Step 23: Click on button 'COMPLETE ORDER'
+Step 23: Take full page screenshot as checkpoint
+",Trivial
