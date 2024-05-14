@@ -1,9 +1,9 @@
 package katalon.truetest
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.util.KeywordUtil
-import internal.GlobalVariable
 
 public class TrueTestScripts {
     public static void login() {
@@ -46,7 +46,7 @@ public class TrueTestScripts {
             path = "/$path";
         }
         String url = "$applicationDomain$path";
-        if (queryParameters.length() > 0) {
+        if (queryParameters != null && queryParameters.length() > 0) {
             url = "$url?$queryParameters";
         }
         WebUI.navigateToUrl(url);
