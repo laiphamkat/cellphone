@@ -4,10 +4,10 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
 
-public class inputShippingAddressDetailsContinueToPayment {
+public class fillShippingAddressAndCompleteOrder {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Hover over div"
