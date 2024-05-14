@@ -1,11 +1,11 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Successful Checkout Process after Adding Items to Shopping Cart,Navigate to the home page and proceed to add items to the cart. Enter the shipping address details and complete the payment process. Verify that the thank you page is displayed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Successful Checkout Process with Shipping Address Entry,Navigate to the homepage and proceed with the checkout process by entering the shipping address and completing the payment. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Hover over link
 Step 5: Click on span  -> Navigate to page 'cart'
 Step 6: Click on button 'Proceed to checkout'
-Step 7: Enter shipping address details and complete payment
+Step 7: Enter shipping address and complete payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
@@ -31,8 +31,8 @@ Step 7: Enter shipping address details and complete payment
 	- Step 23: Click on button 'COMPLETE ORDER'
 Step 8: Take full page screenshot as checkpoint
 ",High
-1,Verify Smooth Purchase Flow with Multiple Payment Steps,Navigate to the home page and purchase items from the category. Proceed to the cart and enter shipping details. Complete the payment process with multiple payment steps.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over object and purchase item
+1,Verify Successful Purchase in Apple Category with Shipping Details Entry,Navigate to the homepage and select the Apple category for purchase. Proceed to the cart and enter the shipping details. Complete the payment process by continuing to the payment page multiple times.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple category and buy
 	- Step 1: Hover over list item
 	- Step 2: Click on link 'Apple' -> Navigate to page 'category/*'
 	- Step 3: Click on button
@@ -80,7 +80,7 @@ Step 35: Click on input field 'shipping address.state'
 Step 36: Enter input value in input field 'shipping address.state'
 Step 37: Click on button 'CONTINUE TO PAYMENT'
 ",Trivial
-4,Verify Successful Payment Completion for Samsung Products,Navigate to the home page and select Samsung products from the category. Add items to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the thank you page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+4,Verify Successful Purchase in Samsung Category with Shipping Details Entry,Navigate to the homepage and select the Samsung category for purchase. Enter the shipping address and complete the payment process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Samsung' -> Navigate to page 'category/*'
 Step 4: Click on button
@@ -92,7 +92,7 @@ Step 9: Click on label
 Step 10: Click on button 'Buy'
 Step 11: Click on link '3' -> Navigate to page 'cart'
 Step 12: Click on button 'Proceed to checkout'
-Step 13: Enter shipping address details and complete payment
+Step 13: Enter shipping address and complete payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
@@ -118,8 +118,8 @@ Step 13: Enter shipping address details and complete payment
 	- Step 23: Click on button 'COMPLETE ORDER'
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-3,Verify Correct Order Placement and Payment Process,Navigate to the home page and purchase items from the category. Enter shipping details and complete the payment process. Verify that the thank you page is displayed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over object and purchase item
+3,Verify Successful Purchase in Apple Category with Shipping Details Entry,Navigate to the homepage and proceed with the purchase in the Apple category. Enter the shipping details and complete the payment process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple category and buy
 	- Step 1: Hover over list item
 	- Step 2: Click on link 'Apple' -> Navigate to page 'category/*'
 	- Step 3: Click on button
@@ -171,7 +171,7 @@ Step 39: Click on input field 'shipping address.city'
 Step 40: Enter input value in input field 'shipping address.city'
 Step 41: Click on div
 ",Trivial
-5,Verify Successful Checkout Process for Google Pixel,Navigate to the home page and select Google Pixel from the category. Add items to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify the thank you page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+5,Verify Successful Purchase of Google Pixel with Shipping Address Entry,Navigate to the homepage and proceed with the purchase of Google Pixel. Enter the shipping address and complete the payment process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Google Pixel' -> Navigate to page 'category/*'
 Step 3: Click on button
 Step 4: Click on span  -> Navigate to page 'cart'
@@ -182,7 +182,7 @@ Step 6: Proceed to checkout and enter shipping details
 	- Step 3: Click on input field 'email'
 	- Step 4: Enter input value in input field 'email'
 	- Step 5: Click on button 'CONTINUE TO SHIPPING'
-Step 7: Enter shipping address details and complete payment
+Step 7: Enter shipping address and complete payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
@@ -208,7 +208,7 @@ Step 7: Enter shipping address details and complete payment
 	- Step 23: Click on button 'COMPLETE ORDER'
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-6,Verify Successful Purchase Process for Samsung Phones,Navigate to the home page and purchase Samsung phones from the category. Add items to the cart and proceed to checkout. Enter shipping details and complete the payment process. Verify that the thank you page is displayed.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+6,Verify Successful Purchase in Samsung Category with Shipping Details Entry,Navigate to the homepage and proceed with the purchase in the Samsung category. Enter the shipping address and complete the payment process. Verify the completion of the payment process.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
@@ -220,7 +220,7 @@ Step 7: Proceed to checkout and enter shipping details
 	- Step 3: Click on input field 'email'
 	- Step 4: Enter input value in input field 'email'
 	- Step 5: Click on button 'CONTINUE TO SHIPPING'
-Step 8: Enter shipping address details and complete payment
+Step 8: Enter shipping address and complete payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
@@ -251,7 +251,7 @@ Step 12: Click on link 'Samsung'
 Step 13: Click on button
 Step 14: Click on label
 Step 15: Click on label
-Step 16: Purchase item and navigate to another page
+Step 16: Buy and navigate to linked object
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button 'Buy'
@@ -263,7 +263,7 @@ Step 17: Proceed to checkout and enter shipping details
 	- Step 3: Click on input field 'email'
 	- Step 4: Enter input value in input field 'email'
 	- Step 5: Click on button 'CONTINUE TO SHIPPING'
-Step 18: Enter shipping address details and complete payment
+Step 18: Enter shipping address and complete payment
 	- Step 1: Hover over div
 	- Step 2: Click on input field 'shipping address.first name'
 	- Step 3: Hover over div
