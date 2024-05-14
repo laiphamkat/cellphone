@@ -32,7 +32,13 @@ public class TrueTestScripts {
     
     public static void navigate(String path) {
         String applicationDomain = GlobalVariable.application_domain;
-        String queryParameters = GlobalVariable.query_params;
+        String queryParameters = "";
+        try {
+            queryParameters = GlobalVariable.query_params;
+        }
+        catch (Exception e) {
+            KeywordUtil.logInfo(e.getMessage())
+        }
         if (path == null) {
             path = "";
         }
