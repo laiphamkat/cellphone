@@ -1,6 +1,6 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.common.navigateThroughCheckoutProcess
+import katalon.common.proceedThroughCheckoutProcess
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 import katalon.truetest.TrueTestScripts
 
@@ -54,9 +54,9 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_item_html/link_s
 
 WebUI.takeScreenshot()
 
-"Step 7: Navigate through checkout process"
+"Step 7: Proceed through checkout process"
 
-navigateThroughCheckoutProcess.execute(data_path_0, Integer.valueOf(index_0))
+proceedThroughCheckoutProcess.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 8: Click on button 'finish' -> Navigate to page 'checkout-complete.html'"
 
@@ -114,11 +114,11 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_html/button_checkout'
 
 WebUI.takeScreenshot()
 
-"Step 15: Click on link 'item 0 title link' -> Navigate to page 'inventory-item.html'"
+"Step 15: Click on link 'item 4 title link' -> Navigate to page 'inventory-item.html'"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/inventory.html?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_html/link_item0TitleLink'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_html/link_item4Title'))
 
 WebUI.takeScreenshot()
 
@@ -152,17 +152,17 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_html/button_addT
 
 WebUI.takeScreenshot()
 
-"Step 20: Click on link '1'"
+"Step 20: Click on link '2'"
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/inventory.html?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_html/link_shoppingCartLink'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_inventory_html/link_shoppingCart'))
 
 WebUI.takeScreenshot()
 
-"Step 21: Navigate through checkout process"
+"Step 21: Proceed through checkout process"
 
-navigateThroughCheckoutProcess.execute(data_path_1, Integer.valueOf(index_1))
+proceedThroughCheckoutProcess.execute(data_path_1, Integer.valueOf(index_1))
 
 "Step 22: Click on button 'finish' -> Navigate to page 'checkout-complete.html'"
 
@@ -174,7 +174,7 @@ WebUI.takeScreenshot()
 
 "Step 23: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Successful Checkout Process with Multiple Items in Shopping Cart_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Successful Checkout Process with Multiple Items_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
