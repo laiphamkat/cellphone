@@ -1,5 +1,5 @@
-import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 
@@ -19,7 +19,7 @@ TrueTestScripts.navigate('/')
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_item'))
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_phoneAppleSamsungGooglePixel'))
 
 WebUI.takeScreenshot()
 
@@ -27,13 +27,13 @@ WebUI.takeScreenshot()
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_apple'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_apple_1'))
 
 WebUI.takeScreenshot()
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation and Category Selection on PageHome_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Category Page after Navigating to Home_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
