@@ -7,7 +7,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class fillShippingAddressAndProceedToPayment {
+public class fillShippingAddressAndProvideContactInfo {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Hover over div"
@@ -62,101 +62,109 @@ public class fillShippingAddressAndProceedToPayment {
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_2'))
         WebUI.takeScreenshot()
-        "Step 14: Click on input field 'shipping address.zip'"
+        "Step 14: Enter input value in input field 'shipping address.address line 1'"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressAddressLine1'), data['input_shipping_address_address_line_1'])
+        WebUI.takeScreenshot()
+        "Step 15: Click on input field 'shipping address.zip'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'))
         WebUI.takeScreenshot()
-        "Step 15: Hover over div"
+        "Step 16: Hover over div"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_3'))
         WebUI.takeScreenshot()
-        "Step 16: Enter input value in input field 'shipping address.zip'"
+        "Step 17: Enter input value in input field 'shipping address.zip'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressZip'), data['input_shipping_address_zip'])
         WebUI.takeScreenshot()
-        "Step 17: Click on input field 'shipping address.city'"
+        "Step 18: Click on input field 'shipping address.city'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
         WebUI.takeScreenshot()
-        "Step 18: Enter input value in input field 'shipping address.city'"
+        "Step 19: Hover over div"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_4'))
+        WebUI.takeScreenshot()
+        "Step 20: Enter input value in input field 'shipping address.city'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'), data['input_shipping_address_city'])
         WebUI.takeScreenshot()
-        "Step 19: Hover over div"
+        "Step 21: Click on input field 'shipping address.state'"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'))
+        WebUI.takeScreenshot()
+        "Step 22: Hover over div"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_5'))
         WebUI.takeScreenshot()
-        "Step 20: Enter input value in input field 'shipping address.state'"
+        "Step 23: Enter input value in input field 'shipping address.state'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'), data['input_shipping_address_state'])
         WebUI.takeScreenshot()
-        "Step 21: Click on input field 'shipping address.phone'"
+        "Step 24: Click on input field 'shipping address.phone'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressPhone'))
         WebUI.takeScreenshot()
-        "Step 22: Enter input value in input field 'shipping address.phone'"
+        "Step 25: Enter input value in input field 'shipping address.phone'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressPhone'), data['input_shipping_address_phone'])
         WebUI.takeScreenshot()
-        "Step 23: Click on button 'CONTINUE TO PAYMENT'"
+        "Step 26: Click on div"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/div_deliveryInformationUs'))
         WebUI.takeScreenshot()
-        "Step 24: Click on button 'CONTINUE TO PAYMENT'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        WebUI.takeScreenshot()
-        "Step 25: Click on button 'CONTINUE TO PAYMENT'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        WebUI.takeScreenshot()
-        "Step 26: Click on button 'CONTINUE TO PAYMENT'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        WebUI.takeScreenshot()
-        "Step 27: Click on div"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/div_paymentMethod'))
-        WebUI.takeScreenshot()
-        "Step 28: Click on button 'CONTINUE TO PAYMENT'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        WebUI.takeScreenshot()
-        "Step 29: Click on button 'CONTINUE TO PAYMENT'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        WebUI.takeScreenshot()
-        "Step 30: Hover over div"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_4'))
-        WebUI.takeScreenshot()
-        "Step 31: Click on input field 'shipping address.state'"
-        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'))
-        WebUI.takeScreenshot()
-        "Step 32: Enter input value in input field 'shipping address.state'"
+        "Step 27: Enter input value in input field 'shipping address.state'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'), data['input_shipping_address_state_1'])
         WebUI.takeScreenshot()
-        "Step 33: Click on button 'CONTINUE TO PAYMENT'"
+        "Step 28: Click on main"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/main_roleMain'))
         WebUI.takeScreenshot()
-        "Step 34: Hover over div"
+        "Step 29: Hover over div"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_4'))
         WebUI.takeScreenshot()
-        "Step 35: Click on input field 'shipping address.state'"
+        "Step 30: Click on input field 'shipping address.state'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'))
         WebUI.takeScreenshot()
-        "Step 36: Enter input value in input field 'shipping address.state'"
+        "Step 31: Hover over div"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_5'))
+        WebUI.takeScreenshot()
+        "Step 32: Enter input value in input field 'shipping address.state'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressState'), data['input_shipping_address_state_2'])
         WebUI.takeScreenshot()
-        "Step 37: Click on button 'CONTINUE TO PAYMENT'"
+        "Step 33: Click on input field 'shipping address.phone'"
         //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressPhone'))
+        WebUI.takeScreenshot()
+        "Step 34: Click on div"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/div_firstNameLastName'))
+        WebUI.takeScreenshot()
+        "Step 35: Enter input value in input field 'shipping address.city'"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'), data['input_shipping_address_city_1'])
+        WebUI.takeScreenshot()
+        "Step 36: Click on main"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/main_roleMain'))
+        WebUI.takeScreenshot()
+        "Step 37: Hover over div"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_3'))
+        WebUI.takeScreenshot()
+        "Step 38: Click on input field 'shipping address.city'"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'))
+        WebUI.takeScreenshot()
+        "Step 39: Enter input value in input field 'shipping address.city'"
+        //WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressCity'), data['input_shipping_address_city_2'])
         WebUI.takeScreenshot()
     }
     
@@ -166,12 +174,15 @@ public class fillShippingAddressAndProceedToPayment {
         data['input_email'] = testData.getValue('input_email', rowIndex)
         data['input_shipping_address_first_name'] = testData.getValue('input_shipping_address_first_name', rowIndex)
         data['input_shipping_address_last_name'] = testData.getValue('input_shipping_address_last_name', rowIndex)
+        data['input_shipping_address_address_line_1'] = testData.getValue('input_shipping_address_address_line_1', rowIndex)
         data['input_shipping_address_zip'] = testData.getValue('input_shipping_address_zip', rowIndex)
         data['input_shipping_address_city'] = testData.getValue('input_shipping_address_city', rowIndex)
         data['input_shipping_address_state'] = testData.getValue('input_shipping_address_state', rowIndex)
         data['input_shipping_address_phone'] = testData.getValue('input_shipping_address_phone', rowIndex)
         data['input_shipping_address_state_1'] = testData.getValue('input_shipping_address_state_1', rowIndex)
         data['input_shipping_address_state_2'] = testData.getValue('input_shipping_address_state_2', rowIndex)
+        data['input_shipping_address_city_1'] = testData.getValue('input_shipping_address_city_1', rowIndex)
+        data['input_shipping_address_city_2'] = testData.getValue('input_shipping_address_city_2', rowIndex)
         execute_functional_method(data)
     }
     
@@ -180,12 +191,15 @@ public class fillShippingAddressAndProceedToPayment {
         data['input_email'] = 'default_data'
         data['input_shipping_address_first_name'] = 'default_data'
         data['input_shipping_address_last_name'] = 'default_data'
+        data['input_shipping_address_address_line_1'] = 'default_data'
         data['input_shipping_address_zip'] = 'default_data'
         data['input_shipping_address_city'] = 'default_data'
         data['input_shipping_address_state'] = 'default_data'
         data['input_shipping_address_phone'] = 'default_data'
         data['input_shipping_address_state_1'] = 'default_data'
         data['input_shipping_address_state_2'] = 'default_data'
+        data['input_shipping_address_city_1'] = 'default_data'
+        data['input_shipping_address_city_2'] = 'default_data'
         execute_functional_method(data)
     }
     
