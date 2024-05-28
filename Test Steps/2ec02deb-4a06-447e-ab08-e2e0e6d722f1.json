@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'Apple' -> Navigate to page 'category/*'",
+        "step 3: Click on link 'iPhone 15' -> Navigate to page 'product/*'",
+        "step 4: Click on label",
+        "step 5: Click on label",
+        "step 6: Click on svg",
+        "step 7: Click on button 'Buy'",
+        "step 8: Click on link 'Place an order' -> Navigate to page 'cart'",
+        "step 9: Click on button '+'",
+        "step 10: Click on button 'Remove'",
+        "step 11: Click on link 'Go shopping!'",
+        "step 12: Click on link 'Apple' -> Navigate to page 'category/*'",
+        "step 13: Click on link 'iPhone 15' -> Navigate to page 'product/*'",
+        "step 14: Click on label",
+        "step 15: Click on label",
+        "step 16: Click on svg",
+        "step 17: Click on button 'Buy'",
+        "step 18: Click on link 'Place an order' -> Navigate to page 'cart'",
+        "step 19: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'",
+        "step 20: Click on input field 'email'",
+        "step 21: Enter input value in input field 'email'",
+        "step 22: Click on input field 'receive marketing info'",
+        "step 23: Click on button 'CONTINUE TO SHIPPING'",
+        "step 24: Call function actionSequence 1",
+        "step 25: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}

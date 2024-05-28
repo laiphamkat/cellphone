@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Samsung' -> Navigate to page 'category/*'",
+        "step 4: Click on list",
+        "step 5: Click on link '1' -> Navigate to page 'cart'",
+        "step 6: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'",
+        "step 7: Click on input field 'email'",
+        "step 8: Enter input value in input field 'email'",
+        "step 9: Click on input field 'receive marketing info'",
+        "step 10: Click on button 'CONTINUE TO SHIPPING'",
+        "step 11: Call function actionSequence 3",
+        "step 12: Click on span  -> Navigate to page 'checkout/info'",
+        "step 13: Click on input field 'email'",
+        "step 14: Enter input value in input field 'email'",
+        "step 15: Click on input field 'receive marketing info'",
+        "step 16: Click on button 'CONTINUE TO SHIPPING'",
+        "step 17: Call function actionSequence 3",
+        "step 18: Click on button 'Contact Info'",
+        "step 19: Call function actionSequence 4"
+    ]
+}

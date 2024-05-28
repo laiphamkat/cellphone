@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link 'About' -> Navigate to page 'about'",
+        "step 3: Click on link 'Samsung' -> Navigate to page ''",
+        "step 4: Click on link 'About'",
+        "step 5: Click on link 'About'",
+        "step 6: Click on link 'About'"
+    ]
+}
