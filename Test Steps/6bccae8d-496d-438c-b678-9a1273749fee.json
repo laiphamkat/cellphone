@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over item phone",
+        "step 3: Click on link apple -> Navigate to page 'category/*'",
+        "step 4: Hover over item accessoriesAppleSamsung",
+        "step 5: Click on link apple1",
+        "step 6: Hover over link goToCart",
+        "step 7: Click on span goToCart -> Navigate to page 'cart'",
+        "step 8: Click on button proceedToCheckout",
+        "step 9: Hover over item phoneAppleSamsungGooglePixel",
+        "step 10: Click on link apple -> Navigate to page 'category/*'",
+        "step 11: Hover over link goToCart",
+        "step 12: Click on span goToCart -> Navigate to page 'cart'",
+        "step 13: Click on button proceedToCheckout",
+        "step 14: Hover over link goToCart",
+        "step 15: Click on span goToCart",
+        "step 16: Click on button proceedToCheckout",
+        "step 17: Click on button proceedToCheckout",
+        "step 18: Input shipping information and delivery details",
+        "step 19: Click on div deliveryInformationUs"
+    ]
+}

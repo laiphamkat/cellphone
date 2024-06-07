@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on link googlePixel -> Navigate to page 'category/*'",
+        "step 3: Click on button sale20WusbpowerAdapter",
+        "step 4: Click on span goToCart -> Navigate to page 'cart'",
+        "step 5: Click on button 47",
+        "step 6: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 7: Hover over div emailMeWithNews",
+        "step 8: Click on input email",
+        "step 9: Enter input value in input email",
+        "step 10: Click on button continueToShipping",
+        "step 11: Input shipping information and continue to payment",
+        "step 12: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on button hotNewiPhone15",
+        "step 3: Click on label 256Gb2",
+        "step 4: Click on label yellow",
+        "step 5: Click on button buy2",
+        "step 6: Click on link placeAnOrder -> Navigate to page 'cart'",
+        "step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 8: Hover over div emailMeWithNews",
+        "step 9: Click on input email",
+        "step 10: Enter input value in input email",
+        "step 11: Click on button continueToShipping",
+        "step 12: Input shipping information and continue to payment",
+        "step 13: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 14: Hover over item listitem",
+        "step 15: Click on link phone -> Navigate to page 'category/*'",
+        "step 16: Click on div samsung",
+        "step 17: Click on link samsung",
+        "step 18: Click on button hotNewiPhone15",
+        "step 19: Click on label 2",
+        "step 20: Click on label 512Gb",
+        "step 21: Select color, buy it, go to cart, and proceed to checkout",
+        "step 22: Input shipping information and continue to payment",
+        "step 23: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}

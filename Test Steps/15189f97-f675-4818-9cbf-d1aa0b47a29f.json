@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over item phone",
+        "step 3: Click on link apple -> Navigate to page 'category/*'",
+        "step 4: Click on input priceMin",
+        "step 5: Click on input priceMin",
+        "step 6: Click on button sale20WusbpowerAdapter",
+        "step 7: Select storage and color, proceed to checkout",
+        "step 8: Input shipping information and continue to payment",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

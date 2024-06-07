@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on button hotSamsungGalaxyS23",
+        "step 3: Click on label 2",
+        "step 4: Click on label pink",
+        "step 5: Click on label black",
+        "step 6: Click on button buy2",
+        "step 7: Click on link 3 -> Navigate to page 'cart'",
+        "step 8: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 9: Hover over div emailMeWithNews",
+        "step 10: Click on input email",
+        "step 11: Enter input value in input email",
+        "step 12: Click on button continueToShipping",
+        "step 13: Input shipping information and continue to payment",
+        "step 14: Click on span completeOrderButton"
+    ]
+}

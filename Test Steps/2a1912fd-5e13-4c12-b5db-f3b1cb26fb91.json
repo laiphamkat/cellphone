@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Select phone, buy it, and go to cart",
+        "step 3: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 4: Hover over div emailMeWithNews",
+        "step 5: Click on input email",
+        "step 6: Enter input value in input email",
+        "step 7: Click on button continueToShipping",
+        "step 8: Input shipping information and delivery details",
+        "step 9: Click on div deliveryInformationUs"
+    ]
+}
