@@ -1,8 +1,8 @@
-import com.kms.katalon.core.configuration.RunConfiguration
+import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
 import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -116,7 +116,7 @@ WebUI.takeScreenshot(reportLocation + '/TC15/Step 13: Click on link productsSlid
 
 "Step 14: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC15-Navigate through iPhone Products Slider_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC15-Verify Navigation through Product Slider on Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
