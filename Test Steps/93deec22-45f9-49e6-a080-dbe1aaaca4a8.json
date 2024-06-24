@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://www.saucedemo.com/",
+        "step 2: Login -> Navigate to page 'inventory.html'",
+        "step 3: Click on div sauceLabsBikeLightDescription",
+        "step 4: Click on button addToCartSauceLabsBikeLight",
+        "step 5: Click on link shoppingCartLink2 -> Navigate to page 'cart.html'",
+        "step 6: Click on div cartFooter",
+        "step 7: Fill out user information and proceed to checkout",
+        "step 8: Click on button finish -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
