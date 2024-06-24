@@ -6,15 +6,15 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class fillShippingDetailsAndProceedToPayment {
+public class enterShippingDetailsAndProceedToPayment {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Click on radio usshipping490"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/radio_usshipping490'))
-        "Step 2: Click on input firstName"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_firstName'))
-        "Step 3: Enter input value in input firstName"
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_firstName'), data['input_shipping_address_first_name'])
+        "Step 2: Click on input shippingAddressFirstName"
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressFirstName'))
+        "Step 3: Enter input value in input shippingAddressFirstName"
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_shippingAddressFirstName'), data['input_shipping_address_first_name'])
         "Step 4: Click on input lastName"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_lastName'))
         "Step 5: Enter input value in input lastName"
