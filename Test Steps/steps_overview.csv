@@ -1,10 +1,10 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Apple Product Page Navigation,"Navigate to the homepage, hover over an item, click on Apple link, and verify the page navigation.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+2,Verify Navigation and Item Selection on Home Page,"Navigate to the home page, hover over an item, click on a specific item, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-39,Verify Purchase and Checkout Process for Multiple Products,"Navigate to the homepage, add multiple products to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+39,Verify Checkout Process for Multiple Products with Marketing Info,"Navigate to the home page, add products to cart, proceed to checkout, enter shipping details, provide email and marketing info, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on svg productsSliderNext
 Step 3: Click on svg productsSliderNext
 Step 4: Click on svg productsSliderNext
@@ -46,7 +46,7 @@ Step 23: Enter shipping details and proceed to payment
 Step 24: Click on button completeOrder -> Navigate to page ''
 Step 25: Take full page screenshot as checkpoint
 ",High
-7,Verify Purchase and Checkout Process for New iPhone 15 Plus,"Navigate to the homepage, add New iPhone 15 Plus to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+7,Verify Checkout Process for New iPhone 15 Plus,"Navigate to the home page, add New iPhone 15 Plus to cart, select specifications, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on button newiPhone15Plus
 Step 3: Click on label 256Gb2
 Step 4: Click on label yellow1
@@ -72,7 +72,7 @@ Step 7: Enter shipping details and proceed to payment
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-50,Verify Purchase and Checkout Process for Hot New iPhone 15,"Navigate to the homepage, select Hot New iPhone 15, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+50,Verify Checkout Process for Hot New iPhone 15,"Navigate to the home page, add Hot New iPhone 15 to cart, select specifications, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link kcellphoneShop1 -> Navigate to page '/'
 Step 4: Click on link about3 -> Navigate to page '/about'
@@ -89,7 +89,7 @@ Step 14: Hover over div element
 Step 15: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 16: Take full page screenshot as checkpoint
 ",High
-47,Verify Search and Purchase Process for Accessories,"Navigate to the homepage, search for accessories, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+47,Verify Search and Purchase Flow with Various Actions,"Navigate to the home page, search for specific products, add to cart, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link samsung -> Navigate to page 'category/*'
 Step 3: Click on link 20WusbcpowerAdapterSale -> Navigate to page 'product/*'
 Step 4: Click on div variantPicker256Gb
@@ -132,7 +132,7 @@ Step 40: Click on main roleMain
 Step 41: Click on div storageOptions -> Navigate to page ''
 Step 42: Take full page screenshot as checkpoint
 ",High
-44,Verify Navigation through Product Details,"Navigate through product details, adding items to cart, and verifying the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+44,Verify Navigation through Product Details,"Navigate through product details, select options, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on div hotNewiPhone15Details
 Step 3: Click on link productsSliderNext
 Step 4: Click on link productsSliderNext
@@ -147,7 +147,7 @@ Step 12: Click on link productsSliderNext
 Step 13: Click on link productsSliderNext -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",High
-40,Verify Purchase and Checkout Process with Cash on Delivery Option,"Navigate to the homepage, select a product, proceed to checkout, choose cash on delivery, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+40,Verify Checkout Process with Cash on Delivery Option,"Navigate to the home page, add items to cart, proceed to checkout, enter shipping details, provide email and marketing info, select cash on delivery, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on svg hotNewBestChoiceiPhone
 Step 3: Click on label 256Gb1
 Step 4: Click on label naturalTitanium
@@ -180,7 +180,7 @@ Step 14: Click on radio cashOnDelivery
 Step 15: Click on button completeOrder -> Navigate to page ''
 Step 16: Take full page screenshot as checkpoint
 ",High
-46,Verify Purchase and Checkout Process for iPhone 15 Pro Max,"Navigate to the homepage, select iPhone 15 Pro Max, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+46,Verify Checkout Process for iPhone 15 Pro Max with Shipping Address,"Navigate to the home page, select iPhone 15 Pro Max, add to cart, proceed to checkout, enter shipping details, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on div productsItemWrapper
 Step 3: Click on link iPhone15ProMaxBestChoice -> Navigate to page 'product/*'
 Step 4: Click on label 128Gb1
@@ -196,11 +196,11 @@ Step 13: Hover over div element
 Step 14: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",High
-33,Verify Main Role Display,Navigate to the homepage and verify the display of the main role.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+33,Verify Main Role Navigation on Home Page,Navigate to the home page and verify the main role section.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on main roleMain -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High
-27,Verify Navigation through About and Category Pages,"Navigate through About and Category pages, adding items to cart, and verifying the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+27,Verify Navigation through Different Pages,Navigate through different pages by clicking on various links and verify returning to the home page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on link kcellphoneShop1 -> Navigate to page '/'
@@ -211,7 +211,7 @@ Step 8: Click on link about3 -> Navigate to page '/about'
 Step 9: Click on link apple -> Navigate to page ''
 Step 10: Take full page screenshot as checkpoint
 ",High
-18,Verify Purchase and Checkout Process for New iPhone 15 Plus in Pink,"Navigate to the homepage, add New iPhone 15 Plus in Pink to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+18,Verify Checkout Process for New iPhone 15 Plus with Color Selection,"Navigate to the home page, add New iPhone 15 Plus to cart, select color, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple
 Step 4: Click on button addToCartNewiPhone15Plus
@@ -223,11 +223,11 @@ Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",High
-17,Verify Contact Number Display,Navigate to the homepage and verify the display of a contact number.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+17,Verify Navigation with Phone Number on Home Page,"Navigate to the home page, click on a phone number link, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on nav 18001234567 -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High
-13,Verify Purchase and Checkout Process for Google Pixel 7 Pro,"Navigate to the homepage, select Google Pixel 7 Pro, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+13,Verify Checkout Process for Google Pixel 7 Pro,"Navigate to the home page, add Google Pixel 7 Pro to cart, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on svg googlePixel7Pro
 Step 3: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 4: Click on button i
@@ -256,13 +256,13 @@ Step 10: Enter shipping details and proceed to payment
 Step 11: Click on button completeOrder -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-19,Navigate and Verify Items in Cart,"Navigate to the cart page, view items, and then return to the homepage to verify the changes.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//cart
+19,Verify Navigation and Return to Home Page from Cart,"Navigate to the cart page, then click on links to return to the home page. Verify successful return to the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//cart
 Step 2: Click on link phone2 -> Navigate to page 'category/*'
 Step 3: Click on link about3 -> Navigate to page '/about'
 Step 4: Click on div aboutWelcome -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High
-48,Browse and Buy Items with Email Subscription,"Browse and buy items, subscribe via email, proceed through checkout, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+48,Verify Purchase Process with Email Signup,"Browse and purchase items, sign up with email, enter shipping details, proceed to payment. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link phone -> Navigate to page 'category/*'
 Step 4: Click on button bannerButton
@@ -282,8 +282,8 @@ Step 17: Click on div sectionDiv
 Step 18: Click on link kcellphoneShop -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",High
-43,Browse and Buy iPhone with Additional Accessories,"Browse and buy an iPhone with additional accessories, proceed through checkout steps, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
-Step 2: Browse and buy a new iPhone from Apple category
+43,Verify Purchase Process with Various Product Interactions,"Browse and purchase items, proceed through checkout steps, and interact with different product categories. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+Step 2: Browse and purchase a new iPhone
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -354,7 +354,7 @@ Step 29: Click on button buy
 Step 30: Click on link goToCart -> Navigate to page ''
 Step 31: Take full page screenshot as checkpoint
 ",High
-38,Purchase Multiple Items and Remove from Cart,"Add multiple items to the cart, remove items, proceed through checkout steps, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+38,Verify Purchase Process with Multiple Actions,"Browse and purchase items, select options, make purchases, remove items, and proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link apple
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on svg sale20WusbcpowerAdapter
@@ -376,7 +376,7 @@ Step 19: Click on button removeButton
 Step 20: Click on button removeButton -> Navigate to page ''
 Step 21: Take full page screenshot as checkpoint
 ",High
-32,Complete Purchase with Shipping and Payment Details,"Add items to the cart, enter shipping details, proceed to payment, and complete the order. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+32,Verify Purchase Process with Shipping Details for Accessories,"Browse and purchase accessories, enter shipping details, proceed to payment. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button newIphone15Plus
@@ -416,7 +416,7 @@ Step 37: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 38: Click on button proceedToCheckout -> Navigate to page ''
 Step 39: Take full page screenshot as checkpoint
 ",High
-30,Purchase Items from Different Brands,"Browse and purchase items from different brands like Apple, Samsung, and Google. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+30,Verify Purchase Process for Multiple Items and Product Details,"Add multiple items to the cart, view product details, and proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link apple -> Navigate to page 'category/*'
 Step 3: Click on button sale20WusbpowerAdapter
 Step 4: Click on label 128Gb1
@@ -429,7 +429,7 @@ Step 10: Click on link 20WusbcpowerAdapterSale -> Navigate to page 'product/*'
 Step 11: Click on div element -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-29,Search and Buy Accessories with Specific Price Range,"Search for accessories within a price range, add to cart, and proceed through checkout. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+29,Verify Search and Purchase Process for Accessories,"Search for accessories, set price range, and make a purchase. Proceed through checkout steps and verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Enter input value in input priceMin
@@ -442,7 +442,7 @@ Step 10: Click on button i
 Step 11: Click on button proceedToCheckout -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-21,Verify Navigation through Categories and About Page,Navigate through different categories and the About page multiple times. Verify returning to the homepage.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+21,Verify Multiple Navigation Paths and Return to Home Page,"Navigate through various categories and links, then return to the home page multiple times. Verify successful return to the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on link apple
@@ -455,7 +455,7 @@ Step 10: Click on link about3 -> Navigate to page '/about'
 Step 11: Click on link apple -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-37,Buy and Remove Items from Cart,"Add and remove items from the cart, enter shipping details, proceed to payment, and complete the order. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+37,Verify Purchase Process with Email Marketing Consent,"Browse and purchase items, provide email, consent to marketing, enter shipping details, proceed to payment. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link accessories -> Navigate to page 'category/*'
 Step 4: Hover over item accessories
@@ -494,7 +494,7 @@ Step 20: Enter shipping details and proceed to payment
 Step 21: Click on button completeOrder -> Navigate to page ''
 Step 22: Take full page screenshot as checkpoint
 ",High
-14,Verify Checkout Process for Buying an iPhone,"Navigate to the homepage, add an iPhone to the cart, proceed through checkout steps including entering email, shipping details, and payment. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+14,Verify Successful Purchase Process from Adding Item to Cart,"Navigate through different pages to add an item to the cart, proceed through checkout steps including entering shipping details and payment. Verify successful completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on link iPhone15PlusNew -> Navigate to page 'product/*'
@@ -527,7 +527,7 @@ Step 14: Enter shipping details and proceed to payment
 Step 15: Click on button completeOrder -> Navigate to page ''
 Step 16: Take full page screenshot as checkpoint
 ",High
-11,Verify Purchase and Checkout Process for Sale Product,"Navigate to the homepage, select a sale product, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+11,Verify Checkout Process for Sale Item with Cash on Delivery,"Navigate to the home page, add sale item to cart, proceed to checkout, enter shipping details, provide email and marketing info, select cash on delivery, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link googlePixel -> Navigate to page 'category/*'
 Step 3: Click on button sale20WusbpowerAdapter
 Step 4: Click on span goToCart -> Navigate to page '/cart'
@@ -557,7 +557,7 @@ Step 11: Enter shipping details and proceed to payment
 Step 12: Click on button completeOrder -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",High
-10,Verify Purchase and Checkout Process for Google Pixel with Cash on Delivery,"Navigate to the homepage, select Google Pixel, choose cash on delivery, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+10,Verify Checkout Process for New iPhone 15 Plus with Color Selection,"Navigate to the home page, add New iPhone 15 Plus to cart, select color, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button newiPhone15Plus
@@ -587,7 +587,7 @@ Step 11: Enter shipping details and proceed to payment
 Step 12: Click on button completeOrder -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",High
-8,Verify Purchase and Checkout Process for New iPhone 15 Plus in Yellow,"Navigate to the homepage, select New iPhone 15 Plus in Yellow, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+8,Verify Checkout Process for Accessories with Cash on Delivery,"Navigate to the home page, add accessories to cart, proceed to checkout, enter shipping details, provide email and marketing info, select cash on delivery, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button sale20WusbpowerAdapter
@@ -618,14 +618,14 @@ Step 12: Click on radio cashOnDelivery
 Step 13: Click on button completeOrder -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",High
-6,Verify Navigation through Accessories Category,"Navigate through the Accessories category, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+6,Verify Navigation through About and Category Pages,"Navigate through About and Category pages, click on links, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on div kcellphoneShopWelcome
 Step 3: Click on link about3 -> Navigate to page '/about'
 Step 4: Click on link apple -> Navigate to page 'category/*'
 Step 5: Click on link apple1 -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",High
-5,Verify Navigation through About and Category Pages,"Navigate through About and Category pages, adding items to cart, and verifying the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+5,Verify Search and Purchase Flow for iPhone,"Navigate to the home page, search for iPhones, add to cart, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link phone -> Navigate to page 'category/*'
 Step 3: Enter input value in input priceMin
 Step 4: Enter input value in input priceMax
@@ -663,7 +663,7 @@ Step 7: Enter shipping details and proceed to payment
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-3,Verify Purchase and Checkout Process for iPhone,"Navigate to the homepage, search for iPhones, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+3,Verify Checkout Process for Hot New iPhone 15 with Color Selection,"Navigate to the home page, add Hot New iPhone 15 to cart, select color, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button hotNewiPhone15
@@ -696,7 +696,7 @@ Step 14: Enter shipping details and proceed to payment
 Step 15: Click on button completeOrder -> Navigate to page ''
 Step 16: Take full page screenshot as checkpoint
 ",High
-12,Verify Purchase and Checkout Process for Hot New iPhone 15 and Accessories,"Navigate through different pages, select Hot New iPhone 15 and accessories, add to cart, proceed to checkout, enter shipping details, complete payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com
+12,Verify Checkout Process for Hot New iPhone 15 with Accessories,"Navigate to the home page, add Hot New iPhone 15 with accessories to cart, proceed to checkout, enter shipping details, complete payment, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com
 Step 2: Hover over item accessories
 Step 3: Click on link apple
 Step 4: Hover over item accessories
@@ -724,9 +724,9 @@ Step 9: Enter shipping details and proceed to payment
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",High
-25,Browse and Buy iPhone from Apple Category,Browse and buy an iPhone from the Apple category. Verify completion on the homepage.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+25,Verify Purchase Process with New iPhone Purchase,"Browse and purchase a new iPhone, proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on button closeButton
-Step 3: Browse and buy a new iPhone from Apple category
+Step 3: Browse and purchase a new iPhone
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -737,7 +737,7 @@ Step 3: Browse and buy a new iPhone from Apple category
 	- Step 8: Click on span goToCart
 Step 4: Take full page screenshot as checkpoint
 ",High
-36,Navigate through Categories and Proceed to Checkout,"Navigate through categories, add items to the cart, proceed to checkout, enter shipping details, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+36,Verify Purchase Process with Multiple Navigation Steps,"Browse and purchase items, navigate through different categories, proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Hover over item accessories
@@ -759,7 +759,7 @@ Step 19: Click on input shippingAddressFirstName
 Step 20: Click on div deliveryInformationUs -> Navigate to page ''
 Step 21: Take full page screenshot as checkpoint
 ",High
-35,Purchase iPhone and Proceed through Checkout Steps,"Purchase an iPhone, proceed through checkout steps including entering email, shipping details, and payment. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+35,Verify Purchase Process with Product Options,"Browse and purchase items with different options, proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link apple -> Navigate to page 'category/*'
 Step 3: Click on link iPhone15S -> Navigate to page 'product/*'
 Step 4: Click on label 128Gb1
@@ -802,7 +802,7 @@ Step 24: Enter shipping details and proceed to payment
 Step 25: Click on button completeOrder -> Navigate to page ''
 Step 26: Take full page screenshot as checkpoint
 ",High
-51,Purchase Samsung Galaxy Zfold4 Silicon Cover,"Purchase a Samsung Galaxy Zfold4 Silicon Cover, proceed through checkout steps, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+51,Verify Purchase Process for Phone Accessories,"Browse and purchase phone accessories, proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link accessories -> Navigate to page 'category/*'
 Step 3: Click on link samsungGalaxyZfold4SiliconCover -> Navigate to page 'product/*'
 Step 4: Click on svg increased
@@ -812,7 +812,7 @@ Step 7: Click on button i
 Step 8: Click on button proceedToCheckout -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-23,Browse Accessories and Proceed to Checkout,"Browse accessories, add to cart, proceed to checkout, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+23,Verify Purchase Process with Price Sorting,"Browse and purchase items, sort by price, proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories -> Navigate to page 'category/*'
 Step 3: Click on link byPrice
 Step 4: Click on link placeAnOrder -> Navigate to page '/cart'
@@ -820,7 +820,7 @@ Step 5: Click on button i
 Step 6: Click on button proceedToCheckout -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",High
-20,Add and Remove Items from Cart,"Add and remove items from the cart, proceed through checkout steps, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+20,Verify Purchase Process with Multiple Clicks and Actions,"Browse and purchase items, click on various buttons, remove items, and proceed through checkout steps. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link goToCart -> Navigate to page '/cart'
 Step 3: Click on button removeButton
 Step 4: Click on button removeButton
@@ -839,12 +839,12 @@ Step 16: Click on div asideBackdrop
 Step 17: Click on item newiPhone15Plus -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
 ",High
-16,Navigate and Verify Items in Cart,"Navigate to the cart page, view items, and then return to the homepage to verify the changes.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//cart
+16,Verify Navigation and Return to Home Page from Cart,"Navigate to the cart page, then click on links to return to the home page. Verify successful return to the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//cart
 Step 2: Hover over item listitem2
 Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-9,Proceed through Checkout with Shipping Details,"Add items to the cart, proceed to checkout, enter shipping details, proceed to payment, and complete the order. Verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+9,Verify Purchase Process with Quick Actions,"Quickly add items to the cart, proceed through checkout steps, and verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on button 1
 Step 3: Click on label 2
 Step 4: Hover over link goToCart
@@ -870,7 +870,7 @@ Step 7: Enter shipping details and proceed to payment
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-24,Purchase Item with Shipping Details and Contact Info,"Purchase an item, enter shipping details and contact info, proceed through checkout, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+24,Verify Purchase Process with Shipping Address and Contact Info,"Browse and purchase items, enter shipping details, provide contact info, proceed to payment. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link apple -> Navigate to page 'category/*'
 Step 3: Click on svg sale20WusbcpowerAdapter
 Step 4: Click on label 128Gb1
@@ -884,8 +884,8 @@ Step 11: Enter input value in input email
 Step 12: Click on button continueToShipping -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Medium
-28,Browse and Buy iPhone with Email Subscription,"Browse and buy an iPhone, subscribe via email, proceed through checkout, and verify completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
-Step 2: Browse and buy a new iPhone from Apple category
+28,Verify Purchase Process with Email Signup and Shipping Details,"Browse and purchase items, sign up with email, enter shipping details, proceed to payment. Verify completion on the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+Step 2: Browse and purchase a new iPhone
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -904,7 +904,7 @@ Step 9: Click on input shippingAddressFirstName
 Step 10: Click on div deliveryInformationUs -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Medium
-41,Verify Successful Checkout Process with Email Marketing Opt in,"Navigate to the homepage, add items to the cart, proceed through checkout steps including providing email, opting in for marketing info, and completing the shipping address. Verify successful completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+41,Verify Checkout Process with Shipping Address Input,"Navigate to home, add items to cart, proceed to checkout, input shipping address details, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on list breadcrumb
@@ -932,7 +932,7 @@ Step 25: Hover over div element
 Step 26: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 27: Take full page screenshot as checkpoint
 ",Medium
-49,Verify Checkout Process with Multiple Clicks to Go to Cart,"Navigate to the homepage, click multiple times to go to the cart, proceed through checkout steps including providing email and opting in for marketing info. Verify successful completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+49,Verify Checkout Process with Shipping Information,"Navigate to home, add items to cart, proceed to checkout, input shipping information, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link goToCart
 Step 3: Click on link goToCart
 Step 4: Click on link goToCart -> Navigate to page '/cart'
@@ -947,7 +947,7 @@ Step 12: Hover over div element
 Step 13: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Medium
-31,Verify Purchase of Hot New iPhone 15 with Email Subscription,"Navigate to the homepage, select iPhone, proceed through checkout steps including providing email, and completing shipping details. Verify successful completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+31,Verify Purchase and Email Subscription,"Navigate to home, select item, proceed to checkout, input email, continue to shipping, verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on button hotNewiPhone15
 Step 3: Click on label 2
 Step 4: Click on label naturalTitanium
@@ -961,7 +961,7 @@ Step 11: Enter input value in input email
 Step 12: Click on button continueToShipping -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Medium
-1,Verify Order Placement for Accessories with Shipping Details,"Navigate to the homepage, select accessories, add to cart, proceed through checkout steps including providing email, and entering shipping details. Proceed to payment and verify order completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+1,Verify Order Completion with Payment Details,"Navigate to home, select items, proceed to checkout, input shipping details, proceed to payment, complete the order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link accessories -> Navigate to page 'category/*'
 Step 3: Click on link byPrice
 Step 4: Click on svg sale20WusbcpowerAdapter
@@ -992,7 +992,7 @@ Step 12: Enter shipping details and proceed to payment
 Step 13: Click on button completeOrder -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Medium
-42,Verify Purchase of iPhone and Accessories with Marketing Info,"Navigate to the homepage, select iPhone and accessories, proceed through checkout steps including providing email and opting in for marketing info. Verify successful completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+42,Verify Purchase and Payment Method Selection,"Navigate to home, add items to cart, proceed to checkout, select payment method, complete order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button hotNewiPhone15
@@ -1036,7 +1036,7 @@ Step 25: Click on button continueToShipping -> Navigate to page 'checkout/paymen
 Step 26: Click on button completeOrder -> Navigate to page ''
 Step 27: Take full page screenshot as checkpoint
 ",Low
-15,Verify Order Completion for iPhone Purchase with Shipping Details,"Navigate to the homepage, select iPhone, proceed through checkout steps including providing email, entering shipping details, and proceeding to payment. Verify order completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+15,Verify Purchase with Multiple Items and Shipping,"Navigate to home, purchase items, enter shipping details, proceed to payment, complete order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on item sale20WusbcpowerAdapter
@@ -1072,7 +1072,7 @@ Step 17: Click on link apple
 Step 18: Click on button hotNewiPhone15 -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",Low
-34,Verify Order Placement for Selected Phone with Shipping Details,"Navigate to the homepage, select phone, add to cart, proceed through checkout steps including entering shipping details and payment. Verify order completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+34,Verify Purchase and Checkout for iPhone,"Navigate to home, select iPhone, add to cart, proceed to checkout, enter shipping details, proceed to payment, complete order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on button hotNewiPhone15
 Step 3: Click on label 256Gb2
 Step 4: Click on label yellow1
@@ -1108,7 +1108,7 @@ Step 17: Click on link samsung
 Step 18: Click on button hotNewiPhone15
 Step 19: Click on label pink1
 Step 20: Click on label 256Gb
-Step 21: Purchase selected iPhone and proceed to shipping
+Step 21: Purchase iPhone, proceed to checkout, and enter shipping details
 	- Step 1: Click on label 128Gb1
 	- Step 2: Click on label blue
 	- Step 3: Click on button buy
@@ -1139,7 +1139,7 @@ Step 22: Enter shipping details and proceed to payment
 Step 23: Click on button completeOrder -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Low
-4,Verify Purchase of iPhone with Checkout Process,"Navigate to the homepage, select iPhone, add to cart, and proceed through checkout steps including entering shipping details and payment. Verify order completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+4,Verify Purchase and Checkout for Phone Category,"Navigate to home, select phone, add to cart, proceed to checkout, enter shipping details, proceed to payment, complete order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link phone
 Step 3: Select iPhone, add to cart, and proceed to checkout
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
@@ -1174,7 +1174,7 @@ Step 4: Enter shipping details and proceed to payment
 Step 5: Click on button completeOrder -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",Trivial
-45,Verify Purchase of iPhone 15S with Email Marketing Opt in,"Navigate to the homepage, select iPhone, proceed through checkout steps including providing email, opting in for marketing info, and completing shipping address. Verify successful completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+45,Verify Purchase and Add to Cart Process,"Navigate to home, select item, add to cart, proceed to checkout, enter shipping details, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item item
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on link iPhone15S -> Navigate to page 'product/*'
@@ -1194,7 +1194,7 @@ Step 17: Hover over div element
 Step 18: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",Trivial
-53,Verify Search and Purchase of iPhone with Cash on Delivery Option,"Navigate to the homepage, search for iPhone, proceed through checkout steps including providing email, entering shipping details, selecting cash on delivery, and completing the order. Verify order completion on the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+53,Verify Purchase with Search Functionality,"Navigate to home, search for item, select item, proceed to checkout, enter shipping details, proceed to payment, complete order, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Enter input value in input priceMin
@@ -1229,12 +1229,12 @@ Step 16: Click on radio cashOnDelivery
 Step 17: Click on button completeOrder -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
 ",Trivial
-22,Verify Navigation to KcellphoneShop from About Page,"Navigate to the About page, click on 'KcellphoneShop' link, and verify redirection to the 'KcellphoneShop' homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//about
+22,Verify Navigation to About Page,"Navigate to About page, click on a link, return to home page, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//about
 Step 2: Click on link kcellphoneShop1
 Step 3: Click on link kcellphoneShop1 -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",Trivial
-26,Verify Navigation and Accessory Selection on About Page,"Navigate to the homepage, access the About page, click on links to navigate between pages, select accessories, and verify successful redirection to the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+26,Verify Navigation through About and Category Pages,"Navigate to home, explore about page, navigate through different pages, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link about3
 Step 4: Click on link phone2 -> Navigate to page '/'
@@ -1244,7 +1244,7 @@ Step 7: Click on link apple
 Step 8: Click on link 20WusbcpowerAdapterSale -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-52,Verify Navigation to Samsung Page from About Page,"Navigate to the homepage, access the About page, click on links to navigate to the Samsung page, and verify successful redirection to the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+52,Verify Navigation through About and Home Pages,"Navigate to home, explore about page, navigate through different pages, and verify the home page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link samsung -> Navigate to page '/'
 Step 4: Click on link about3

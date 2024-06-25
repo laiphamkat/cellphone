@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com//",
+        "step 2: Click on svg googlePixel7Pro",
+        "step 3: Click on link placeAnOrder -> Navigate to page '/cart'",
+        "step 4: Click on button i",
+        "step 5: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 6: Click on input email",
+        "step 7: Enter input value in input email",
+        "step 8: Click on checkbox receiveMarketingInfo",
+        "step 9: Click on button continueToShipping",
+        "step 10: Enter shipping details and proceed to payment",
+        "step 11: Click on button completeOrder -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

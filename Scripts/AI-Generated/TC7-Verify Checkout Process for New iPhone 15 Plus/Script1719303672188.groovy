@@ -1,9 +1,9 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
 import katalon.common.enterShippingDetailsAndProceedToPayment
 import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -73,7 +73,7 @@ WebUI.takeScreenshot(reportLocation + '/TC7/Step 8: Click on button completeOrde
 
 "Step 9: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Purchase and Checkout Process for New iPhone 15 Plus_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Checkout Process for New iPhone 15 Plus_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

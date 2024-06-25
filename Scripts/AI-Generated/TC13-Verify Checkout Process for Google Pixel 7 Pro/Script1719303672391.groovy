@@ -1,9 +1,9 @@
-import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
 import katalon.common.enterShippingDetailsAndProceedToPayment
 import internal.GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -97,7 +97,7 @@ WebUI.takeScreenshot(reportLocation + '/TC13/Step 11: Click on button completeOr
 
 "Step 12: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC13-Verify Purchase and Checkout Process for Google Pixel 7 Pro_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC13-Verify Checkout Process for Google Pixel 7 Pro_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
