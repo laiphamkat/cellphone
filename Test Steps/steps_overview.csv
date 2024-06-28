@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Explore Phone Products on Cellphone Staging Site,"Navigate to the homepage, browse Samsung products, view phone details, switch to iPhone products, explore accessories, view Samsung Galaxy S23 Ultra details, navigate to phone categories, view Google Pixel 7 Pro, and verify the homepage.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com//
+1,Navigate View Products and Verify Home Page,"Navigate to the homepage, browse Samsung products, view product details, hover over different phone items, navigate to iPhone accessories, view Samsung Galaxy S23 Ultra details, browse phone categories, view Google Pixel 7 Pro, and verify the homepage.","Step 1: Navigate to /
 Step 2: Click on link samsung -> Navigate to page 'category/*'
 Step 3: Hover over item phone
 Step 4: Click on link phone

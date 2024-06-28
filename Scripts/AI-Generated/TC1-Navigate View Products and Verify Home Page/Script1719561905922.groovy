@@ -1,5 +1,5 @@
-import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
 import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.configuration.RunConfiguration
@@ -14,9 +14,9 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-"Step 1: Navigate to https://cellphone-staging.aut.katalon.com//"
+"Step 1: Navigate to /"
 
-TrueTestScripts.navigate('//')
+TrueTestScripts.navigate("/")
 
 "Step 2: Click on link samsung -> Navigate to page 'category/*'"
 
@@ -116,7 +116,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 13: Click on link googlePixel7P
 
 "Step 14: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Explore Phone Products on Cellphone Staging Site_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Navigate View Products and Verify Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
