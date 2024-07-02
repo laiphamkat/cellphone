@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button 1",
+        "step 3: Click on label 2",
+        "step 4: Hover over link goToCart",
+        "step 5: Click on span 4 -> Navigate to page '/cart'",
+        "step 6: Click on button proceedToCheckout",
+        "step 7: Enter shipping details and proceed to payment",
+        "step 8: Click on button completeOrder -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
