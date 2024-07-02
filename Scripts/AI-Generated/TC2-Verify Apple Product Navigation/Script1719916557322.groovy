@@ -1,8 +1,8 @@
-import katalon.truetest.TrueTestScripts
-import com.kms.katalon.core.configuration.RunConfiguration
-import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.truetest.TrueTestScripts
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -36,7 +36,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 3: Click on link apple - Naviga
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Apple Product Details Navigation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Apple Product Navigation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
