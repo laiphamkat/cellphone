@@ -1,10 +1,10 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Apple Product Navigation,"Navigate to the homepage, hover over an item, click on Apple link, and verify the homepage.","Step 1: Navigate to /
+2,Verify Apple Product Details on Home Page,"Navigate to the home page, hover over an item, click on Apple link, and verify the display of Apple product details.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-35,Verify Checkout Process for Hot New iPhone,"Navigate to the homepage, add Hot New iPhone to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
+33,Purchase Process for Hot New iPhone with Cash on Delivery,"Navigate to the home page, select Hot New iPhone, choose specifications, complete purchase process, select cash on delivery, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on svg hotNewBestChoiceiPhone
 Step 3: Click on label 256Gb1
 Step 4: Click on label naturalTitanium
@@ -17,7 +17,7 @@ Step 10: Click on input email
 Step 11: Enter input value in input email
 Step 12: Click on checkbox receiveMarketingInfo
 Step 13: Click on button continueToShipping
-Step 14: Enter shipping details and proceed to payment
+Step 14: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -45,13 +45,13 @@ Step 15: Click on radio cashOnDelivery
 Step 16: Click on button completeOrder -> Navigate to page ''
 Step 17: Take full page screenshot as checkpoint
 ",High
-7,Verify Order Process for New iPhone 15 Plus,"Navigate to the homepage, add New iPhone 15 Plus to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
+6,Complete Purchase Process for New iPhone 15 Plus,"Navigate to the home page, add New iPhone 15 Plus to cart, select specifications, proceed to checkout, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on button newiPhone15Plus
 Step 3: Click on label 256Gb2
 Step 4: Click on label yellow1
 Step 5: Click on button buy
 Step 6: Click on link goToCart
-Step 7: Enter shipping details and proceed to payment
+Step 7: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -78,19 +78,48 @@ Step 7: Enter shipping details and proceed to payment
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-47,Verify Samsung Category Navigation,"Navigate to the homepage, visit Samsung category, hover over items, and verify the homepage.","Step 1: Navigate to /
+43,Navigate through About and Cart Links on Home Page,"Navigate through About and Cart links on the home page, proceed to checkout, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on link about3 -> Navigate to page '/about'
-Step 3: Click on link samsung -> Navigate to page '/'
-Step 4: Click on link about3
-Step 5: Click on link about3
-Step 6: Click on link about3 -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
+Step 3: Click on link kcellphoneShop1 -> Navigate to page '/'
+Step 4: Click on link about3 -> Navigate to page '/about'
+Step 5: Click on link kcellphoneShop1 -> Navigate to page '/'
+Step 6: Hover over link goToCart
+Step 7: Click on svg goToCart -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout
+Step 9: Checkout using contact information and proceed to shipping
+	- Step 1: Click on button contactInfo -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailMeWithNews
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox receiveMarketingInfo
+	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Hover over div element
+	- Step 8: Click on input shippingAddressFirstName
+Step 10: Take full page screenshot as checkpoint
 ",High
-44,Verify Main Role Navigation,"Navigate to the homepage, click on the main role, and verify the homepage.","Step 1: Navigate to /
+42,Verify Main Role Display on Home Page,"Navigate to the home page, click on the main role section, and verify the display of the main role.","Step 1: Navigate to /
 Step 2: Click on main roleMain -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High
-38,Verify Product Details Navigation,"Navigate to the homepage, view product details, navigate through product sliders, and verify the homepage.","Step 1: Navigate to /
+40,Purchase Process for iPhone 15 Pro Max Best Choice,"Navigate to the home page, select iPhone 15 Pro Max Best Choice, choose specifications, add to cart, proceed to checkout, provide contact info, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on div productsItemWrapper
+Step 3: Click on link iPhone15ProMaxBestChoice -> Navigate to page 'product/*'
+Step 4: Click on label 128Gb1
+Step 5: Click on label blue
+Step 6: Click on button buy
+Step 7: Click on link goToCart
+Step 8: Provide contact information and proceed to shipping details
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailMeWithNews
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox receiveMarketingInfo
+	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Hover over div element
+	- Step 8: Click on input shippingAddressFirstName
+Step 9: Take full page screenshot as checkpoint
+",High
+36,Navigate through Product Details Slider on Home Page,Navigate through multiple product details using the slider on the home page and verify the display.,"Step 1: Navigate to /
 Step 2: Click on div hotNewiPhone15Details
 Step 3: Click on link productsSliderNext
 Step 4: Click on link productsSliderNext
@@ -105,26 +134,15 @@ Step 12: Click on link productsSliderNext
 Step 13: Click on link productsSliderNext -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",High
-45,Verify About and Cart Navigation,"Navigate to the homepage, visit About page, navigate back to the homepage, go to cart, proceed to checkout, provide contact info, and verify the homepage.","Step 1: Navigate to /
+45,Navigate through About and Phone Links on Home Page,Navigate through About and Phone links on the home page and verify the display.,"Step 1: Navigate to /
 Step 2: Click on link about3 -> Navigate to page '/about'
-Step 3: Click on link kcellphoneShop1 -> Navigate to page '/'
-Step 4: Click on link about3 -> Navigate to page '/about'
-Step 5: Click on link kcellphoneShop1 -> Navigate to page '/'
-Step 6: Hover over link goToCart
-Step 7: Click on svg goToCart -> Navigate to page '/cart'
-Step 8: Click on button proceedToCheckout
-Step 9: Provide contact info and proceed to shipping details
-	- Step 1: Click on button contactInfo -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div emailMeWithNews
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on checkbox receiveMarketingInfo
-	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Hover over div element
-	- Step 8: Click on input shippingAddressFirstName
-Step 10: Take full page screenshot as checkpoint
+Step 3: Click on link samsung -> Navigate to page '/'
+Step 4: Click on link about3
+Step 5: Click on link about3
+Step 6: Click on link about3 -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
 ",High
-33,Verify Swiper Slider Navigation,"Navigate to the homepage, navigate through Swiper slider, and verify the homepage.","Step 1: Navigate to /
+31,Navigate through Swiper Slider on Home Page,Navigate through multiple slides using the Swiper Slider on the home page and verify the display.,"Step 1: Navigate to /
 Step 2: Hover over link swiperSliderNext
 Step 3: Click on link swiperSliderNext
 Step 4: Click on link swiperSliderNext
@@ -132,7 +150,56 @@ Step 5: Click on link swiperSliderNext
 Step 6: Click on link swiperSliderNext -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",High
-18,Verify Checkout Process with Google Pixel 7 Pro,"Navigate to the homepage, add Google Pixel 7 Pro, proceed to checkout, enter shipping details, select payment method, complete order, and verify the homepage.","Step 1: Navigate to /
+16,Purchase Process for Apple iPhone with Specific Specifications,"Navigate to the home page, select Apple iPhone, add to cart, choose specifications, complete purchase process, and verify order completion.","Step 1: Navigate to /
+Step 2: Hover over item item
+Step 3: Click on link apple
+Step 4: Click on button addToCartNewiPhone15Plus
+Step 5: Click on label 256Gb2
+Step 6: Click on label pink
+Step 7: Click on button buy
+Step 8: Click on link goToCart -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
+Step 10: Click on button completeOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High
+14,Purchase Process for Multiple Items in Cart,"Navigate to the home page, add items to the cart, proceed to checkout, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on button 1
+Step 3: Click on label 2
+Step 4: Hover over link goToCart
+Step 5: Click on span 4 -> Navigate to page '/cart'
+Step 6: Click on button proceedToCheckout
+Step 7: Fill shipping address details and proceed to payment
+	- Step 1: Click on radio usshipping490
+	- Step 2: Hover over div element
+	- Step 3: Click on input shippingAddressFirstName
+	- Step 4: Hover over div muiFormControlRoot
+	- Step 5: Enter input value in input shippingAddressFirstName
+	- Step 6: Click on input lastName
+	- Step 7: Hover over div muiFormControlRoot
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Hover over div muiFormControlRoot
+	- Step 11: Enter input value in input address
+	- Step 12: Click on input zipCode
+	- Step 13: Hover over div muiFormControlRoot
+	- Step 14: Enter input value in input zipCode
+	- Step 15: Click on input city
+	- Step 16: Hover over div muiFormControlRoot
+	- Step 17: Enter input value in input city
+	- Step 18: Click on input state
+	- Step 19: Hover over div muiFormControlRoot
+	- Step 20: Enter input value in input state
+	- Step 21: Click on input shippingAddressPhone
+	- Step 22: Enter input value in input shippingAddressPhone
+	- Step 23: Click on button continueToPayment
+Step 8: Click on button completeOrder -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High
+13,Verify Contact Number Display on Home Page,"Navigate to the home page, click on a contact number link, and verify the display of the contact number.","Step 1: Navigate to /
+Step 2: Click on nav 18001234567 -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High
+17,Complete Purchase Process with Cash on Delivery Option,"Navigate to the home page, select a product, proceed to checkout, provide contact info, fill shipping details, choose cash on delivery, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on svg googlePixel7Pro
 Step 3: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 4: Click on button i
@@ -142,7 +209,7 @@ Step 7: Click on input email
 Step 8: Enter input value in input email
 Step 9: Click on checkbox receiveMarketingInfo
 Step 10: Click on button continueToShipping
-Step 11: Enter shipping details and proceed to payment
+Step 11: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -170,25 +237,27 @@ Step 12: Click on radio cashOnDelivery
 Step 13: Click on button completeOrder -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",High
-17,Verify Checkout Process for iPhone with Cart Items,"Navigate to the homepage, add iPhone to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple
-Step 4: Click on button addToCartNewiPhone15Plus
-Step 5: Click on label 256Gb2
-Step 6: Click on label pink
-Step 7: Click on button buy
-Step 8: Click on link goToCart -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
-Step 10: Click on button completeOrder -> Navigate to page ''
-Step 11: Take full page screenshot as checkpoint
-",High
-14,Verify Checkout Process with Cart Items,"Navigate to the homepage, add items to the cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
-Step 2: Click on button 1
-Step 3: Click on label 2
-Step 4: Hover over link goToCart
-Step 5: Click on span 4 -> Navigate to page '/cart'
-Step 6: Click on button proceedToCheckout
-Step 7: Enter shipping details and proceed to payment
+32,Verify Purchase and Checkout with Marketing Info,"Add items to the cart, proceed to checkout, provide marketing info, fill shipping details, and complete the order to verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item accessories
+Step 3: Click on link accessories -> Navigate to page 'category/*'
+Step 4: Hover over item accessoriesAppleSamsung
+Step 5: Click on link samsung
+Step 6: Click on svg sale20WusbcpowerAdapter
+Step 7: Click on svg samsungGalaxyZfold4
+Step 8: Click on button productAddedToCart
+Step 9: Hover over item phone
+Step 10: Click on link apple1
+Step 11: Hover over link goToCart
+Step 12: Click on svg goToCart -> Navigate to page '/cart'
+Step 13: Click on button i
+Step 14: Click on button remove
+Step 15: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 16: Hover over div emailMeWithNews
+Step 17: Click on input email
+Step 18: Enter input value in input email
+Step 19: Click on checkbox receiveMarketingInfo
+Step 20: Click on button continueToShipping
+Step 21: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -212,40 +281,69 @@ Step 7: Enter shipping details and proceed to payment
 	- Step 21: Click on input shippingAddressPhone
 	- Step 22: Enter input value in input shippingAddressPhone
 	- Step 23: Click on button continueToPayment
-Step 8: Click on button completeOrder -> Navigate to page ''
-Step 9: Take full page screenshot as checkpoint
+Step 22: Click on button completeOrder -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
 ",High
-13,Verify Navigation to Phone Number,"Navigate to the homepage, click on a phone number, and verify the homepage.","Step 1: Navigate to /
-Step 2: Click on nav 18001234567 -> Navigate to page ''
-Step 3: Take full page screenshot as checkpoint
+24,Verify Product Selection and Navigation,"Select products, navigate through categories, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on button 1
+Step 4: Click on label 2
+Step 5: Click on label 2
+Step 6: Click on button 1
+Step 7: Click on link samsung2
+Step 8: Hover over item phone
+Step 9: Click on link googlePixel
+Step 10: Click on link 20WusbcpowerAdapterSale -> Navigate to page 'product/*'
+Step 11: Click on div element -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
 ",High
-16,Verify Navigation and Page Verification,"Navigate to different pages, click on links, and verify the correct page is displayed.","Step 1: Navigate to /cart
-Step 2: Click on link phone2 -> Navigate to page 'category/*'
-Step 3: Click on link about3 -> Navigate to page '/about'
-Step 4: Click on div aboutWelcome -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
+28,Verify Navigation and Cart Interaction,"Navigate through links, categories, and cart interactions to verify the home page.","Step 1: Navigate to /
+Step 2: Click on link about3 -> Navigate to page '/about'
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on link kcellphoneShop -> Navigate to page '/'
+Step 5: Click on link goToCart
+Step 6: Click on link about3 -> Navigate to page '/about'
+Step 7: Click on link apple -> Navigate to page 'category/*'
+Step 8: Click on link about3 -> Navigate to page '/about'
+Step 9: Click on link apple -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
 ",High
-43,Verify Purchase of Power Adapter,"Select a power adapter, proceed to checkout, and complete the order.","Step 1: Navigate to /
+29,Verify Shipping Address and Payment Process,"Proceed through the checkout process, fill shipping details, and proceed to payment to verify the home page.","Step 1: Navigate to /
 Step 2: Hover over item item
-Step 3: Click on link phone -> Navigate to page 'category/*'
-Step 4: Click on button bannerButton
-Step 5: Click on div asideBackdrop
-Step 6: Click on link iPhone15PlusNew -> Navigate to page 'product/*'
-Step 7: Click on label 128Gb1
-Step 8: Click on label blue
-Step 9: Click on button buy
-Step 10: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-Step 12: Hover over div emailMeWithNews
-Step 13: Click on input email
-Step 14: Enter input value in input email
-Step 15: Click on button continueToShipping -> Navigate to page '/cart'
-Step 16: Click on main roleMain
-Step 17: Click on div sectionDiv
-Step 18: Click on link kcellphoneShop -> Navigate to page ''
-Step 19: Take full page screenshot as checkpoint
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Hover over item accessoriesAppleSamsung
+Step 5: Click on link apple1
+Step 6: Hover over link goToCart
+Step 7: Click on span goToCart -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout
+Step 9: Hover over item phoneAppleSamsungGooglePixel
+Step 10: Click on link apple -> Navigate to page 'category/*'
+Step 11: Hover over link goToCart
+Step 12: Click on span goToCart -> Navigate to page '/cart'
+Step 13: Click on button proceedToCheckout
+Step 14: Hover over link goToCart
+Step 15: Click on span goToCart
+Step 16: Click on button proceedToCheckout
+Step 17: Click on button proceedToCheckout -> Navigate to page 'checkout/shipping-address'
+Step 18: Hover over div element
+Step 19: Click on input shippingAddressFirstName
+Step 20: Click on div deliveryInformationUs -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
 ",High
-39,Verify Shipping Address Input and Checkout for Accessories,"Input shipping details for accessories, proceed to payment, and complete the order.","Step 1: Navigate to /
+30,Verify Purchase and Order Placement,"Search for a product, make a purchase, place an order, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item accessories
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Enter input value in input priceMin
+Step 5: Enter input value in input priceMax
+Step 6: Click on button search
+Step 7: Click on label 2
+Step 8: Click on button buy
+Step 9: Click on svg placeAnOrder1 -> Navigate to page '/cart'
+Step 10: Click on button i
+Step 11: Click on button proceedToCheckout -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",High
+37,Verify Purchase and Checkout with Address Details,"Add items to the cart, proceed to checkout, fill shipping address details, and complete the order to verify the home page.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button newIphone15Plus
@@ -285,8 +383,8 @@ Step 37: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 38: Click on button proceedToCheckout -> Navigate to page ''
 Step 39: Take full page screenshot as checkpoint
 ",High
-37,Verify Shipping Address Input and Checkout,"Input shipping details, proceed to payment, and complete the order.","Step 1: Navigate to /
-Step 2: Add Samsung and iPhone to cart and proceed to checkout
+35,Verify Purchase and Shipping Process,"Select and buy a phone, proceed through shipping details, payment, and order completion to verify the home page.","Step 1: Navigate to /
+Step 2: Select and buy a phone from the category
 	- Step 1: Hover over item item
 	- Step 2: Click on link samsung -> Navigate to page 'category/*'
 	- Step 3: Click on button newiPhone15Plus
@@ -301,7 +399,7 @@ Step 5: Click on input email
 Step 6: Enter input value in input email
 Step 7: Click on checkbox receiveMarketingInfo
 Step 8: Click on button continueToShipping
-Step 9: Enter shipping details and proceed to payment
+Step 9: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -328,7 +426,7 @@ Step 9: Enter shipping details and proceed to payment
 Step 10: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 11: Hover over item listitem2
 Step 12: Click on link apple
-Step 13: Proceed to checkout with email and marketing options
+Step 13: Add items to cart and proceed to shipping details
 	- Step 1: Click on button 1
 	- Step 2: Click on link goToCart -> Navigate to page '/cart'
 	- Step 3: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
@@ -337,7 +435,7 @@ Step 13: Proceed to checkout with email and marketing options
 	- Step 6: Enter input value in input email
 	- Step 7: Click on checkbox receiveMarketingInfo
 	- Step 8: Click on button continueToShipping
-Step 14: Enter shipping details and proceed to payment
+Step 14: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -374,27 +472,15 @@ Step 24: Click on button buy
 Step 25: Click on link goToCart -> Navigate to page ''
 Step 26: Take full page screenshot as checkpoint
 ",High
-34,Verify Multiple Item Purchase and Checkout,"Add multiple items to the cart, proceed to checkout, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link accessories -> Navigate to page 'category/*'
+38,Verify Product Selection and Order Placement,"Select products, add to cart, proceed to shipping details, payment, and order completion to verify the home page.","Step 1: Navigate to category/*
+Step 2: Hover over item accessoriesAppleSamsung
+Step 3: Click on link apple1
 Step 4: Hover over item accessoriesAppleSamsung
-Step 5: Click on link samsung
-Step 6: Click on svg sale20WusbcpowerAdapter
-Step 7: Click on svg samsungGalaxyZfold4
-Step 8: Click on button productAddedToCart
-Step 9: Hover over item phone
-Step 10: Click on link apple1
-Step 11: Hover over link goToCart
-Step 12: Click on svg goToCart -> Navigate to page '/cart'
-Step 13: Click on button i
-Step 14: Click on button remove
-Step 15: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-Step 16: Hover over div emailMeWithNews
-Step 17: Click on input email
-Step 18: Enter input value in input email
-Step 19: Click on checkbox receiveMarketingInfo
-Step 20: Click on button continueToShipping
-Step 21: Enter shipping details and proceed to payment
+Step 5: Click on link accessories2
+Step 6: Click on button hotNewiPhone15
+Step 7: Click on link goToCart -> Navigate to page '/cart'
+Step 8: Click on link goToCart
+Step 9: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -418,65 +504,118 @@ Step 21: Enter shipping details and proceed to payment
 	- Step 21: Click on input shippingAddressPhone
 	- Step 22: Enter input value in input shippingAddressPhone
 	- Step 23: Click on button continueToPayment
-Step 22: Click on button completeOrder -> Navigate to page ''
-Step 23: Take full page screenshot as checkpoint
+Step 10: Click on button completeOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
 ",High
-30,Verify Navigation through Shop and Cart,"Navigate through the shop, add items to the cart, and proceed to checkout.","Step 1: Navigate to /
+41,Verify Purchase and Checkout from Phone Category,"Select a phone, make a purchase, proceed through checkout, shipping details, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item item
+Step 3: Click on link phone -> Navigate to page 'category/*'
+Step 4: Click on button bannerButton
+Step 5: Click on div asideBackdrop
+Step 6: Click on link iPhone15PlusNew -> Navigate to page 'product/*'
+Step 7: Click on label 128Gb1
+Step 8: Click on label blue
+Step 9: Click on button buy
+Step 10: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 12: Hover over div emailMeWithNews
+Step 13: Click on input email
+Step 14: Enter input value in input email
+Step 15: Click on button continueToShipping -> Navigate to page '/cart'
+Step 16: Click on main roleMain
+Step 17: Click on div sectionDiv
+Step 18: Click on link kcellphoneShop -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",High
+44,Verify Product Purchase and Order Placement,"Purchase a product, add to cart, proceed to checkout, and complete the order to verify the home page.","Step 1: Navigate to /
+Step 2: Click on link accessories -> Navigate to page 'category/*'
+Step 3: Click on link samsungGalaxyZfold4SiliconCover -> Navigate to page 'product/*'
+Step 4: Click on svg increased
+Step 5: Click on button buy
+Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 7: Click on button i
+Step 8: Click on button proceedToCheckout -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High
+21,Verify Multiple Navigation Paths,Navigate through various links and categories to reach the home page and verify it.,"Step 1: Navigate to /
 Step 2: Click on link about3 -> Navigate to page '/about'
 Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Click on link kcellphoneShop -> Navigate to page '/'
-Step 5: Click on link goToCart
-Step 6: Click on link about3 -> Navigate to page '/about'
-Step 7: Click on link apple -> Navigate to page 'category/*'
-Step 8: Click on link about3 -> Navigate to page '/about'
-Step 9: Click on link apple -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
-",High
-27,Verify Product Selection and Navigation,"Select products, navigate through categories, and verify the correct product page is displayed.","Step 1: Navigate to /
-Step 2: Click on link apple -> Navigate to page 'category/*'
-Step 3: Click on button 1
-Step 4: Click on label 2
-Step 5: Click on label 2
-Step 6: Click on button 1
-Step 7: Click on link samsung2
-Step 8: Hover over item phone
-Step 9: Click on link googlePixel
-Step 10: Click on link samsungGalaxyS23UltraHot -> Navigate to page 'product/*'
-Step 11: Click on div element -> Navigate to page ''
-Step 12: Take full page screenshot as checkpoint
-",High
-23,Verify Multiple Category Navigation and Page Verification,"Navigate through multiple categories, click on links, and verify the correct page is displayed.","Step 1: Navigate to /
-Step 2: Click on link about3 -> Navigate to page '/about'
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Click on link apple
+Step 4: Click on link apple1
 Step 5: Click on link samsung2
 Step 6: Click on link home -> Navigate to page '/'
 Step 7: Click on link about3 -> Navigate to page '/about'
 Step 8: Click on link apple -> Navigate to page 'category/*'
-Step 9: Click on link apple
+Step 9: Click on link apple1
 Step 10: Click on link about3 -> Navigate to page '/about'
 Step 11: Click on link apple -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-32,Verify Search and Purchase Flow,"Search for items, set price range, make a purchase, and proceed to checkout.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Enter input value in input priceMin
-Step 5: Enter input value in input priceMax
-Step 6: Click on button search
+22,Verify Purchase and Cart Actions,"Add items to the cart, make purchases, and perform cart actions to verify the home page.","Step 1: Navigate to /
+Step 2: Click on link goToCart -> Navigate to page '/cart'
+Step 3: Click on button removeButton
+Step 4: Click on button removeButton
+Step 5: Click on link goShopping -> Navigate to page '/'
+Step 6: Click on button bestChoiceHotNew
 Step 7: Click on label 2
-Step 8: Click on button buy
-Step 9: Click on svg placeAnOrder1 -> Navigate to page '/cart'
-Step 10: Click on button i
-Step 11: Click on button proceedToCheckout -> Navigate to page ''
-Step 12: Take full page screenshot as checkpoint
+Step 8: Click on label naturalTitanium
+Step 9: Click on button buy
+Step 10: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 11: Click on button removeButton
+Step 12: Click on link goShopping -> Navigate to page '/'
+Step 13: Click on button bannerButton
+Step 14: Click on div asideBackdrop
+Step 15: Click on button bannerButton
+Step 16: Click on div asideBackdrop
+Step 17: Click on item newiPhone15Plus -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
 ",High
-15,Verify Checkout Process for iPhone 15 Plus in Cart,"Navigate to the homepage, add iPhone 15 Plus to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
+19,Verify Navigation from Cart to Home Page,Navigate from the cart to the home page and verify the home page.,"Step 1: Navigate to /cart
+Step 2: Hover over item listitem2
+Step 3: Click on link apple -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High
+20,Verify Phone Purchase and Home Page,Select and buy a phone from the category and verify the home page.,"Step 1: Navigate to /
+Step 2: Click on button closeButton
+Step 3: Select and buy a phone from the category
+	- Step 1: Hover over item item
+	- Step 2: Click on link samsung -> Navigate to page 'category/*'
+	- Step 3: Click on button newiPhone15Plus
+	- Step 4: Click on label 2
+	- Step 5: Click on label 2
+	- Step 6: Click on button buy
+	- Step 7: Hover over link goToCart
+	- Step 8: Click on span goToCart
+Step 4: Take full page screenshot as checkpoint
+",High
+8,Navigate through Phone Categories and Purchase Samsung Product,"Navigate through phone categories, select a Samsung product, proceed to checkout, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on link samsung -> Navigate to page 'category/*'
+Step 3: Hover over item phone
+Step 4: Click on link phone
+Step 5: Click on link kcellphoneShop -> Navigate to page '/'
+Step 6: Click on link iphoneSiliconeCaseWithMagsafe -> Navigate to page 'product/*'
+Step 7: Hover over item phoneAppleSamsungGooglePixel
+Step 8: Click on link samsung -> Navigate to page 'category/*'
+Step 9: Click on link 20WusbcpowerAdapterSale -> Navigate to page 'product/*'
+Step 10: Hover over item phoneAppleSamsungGooglePixel
+Step 11: Click on link phoneCategory -> Navigate to page 'category/*'
+Step 12: Click on div object
+Step 13: Click on link googlePixel7Pro -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",High
+18,Verify Order Placement from Accessories Category,"Navigate to the accessories category, place an order, and proceed to checkout to verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item accessories -> Navigate to page 'category/*'
+Step 3: Click on link byPrice
+Step 4: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 5: Click on button i
+Step 6: Click on button proceedToCheckout -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High
+3,Purchase Process for Apple iPhone with Email Subscription,"Navigate to the home page, select Apple iPhone, add to cart, proceed to checkout, provide contact info, subscribe via email, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Click on link iPhone15PlusNew -> Navigate to page 'product/*'
-Step 5: Click on label 256Gb2
-Step 6: Click on label pink
+Step 4: Click on button hotNewiPhone15
+Step 5: Click on label 256Gb
+Step 6: Click on label yellow
 Step 7: Click on button buy
 Step 8: Click on link goToCart -> Navigate to page '/cart'
 Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
@@ -485,7 +624,7 @@ Step 11: Click on input email
 Step 12: Enter input value in input email
 Step 13: Click on checkbox receiveMarketingInfo
 Step 14: Click on button continueToShipping
-Step 15: Enter shipping details and proceed to payment
+Step 15: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -512,84 +651,10 @@ Step 15: Enter shipping details and proceed to payment
 Step 16: Click on button completeOrder -> Navigate to page ''
 Step 17: Take full page screenshot as checkpoint
 ",High
-10,Verify Samsung and iPhone Checkout,"Navigate to the homepage, add Samsung and iPhone to cart, proceed to checkout, enter email and shipping details, and verify the homepage.","Step 1: Navigate to /
-Step 2: Add Samsung and iPhone to cart and proceed to checkout
-	- Step 1: Hover over item item
-	- Step 2: Click on link samsung -> Navigate to page 'category/*'
-	- Step 3: Click on button newiPhone15Plus
-	- Step 4: Click on label 2
-	- Step 5: Click on label 2
-	- Step 6: Click on button buy
-	- Step 7: Hover over link goToCart
-	- Step 8: Click on span goToCart
-Step 3: Enter email and shipping details for checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div emailMeWithNews
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on checkbox receiveMarketingInfo
-	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Hover over div element
-	- Step 8: Click on input shippingAddressFirstName
-Step 4: Click on div deliveryInformationUs -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",High
-9,Verify Checkout Process for New iPhone 15 Plus in Cart,"Navigate to the homepage, add New iPhone 15 Plus to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Click on button newiPhone15Plus
-Step 5: Click on label 256Gb
-Step 6: Click on label yellow
-Step 7: Click on button buy
-Step 8: Hover over link goToCart
-Step 9: Click on svg goToCart -> Navigate to page '/cart'
-Step 10: Click on button proceedToCheckout
-Step 11: Enter shipping details and proceed to payment
-	- Step 1: Click on radio usshipping490
-	- Step 2: Hover over div element
-	- Step 3: Click on input shippingAddressFirstName
-	- Step 4: Hover over div muiFormControlRoot
-	- Step 5: Enter input value in input shippingAddressFirstName
-	- Step 6: Click on input lastName
-	- Step 7: Hover over div muiFormControlRoot
-	- Step 8: Enter input value in input lastName
-	- Step 9: Click on input address
-	- Step 10: Hover over div muiFormControlRoot
-	- Step 11: Enter input value in input address
-	- Step 12: Click on input zipCode
-	- Step 13: Hover over div muiFormControlRoot
-	- Step 14: Enter input value in input zipCode
-	- Step 15: Click on input city
-	- Step 16: Hover over div muiFormControlRoot
-	- Step 17: Enter input value in input city
-	- Step 18: Click on input state
-	- Step 19: Hover over div muiFormControlRoot
-	- Step 20: Enter input value in input state
-	- Step 21: Click on input shippingAddressPhone
-	- Step 22: Enter input value in input shippingAddressPhone
-	- Step 23: Click on button continueToPayment
-Step 12: Click on button completeOrder -> Navigate to page ''
-Step 13: Take full page screenshot as checkpoint
-",High
-8,Verify Samsung and iPhone Product Navigation,"Navigate to the homepage, visit Samsung category, navigate through phone items, go to cart, proceed to checkout, and verify the homepage.","Step 1: Navigate to /
-Step 2: Click on link samsung -> Navigate to page 'category/*'
-Step 3: Hover over item phone
-Step 4: Click on link phone
-Step 5: Click on link kcellphoneShop -> Navigate to page '/'
-Step 6: Click on link iphoneSiliconeCaseWithMagsafe -> Navigate to page 'product/*'
-Step 7: Hover over item phoneAppleSamsungGooglePixel
-Step 8: Click on link samsung -> Navigate to page 'category/*'
-Step 9: Click on link samsungGalaxyS23UltraHot -> Navigate to page 'product/*'
-Step 10: Hover over item phoneAppleSamsungGooglePixel
-Step 11: Click on link phoneCategory -> Navigate to page 'category/*'
-Step 12: Click on div object
-Step 13: Click on link googlePixel7Pro -> Navigate to page ''
-Step 14: Take full page screenshot as checkpoint
-",High
-6,Verify Accessories Checkout Process,"Navigate to the homepage, visit Accessories, proceed to checkout with email and marketing options, complete payment, and verify the homepage.","Step 1: Navigate to /
+5,Purchase Accessories with Cash on Delivery Option,"Navigate to the home page, select accessories, add to cart, proceed to shipping details, complete payment with cash on delivery, and verify order completion.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple
-Step 4: Proceed to checkout with email and marketing options
+Step 4: Add items to cart and proceed to shipping details
 	- Step 1: Click on button 1
 	- Step 2: Click on link goToCart -> Navigate to page '/cart'
 	- Step 3: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
@@ -598,7 +663,7 @@ Step 4: Proceed to checkout with email and marketing options
 	- Step 6: Enter input value in input email
 	- Step 7: Click on checkbox receiveMarketingInfo
 	- Step 8: Click on button continueToShipping
-Step 5: Enter shipping details and proceed to payment
+Step 5: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -626,177 +691,17 @@ Step 6: Click on radio cashOnDelivery
 Step 7: Click on button completeOrder -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",High
-5,Verify Apple Category Navigation,"Navigate to the homepage, visit About page, go to Apple category, navigate to a specific Apple page, and verify the homepage.","Step 1: Navigate to /
-Step 2: Click on div kcellphoneShopWelcome
-Step 3: Click on link about3 -> Navigate to page '/about'
-Step 4: Click on link apple -> Navigate to page 'category/*'
-Step 5: Click on link apple1 -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
-",High
-3,Verify Checkout Process for Hot New iPhone 15,"Navigate to the homepage, add Hot New iPhone 15 to cart, proceed to checkout, enter shipping details, complete payment, and verify the homepage.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Click on button hotNewiPhone15
-Step 5: Click on label 256Gb
-Step 6: Click on label yellow
-Step 7: Click on button buy
-Step 8: Click on link goToCart -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-Step 10: Hover over div emailMeWithNews
-Step 11: Click on input email
-Step 12: Enter input value in input email
-Step 13: Click on checkbox receiveMarketingInfo
-Step 14: Click on button continueToShipping
-Step 15: Enter shipping details and proceed to payment
-	- Step 1: Click on radio usshipping490
-	- Step 2: Hover over div element
-	- Step 3: Click on input shippingAddressFirstName
-	- Step 4: Hover over div muiFormControlRoot
-	- Step 5: Enter input value in input shippingAddressFirstName
-	- Step 6: Click on input lastName
-	- Step 7: Hover over div muiFormControlRoot
-	- Step 8: Enter input value in input lastName
-	- Step 9: Click on input address
-	- Step 10: Hover over div muiFormControlRoot
-	- Step 11: Enter input value in input address
-	- Step 12: Click on input zipCode
-	- Step 13: Hover over div muiFormControlRoot
-	- Step 14: Enter input value in input zipCode
-	- Step 15: Click on input city
-	- Step 16: Hover over div muiFormControlRoot
-	- Step 17: Enter input value in input city
-	- Step 18: Click on input state
-	- Step 19: Hover over div muiFormControlRoot
-	- Step 20: Enter input value in input state
-	- Step 21: Click on input shippingAddressPhone
-	- Step 22: Enter input value in input shippingAddressPhone
-	- Step 23: Click on button continueToPayment
-Step 16: Click on button completeOrder -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
-",High
-11,Verify Accessories Search and Product Navigation,"Navigate to the homepage, visit Accessories, search for a specific product, select a product, and verify the homepage.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Enter input value in input priceMin
-Step 5: Enter input value in input priceMax
-Step 6: Click on button search
-Step 7: Click on link iPhone15 -> Navigate to page 'product/*'
-Step 8: Click on label blue -> Navigate to page ''
+7,Navigate through About Phone and Accessories Links on Home Page,"Navigate through About, Phone, and Accessories links on the home page and verify the display.","Step 1: Navigate to /
+Step 2: Click on link about3 -> Navigate to page '/about'
+Step 3: Click on link about3
+Step 4: Click on link phone2 -> Navigate to page '/'
+Step 5: Click on link about3 -> Navigate to page '/about'
+Step 6: Click on link accessories -> Navigate to page 'category/*'
+Step 7: Click on link apple1
+Step 8: Click on link 20WusbcpowerAdapterSale -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-25,Verify Cart Actions and Navigation,"Perform various actions in the cart, proceed to checkout, and verify the order.","Step 1: Navigate to /
-Step 2: Click on link goToCart -> Navigate to page '/cart'
-Step 3: Click on button removeButton
-Step 4: Click on button removeButton
-Step 5: Click on link goShopping -> Navigate to page '/'
-Step 6: Click on button bestChoiceHotNew
-Step 7: Click on label 2
-Step 8: Click on label naturalTitanium
-Step 9: Click on button buy
-Step 10: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 11: Click on button removeButton
-Step 12: Click on link goShopping -> Navigate to page '/'
-Step 13: Click on button bannerButton
-Step 14: Click on div asideBackdrop
-Step 15: Click on button bannerButton
-Step 16: Click on div asideBackdrop
-Step 17: Click on item newiPhone15Plus -> Navigate to page ''
-Step 18: Take full page screenshot as checkpoint
-",High
-46,Verify Shipping Address Input for Samsung Accessories,"Input shipping details for Samsung accessories, proceed to payment, and complete the order.","Step 1: Navigate to /
-Step 2: Click on link accessories -> Navigate to page 'category/*'
-Step 3: Click on link samsungGalaxyZfold4SiliconCover -> Navigate to page 'product/*'
-Step 4: Click on svg increased
-Step 5: Click on button buy
-Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 7: Click on button i
-Step 8: Click on button proceedToCheckout -> Navigate to page ''
-Step 9: Take full page screenshot as checkpoint
-",High
-40,Verify Purchase of Samsung Cover,"Select a Samsung cover, proceed to checkout, and complete the order.","Step 1: Navigate to category/*
-Step 2: Hover over item accessoriesAppleSamsung
-Step 3: Click on link apple
-Step 4: Hover over item accessoriesAppleSamsung
-Step 5: Click on link accessories2
-Step 6: Click on button hotNewiPhone15
-Step 7: Click on link goToCart -> Navigate to page '/cart'
-Step 8: Click on link goToCart
-Step 9: Enter shipping details and proceed to payment
-	- Step 1: Click on radio usshipping490
-	- Step 2: Hover over div element
-	- Step 3: Click on input shippingAddressFirstName
-	- Step 4: Hover over div muiFormControlRoot
-	- Step 5: Enter input value in input shippingAddressFirstName
-	- Step 6: Click on input lastName
-	- Step 7: Hover over div muiFormControlRoot
-	- Step 8: Enter input value in input lastName
-	- Step 9: Click on input address
-	- Step 10: Hover over div muiFormControlRoot
-	- Step 11: Enter input value in input address
-	- Step 12: Click on input zipCode
-	- Step 13: Hover over div muiFormControlRoot
-	- Step 14: Enter input value in input zipCode
-	- Step 15: Click on input city
-	- Step 16: Hover over div muiFormControlRoot
-	- Step 17: Enter input value in input city
-	- Step 18: Click on input state
-	- Step 19: Hover over div muiFormControlRoot
-	- Step 20: Enter input value in input state
-	- Step 21: Click on input shippingAddressPhone
-	- Step 22: Enter input value in input shippingAddressPhone
-	- Step 23: Click on button continueToPayment
-Step 10: Click on button completeOrder -> Navigate to page ''
-Step 11: Take full page screenshot as checkpoint
-",High
-31,Verify Checkout Process for Multiple Products,"Add multiple products to the cart, proceed to checkout, and verify the order.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page 'category/*'
-Step 4: Hover over item accessoriesAppleSamsung
-Step 5: Click on link apple
-Step 6: Hover over link goToCart
-Step 7: Click on span goToCart -> Navigate to page '/cart'
-Step 8: Click on button proceedToCheckout
-Step 9: Hover over item phoneAppleSamsungGooglePixel
-Step 10: Click on link apple -> Navigate to page 'category/*'
-Step 11: Hover over link goToCart
-Step 12: Click on span goToCart -> Navigate to page '/cart'
-Step 13: Click on button proceedToCheckout
-Step 14: Hover over link goToCart
-Step 15: Click on span goToCart
-Step 16: Click on button proceedToCheckout
-Step 17: Click on button proceedToCheckout -> Navigate to page 'checkout/shipping-address'
-Step 18: Hover over div element
-Step 19: Click on input shippingAddressFirstName
-Step 20: Click on div deliveryInformationUs -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",High
-22,Verify Cart Checkout with Multiple Items,"Add multiple items to the cart, proceed to checkout, and verify the order.","Step 1: Navigate to /
-Step 2: Click on button closeButton
-Step 3: Add Samsung and iPhone to cart and proceed to checkout
-	- Step 1: Hover over item item
-	- Step 2: Click on link samsung -> Navigate to page 'category/*'
-	- Step 3: Click on button newiPhone15Plus
-	- Step 4: Click on label 2
-	- Step 5: Click on label 2
-	- Step 6: Click on button buy
-	- Step 7: Hover over link goToCart
-	- Step 8: Click on span goToCart
-Step 4: Take full page screenshot as checkpoint
-",High
-21,Verify Cart Navigation and Page Verification,Navigate to the cart from the homepage and verify the correct page is displayed.,"Step 1: Navigate to /cart
-Step 2: Hover over item listitem2
-Step 3: Click on link apple -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
-",High
-20,Verify Purchase of Accessories with Price Sorting,"Select accessories with price sorting, proceed to checkout, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item accessories -> Navigate to page 'category/*'
-Step 3: Click on link byPrice
-Step 4: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 5: Click on button i
-Step 6: Click on button proceedToCheckout -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
-",High
-1,Verify Purchase of Accessories,"Select accessories, proceed to checkout, and complete the order.","Step 1: Navigate to /
+1,Purchase Process for Sale Item with Email Subscription,"Navigate to the home page, select a sale item, proceed to checkout, provide contact info, subscribe via email, fill shipping details, complete payment, and verify order completion.","Step 1: Navigate to /
 Step 2: Click on link accessories -> Navigate to page 'category/*'
 Step 3: Click on link byPrice
 Step 4: Click on svg sale20WusbcpowerAdapter
@@ -808,7 +713,7 @@ Step 9: Click on input email
 Step 10: Enter input value in input email
 Step 11: Click on checkbox receiveMarketingInfo
 Step 12: Click on button continueToShipping
-Step 13: Enter shipping details and proceed to payment
+Step 13: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -835,12 +740,122 @@ Step 13: Enter shipping details and proceed to payment
 Step 14: Click on button completeOrder -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",High
-26,Verify Purchase of iPhone with Email Input,"Select an iPhone, input email for checkout, proceed to payment, and complete the order.","Step 1: Navigate to /
+9,Purchase New iPhone 15 Plus with Cash on Delivery Option,"Navigate to the home page, select New iPhone 15 Plus, choose specifications, add to cart, proceed to checkout, fill shipping details, complete payment with cash on delivery, and verify order completion.","Step 1: Navigate to /
+Step 2: Hover over item item
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on button newiPhone15Plus
+Step 5: Click on label 256Gb
+Step 6: Click on label yellow
+Step 7: Click on button buy
+Step 8: Hover over link goToCart
+Step 9: Click on svg goToCart -> Navigate to page '/cart'
+Step 10: Click on button proceedToCheckout
+Step 11: Fill shipping address details and proceed to payment
+	- Step 1: Click on radio usshipping490
+	- Step 2: Hover over div element
+	- Step 3: Click on input shippingAddressFirstName
+	- Step 4: Hover over div muiFormControlRoot
+	- Step 5: Enter input value in input shippingAddressFirstName
+	- Step 6: Click on input lastName
+	- Step 7: Hover over div muiFormControlRoot
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Hover over div muiFormControlRoot
+	- Step 11: Enter input value in input address
+	- Step 12: Click on input zipCode
+	- Step 13: Hover over div muiFormControlRoot
+	- Step 14: Enter input value in input zipCode
+	- Step 15: Click on input city
+	- Step 16: Hover over div muiFormControlRoot
+	- Step 17: Enter input value in input city
+	- Step 18: Click on input state
+	- Step 19: Hover over div muiFormControlRoot
+	- Step 20: Enter input value in input state
+	- Step 21: Click on input shippingAddressPhone
+	- Step 22: Enter input value in input shippingAddressPhone
+	- Step 23: Click on button continueToPayment
+Step 12: Click on button completeOrder -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",High
+10,Purchase Phone with Contact Information and Shipping Details,"Navigate to the home page, select and buy a phone, proceed to shipping details, provide contact info, proceed to delivery information, and verify order completion.","Step 1: Navigate to /
+Step 2: Select and buy a phone from the category
+	- Step 1: Hover over item item
+	- Step 2: Click on link samsung -> Navigate to page 'category/*'
+	- Step 3: Click on button newiPhone15Plus
+	- Step 4: Click on label 2
+	- Step 5: Click on label 2
+	- Step 6: Click on button buy
+	- Step 7: Hover over link goToCart
+	- Step 8: Click on span goToCart
+Step 3: Provide contact information and proceed to shipping details
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailMeWithNews
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox receiveMarketingInfo
+	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Hover over div element
+	- Step 8: Click on input shippingAddressFirstName
+Step 4: Click on div deliveryInformationUs -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High
+11,Verify Product Search and Checkout Process,"Navigate to the home page, search for a product, select it, input price range, and complete the checkout process to verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item accessories
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Enter input value in input priceMin
+Step 5: Enter input value in input priceMax
+Step 6: Click on button search
+Step 7: Click on link iPhone15 -> Navigate to page 'product/*'
+Step 8: Click on label blue -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High
+15,Verify Purchase and Checkout with Multiple Items,"Navigate to the home page, add multiple items to cart, proceed to checkout, fill shipping details, and complete the order to verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item item
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on link iPhone15PlusNew -> Navigate to page 'product/*'
+Step 5: Click on label 256Gb2
+Step 6: Click on label pink
+Step 7: Click on button buy
+Step 8: Click on link goToCart -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div emailMeWithNews
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Click on checkbox receiveMarketingInfo
+Step 14: Click on button continueToShipping
+Step 15: Fill shipping address details and proceed to payment
+	- Step 1: Click on radio usshipping490
+	- Step 2: Hover over div element
+	- Step 3: Click on input shippingAddressFirstName
+	- Step 4: Hover over div muiFormControlRoot
+	- Step 5: Enter input value in input shippingAddressFirstName
+	- Step 6: Click on input lastName
+	- Step 7: Hover over div muiFormControlRoot
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Hover over div muiFormControlRoot
+	- Step 11: Enter input value in input address
+	- Step 12: Click on input zipCode
+	- Step 13: Hover over div muiFormControlRoot
+	- Step 14: Enter input value in input zipCode
+	- Step 15: Click on input city
+	- Step 16: Hover over div muiFormControlRoot
+	- Step 17: Enter input value in input city
+	- Step 18: Click on input state
+	- Step 19: Hover over div muiFormControlRoot
+	- Step 20: Enter input value in input state
+	- Step 21: Click on input shippingAddressPhone
+	- Step 22: Enter input value in input shippingAddressPhone
+	- Step 23: Click on button continueToPayment
+Step 16: Click on button completeOrder -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",High
+23,Verify Shipping Process and Contact Information,"Proceed through shipping details, contact information, and payment to verify the home page.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on list breadcrumb
 Step 5: Click on link goToCart
-Step 6: Enter email and shipping details for checkout
+Step 6: Provide contact information and proceed to shipping details
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div emailMeWithNews
 	- Step 3: Click on input email
@@ -857,7 +872,7 @@ Step 11: Click on checkbox receiveMarketingInfo
 Step 12: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
 Step 13: Hover over div element
 Step 14: Click on input shippingAddressFirstName
-Step 15: Provide contact info and proceed to shipping details
+Step 15: Checkout using contact information and proceed to shipping
 	- Step 1: Click on button contactInfo -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div emailMeWithNews
 	- Step 3: Click on input email
@@ -867,8 +882,8 @@ Step 15: Provide contact info and proceed to shipping details
 	- Step 7: Hover over div element
 	- Step 8: Click on input shippingAddressFirstName
 Step 16: Take full page screenshot as checkpoint
-",Medium
-28,Verify Purchase of iPhone with Color Selection,"Select an iPhone with color selection, proceed to checkout, and complete the order.","Step 1: Navigate to /
+",High
+25,Verify Purchase and Checkout with Product Selection,"Select products, make a purchase, proceed to checkout, fill details, and verify the home page.","Step 1: Navigate to /
 Step 2: Click on button hotNewiPhone15
 Step 3: Click on label 2
 Step 4: Click on label naturalTitanium
@@ -882,7 +897,7 @@ Step 11: Enter input value in input email
 Step 12: Click on button continueToShipping -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Medium
-36,Verify Purchase of iPhone with Payment Method Selection,"Select an iPhone, input email, choose payment method, proceed to payment, and complete the order.","Step 1: Navigate to /
+34,Verify Purchase and Checkout with Address and Payment,"Proceed through checkout, fill shipping address details, proceed to payment, and verify the home page.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button hotNewiPhone15
@@ -896,7 +911,7 @@ Step 11: Click on input email
 Step 12: Enter input value in input email
 Step 13: Click on checkbox receiveMarketingInfo
 Step 14: Click on button continueToShipping
-Step 15: Enter shipping details and proceed to payment
+Step 15: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -934,11 +949,11 @@ Step 26: Click on button continueToShipping -> Navigate to page 'checkout/paymen
 Step 27: Click on button completeOrder -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
 ",Medium
-12,Verify Checkout Process for Apple Accessories,"Navigate to the home page, select Apple accessories, add an item to the cart, proceed to checkout, enter shipping details, and complete the order. Verify the home page.","Step 1: Navigate to /
+12,Verify Checkout Process for Accessories and Apple Items,"Navigate to the homepage, select accessories, and choose Apple products. Add items to cart, proceed to shipping details, payment, and complete the order. Verify the homepage.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on item sale20WusbcpowerAdapter
-Step 5: Proceed to checkout with email and marketing options
+Step 5: Add items to cart and proceed to shipping details
 	- Step 1: Click on button 1
 	- Step 2: Click on link goToCart -> Navigate to page '/cart'
 	- Step 3: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
@@ -947,7 +962,7 @@ Step 5: Proceed to checkout with email and marketing options
 	- Step 6: Enter input value in input email
 	- Step 7: Click on checkbox receiveMarketingInfo
 	- Step 8: Click on button continueToShipping
-Step 6: Enter shipping details and proceed to payment
+Step 6: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -975,11 +990,11 @@ Step 7: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 8: Hover over item listitem
 Step 9: Click on link apple2 -> Navigate to page 'category/*'
 Step 10: Hover over item accessoriesAppleSamsung
-Step 11: Click on link apple
+Step 11: Click on link apple1
 Step 12: Click on button hotNewiPhone15 -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Low
-29,Place Order for iPhone and Samsung Devices,"Navigate to the home page, select iPhone and Samsung devices, choose item specifications, add to cart, proceed to checkout, enter shipping details, and complete the order. Verify the home page.","Step 1: Navigate to /
+27,Verify Purchase Process for iPhones and Samsung Phones,"Navigate to the homepage, select iPhone and Samsung phones, customize options, buy selected phones, proceed to shipping details, payment, and complete the order. Verify the homepage.","Step 1: Navigate to /
 Step 2: Click on button hotNewiPhone15
 Step 3: Click on label 256Gb2
 Step 4: Click on label yellow1
@@ -991,7 +1006,7 @@ Step 9: Click on input email
 Step 10: Enter input value in input email
 Step 11: Click on checkbox receiveMarketingInfo
 Step 12: Click on button continueToShipping
-Step 13: Enter shipping details and proceed to payment
+Step 13: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -1023,7 +1038,7 @@ Step 18: Click on link samsung
 Step 19: Click on button hotNewiPhone15
 Step 20: Click on label 2
 Step 21: Click on label 256Gb
-Step 22: Select item color, buy, and proceed to checkout
+Step 22: Buy selected phone and proceed to shipping details
 	- Step 1: Click on label 2
 	- Step 2: Click on label blue
 	- Step 3: Click on button buy
@@ -1035,7 +1050,7 @@ Step 22: Select item color, buy, and proceed to checkout
 	- Step 9: Enter input value in input email
 	- Step 10: Click on checkbox receiveMarketingInfo
 	- Step 11: Click on button continueToShipping
-Step 23: Enter shipping details and proceed to payment
+Step 23: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -1062,7 +1077,7 @@ Step 23: Enter shipping details and proceed to payment
 Step 24: Click on button completeOrder -> Navigate to page ''
 Step 25: Take full page screenshot as checkpoint
 ",Low
-4,Purchase iPhone 15 with Specific Configuration,"Navigate to the home page, select iPhone 15 with specific configuration, add to cart, proceed to checkout, enter shipping details, and complete the order. Verify the home page.","Step 1: Navigate to /
+4,Verify Purchase Process for iPhone 15 with Specific Configuration,"Navigate to the homepage, select iPhone 15 with specific configuration, buy the phone, proceed to shipping details, payment, and complete the order. Verify the homepage.","Step 1: Navigate to /
 Step 2: Click on link phone -> Navigate to page 'category/*'
 Step 3: Click on link iPhone15 -> Navigate to page 'product/*'
 Step 4: Click on label 128Gb1
@@ -1077,7 +1092,7 @@ Step 12: Click on input email
 Step 13: Enter input value in input email
 Step 14: Click on checkbox receiveMarketingInfo
 Step 15: Click on button continueToShipping
-Step 16: Enter shipping details and proceed to payment
+Step 16: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -1104,7 +1119,7 @@ Step 16: Enter shipping details and proceed to payment
 Step 17: Click on button completeOrder -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
 ",Low
-41,Buy Google Pixel 7 Pro in Pink Color,"Navigate to the home page, select Google Pixel 7 Pro in pink color, add to cart, proceed to checkout, enter shipping details, and verify the home page.","Step 1: Navigate to /
+39,Verify Purchase Process for Samsung and Google Phones,"Navigate to the homepage, select Samsung and Google phones, add items to cart, buy selected phone, proceed to shipping details, and verify the homepage.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on link googlePixel7Pro -> Navigate to page 'product/*'
@@ -1125,25 +1140,7 @@ Step 18: Hover over div element
 Step 19: Click on input shippingAddressFirstName -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",Low
-42,Purchase iPhone 15 Pro Max Best Choice,"Navigate to the home page, select iPhone 15 Pro Max Best Choice, add to cart, enter email and shipping details for checkout. Verify the home page.","Step 1: Navigate to /
-Step 2: Click on div productsItemWrapper
-Step 3: Click on link iPhone15ProMaxBestChoice -> Navigate to page 'product/*'
-Step 4: Click on label 128Gb1
-Step 5: Click on label blue
-Step 6: Click on button buy
-Step 7: Click on link goToCart
-Step 8: Enter email and shipping details for checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div emailMeWithNews
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on checkbox receiveMarketingInfo
-	- Step 6: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Hover over div element
-	- Step 8: Click on input shippingAddressFirstName
-Step 9: Take full page screenshot as checkpoint
-",Low
-48,Search and Buy iPhone 15 within Price Range,"Navigate to the home page, search for iPhone 15 within a specific price range, add to cart, proceed to checkout, enter shipping details, select payment method, and complete the order. Verify the home page.","Step 1: Navigate to /
+46,Verify Purchase Process for iPhones with Price Range,"Navigate to the homepage, select iPhones, set a price range, search for a specific iPhone, add to cart, proceed to checkout, complete payment with cash on delivery, and verify the homepage.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Enter input value in input priceMin
@@ -1158,7 +1155,7 @@ Step 12: Click on input email
 Step 13: Enter input value in input email
 Step 14: Click on checkbox receiveMarketingInfo
 Step 15: Click on button continueToShipping
-Step 16: Enter shipping details and proceed to payment
+Step 16: Fill shipping address details and proceed to payment
 	- Step 1: Click on radio usshipping490
 	- Step 2: Hover over div element
 	- Step 3: Click on input shippingAddressFirstName
@@ -1186,18 +1183,8 @@ Step 17: Click on radio cashOnDelivery
 Step 18: Click on button completeOrder -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",Low
-19,Navigate to About Page and Return to Home,"Navigate to the about page, click on a link to return to the home page, and verify the home page.","Step 1: Navigate to /about
+26,Verify Navigation from About Page to Home Page,Navigate from the About page to the KcellphoneShop1 link and then to the homepage. Verify the homepage.,"Step 1: Navigate to /about
 Step 2: Click on link kcellphoneShop1
 Step 3: Click on link kcellphoneShop1 -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
-",Trivial
-24,Explore Phone and Accessories Categories,"Navigate through different categories like phones and accessories, select specific items, and verify the home page.","Step 1: Navigate to /
-Step 2: Click on link about3 -> Navigate to page '/about'
-Step 3: Click on link about3
-Step 4: Click on link phone2 -> Navigate to page '/'
-Step 5: Click on link about3 -> Navigate to page '/about'
-Step 6: Click on link accessories -> Navigate to page 'category/*'
-Step 7: Click on link apple
-Step 8: Click on link samsungGalaxyS23UltraHot -> Navigate to page ''
-Step 9: Take full page screenshot as checkpoint
 ",Trivial
