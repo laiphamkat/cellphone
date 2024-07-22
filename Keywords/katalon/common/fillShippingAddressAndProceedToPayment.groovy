@@ -3,8 +3,8 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class fillShippingAddressAndProceedToPayment {
     
@@ -44,23 +44,23 @@ public class fillShippingAddressAndProceedToPayment {
         
         "Step 9: Hover over div muiFormControlRoot"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_2'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_5'))
         
         "Step 10: Enter input value in input address"
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_address'), data['var_3_input_address'])
         
-        "Step 11: Click on input zipcode"
+        "Step 11: Click on input zipCode"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipcode'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipCode'))
         
         "Step 12: Hover over div muiFormControlRoot"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_3'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_2'))
         
-        "Step 13: Enter input value in input zipcode"
+        "Step 13: Enter input value in input zipCode"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipcode'), data['var_4_input_zipcode'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipCode'), data['var_4_input_zipCode'])
         
         "Step 14: Click on input city"
         
@@ -74,17 +74,17 @@ public class fillShippingAddressAndProceedToPayment {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_city'), data['var_5_input_city'])
         
-        "Step 17: Click on textbox shippingAddressState"
+        "Step 17: Click on input state"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressState'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_state'))
         
         "Step 18: Hover over div muiFormControlRoot"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_5'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_3'))
         
-        "Step 19: Enter input value in textbox shippingAddressState"
+        "Step 19: Enter input value in input state"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressState'), data['var_6_textbox_shippingAddressState'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_state'), data['var_6_input_state'])
         
         "Step 20: Click on textbox shippingAddressPhone"
         
@@ -105,9 +105,9 @@ public class fillShippingAddressAndProceedToPayment {
         data['var_1_input_firstName'] = testData.getValue('var_1_input_firstName', rowIndex)
         data['var_2_input_lastName'] = testData.getValue('var_2_input_lastName', rowIndex)
         data['var_3_input_address'] = testData.getValue('var_3_input_address', rowIndex)
-        data['var_4_input_zipcode'] = testData.getValue('var_4_input_zipcode', rowIndex)
+        data['var_4_input_zipCode'] = testData.getValue('var_4_input_zipCode', rowIndex)
         data['var_5_input_city'] = testData.getValue('var_5_input_city', rowIndex)
-        data['var_6_textbox_shippingAddressState'] = testData.getValue('var_6_textbox_shippingAddressState', rowIndex)
+        data['var_6_input_state'] = testData.getValue('var_6_input_state', rowIndex)
         data['var_7_textbox_shippingAddressPhone'] = testData.getValue('var_7_textbox_shippingAddressPhone', rowIndex)
         execute_functional_method(data)
     }
@@ -117,9 +117,9 @@ public class fillShippingAddressAndProceedToPayment {
         data['var_1_input_firstName'] = 'default_data'
         data['var_2_input_lastName'] = 'default_data'
         data['var_3_input_address'] = 'default_data'
-        data['var_4_input_zipcode'] = 'default_data'
+        data['var_4_input_zipCode'] = 'default_data'
         data['var_5_input_city'] = 'default_data'
-        data['var_6_textbox_shippingAddressState'] = 'default_data'
+        data['var_6_input_state'] = 'default_data'
         data['var_7_textbox_shippingAddressPhone'] = 'default_data'
         execute_functional_method(data)
     }
