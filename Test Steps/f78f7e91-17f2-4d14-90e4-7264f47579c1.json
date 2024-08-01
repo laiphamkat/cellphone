@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Browse accessories and add selected items to cart",
+        "step 3: Click on label 1Tb",
+        "step 4: Click on label 1Tb",
+        "step 5: Click on link goToCart -> Navigate to page '/cart'",
+        "step 6: Click on label iPhone15Plus",
+        "step 7: Click on label iPhone15Plus",
+        "step 8: Click on button buy",
+        "step 9: Hover over link goToCart",
+        "step 10: Click on span shoppingCart",
+        "step 11: Hover over link goToCart",
+        "step 12: Click on span shoppingCart",
+        "step 13: Click on link goShopping -> Navigate to page '/'",
+        "step 14: Click on button addToCartSamsungGalaxyS23",
+        "step 15: Click on label 256Gb",
+        "step 16: Click on label 256Gb",
+        "step 17: Click on button closeButton",
+        "step 18: Click on button hotNewiPhone15",
+        "step 19: Click on label 256Gb",
+        "step 20: Click on label 256Gb",
+        "step 21: Click on button buy2",
+        "step 22: Hover over link goToCart",
+        "step 23: Click on span shoppingCart",
+        "step 24: Complete checkout process with shipping information",
+        "step 25: Click on button contactInfo -> Navigate to page ''",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}
