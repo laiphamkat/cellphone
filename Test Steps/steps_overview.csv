@@ -1,374 +1,121 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Complete Order for Accessories and Verify Home Page,"Navigate through accessories, add items to the cart, subscribe to updates, and complete the order while verifying the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on button sale20WusbpowerAdapter
-Step 5: Click on link goToCart -> Navigate to page '/cart'
-Step 6: Click on button increased
-Step 7: Click on button proceedToCheckout
-Step 8: Subscribe to email updates and proceed to shipping
-	- Step 1: Hover over div emailMeWithNews
-	- Step 2: Click on input email
-	- Step 3: Enter input value in input email
-	- Step 4: Click on button continueToShipping
-	- Step 5: Hover over div emailMeWithNews
-	- Step 6: Click on input email
-	- Step 7: Enter input value in input email
-	- Step 8: Click on button continueToShipping
-Step 9: Click on button completeOrder -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
+1,Verify Successful Checkout with Multiple Items,"Navigate to the inventory, add items to the cart, proceed to checkout, fill out user information, and complete the checkout process. Verify successful checkout and return to the home page.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login -> Navigate to page 'inventory.html'
+Step 3: Click on link item4Title -> Navigate to page 'inventory-item.html'
+Step 4: Click on button addToCart
+Step 5: Click on button backToProducts -> Navigate to page 'inventory.html'
+Step 6: Click on link sauceLabsBoltTshirt -> Navigate to page 'inventory-item.html'
+Step 7: Click on button addToCart
+Step 8: Click on link shoppingCart
+Step 9: Fill out user information and proceed to checkout
+	- Step 1: Click on button checkout -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on button continue
+Step 10: Click on button finish -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
 ",High
-5,Purchase Hot New iPhone 15 and Verify Home Page,"Select the new iPhone 15, choose specifications, add to cart, proceed to checkout, and verify completion on the home page.","Step 1: Navigate to /
-Step 2: Click on button hotNewiPhone15
-Step 3: Click on label 256Gb
-Step 4: Click on label 256Gb
-Step 5: Click on button buy2
-Step 6: Click on link goToCart -> Navigate to page '/cart'
-Step 7: Click on button increased
-Step 8: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 9: Click on button completeOrder -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
-",High
-3,Add Accessories to Cart and Verify Home Page,"Browse accessories, add items to the cart for purchase, and verify the home page after checking out.","Step 1: Navigate to /
-Step 2: Browse accessories and add items to the cart for purchase
-	- Step 1: Hover over item accessories
-	- Step 2: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-	- Step 3: Click on list breadcrumb
-	- Step 4: Click on link goToCart -> Navigate to page '/cart'
-	- Step 5: Hover over item listitem2
-	- Step 6: Click on link apple -> Navigate to page 'category/*'
-	- Step 7: Click on button sale20WusbpowerAdapter
-	- Step 8: Click on label 512Gb
-	- Step 9: Click on label 512Gb
-	- Step 10: Click on button buy2
-Step 3: Click on link goToCart -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
-",Medium
-10,Complete Order for Accessories with Email Subscription,"Select accessories, add to cart, proceed to checkout, subscribe to email updates, and verify the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on button sale20WusbpowerAdapter
-Step 5: Click on label 512Gb
-Step 6: Click on label 512Gb
-Step 7: Click on button buy2
-Step 8: Click on link goToCart -> Navigate to page '/cart'
-Step 9: Click on link goToCart
-Step 10: Click on button increased
-Step 11: Click on button increased
-Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 13: Hover over div emailMeWithNews
-Step 14: Click on input email
-Step 15: Enter input value in input email
-Step 16: Click on button continueToShipping -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
-",Medium
-11,Purchase Multiple Accessories and Verify Home Page,"Add multiple accessories to the cart, proceed to checkout, subscribe to updates, and verify the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on link byTitle
-Step 5: Click on link byTitle
-Step 6: Click on link categorySamsung
-Step 7: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 8: Click on label 256Gb
-Step 9: Click on label 256Gb
-Step 10: Click on button buy
-Step 11: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 12: Click on button increased
-Step 13: Click on link goToCart
-Step 14: Click on button proceedToCheckout
-Step 15: Subscribe to email updates and proceed to shipping
-	- Step 1: Hover over div emailMeWithNews
-	- Step 2: Click on input email
-	- Step 3: Enter input value in input email
-	- Step 4: Click on button continueToShipping
-	- Step 5: Hover over div emailMeWithNews
-	- Step 6: Click on input email
-	- Step 7: Enter input value in input email
-	- Step 8: Click on button continueToShipping
-Step 16: Hover over div emailMeWithNews
-Step 17: Click on input email
-Step 18: Enter input value in input email
-Step 19: Click on button continueToShipping -> Navigate to page ''
-Step 20: Take full page screenshot as checkpoint
-",Medium
-13,Manage Cart Items and Complete Purchase,"Navigate through accessories, add items to cart, manage quantities, and complete the purchase while verifying the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on button sale20WusbpowerAdapter
-Step 5: Click on button object
-Step 6: Click on label 512Gb
-Step 7: Click on label 512Gb
-Step 8: Click on button buy2
-Step 9: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 10: Click on label 256Gb
-Step 11: Click on label 256Gb
-Step 12: Click on button buy
-Step 13: Hover over item accessories
-Step 14: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 15: Click on link categorySamsung
-Step 16: Click on link byTitle
-Step 17: Click on link byTitle
-Step 18: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 19: Click on label 256Gb
-Step 20: Click on label 256Gb
-Step 21: Click on button buy
-Step 22: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 23: Click on button remove
-Step 24: Hover over item listitem2
-Step 25: Click on link apple -> Navigate to page 'category/*'
-Step 26: Click on link byTitle
-Step 27: Click on link categorySamsung
-Step 28: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 29: Click on button buy
-Step 30: Click on link placeAnOrder -> Navigate to page '/cart'
-Step 31: Click on button proceedToCheckout -> Navigate to page ''
-Step 32: Take full page screenshot as checkpoint
-",Medium
-1,Checkout for Accessories with Email Updates,"Select accessories, add to cart, proceed to checkout, subscribe to email updates, and verify the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 5: Click on button increased
-Step 6: Click on button increased
-Step 7: Hover over link goToCart
-Step 8: Click on span shoppingCart -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 10: Hover over div emailMeWithNews
-Step 11: Click on input email
-Step 12: Enter input value in input email
-Step 13: Click on button continueToShipping
-Step 14: Click on button completeOrder -> Navigate to page ''
-Step 15: Take full page screenshot as checkpoint
-",Low
-4,Purchase New iPhone 15 and Verify Home Page,"Select the new iPhone 15, add to cart, and verify the home page after the purchase.","Step 1: Navigate to /
-Step 2: Click on button hotNewiPhone15
-Step 3: Click on label 256Gb
-Step 4: Click on label 256Gb
-Step 5: Click on button dialogButton
-Step 6: Click on link goToCart -> Navigate to page '/cart'
-Step 7: Hover over link goToCart
-Step 8: Click on span object -> Navigate to page ''
+2,Verify Checkout Process for Specific Item,"Navigate to the inventory, select a specific item, add it to the cart, proceed to checkout, fill out user information, and complete the checkout process. Verify completion and return to the home page.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login -> Navigate to page 'inventory.html'
+Step 3: Click on div sauceLabsBikeLightDescription
+Step 4: Click on button addToCartSauceLabsBikeLight
+Step 5: Click on link shoppingCartLink2 -> Navigate to page 'cart.html'
+Step 6: Click on div cartFooter
+Step 7: Fill out user information and proceed to checkout
+	- Step 1: Click on button checkout -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on button continue
+Step 8: Click on button finish -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
+",High
+3,Verify Checkout Process with Bolt T shirt,"Navigate to the inventory, add a Bolt T-shirt to the cart, proceed to checkout, continue shopping, and verify the home page.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Click on div loginCredentials
+Step 3: Login -> Navigate to page 'inventory.html'
+Step 4: Click on button addToCartSauceLabsBoltTshirt
+Step 5: Click on link shoppingCartLink2 -> Navigate to page 'cart.html'
+Step 6: Click on div cartFooter
+Step 7: Click on button continueShopping -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Medium
+4,Verify Checkout Completion with Bike Light,"Navigate to the inventory, add a bike light to the cart, proceed to checkout, complete the checkout process, return to the home page, and verify the completion.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login -> Navigate to page 'inventory.html'
+Step 3: Click on button addToCartSauceLabsBikeLight
+Step 4: Click on link shoppingCartLink2
+Step 5: Fill out user information and proceed to checkout
+	- Step 1: Click on button checkout -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on button continue
+Step 6: Click on button finish -> Navigate to page 'checkout-complete.html'
+Step 7: Click on button backToProducts -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
 ",Low
-6,Add Accessories to Cart and Complete Order,"Browse accessories, add items to the cart, subscribe to updates, and complete the order while verifying the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 5: Click on label 256Gb
-Step 6: Click on label 256Gb
-Step 7: Hover over div productsSliderProduct
-Step 8: Click on button addToCart
-Step 9: Click on label 512Gb
-Step 10: Click on label 512Gb
-Step 11: Click on button buy2
-Step 12: Click on link goToCart -> Navigate to page '/cart'
-Step 13: Click on button increased
-Step 14: Click on button proceedToCheckout
-Step 15: Subscribe to email updates and proceed to shipping
-	- Step 1: Hover over div emailMeWithNews
-	- Step 2: Click on input email
-	- Step 3: Enter input value in input email
-	- Step 4: Click on button continueToShipping
-	- Step 5: Hover over div emailMeWithNews
-	- Step 6: Click on input email
-	- Step 7: Enter input value in input email
-	- Step 8: Click on button continueToShipping
-Step 16: Take full page screenshot as checkpoint
-",Low
-7,Navigate and Verify Accessories Category,"Browse accessories, navigate through categories, and verify the home page after exploring products.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on button sale20WusbpowerAdapter
-Step 5: Click on button increased
-Step 6: Click on button closeButton
-Step 7: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 8: Hover over item accessories
-Step 9: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 10: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
-Step 11: Hover over item accessories
-Step 12: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 13: Click on link categorySamsung
-Step 14: Click on link categorySamsung
-Step 15: Hover over item accessories
-Step 16: Click on link apple -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
-",Low
-8,Purchase Multiple iPhones and Manage Cart,"Select multiple iPhones, manage the cart, and verify the home page after completing the purchase.","Step 1: Navigate to /
-Step 2: Click on button hotNewiPhone15
-Step 3: Click on div object
-Step 4: Click on label 256Gb
-Step 5: Click on label 256Gb
-Step 6: Click on button buy2
-Step 7: Hover over item accessories
-Step 8: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 9: Click on button newiPhone15Plus
-Step 10: Click on div object
-Step 11: Click on label 512Gb
-Step 12: Click on label 512Gb
-Step 13: Click on button buy2
-Step 14: Click on link goToCart -> Navigate to page '/cart'
-Step 15: Click on button increased
-Step 16: Click on button remove
-Step 17: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 18: Click on link backToTheCart -> Navigate to page '/cart'
-Step 19: Click on div cartItemRow
-Step 20: Click on div cartItemRow
-Step 21: Click on button increased
-Step 22: Click on button increased
-Step 23: Hover over item listitem2
-Step 24: Click on link apple
-Step 25: Click on link apple -> Navigate to page 'category/*'
-Step 26: Click on link goToCart
-Step 27: Click on link goToCart -> Navigate to page ''
-Step 28: Take full page screenshot as checkpoint
-",Low
-9,Add Accessories and Complete Checkout Process,"Add various accessories to the cart, proceed through checkout, and verify the home page after purchase.","Step 1: Navigate to /
-Step 2: Browse accessories and add items to the cart for purchase
-	- Step 1: Hover over item accessories
-	- Step 2: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-	- Step 3: Click on list breadcrumb
-	- Step 4: Click on link goToCart -> Navigate to page '/cart'
-	- Step 5: Hover over item listitem2
-	- Step 6: Click on link apple -> Navigate to page 'category/*'
-	- Step 7: Click on button sale20WusbpowerAdapter
-	- Step 8: Click on label 512Gb
-	- Step 9: Click on label 512Gb
-	- Step 10: Click on button buy2
-Step 3: Click on label 512Gb
-Step 4: Click on label 512Gb
-Step 5: Click on link goToCart -> Navigate to page '/cart'
-Step 6: Click on label iPhone15Plus
-Step 7: Click on label iPhone15Plus
-Step 8: Click on button buy
-Step 9: Hover over link goToCart
-Step 10: Click on span object
-Step 11: Hover over link goToCart
-Step 12: Click on span object
-Step 13: Click on link goShopping -> Navigate to page '/'
-Step 14: Click on button addToCartSamsungGalaxyS23
-Step 15: Click on label 256Gb
-Step 16: Click on label 256Gb
-Step 17: Click on button closeButton
-Step 18: Click on button hotNewiPhone15
-Step 19: Click on label 256Gb
-Step 20: Click on label 256Gb
-Step 21: Click on button buy2
-Step 22: Hover over link goToCart
-Step 23: Click on span shoppingCart -> Navigate to page '/cart'
-Step 24: Click on button proceedToCheckout
-Step 25: Subscribe to email updates and proceed to shipping
-	- Step 1: Hover over div emailMeWithNews
-	- Step 2: Click on input email
-	- Step 3: Enter input value in input email
-	- Step 4: Click on button continueToShipping
-	- Step 5: Hover over div emailMeWithNews
-	- Step 6: Click on input email
-	- Step 7: Enter input value in input email
-	- Step 8: Click on button continueToShipping
-Step 26: Click on button contactInfo -> Navigate to page ''
-Step 27: Take full page screenshot as checkpoint
-",Low
-12,Complete Purchase for iPhones and Accessories,"Navigate through iPhones and accessories, add to cart, proceed to checkout, and verify the home page.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on link iPhone15HotNew -> Navigate to page 'product/*'
-Step 5: Click on list horizontalMenuList
-Step 6: Click on button plus
-Step 7: Click on label 256Gb
-Step 8: Click on label 256Gb
-Step 9: Click on button plus
-Step 10: Click on button plus
-Step 11: Click on link goToCart -> Navigate to page '/cart'
-Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 13: Hover over div emailMeWithNews
-Step 14: Click on input email
-Step 15: Enter input value in input email
-Step 16: Click on button continueToShipping
-Step 17: Click on link backToTheCart -> Navigate to page '/cart'
-Step 18: Hover over item listitem2
-Step 19: Click on link apple2
-Step 20: Click on link apple2 -> Navigate to page 'category/*'
-Step 21: Click on button newiPhone15Plus
-Step 22: Click on button newiPhone15Plus
-Step 23: Click on label 512Gb
-Step 24: Click on label 512Gb
-Step 25: Click on label 512Gb
-Step 26: Click on label 512Gb
-Step 27: Click on button buy2
-Step 28: Click on button buy2
-Step 29: Click on link goToCart
-Step 30: Click on link goToCart -> Navigate to page '/cart'
-Step 31: Click on button proceedToCheckout
-Step 32: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 33: Hover over div emailMeWithNews
-Step 34: Click on input email
-Step 35: Enter input value in input email
-Step 36: Click on button continueToShipping -> Navigate to page ''
-Step 37: Take full page screenshot as checkpoint
-",Low
-14,Purchase Accessories and Verify Home Page,"Select accessories, manage cart items, complete the order, and verify the home page after checkout.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on link goToCart -> Navigate to page '/cart'
-Step 5: Click on button increased
-Step 6: Click on button increased
-Step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 8: Click on button completeOrder -> Navigate to page 'thank-you/*'
-Step 9: Hover over item accessories
-Step 10: Click on link apple -> Navigate to page 'category/*'
-Step 11: Hover over item accessories
-Step 12: Click on link apple -> Navigate to page '/'
-Step 13: Click on button addToCartSamsungGalaxyS23
-Step 14: Click on label 256Gb
-Step 15: Click on label 256Gb
-Step 16: Click on button buy2
-Step 17: Click on link goToCart -> Navigate to page '/cart'
-Step 18: Click on button increased
-Step 19: Hover over item listitem2
-Step 20: Click on link apple2 -> Navigate to page 'category/*'
-Step 21: Click on button newiPhone15Plus
-Step 22: Click on label 512Gb
-Step 23: Click on label 512Gb
-Step 24: Click on button buy2
-Step 25: Click on link goToCart -> Navigate to page '/cart'
-Step 26: Click on button increased
-Step 27: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 28: Click on link backToTheCart -> Navigate to page '/cart'
-Step 29: Hover over item listitem2
-Step 30: Click on link apple2
-Step 31: Click on link apple2 -> Navigate to page 'category/*'
-Step 32: Click on button sale20WusbpowerAdapter
-Step 33: Click on button sale20WusbpowerAdapter
-Step 34: Click on label 512Gb
-Step 35: Click on label 512Gb
-Step 36: Click on label 512Gb
-Step 37: Click on label 512Gb
-Step 38: Click on button object
-Step 39: Click on button object
-Step 40: Click on link goToCart
-Step 41: Click on link goToCart -> Navigate to page '/cart'
-Step 42: Click on button increased
-Step 43: Click on button increased
-Step 44: Click on button proceedToCheckout
-Step 45: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 46: Hover over div emailMeWithNews
-Step 47: Click on input email
-Step 48: Enter input value in input email
-Step 49: Click on button continueToShipping -> Navigate to page ''
-Step 50: Take full page screenshot as checkpoint
-",Low
-15,Complete Order for Accessories with Increased Quantity,"Select accessories, increase quantity, complete the order, and verify the home page after checkout.","Step 1: Navigate to /
-Step 2: Hover over item accessories
-Step 3: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
-Step 4: Click on button sale20WusbpowerAdapter
-Step 5: Click on label 512Gb
-Step 6: Click on label 512Gb
-Step 7: Click on button increased
-Step 8: Click on div priceAndBuyBtns
-Step 9: Click on button buy2
-Step 10: Click on link goToCart -> Navigate to page '/cart'
-Step 11: Click on button increased
-Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
-Step 13: Click on button completeOrder -> Navigate to page ''
-Step 14: Take full page screenshot as checkpoint
-",Low
+5,Verify Checkout Flow with Various Items,"Navigate to the inventory, add multiple items to the cart, sort products, proceed to checkout, and verify the home page.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login -> Navigate to page 'inventory.html'
+Step 3: Click on link testAllTheThingsTshirtRed -> Navigate to page 'inventory-item.html'
+Step 4: Click on button addToCart
+Step 5: Click on link shoppingCart -> Navigate to page 'cart.html'
+Step 6: Click on button continueShopping -> Navigate to page 'inventory.html'
+Step 7: Click on select productSortContainer
+Step 8: Click on select productSortContainer
+Step 9: Click on button addToCartSauceLabsBikeLight
+Step 10: Click on select productSortContainer
+Step 11: Click on link sauceLabsBoltTshirt -> Navigate to page 'inventory-item.html'
+Step 12: Click on button addToCart
+Step 13: Click on link shoppingCart -> Navigate to page 'cart.html'
+Step 14: Click on button checkout -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Trivial
+6,Verify Complex Checkout Process,"Navigate to the inventory, add specific items to the cart, proceed to checkout, fill out user information, complete the checkout process, and verify the home page.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Click on div loginCredentials
+Step 3: Login -> Navigate to page 'inventory.html'
+Step 4: Click on link item0TitleLink -> Navigate to page 'inventory-item.html'
+Step 5: Click on button addToCart
+Step 6: Click on link shoppingCart
+Step 7: Fill out user information and proceed to checkout
+	- Step 1: Click on button checkout -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on button continue
+Step 8: Click on button finish -> Navigate to page 'checkout-complete.html'
+Step 9: Click on div checkoutCompleteContainer
+Step 10: Click on button backToProducts -> Navigate to page 'inventory.html'
+Step 11: Click on link item0TitleLink -> Navigate to page 'inventory-item.html'
+Step 12: Click on button addToCart
+Step 13: Click on link shoppingCart -> Navigate to page 'cart.html'
+Step 14: Click on button checkout -> Navigate to page 'inventory.html'
+Step 15: Click on link item4Title -> Navigate to page 'inventory-item.html'
+Step 16: Click on button addToCart
+Step 17: Click on link shoppingCart -> Navigate to page ''
+Step 18: Login -> Navigate to page 'inventory.html'
+Step 19: Click on button addToCartSauceLabsBikeLight
+Step 20: Click on link shoppingCartLink2
+Step 21: Fill out user information and proceed to checkout
+	- Step 1: Click on button checkout -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on button continue
+Step 22: Click on button finish -> Navigate to page ''
+Step 23: Take full page screenshot as checkpoint
+",Trivial
