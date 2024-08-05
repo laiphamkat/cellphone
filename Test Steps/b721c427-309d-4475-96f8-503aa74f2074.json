@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item item",
+        "step 3: Click on link apple -> Navigate to page 'category/*'",
+        "step 4: Hover over item phone",
+        "step 5: Click on link apple",
+        "step 6: Hover over link goToCart",
+        "step 7: Click on span goToCart -> Navigate to page '/cart'",
+        "step 8: Click on button proceedToCheckout",
+        "step 9: Hover over item listitem2",
+        "step 10: Click on link apple -> Navigate to page 'category/*'",
+        "step 11: Hover over link goToCart",
+        "step 12: Click on span goToCart -> Navigate to page '/cart'",
+        "step 13: Click on button proceedToCheckout",
+        "step 14: Hover over link goToCart",
+        "step 15: Click on span goToCart",
+        "step 16: Click on button proceedToCheckout",
+        "step 17: Click on button proceedToCheckout",
+        "step 18: Fill in shipping address details and proceed to payment",
+        "step 19: Click on div deliveryInformationUs -> Navigate to page ''",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}

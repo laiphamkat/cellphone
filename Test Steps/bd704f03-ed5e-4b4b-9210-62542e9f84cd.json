@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button hotNewiPhone15",
+        "step 3: Click on label 256Gb2",
+        "step 4: Click on label 256Gb2",
+        "step 5: Click on button buy",
+        "step 6: Hover over link goToCart",
+        "step 7: Click on span goToCart -> Navigate to page '/cart'",
+        "step 8: Click on button proceedToCheckout -> Navigate to page 'checkout/*'",
+        "step 9: Hover over div emailMeWithNews",
+        "step 10: Click on input email",
+        "step 11: Enter input value in input email",
+        "step 12: Click on button continueToShipping -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

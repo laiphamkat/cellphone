@@ -5,7 +5,7 @@ Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button sale20WusbpowerAdapter
 Step 5: Click on link goToCart -> Navigate to page '/cart'
 Step 6: Click on button proceedToCheckout
-Step 7: Enter shipping address details and continue to payment
+Step 7: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -28,7 +28,7 @@ Step 7: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 8: Enter shipping address details and continue to payment
+Step 8: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -51,7 +51,7 @@ Step 8: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 9: Enter shipping address details and continue to payment
+Step 9: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -85,7 +85,7 @@ Step 6: Click on label 256Gb
 Step 7: Click on button buy
 Step 8: Click on link goToCart -> Navigate to page '/cart'
 Step 9: Click on button proceedToCheckout
-Step 10: Enter shipping address details and continue to payment
+Step 10: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -108,7 +108,7 @@ Step 10: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 11: Enter shipping address details and continue to payment
+Step 11: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -142,7 +142,7 @@ Step 5: Click on button proceedToCheckout -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",Medium
 7,Flow 4,,"Step 1: Navigate to /
-Step 2: Select new iPhone and navigate to the cart
+Step 2: Browse Apple category and purchase iPhone 15
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -152,7 +152,7 @@ Step 2: Select new iPhone and navigate to the cart
 	- Step 7: Hover over link goToCart
 	- Step 8: Click on span goToCart
 Step 3: Click on button proceedToCheckout
-Step 4: Enter shipping address details and continue to payment
+Step 4: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -175,7 +175,7 @@ Step 4: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 5: Enter shipping address details and continue to payment
+Step 5: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -223,7 +223,7 @@ Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",Low
 12,Flow 8,,"Step 1: Navigate to /
-Step 2: Add items from Apple category to the cart
+Step 2: Add items to cart from Apple category with discounts
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on list breadcrumb
@@ -239,7 +239,7 @@ Step 4: Take full page screenshot as checkpoint
 ",Low
 19,Flow 9,,"Step 1: Navigate to /
 Step 2: Click on button closeButton
-Step 3: Select new iPhone and navigate to the cart
+Step 3: Browse Apple category and purchase iPhone 15
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -250,7 +250,7 @@ Step 3: Select new iPhone and navigate to the cart
 	- Step 8: Click on span goToCart
 Step 4: Take full page screenshot as checkpoint
 ",Low
-28,Complete Order for New iPhone with Checkout,"Select and purchase New iPhone, proceed to cart, and complete the checkout process, verifying the home page.","Step 1: Navigate to /
+28,Purchase New iPhone 15 and Complete Order,"Select the New iPhone 15, add it to the cart, and complete the order through the checkout process.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple
 Step 4: Click on button hotNewiPhone15
@@ -262,7 +262,7 @@ Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/*'
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-24,Verify Home Page Navigation with Slider Interaction,"Navigate to home page, interact with the slider multiple times, and verify the home page remains accessible.","Step 1: Navigate to /
+24,Navigate Home and Verify Swiper Functionality,"Navigate to the home page and interact with the swiper slider, verifying its functionality.","Step 1: Navigate to /
 Step 2: Hover over link swiperSliderNext
 Step 3: Click on link swiperSliderNext
 Step 4: Click on link swiperSliderNext
@@ -270,7 +270,7 @@ Step 5: Click on link swiperSliderNext
 Step 6: Click on link swiperSliderNext -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-25,Add Samsung Accessories to Cart and Checkout,"Select Samsung accessories, add to cart, increase quantity, proceed to checkout, and verify completion on home page.","Step 1: Navigate to /
+25,Purchase Samsung Power Adapter and Checkout,"Select a Samsung power adapter, add it to the cart, and proceed to checkout to complete the purchase.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on button sale20WusbpowerAdapter
@@ -282,7 +282,7 @@ Step 9: Click on link goToCart
 Step 10: Click on button increased
 Step 11: Click on button increased
 Step 12: Click on button proceedToCheckout
-Step 13: Enter shipping address details and continue to payment
+Step 13: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -307,13 +307,13 @@ Step 13: Enter shipping address details and continue to payment
 	- Step 22: Click on button continueToPayment
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-26,Checkout Process for Apple Products with Multiple Steps,"Navigate to Apple category, proceed to cart, complete checkout, and verify that all details are correctly entered.","Step 1: Navigate to /
+26,Checkout Process with Apple Category Items,"Browse Apple category, add items to the cart, and complete the checkout process while verifying the home page.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on list breadcrumb
 Step 5: Click on link goToCart -> Navigate to page '/cart'
 Step 6: Click on button proceedToCheckout
-Step 7: Enter shipping address details and continue to payment
+Step 7: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -336,7 +336,7 @@ Step 7: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 8: Enter shipping address details and continue to payment
+Step 8: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -360,7 +360,7 @@ Step 8: Enter shipping address details and continue to payment
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
 Step 9: Click on span completedIcon
-Step 10: Enter shipping address details and continue to payment
+Step 10: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -383,7 +383,7 @@ Step 10: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 11: Enter shipping address details and continue to payment
+Step 11: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -407,7 +407,7 @@ Step 11: Enter shipping address details and continue to payment
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
 Step 12: Click on button contactInfo
-Step 13: Enter shipping address details and continue to payment
+Step 13: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -430,7 +430,7 @@ Step 13: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 14: Enter shipping address details and continue to payment
+Step 14: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -455,8 +455,8 @@ Step 14: Enter shipping address details and continue to payment
 	- Step 22: Click on button continueToPayment
 Step 15: Take full page screenshot as checkpoint
 ",Trivial
-27,Multiple iPhone and Accessories Purchase with Checkout,"Select iPhones and accessories, add to cart multiple times, proceed to checkout, and verify successful order completion.","Step 1: Navigate to /
-Step 2: Select new iPhone and navigate to the cart
+27,Multiple Purchases Including iPhone 15 and Accessories,"Purchase various Apple items including the iPhone 15 and accessories, completing the checkout process multiple times.","Step 1: Navigate to /
+Step 2: Browse Apple category and purchase iPhone 15
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on button hotNewiPhone15
@@ -466,7 +466,7 @@ Step 2: Select new iPhone and navigate to the cart
 	- Step 7: Hover over link goToCart
 	- Step 8: Click on span goToCart
 Step 3: Click on button proceedToCheckout
-Step 4: Enter shipping address details and continue to payment
+Step 4: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -489,7 +489,7 @@ Step 4: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 5: Enter shipping address details and continue to payment
+Step 5: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -518,7 +518,7 @@ Step 8: Click on link apple -> Navigate to page 'category/*'
 Step 9: Click on button sale20WusbpowerAdapter
 Step 10: Click on link goToCart -> Navigate to page '/cart'
 Step 11: Click on button proceedToCheckout
-Step 12: Enter shipping address details and continue to payment
+Step 12: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -541,7 +541,7 @@ Step 12: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 13: Enter shipping address details and continue to payment
+Step 13: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -577,7 +577,7 @@ Step 23: Click on button buyButton
 Step 24: Click on link goToCart -> Navigate to page ''
 Step 25: Take full page screenshot as checkpoint
 ",Trivial
-32,Order Multiple Samsung and Apple Products with Checkout,"Select and purchase various Samsung and Apple products, add to cart, and complete the checkout process successfully.","Step 1: Navigate to /
+32,Checkout with Samsung and Apple Products,Add various Samsung and Apple products to the cart and complete the checkout process while verifying the home page.,"Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link samsungPowerAndCables -> Navigate to page 'category/*'
 Step 4: Click on link goToCart -> Navigate to page '/cart'
@@ -622,7 +622,7 @@ Step 42: Click on button increased
 Step 43: Click on button increased
 Step 44: Click on button proceedToCheckout
 Step 45: Click on button proceedToCheckout
-Step 46: Enter shipping address details and continue to payment
+Step 46: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -647,7 +647,7 @@ Step 46: Enter shipping address details and continue to payment
 	- Step 22: Click on button continueToPayment
 Step 47: Take full page screenshot as checkpoint
 ",Trivial
-29,Verify Product Slider Navigation on Home Page,"Navigate to home page and interact with product slider multiple times, ensuring that the page remains accessible.","Step 1: Navigate to /
+29,Navigate Products Slider and Verify Home Page,"Interact with the products slider on the home page, verifying functionality through multiple interactions.","Step 1: Navigate to /
 Step 2: Click on div hotNewiPhone15Details
 Step 3: Click on link productsSliderNext
 Step 4: Click on link productsSliderNext
@@ -662,7 +662,7 @@ Step 12: Click on link productsSliderNext
 Step 13: Click on link productsSliderNext -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-30,Checkout Process for Apple Accessories with Order Completion,"Add Apple accessories to cart, proceed to checkout, and verify order completion on the thank you page.","Step 1: Navigate to /
+30,Complete Order for Apple Accessories and Verify Home,"Add Apple accessories to the cart, proceed to checkout, complete the order, and verify the home page.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button sale20WusbpowerAdapter
@@ -683,7 +683,7 @@ Step 18: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 19: Click on button proceedToCheckout -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",Trivial
-31,Purchase Apple Accessories and Complete Checkout,"Select Apple accessories, add to cart, proceed to checkout, and verify successful order completion.","Step 1: Navigate to category/*
+31,Purchase Apple Accessories and Complete Checkout,"Browse Apple accessories, add items to the cart, and proceed through the checkout process to complete the order.","Step 1: Navigate to category/*
 Step 2: Hover over item phone
 Step 3: Click on link apple
 Step 4: Hover over item phone
@@ -691,7 +691,7 @@ Step 5: Click on link accessories2
 Step 6: Click on button hotNewiPhone15
 Step 7: Click on link goToCart -> Navigate to page '/cart'
 Step 8: Click on link goToCart
-Step 9: Enter shipping address details and continue to payment
+Step 9: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -717,7 +717,7 @@ Step 9: Enter shipping address details and continue to payment
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-22,Purchase Apple and Samsung Products in One Session,"Navigate to Apple category, purchase Samsung Galaxy and iPhone, add both to cart, proceed to checkout, and complete the order.","Step 1: Navigate to /
+22,Purchase Apple and Samsung Galaxy S23 Ultra with Multiple Items,"Browse Apple and Samsung products, add multiple items to the cart, and proceed through the checkout process.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on link productSamsungGalaxyS23Ultra -> Navigate to page 'product/*'
@@ -729,7 +729,7 @@ Step 9: Click on button buy
 Step 10: Click on button buy
 Step 11: Click on link goToCart -> Navigate to page '/cart'
 Step 12: Click on button proceedToCheckout
-Step 13: Enter shipping address details and continue to payment
+Step 13: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -768,7 +768,7 @@ Step 26: Click on link goToCart
 Step 27: Click on link goToCart -> Navigate to page '/cart'
 Step 28: Click on button proceedToCheckout
 Step 29: Click on button proceedToCheckout
-Step 30: Enter shipping address details and continue to payment
+Step 30: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -793,7 +793,7 @@ Step 30: Enter shipping address details and continue to payment
 	- Step 22: Click on button continueToPayment
 Step 31: Take full page screenshot as checkpoint
 ",Trivial
-33,Checkout Process for Apple Products with Price Filter,"Navigate to Apple category, apply price filter, add to cart, and complete the checkout process, verifying the home page.","Step 1: Navigate to /
+33,Purchase Apple Products with Price Filter and Checkout,"Use price filtering to select Apple products, add to cart, and complete the checkout process.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on input priceMin
@@ -804,7 +804,7 @@ Step 8: Click on label 256Gb
 Step 9: Click on button buy
 Step 10: Click on link goToCart -> Navigate to page '/cart'
 Step 11: Click on button proceedToCheckout
-Step 12: Enter shipping address details and continue to payment
+Step 12: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -827,7 +827,7 @@ Step 12: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 13: Enter shipping address details and continue to payment
+Step 13: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -852,14 +852,14 @@ Step 13: Enter shipping address details and continue to payment
 	- Step 22: Click on button continueToPayment
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-23,Order New iPhone and Samsung Products in Sequence,"Select New iPhone, add to cart, complete checkout, then add Samsung products, proceed to checkout, and verify order completion.","Step 1: Navigate to /
+23,Complete Order for New iPhone 15 and Samsung Products,"Select the New iPhone 15, add it to the cart, and complete the checkout while adding other Samsung products.","Step 1: Navigate to /
 Step 2: Click on button newiPhone15Plus
 Step 3: Click on label 256Gb2
 Step 4: Click on label 256Gb2
 Step 5: Click on button buy2
 Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 7: Click on button proceedToCheckout
-Step 8: Enter shipping address details and continue to payment
+Step 8: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -882,7 +882,7 @@ Step 8: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 9: Enter shipping address details and continue to payment
+Step 9: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -919,7 +919,7 @@ Step 20: Click on button buy
 Step 21: Hover over link goToCart
 Step 22: Click on span goToCart -> Navigate to page '/cart'
 Step 23: Click on button proceedToCheckout
-Step 24: Enter shipping address details and continue to payment
+Step 24: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -942,7 +942,7 @@ Step 24: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 25: Enter shipping address details and continue to payment
+Step 25: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -997,7 +997,7 @@ Step 26: Click on link goToCart
 Step 27: Click on link goToCart -> Navigate to page ''
 Step 28: Take full page screenshot as checkpoint
 ",Trivial
-21,Add Samsung and Google Pixel to Cart and Complete Checkout,"Navigate to Samsung category, select Google Pixel, add to cart, proceed to checkout, enter shipping details, and verify completion.","Step 1: Navigate to /
+21,Add Samsung and Google Pixel 7 Pro to Cart and Checkout,"Navigate to the home page, select Samsung and Google Pixel 7 Pro, add them to the cart, and complete the checkout process.","Step 1: Navigate to /
 Step 2: Hover over item item
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on link productGooglePixel7Pro -> Navigate to page 'product/*'
@@ -1011,7 +1011,7 @@ Step 11: Click on button buy2
 Step 12: Click on link goToCart -> Navigate to page '/cart'
 Step 13: Click on button increased
 Step 14: Click on button proceedToCheckout
-Step 15: Enter shipping address details and continue to payment
+Step 15: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1034,7 +1034,7 @@ Step 15: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 16: Enter shipping address details and continue to payment
+Step 16: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1060,7 +1060,7 @@ Step 16: Enter shipping address details and continue to payment
 Step 17: Take full page screenshot as checkpoint
 ",Trivial
 20,Flow 20,,"Step 1: Navigate to /
-Step 2: Add items from Apple category to the cart
+Step 2: Add items to cart from Apple category with discounts
 	- Step 1: Hover over item item
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Click on list breadcrumb
@@ -1093,7 +1093,7 @@ Step 21: Click on button buy2
 Step 22: Hover over link goToCart
 Step 23: Click on span goToCart -> Navigate to page '/cart'
 Step 24: Click on button proceedToCheckout
-Step 25: Enter shipping address details and continue to payment
+Step 25: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1116,7 +1116,7 @@ Step 25: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 26: Enter shipping address details and continue to payment
+Step 26: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1159,7 +1159,7 @@ Step 14: Hover over link goToCart
 Step 15: Click on span goToCart
 Step 16: Click on button proceedToCheckout
 Step 17: Click on button proceedToCheckout
-Step 18: Enter shipping address details and continue to payment
+Step 18: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1245,7 +1245,7 @@ Step 5: Click on label gb
 Step 6: Click on button buy
 Step 7: Click on link goToCart -> Navigate to page '/cart'
 Step 8: Click on button proceedToCheckout
-Step 9: Enter shipping address details and continue to payment
+Step 9: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1268,7 +1268,7 @@ Step 9: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 10: Enter shipping address details and continue to payment
+Step 10: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1314,7 +1314,7 @@ Step 4: Click on item sale20WusbcpowerAdapter
 Step 5: Click on button sale20WusbpowerAdapter
 Step 6: Click on link goToCart -> Navigate to page '/cart'
 Step 7: Click on button proceedToCheckout
-Step 8: Enter shipping address details and continue to payment
+Step 8: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1337,7 +1337,7 @@ Step 8: Enter shipping address details and continue to payment
 	- Step 20: Click on textbox shippingAddressPhone
 	- Step 21: Enter input value in textbox shippingAddressPhone
 	- Step 22: Click on button continueToPayment
-Step 9: Enter shipping address details and continue to payment
+Step 9: Fill in shipping address details and proceed to payment
 	- Step 1: Hover over div muiInputBaseRoot
 	- Step 2: Click on textbox shippingAddressFirstName
 	- Step 3: Hover over div muiFormControlRoot
@@ -1398,7 +1398,7 @@ Step 12: Click on div object
 Step 13: Click on link productGooglePixel7Pro -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-34,Verify Navigation from Category to Home Page,"Navigate to phone category, click on items, and verify that the home page is accessible after interactions.","Step 1: Navigate to /
+34,Navigate to Phone Category and Verify Home Page,"Select the phone category, browse products, and verify navigation back to the home page.","Step 1: Navigate to /
 Step 2: Click on link categoryPhone -> Navigate to page 'category/*'
 Step 3: Click on link byTitle -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
