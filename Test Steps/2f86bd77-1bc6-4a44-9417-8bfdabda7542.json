@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item item",
+        "step 3: Click on link apple -> Navigate to page 'category/*'",
+        "step 4: Click on button sale20WusbpowerAdapter",
+        "step 5: Click on link goToCart -> Navigate to page '/cart'",
+        "step 6: Click on button proceedToCheckout",
+        "step 7: Enter shipping address details and continue to payment",
+        "step 8: Enter shipping address details and continue to payment",
+        "step 9: Enter shipping address details and continue to payment",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

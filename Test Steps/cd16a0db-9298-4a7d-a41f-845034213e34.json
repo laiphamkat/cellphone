@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button closeButton",
+        "step 3: Select new iPhone and navigate to the cart",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}
