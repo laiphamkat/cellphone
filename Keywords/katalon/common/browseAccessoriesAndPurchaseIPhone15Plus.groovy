@@ -12,7 +12,7 @@ public class browseAccessoriesAndPurchaseIPhone15Plus {
         
         "Step 1: Hover over item accessories"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Dynamic Objects/Page_home/item_accessories'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_accessories'))
         
         "Step 2: Click on link apple -> Navigate to page 'category/*'"
         
@@ -36,15 +36,15 @@ public class browseAccessoriesAndPurchaseIPhone15Plus {
         
         "Step 7: Click on button productsItemInStock"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_productsItemInStock'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_productsItemInStock'))
         
         "Step 8: Click on label iPhone15Plus"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_iPhone15Plus'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/label_iPhone15Plus'))
         
         "Step 9: Click on label iPhone15Plus"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/label_iPhone15Plus'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/label_iPhone15Plus'))
         
         "Step 10: Click on button buy2"
         

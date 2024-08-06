@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Browse Accessories and Purchase iPhone 15 Plus,"Navigate to the homepage, browse accessories, purchase iPhone 15 Plus, and verify that the homepage is displayed.","Step 1: Navigate to /
+1,Browse and Purchase iPhone 15 Plus Accessories,"Navigate to the homepage, browse accessories, purchase iPhone 15 Plus, and verify the homepage.","Step 1: Navigate to /
 Step 2: Browse accessories and purchase iPhone 15 Plus
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
@@ -14,7 +14,7 @@ Step 2: Browse accessories and purchase iPhone 15 Plus
 Step 3: Click on link goToCart -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-2,Purchase Apple 20W USB Adapter and Complete Order,"Browse accessories, select Apple 20W USB adapter, increase quantity, proceed to checkout, enter email, and complete the order.","Step 1: Navigate to /
+2,Purchase Apple Adapter and Complete Order,"Navigate to homepage, select Apple accessories, increase quantity, proceed to checkout, and complete the order.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
@@ -30,7 +30,7 @@ Step 13: Click on button continueToShipping
 Step 14: Click on button completeOrder -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",High
-3,Explore Samsung Products and Purchase Accessories,"Navigate through Samsung products, select Apple 20W USB adapter, browse categories, and verify that the homepage is displayed.","Step 1: Navigate to /
+3,Explore Accessories and Verify Product Listings,"Navigate to homepage, explore Samsung accessories, check product stock, and verify homepage.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on button productsItemInStock
@@ -48,7 +48,7 @@ Step 15: Hover over item accessories
 Step 16: Click on link apple -> Navigate to page ''
 Step 17: Take full page screenshot as checkpoint
 ",High
-4,Buy Apple 20W USB Adapter and Subscribe to Notifications,"Select Samsung products, purchase Apple 20W USB adapter, and subscribe to email updates for shipping notifications.","Step 1: Navigate to /
+4,Order Apple Adapter with Email Notifications,"Navigate to homepage, select Samsung accessories, place an order for Apple adapter, and subscribe for email updates.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link samsung -> Navigate to page 'category/*'
 Step 4: Click on link byTitle
@@ -77,7 +77,7 @@ Step 18: Enter input value in input email
 Step 19: Click on button continueToShipping -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",High
-5,Purchase Hot New iPhone 15 with 256GB Storage,"Navigate to the homepage, select the hot new iPhone 15 with 256GB, add to cart, and verify the homepage.","Step 1: Navigate to /
+5,Purchase New iPhone 15 and Verify Cart,"Navigate to homepage, select iPhone 15, add to cart, and verify cart contents.","Step 1: Navigate to /
 Step 2: Click on button hotNewiPhone15
 Step 3: Click on label 256Gb
 Step 4: Click on label 256Gb
@@ -87,7 +87,7 @@ Step 7: Hover over link goToCart
 Step 8: Click on span object -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-6,Complete Multiple Purchases Including iPhone 15 Plus and Samsung Galaxy S23,"Purchase iPhone 15 Plus and Samsung Galaxy S23, add to cart, subscribe for notifications, and verify the homepage.","Step 1: Navigate to /
+6,Add Multiple Products to Cart and Complete Checkout,"Browse and purchase iPhone 15 Plus, add Samsung Galaxy S23, and complete checkout while subscribing for updates.","Step 1: Navigate to /
 Step 2: Browse accessories and purchase iPhone 15 Plus
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
@@ -133,12 +133,12 @@ Step 25: Subscribe to email updates for shipping notifications
 Step 26: Click on button contactInfo -> Navigate to page ''
 Step 27: Take full page screenshot as checkpoint
 ",High
-7,Browse iPhone Cases and Verify Page,"Navigate to the homepage, browse iPhone cases, and verify that the homepage is displayed.","Step 1: Navigate to /
+7,Check Availability of iPhone Accessories,"Navigate to homepage, check the availability of iPhone accessories, and verify homepage.","Step 1: Navigate to /
 Step 2: Click on link categoryChekhlyNaIphone -> Navigate to page 'category/*'
 Step 3: Click on button productsItemInStock -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-8,Purchase Multiple Products Including Apple 20W Adapter,"Explore various accessories, purchase Apple 20W USB adapter, and proceed to checkout while verifying the homepage.","Step 1: Navigate to /
+8,Purchase Multiple Products and Manage Cart,"Navigate to homepage, explore accessories, purchase multiple items, and manage cart before checkout.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple2 -> Navigate to page 'category/*'
 Step 4: Click on button productsItemInStock
@@ -171,7 +171,7 @@ Step 30: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 31: Click on button proceedToCheckout -> Navigate to page ''
 Step 32: Take full page screenshot as checkpoint
 ",High
-9,Add Samsung Power and Cables to Cart and Verify,"Select Samsung power and cables, add to cart, and verify the homepage after completing the purchase.","Step 1: Navigate to /
+9,Add New iPhone Accessories to Cart and Verify,"Navigate to homepage, add new iPhone accessories to cart, and verify homepage after completing the process.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link samsungPowerAndCables -> Navigate to page 'category/*'
 Step 4: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'
