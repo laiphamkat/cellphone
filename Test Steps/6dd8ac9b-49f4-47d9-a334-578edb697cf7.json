@@ -1,0 +1,24 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item accessories",
+        "step 3: Click on link samsung -> Navigate to page 'category/*'",
+        "step 4: Click on link byTitle",
+        "step 5: Click on link byTitle",
+        "step 6: Click on link categorySamsung",
+        "step 7: Click on link productApple20Wusbadapter -> Navigate to page 'product/*'",
+        "step 8: Click on label object",
+        "step 9: Click on label object",
+        "step 10: Click on button buy",
+        "step 11: Click on link placeAnOrder -> Navigate to page '/cart'",
+        "step 12: Click on button increased",
+        "step 13: Click on link goToCart",
+        "step 14: Click on button proceedToCheckout",
+        "step 15: Enter email and proceed to shipping for notifications",
+        "step 16: Hover over div emailMeWithNews",
+        "step 17: Click on input email",
+        "step 18: Enter input value in input email",
+        "step 19: Click on button continueToShipping -> Navigate to page ''",
+        "step 20: Take full page screenshot as checkpoint"
+    ]
+}
