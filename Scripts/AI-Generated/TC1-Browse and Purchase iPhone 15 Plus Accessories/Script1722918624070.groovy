@@ -1,9 +1,9 @@
-import com.kms.katalon.core.configuration.RunConfiguration
-import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import katalon.truetest.TrueTestScripts
-import katalon.common.navigateToAccessoriesAndPurchaseIPhone15Plus
+import katalon.common.browseAccessoriesAndPurchaseIPhone15Plus
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -19,9 +19,9 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Navigate to accessories and purchase iPhone 15 Plus"
+"Step 2: Browse accessories and purchase iPhone 15 Plus"
 
-navigateToAccessoriesAndPurchaseIPhone15Plus.execute(data_path_0, Integer.valueOf(index_0))
+browseAccessoriesAndPurchaseIPhone15Plus.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 3: Click on link goToCart -> Navigate to page ''"
 
@@ -33,7 +33,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link goToCart - Navi
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Purchase iPhone 15 Plus from Accessories Category_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Browse and Purchase iPhone 15 Plus Accessories_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
