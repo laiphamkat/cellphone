@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to",
+        "step 2: Hover over item accessories",
+        "step 3: Click on link apple -> Navigate to page 'category/chekhly-na-iphone'",
+        "step 4: Click on link byPrice",
+        "step 5: Click on button addToCartNewIphone15SiliconeCase",
+        "step 6: Click on label iPhone15Plus",
+        "step 7: Click on label cypress",
+        "step 8: Click on button dialogButton",
+        "step 9: Click on link samsung -> Navigate to page 'category/power-and-cables'",
+        "step 10: Click on link byTitle",
+        "step 11: Click on button addToCart",
+        "step 12: Click on link placeAnOrder -> Navigate to page 'cart'",
+        "step 13: Click on button increased",
+        "step 14: Click on button increased",
+        "step 15: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 16: Hover over div emailMeWithNews",
+        "step 17: Click on input email",
+        "step 18: Enter input value in input email",
+        "step 19: Click on button continueToShipping",
+        "step 20: Input shipping details including name and address",
+        "step 21: Click on button completeOrder -> Navigate to page ''",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}
