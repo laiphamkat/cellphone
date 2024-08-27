@@ -1,0 +1,31 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Select an iPhone case and add it to the cart",
+        "step 3: Click on label iphoneModels (iphone15Plus)",
+        "step 4: Click on label iphoneModels (cypress)",
+        "step 5: Click on link goToCart -> Navigate to page '/cart'",
+        "step 6: Click on label iphoneModels (iphone15Plus)",
+        "step 7: Click on label iphoneModels (cypress)",
+        "step 8: Click on button buy",
+        "step 9: Hover over link cartNavigation (goToCart)",
+        "step 10: Click on span cartIndicator (shoppingCart)",
+        "step 11: Hover over link cartNavigation (goToCart)",
+        "step 12: Click on span cartIndicator (shoppingCart)",
+        "step 13: Click on link goShopping -> Navigate to page '/'",
+        "step 14: Click on button addToCart (addToCart)",
+        "step 15: Click on label storageColorOptions (256Gb)",
+        "step 16: Click on label storageColorOptions (white)",
+        "step 17: Click on button close",
+        "step 18: Click on button hotNewIphones (hotNewBestChoiceIphone)",
+        "step 19: Click on label storageColorOptions (tb)",
+        "step 20: Click on label storageColorOptions (white)",
+        "step 21: Click on button buy2",
+        "step 22: Hover over link goToCart",
+        "step 23: Click on span cartIndicator (shoppingCart) -> Navigate to page '/cart'",
+        "step 24: Click on button proceedToCheckout",
+        "step 25: Complete shipping address form for order processing",
+        "step 26: Click on button contactInfo -> Navigate to page ''",
+        "step 27: Take full page screenshot as checkpoint"
+    ]
+}

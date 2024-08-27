@@ -10,9 +10,9 @@ public class completeShippingAddressForm {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Hover over div emailMeWithNews"
+        "Step 1: Hover over div email"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_emailMeWithNews'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_email'))
         
         "Step 2: Click on input email"
         
@@ -26,17 +26,17 @@ public class completeShippingAddressForm {
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_continueToShipping'))
         
-        "Step 5: Hover over div muiInputBaseRoot"
+        "Step 5: Hover over div inputBase"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiInputBaseRoot'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase'))
         
         "Step 6: Click on input firstName"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_firstName'))
         
-        "Step 7: Hover over div muiFormControlRoot"
+        "Step 7: Hover over div inputBase2"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase2'))
         
         "Step 8: Enter input value in input firstName"
         
@@ -46,9 +46,9 @@ public class completeShippingAddressForm {
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_lastName'))
         
-        "Step 10: Hover over div muiFormControlRoot"
+        "Step 10: Hover over div inputBase3"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_1'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase3'))
         
         "Step 11: Enter input value in input lastName"
         
@@ -58,61 +58,61 @@ public class completeShippingAddressForm {
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_address'))
         
-        "Step 13: Hover over div muiFormControlRoot"
+        "Step 13: Hover over div inputBase4"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_2'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase4'))
         
         "Step 14: Enter input value in input address"
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_address'), data['input_address'])
         
-        "Step 15: Click on input zipcode"
+        "Step 15: Click on input zipCode"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipcode'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipCode'))
         
-        "Step 16: Hover over div muiFormControlRoot"
+        "Step 16: Hover over div inputBase5"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_3'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase5'))
         
-        "Step 17: Enter input value in input zipcode"
+        "Step 17: Enter input value in input zipCode"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipcode'), data['input_zipcode'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipCode'), data['input_zipCode'])
         
         "Step 18: Click on input city"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_city'))
         
-        "Step 19: Hover over div muiFormControlRoot"
+        "Step 19: Hover over div inputBase6"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_4'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase6'))
         
         "Step 20: Enter input value in input city"
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_city'), data['input_city'])
         
-        "Step 21: Click on textbox shippingAddressState"
+        "Step 21: Click on input state"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressState'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_state'))
         
-        "Step 22: Hover over div muiFormControlRoot"
+        "Step 22: Hover over div inputBase7"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiFormControlRoot_5'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase7'))
         
-        "Step 23: Enter input value in textbox shippingAddressState"
+        "Step 23: Enter input value in input state"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressState'), data['textbox_shippingAddressState'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_state'), data['input_state'])
         
-        "Step 24: Click on textbox shippingAddressPhone"
+        "Step 24: Click on input phone"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressPhone'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_phone'))
         
-        "Step 25: Hover over div muiInputBaseRoot"
+        "Step 25: Hover over div inputBase"
         
-        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_muiInputBaseRoot'))
+        WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_inputBase'))
         
-        "Step 26: Enter input value in textbox shippingAddressPhone"
+        "Step 26: Enter input value in input phone"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/textbox_shippingAddressPhone'), data['textbox_shippingAddressPhone'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_phone'), data['input_phone'])
         
         "Step 27: Click on input firstName"
         
@@ -127,9 +127,9 @@ public class completeShippingAddressForm {
         data['input_email'] = testData.getValue('input_email', rowIndex)
         data['input_firstName'] = testData.getValue('input_firstName', rowIndex)
         data['input_lastName'] = testData.getValue('input_lastName', rowIndex)
-        data['input_zipcode'] = testData.getValue('input_zipcode', rowIndex)
-        data['textbox_shippingAddressPhone'] = testData.getValue('textbox_shippingAddressPhone', rowIndex)
-        data['textbox_shippingAddressState'] = testData.getValue('textbox_shippingAddressState', rowIndex)
+        data['input_phone'] = testData.getValue('input_phone', rowIndex)
+        data['input_state'] = testData.getValue('input_state', rowIndex)
+        data['input_zipCode'] = testData.getValue('input_zipCode', rowIndex)
         execute_functional_method(data)
     }
     
@@ -140,9 +140,9 @@ public class completeShippingAddressForm {
         data['input_email'] = 'default_data'
         data['input_firstName'] = 'default_data'
         data['input_lastName'] = 'default_data'
-        data['input_zipcode'] = 'default_data'
-        data['textbox_shippingAddressPhone'] = 'default_data'
-        data['textbox_shippingAddressState'] = 'default_data'
+        data['input_phone'] = 'default_data'
+        data['input_state'] = 'default_data'
+        data['input_zipCode'] = 'default_data'
         execute_functional_method(data)
     }
     
