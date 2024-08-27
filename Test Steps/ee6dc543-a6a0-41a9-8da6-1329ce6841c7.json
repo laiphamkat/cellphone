@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Browse items by category and add to cart.",
+        "step 3: Click on label storageColorOptions (512Gb)",
+        "step 4: Click on label storageColorOptions (blue)",
+        "step 5: Click on link goToCart -> Navigate to page '/cart'",
+        "step 6: Click on label cartItems (iphone15Plus)",
+        "step 7: Click on label cartItems (cypress)",
+        "step 8: Click on button buy",
+        "step 9: Hover over link cartNavigation (goToCart)",
+        "step 10: Click on span dynamicObject (object)",
+        "step 11: Hover over link cartNavigation (goToCart)",
+        "step 12: Click on span dynamicObject (object)",
+        "step 13: Click on link goShopping -> Navigate to page '/'",
+        "step 14: Click on button addToCart (addToCart)",
+        "step 15: Click on label colorStorageOptions (512Gb2)",
+        "step 16: Click on label colorStorageOptions (white)",
+        "step 17: Click on button close",
+        "step 18: Select a product and continue to the checkout process.",
+        "step 19: Re-enter shipping information and continue.",
+        "step 20: Click on button contactInfo -> Navigate to page ''",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}
