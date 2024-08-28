@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button addToCart (addToCart2)",
+        "step 3: Click on label colorStorageOptions (512Gb)",
+        "step 4: Click on label colorStorageOptions (blueTitanium)",
+        "step 5: Click on button buy",
+        "step 6: Click on link iphone15SiliconeCaseWithMagSafe -> Navigate to page 'product/*'",
+        "step 7: Click on label productSpecifications (iphone15Pro)",
+        "step 8: Click on label productSpecifications (winterBlue)",
+        "step 9: Click on button buy2",
+        "step 10: Click on link cart (cart)",
+        "step 11: Fill in shipping details and complete the checkout process",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
