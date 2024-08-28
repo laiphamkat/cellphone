@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link mobileDevices (iphone15Pro) -> Navigate to page '/product/*'",
+        "step 3: Click on label colorStorageOptions (512Gb)",
+        "step 4: Click on label colorStorageOptions (512Gb)",
+        "step 5: Click on button buy",
+        "step 6: Click on button buy",
+        "step 7: Click on label colorStorageOptions (256Gb)",
+        "step 8: Click on label colorStorageOptions (blueTitanium)",
+        "step 9: Hover over link cartNavigation (goToCart)",
+        "step 10: Click on span cartIndicator (shoppingCart) -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

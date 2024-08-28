@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item productCategories (accessories)",
+        "step 3: Click on link apple -> Navigate to page '/category/chekhly-na-iphone'",
+        "step 4: Click on link iphoneAccessories (20WusbtypeCadapter) -> Navigate to page '/product/*'",
+        "step 5: Click on button increased2",
+        "step 6: Click on button increased2",
+        "step 7: Hover over link cartNavigation (goToCart)",
+        "step 8: Click on span cartIndicator (shoppingCart) -> Navigate to page '/cart'",
+        "step 9: Click on button proceedToCheckout",
+        "step 10: Fill shipping information and continue to payment",
+        "step 11: Click on button completeOrder -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
