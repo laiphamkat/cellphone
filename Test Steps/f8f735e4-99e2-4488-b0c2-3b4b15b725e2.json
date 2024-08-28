@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item dynamicObject (item)",
+        "step 3: Click on link apple -> Navigate to page 'category/*'",
+        "step 4: Click on button productPurchase (newIphone15SiliconeCase)",
+        "step 5: Click on label storageColorModel (iphone15Plus)",
+        "step 6: Click on label storageColorModel (cypress)",
+        "step 7: Click on button buy",
+        "step 8: Click on link cart (cart) -> Navigate to page '/cart'",
+        "step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 10: Hover over div email",
+        "step 11: Click on input email",
+        "step 12: Enter input value in input email",
+        "step 13: Click on button continueToShipping",
+        "step 14: Fill in shipping details and proceed to payment section",
+        "step 15: Click on button completeOrder -> Navigate to page ''",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}

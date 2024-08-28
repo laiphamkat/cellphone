@@ -1,268 +1,496 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-5,Complete Purchase for Apple Item with Storage Color Selection,"Navigate to home, select an Apple item, add to cart, choose storage color, buy, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item2
-Step 3: Click on link apple2 -> Navigate to page '/category/apple'
-Step 4: Click on button addToCart
-Step 5: Click on label storageColorOption (512Gb)
-Step 6: Click on label storageColorOption (green)
+1,Purchase Apple Product and Complete Checkout Process,"Navigate to home, select an Apple product, add to cart, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item)
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on button productPurchase (newIphone15SiliconeCase)
+Step 5: Click on label storageColorModel (iphone15Plus)
+Step 6: Click on label storageColorModel (cypress)
 Step 7: Click on button buy
-Step 8: Click on link cartNavigation (goToCart) -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
-Step 10: Click on button completeOrder -> Navigate to page ''
-Step 11: Take full page screenshot as checkpoint
+Step 8: Click on link cart (cart) -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div email
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Click on button continueToShipping
+Step 14: Fill in shipping details and proceed to payment section
+	- Step 1: Hover over div element
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div element2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div element3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div element4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div element5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div element6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div element7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 15: Click on button completeOrder -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
 ",High
-1,Purchase Samsung Galaxy Z Fold 4 and Complete Checkout,"Navigate to home, select Samsung product, add to cart, fill shipping details, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link samsung -> Navigate to page '/category/power-and-cables'
-Step 4: Click on button samsungGalaxyZfold4
-Step 5: Hover over link goToCart
-Step 6: Click on span object
-Step 7: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
-Step 8: Take full page screenshot as checkpoint
-",Medium
-2,Buy Samsung Product with Storage Color Options and Checkout,"Navigate to home, select Samsung product, choose storage color, add to cart, fill details, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item2
-Step 3: Click on link samsung2 -> Navigate to page '/category/samsung'
-Step 4: Click on link samsungProduct (samsungGalaxyZfold5) -> Navigate to page '/product/*'
-Step 5: Click on label storageColorModel (512Gb)
-Step 6: Click on label storageColorModel (blue)
+7,Purchase Product from Cart and Complete Checkout,"Navigate to home, add a product to cart, fill in personal and shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Click on button addToCart (addToCart)
+Step 3: Click on label storageColor (tb)
+Step 4: Click on label storageColor (blueTitanium)
+Step 5: Click on button buy2
+Step 6: Click on link dynamicObject (iphone15SiliconeCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 7: Click on label colorModelStorage (iphone15Pro)
+Step 8: Click on label colorModelStorage (winterBlue)
+Step 9: Click on button buy
+Step 10: Click on link goToCart (goToCart) -> Navigate to page '/cart'
+Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 12: Hover over div email
+Step 13: Click on input email
+Step 14: Enter input value in input email
+Step 15: Click on button continueToShipping
+Step 16: Fill in shipping details and proceed to payment section
+	- Step 1: Hover over div element
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div element2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div element3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div element4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div element5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div element6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div element7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 17: Click on button completeOrder -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",High
+2,Purchase Samsung Mobile Device and Verify Checkout,"Navigate to home, select Samsung products, add to cart, proceed through checkout, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link samsung -> Navigate to page 'category/*'
+Step 4: Click on link mobileDevices (samsungGalaxyZfold5) -> Navigate to page 'product/*'
+Step 5: Click on label colorModelStorage (512Gb)
+Step 6: Click on label colorModelStorage (blue)
 Step 7: Click on button buy
-Step 8: Hover over link goToCart
-Step 9: Click on span shoppingCart -> Navigate to page '/cart'
-Step 10: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 8: Hover over link goToCart (goToCart)
+Step 9: Click on span shoppingCart (shoppingCart) -> Navigate to page '/cart'
+Step 10: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
 Step 11: Click on button completeOrder -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",Medium
-3,Purchase Google Pixel 8 with Storage Color Selection,"Navigate to home, select Google Pixel product, choose storage color, add to cart, fill shipping details, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item2
-Step 3: Click on link googlePixel -> Navigate to page '/category/google-pixel'
-Step 4: Click on link googlePixel8 -> Navigate to page '/product/*'
-Step 5: Click on label storageColorModel (512Gb)
-Step 6: Click on label storageColorModel (black)
-Step 7: Click on button buy2
-Step 8: Click on link goToCart
-Step 9: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
-Step 10: Take full page screenshot as checkpoint
-",Medium
-4,Order New iPhone 15 Silicone Case with Color Selection,"Navigate to home, select iPhone case, choose color, add to cart, fill details, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page '/category/chekhly-na-iphone'
-Step 4: Click on button newIphone15SiliconeCase
-Step 5: Click on label iphoneModelColor (iphone15Plus)
-Step 6: Click on label iphoneModelColor (cypress)
-Step 7: Click on button buy
-Step 8: Click on link cart
-Step 9: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
-Step 10: Take full page screenshot as checkpoint
-",Medium
-6,Complete Order for Item with Color Option Selection,"Navigate to home, add item to cart, select storage color, buy, fill shipping details, and complete the order.","Step 1: Navigate to /
-Step 2: Click on button addToCart (addToCart)
-Step 3: Click on label storageColorOption (512Gb)
-Step 4: Click on label storageColorOption (green)
-Step 5: Click on button increased
-Step 6: Click on button buy
-Step 7: Click on link cart
-Step 8: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
-Step 9: Take full page screenshot as checkpoint
-",Medium
-7,Purchase iPhone 15 Clear Case with Order Completion,"Navigate to home, select iPhone clear case, buy, fill shipping details, and complete the order.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page '/category/chekhly-na-iphone'
-Step 4: Click on link iphone15ClearCaseWithMagsafe -> Navigate to page '/product/*'
-Step 5: Click on button buy3
-Step 6: Click on link placeAnOrder
-Step 7: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
-Step 8: Take full page screenshot as checkpoint
-",Medium
-8,Checkout for iPhone Item with Color Selection,"Navigate to home, select iPhone item, add to cart, choose color, proceed to checkout, and verify completion.","Step 1: Navigate to /
-Step 2: Hover over item item
-Step 3: Click on link apple -> Navigate to page '/category/chekhly-na-iphone'
-Step 4: Click on button addToCart
-Step 5: Click on label iphoneModelColor (iphone15Plus)
-Step 6: Click on label iphoneModelColor (cypress)
-Step 7: Click on button buy
-Step 8: Click on link cart -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
-",Medium
-9,Purchase iPhone 15 Silicone Case with MagSafe and Complete Order,"Navigate to home, select iPhone case with MagSafe, choose color, add to cart, fill details, and complete the order.","Step 1: Navigate to /
-Step 2: Click on button addToCart (addToCart2)
-Step 3: Click on label storageColorOption (512Gb)
-Step 4: Click on label storageColorOption (blueTitanium)
-Step 5: Click on button buy
-Step 6: Click on link iphone15SiliconeCaseWithMagSafe -> Navigate to page '/product/*'
-Step 7: Click on label storageColorModel (iphone15Pro)
-Step 8: Click on label storageColorModel (winterBlue)
-Step 9: Click on button buy
-Step 10: Click on link goToCart
-Step 11: Fill shipping details and complete order in checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-	- Step 2: Hover over div element
-	- Step 3: Click on input email
-	- Step 4: Enter input value in input email
-	- Step 5: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-	- Step 6: Hover over div element
-	- Step 7: Click on input firstName
-	- Step 8: Hover over div element2
-	- Step 9: Enter input value in input firstName
-	- Step 10: Click on input lastName
-	- Step 11: Hover over div element3
-	- Step 12: Enter input value in input lastName
-	- Step 13: Click on input address
-	- Step 14: Hover over div element4
-	- Step 15: Enter input value in input address
-	- Step 16: Click on input zipCode
-	- Step 17: Hover over div element5
-	- Step 18: Enter input value in input zipCode
-	- Step 19: Click on input city
-	- Step 20: Hover over div element6
-	- Step 21: Enter input value in input city
-	- Step 22: Click on input state
-	- Step 23: Hover over div element7
-	- Step 24: Enter input value in input state
-	- Step 25: Click on input phone
-	- Step 26: Enter input value in input phone
-	- Step 27: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-	- Step 28: Click on button completeOrder
+3,Sort and Purchase Samsung Mobile Device,"Navigate to home, sort Samsung products, select one, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link samsung -> Navigate to page 'category/*'
+Step 4: Click on link sortOptions (byTitle)
+Step 5: Click on link sortOptions (byPrice)
+Step 6: Click on link mobileBrands (googlePixel)
+Step 7: Click on link mobileDevices (samsungGalaxyZfold5)
+Step 8: Select product options and continue to shipping details
+	- Step 1: Click on label colorModelStorage (iphone15)
+	- Step 2: Click on label colorModelStorage (black)
+	- Step 3: Click on button buy
+	- Step 4: Click on link placeAnOrder -> Navigate to page '/cart'
+	- Step 5: Click on button dynamicObject (increased)
+	- Step 6: Click on link goToCart (goToCart)
+	- Step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 8: Hover over div email
+	- Step 9: Click on input email
+	- Step 10: Enter input value in input email
+	- Step 11: Click on button continueToShipping
+Step 9: Fill in shipping details and proceed to payment section
+	- Step 1: Hover over div element
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div element2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div element3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div element4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div element5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div element6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div element7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 10: Click on button completeOrder
+Step 11: Click on button completeOrder -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",Medium
+4,Purchase Apple Device and Verify Checkout Process,"Navigate to home, add an Apple device to cart, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link apple2 -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (addToCart)
+Step 5: Click on label storageColorModel (512Gb)
+Step 6: Click on label storageColorModel (green)
+Step 7: Click on button buy
+Step 8: Click on link cart (cart) -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
+Step 10: Click on button completeOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Medium
+6,Purchase Google Pixel Device and Complete Checkout,"Navigate to home, select Google Pixel, add to cart, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link googlePixel -> Navigate to page 'category/*'
+Step 4: Click on link mobileDevices (samsungGalaxyZfold5) -> Navigate to page 'product/*'
+Step 5: Click on label colorModelStorage (512Gb)
+Step 6: Click on label colorModelStorage (black)
+Step 7: Click on button buy (buy2)
+Step 8: Click on link goToCart (goToCart) -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div email
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Click on button continueToShipping
+Step 14: Fill in shipping details and proceed to payment section
+	- Step 1: Hover over div element
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div element2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div element3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div element4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div element5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div element6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div element7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 15: Click on button completeOrder -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Medium
+8,Browse Category and Purchase Selected Product,"Navigate to home, browse category, purchase selected product from cart, and verify the home page.","Step 1: Navigate to /
+Step 2: Browse category and purchase selected product from cart
+	- Step 1: Hover over item dynamicObject (item)
+	- Step 2: Click on link apple -> Navigate to page 'category/*'
+	- Step 3: Click on list breadcrumb
+	- Step 4: Click on link cart (cart) -> Navigate to page '/cart'
+	- Step 5: Hover over item listItem
+	- Step 6: Click on link apple -> Navigate to page 'category/*'
+	- Step 7: Click on button productPurchase (newIphone15SiliconeCase)
+	- Step 8: Click on label storageColorModel (iphone15Plus)
+	- Step 9: Click on label storageColorModel (iphone15Plus)
+	- Step 10: Click on button buy
+Step 3: Click on link cart (cart) -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",Medium
+5,Purchase New iPhone and Verify Checkout,"Navigate to home, select new iPhone, add to cart, and verify the home page after checkout.","Step 1: Navigate to /
+Step 2: Click on button hotNewIphone (hotNewIphone15)
+Step 3: Click on label storageColor (256Gb)
+Step 4: Click on label storageColor (yellow)
+Step 5: Click on button buy
+Step 6: Click on link goToCart (goToCart) -> Navigate to page '/cart'
+Step 7: Hover over link goToCart (goToCart)
+Step 8: Click on span shoppingCart (shoppingCart) -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Low
+9,Purchase Multiple Samsung Products and Verify Checkout,"Navigate to home, select multiple Samsung products, add to cart, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link samsung -> Navigate to page 'category/*'
+Step 4: Click on button productPurchase (newIphone15SiliconeCase)
+Step 5: Click on button increased
+Step 6: Click on button close
+Step 7: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product/*'
+Step 8: Hover over item dynamicObject (accessories)
+Step 9: Click on link mobileBrands (apple) -> Navigate to page 'category/*'
+Step 10: Click on link mobileDevices (iphone15ClearCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 11: Hover over item dynamicObject (phone)
+Step 12: Click on link mobileBrands (apple2) -> Navigate to page 'category/*'
+Step 13: Click on link mobileBrands (samsung)
+Step 14: Click on link mobileBrands (googlePixel)
+Step 15: Hover over item dynamicObject (accessories)
+Step 16: Click on link mobileBrands (apple) -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Low
+10,Browse and Purchase Multiple Products from Cart,"Navigate to home, browse category, purchase multiple products from cart, and verify the home page.","Step 1: Navigate to /
+Step 2: Browse category and purchase selected product from cart
+	- Step 1: Hover over item dynamicObject (item)
+	- Step 2: Click on link apple -> Navigate to page 'category/*'
+	- Step 3: Click on list breadcrumb
+	- Step 4: Click on link cart (cart) -> Navigate to page '/cart'
+	- Step 5: Hover over item listItem
+	- Step 6: Click on link apple -> Navigate to page 'category/*'
+	- Step 7: Click on button productPurchase (newIphone15SiliconeCase)
+	- Step 8: Click on label storageColorModel (iphone15Plus)
+	- Step 9: Click on label storageColorModel (iphone15Plus)
+	- Step 10: Click on button buy
+Step 3: Click on label storageColorModel (iphone15Plus)
+Step 4: Click on label storageColorModel (cypress)
+Step 5: Click on link cart (cart) -> Navigate to page '/cart'
+Step 6: Click on label dynamicObject (iphone15Plus)
+Step 7: Click on label dynamicObject (cypress)
+Step 8: Click on button buy
+Step 9: Hover over link goToCart (goToCart)
+Step 10: Click on span shoppingCart (shoppingCart)
+Step 11: Hover over link goToCart (goToCart)
+Step 12: Click on span shoppingCart (shoppingCart)
+Step 13: Click on link goShopping -> Navigate to page '/'
+Step 14: Click on button addToCart (addToCart2)
+Step 15: Click on label storageColor (256Gb)
+Step 16: Click on label storageColor (blueTitanium)
+Step 17: Click on button close
+Step 18: Click on button hotNewIphone (hotNewBestChoiceIphone)
+Step 19: Click on label storageColor (tb)
+Step 20: Click on label storageColor (blueTitanium)
+Step 21: Click on button buy2
+Step 22: Hover over link goToCart (goToCart)
+Step 23: Click on span shoppingCart (shoppingCart) -> Navigate to page '/cart'
+Step 24: Click on button proceedToCheckout
+Step 25: Complete all shipping details and continue to the next step
+	- Step 1: Hover over div email
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Hover over div element
+	- Step 6: Click on input firstName
+	- Step 7: Hover over div element2
+	- Step 8: Enter input value in input firstName
+	- Step 9: Click on input lastName
+	- Step 10: Hover over div element3
+	- Step 11: Enter input value in input lastName
+	- Step 12: Click on input address
+	- Step 13: Hover over div element4
+	- Step 14: Enter input value in input address
+	- Step 15: Click on input zipCode
+	- Step 16: Hover over div element5
+	- Step 17: Enter input value in input zipCode
+	- Step 18: Click on input city
+	- Step 19: Hover over div element6
+	- Step 20: Enter input value in input city
+	- Step 21: Click on input state
+	- Step 22: Hover over div element7
+	- Step 23: Enter input value in input state
+	- Step 24: Click on input phone
+	- Step 25: Hover over div element
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on input firstName
+Step 26: Click on button contactInfo -> Navigate to page ''
+Step 27: Take full page screenshot as checkpoint
+",Low
+11,Browse Samsung and Accessories Products,"Navigate to home, browse Samsung and accessories categories, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item)
+Step 3: Click on link samsung2 -> Navigate to page 'category/*'
+Step 4: Click on link sortOptions (byTitle)
+Step 5: Click on link sortOptions (byTitle)
+Step 6: Click on link mobileBrands (samsung)
+Step 7: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product/*'
+Step 8: Click on link accessories -> Navigate to page 'category/*'
+Step 9: Click on link mobileDevices (iphone15ClearCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 10: Click on label colorModelStorage (iphone15)
+Step 11: Click on label colorModelStorage (blue)
+Step 12: Select product options and continue to shipping details
+	- Step 1: Click on label colorModelStorage (iphone15)
+	- Step 2: Click on label colorModelStorage (black)
+	- Step 3: Click on button buy
+	- Step 4: Click on link placeAnOrder -> Navigate to page '/cart'
+	- Step 5: Click on button dynamicObject (increased)
+	- Step 6: Click on link goToCart (goToCart)
+	- Step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 8: Hover over div email
+	- Step 9: Click on input email
+	- Step 10: Enter input value in input email
+	- Step 11: Click on button continueToShipping
+Step 13: Take full page screenshot as checkpoint
+",Low
+12,Purchase Accessories and Complete Checkout,"Navigate to home, select accessories, fill in email and shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item)
+Step 3: Click on link accessories -> Navigate to page 'category/*'
+Step 4: Click on button productPurchase (sale20WusbtypeCadapter)
+Step 5: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 6: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 7: Hover over div email
+Step 8: Click on input email
+Step 9: Enter input value in input email
+Step 10: Click on div continueToShipping -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low
+13,Purchase Multiple Apple and Samsung Products,"Navigate to home, select multiple Apple and Samsung products, and verify the home page after checkout.","Step 1: Navigate to /
+Step 2: Click on div newIphone15Plus
+Step 3: Click on button addToCart (addToCart3)
+Step 4: Click on button close
+Step 5: Hover over item dynamicObject (item)
+Step 6: Click on link samsung2 -> Navigate to page 'category/*'
+Step 7: Click on button productPurchase (newIphone15SiliconeCase)
+Step 8: Click on button productPurchase (sale20WusbtypeCadapter)
+Step 9: Click on link samsungGalaxyS23Ultra2 -> Navigate to page 'product/*'
+Step 10: Hover over item dynamicObject (phone)
+Step 11: Click on link mobileBrands (samsung) -> Navigate to page 'category/*'
+Step 12: Click on button addToCart (addToCart)
+Step 13: Click on div chooseVariant
+Step 14: Click on button close
+Step 15: Click on button productPurchase (newIphone15SiliconeCase)
+Step 16: Click on button close
+Step 17: Click on link mobileBrands (samsung)
+Step 18: Click on link mobileBrands (googlePixel)
+Step 19: Click on link mobileBrands (samsung)
+Step 20: Hover over item dynamicObject (phone)
+Step 21: Click on span phoneAppleSamsungGooglePixelAccessories
+Step 22: Click on link mobileBrands (googlePixel2)
+Step 23: Click on link phone
+Step 24: Click on main pageLayout
+Step 25: Hover over item dynamicObject (phone)
+Step 26: Click on link mobileBrands (samsung2)
+Step 27: Click on link mobileBrands (googlePixel)
+Step 28: Click on link mobileBrands (samsung)
+Step 29: Click on button productPurchase (sale20WusbtypeCadapter)
+Step 30: Click on button close
+Step 31: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product/*'
+Step 32: Click on label colorModelStorage (iphone15)
+Step 33: Hover over item dynamicObject (accessories)
+Step 34: Click on link mobileBrands (apple) -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",Low
+14,Purchase Apple and Samsung Devices and Verify Checkout,"Navigate to home, select Apple and Samsung products, add to cart, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item2)
+Step 3: Click on link apple2 -> Navigate to page 'category/*'
+Step 4: Click on button productPurchase (newIphone15SiliconeCase)
+Step 5: Click on button dynamicObject (increased2)
+Step 6: Click on label storageColorModel (cypress)
+Step 7: Click on label storageColorModel (iphone15Plus)
+Step 8: Click on button buy
+Step 9: Click on link mobileDevices (iphone15ProMax) -> Navigate to page 'product/*'
+Step 10: Click on label colorModelStorage (iphone15)
+Step 11: Click on label colorModelStorage (blue)
+Step 12: Click on button buy
+Step 13: Hover over item dynamicObject (phone)
+Step 14: Click on link mobileBrands (samsung) -> Navigate to page 'category/*'
+Step 15: Click on link mobileBrands (googlePixel)
+Step 16: Click on link sortOptions (byTitle)
+Step 17: Click on link sortOptions (byPrice)
+Step 18: Click on link mobileDevices (samsungGalaxyZfold5) -> Navigate to page 'product/*'
+Step 19: Click on label colorModelStorage (iphone15)
+Step 20: Click on label colorModelStorage (black)
+Step 21: Click on button buy
+Step 22: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 23: Click on button remove
+Step 24: Hover over item listItem
+Step 25: Click on link apple -> Navigate to page 'category/*'
+Step 26: Click on link sortOptions (byTitle)
+Step 27: Click on link mobileBrands (samsung)
+Step 28: Click on link mobileDevices (samsungGalaxyZfold5) -> Navigate to page 'product/*'
+Step 29: Click on button buy3
+Step 30: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 31: Click on button proceedToCheckout -> Navigate to page ''
+Step 32: Take full page screenshot as checkpoint
+",Low
+15,Purchase Samsung Device and Complete Checkout,"Navigate to home, select Samsung device, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item)
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product/*'
+Step 5: Click on button increased
+Step 6: Click on button increased
+Step 7: Hover over link goToCart (goToCart)
+Step 8: Click on span shoppingCart (shoppingCart) -> Navigate to page '/cart'
+Step 9: Click on button proceedToCheckout
+Step 10: Fill in shipping details and proceed to payment section
+	- Step 1: Hover over div element
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div element2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div element3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div element4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div element5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div element6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div element7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 11: Click on button completeOrder -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",Low
+16,Purchase Accessories and Verify Checkout Process,"Navigate to home, select accessories, add to cart, fill in shipping details, and verify the home page.","Step 1: Navigate to /
+Step 2: Hover over item dynamicObject (item)
+Step 3: Click on link samsung2 -> Navigate to page 'category/*'
+Step 4: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product/*'
+Step 5: Click on link productGallery
+Step 6: Click on button close
+Step 7: Click on link accessories -> Navigate to page 'category/*'
+Step 8: Click on link mobileDevices (iphone15ClearCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 9: Click on label colorModelStorage (iphone15)
+Step 10: Click on label colorModelStorage (blue)
+Step 11: Hover over div productsSlider
+Step 12: Click on button addToCart
+Step 13: Click on label 512Gb2
+Step 14: Click on label 512Gb2
+Step 15: Click on button buy
+Step 16: Click on link goToCart (goToCart) -> Navigate to page '/cart'
+Step 17: Click on button dynamicObject (increased)
+Step 18: Click on button close
+Step 19: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 20: Click on div backToTheCart
+Step 21: Complete all shipping details and continue to the next step
+	- Step 1: Hover over div email
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Hover over div element
+	- Step 6: Click on input firstName
+	- Step 7: Hover over div element2
+	- Step 8: Enter input value in input firstName
+	- Step 9: Click on input lastName
+	- Step 10: Hover over div element3
+	- Step 11: Enter input value in input lastName
+	- Step 12: Click on input address
+	- Step 13: Hover over div element4
+	- Step 14: Enter input value in input address
+	- Step 15: Click on input zipCode
+	- Step 16: Hover over div element5
+	- Step 17: Enter input value in input zipCode
+	- Step 18: Click on input city
+	- Step 19: Hover over div element6
+	- Step 20: Enter input value in input city
+	- Step 21: Click on input state
+	- Step 22: Hover over div element7
+	- Step 23: Enter input value in input state
+	- Step 24: Click on input phone
+	- Step 25: Hover over div element
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on input firstName
+Step 22: Hover over link backToTheCart
+Step 23: Click on link backToTheCart2 -> Navigate to page '/cart'
+Step 24: Hover over item listItem
+Step 25: Click on link apple -> Navigate to page 'category/*'
+Step 26: Click on button addToCart (addToCart2)
+Step 27: Click on button addToCart (addToCart2) -> Navigate to page ''
+Step 28: Take full page screenshot as checkpoint
+",Low
