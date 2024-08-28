@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item item",
+        "step 3: Click on link apple -> Navigate to page '/category/chekhly-na-iphone'",
+        "step 4: Click on link iphone15ClearCaseWithMagsafe -> Navigate to page '/product/*'",
+        "step 5: Click on button buy2",
+        "step 6: Click on link placeAnOrder",
+        "step 7: Fill in shipping information and proceed to payment",
+        "step 8: Click on button completeOrder -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
