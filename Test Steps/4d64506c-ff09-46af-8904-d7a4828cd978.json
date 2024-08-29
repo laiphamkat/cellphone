@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button addToCart",
+        "step 3: Click on label 512Gb",
+        "step 4: Click on label green",
+        "step 5: Click on button increased",
+        "step 6: Click on button buy",
+        "step 7: Click on link cart",
+        "step 8: Fill in shipping details and complete the checkout process",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

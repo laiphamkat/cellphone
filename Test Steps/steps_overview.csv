@@ -1,12 +1,12 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Complete Purchase of Phone Case with Shipping Details,"Navigate to the homepage, select a mobile brand, choose a phone case, fill in shipping details, and complete the checkout process.","Step 1: Navigate to /
+1,Purchase Apple iPhone 15 Silicone Case and Verify Thank You Page,"Navigate to the home page, select an Apple iPhone 15 Silicone Case, complete shipping details, and verify the Thank You page.","Step 1: Navigate to /
 Step 2: Hover over item item
-Step 3: Click on link mobileBrands (apple) -> Navigate to page 'category/*'
-Step 4: Click on button phoneCase (newIphone15SiliconeCase)
-Step 5: Click on label deviceSpecifications (iphone15Plus)
-Step 6: Click on label deviceSpecifications (cypress)
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on button newIphone15SiliconeCase
+Step 5: Click on label iphone15Plus
+Step 6: Click on label cypress
 Step 7: Click on button buy
-Step 8: Click on link cart (cart)
+Step 8: Click on link cart
 Step 9: Fill in shipping details and complete the checkout process
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
@@ -38,26 +38,26 @@ Step 9: Fill in shipping details and complete the checkout process
 	- Step 28: Click on button completeOrder
 Step 10: Take full page screenshot as checkpoint
 ",High
-4,Add Phone to Cart and Complete Checkout,"Navigate to the homepage, select a mobile brand, add a phone to the cart, proceed to checkout, and complete the order.","Step 1: Navigate to /
+4,Add to Cart and Complete Order for Apple Device with 512GB,"Navigate to home, add an Apple device with 512GB to the cart, complete checkout, and verify the Thank You page.","Step 1: Navigate to /
 Step 2: Hover over item item2
-Step 3: Click on link mobileBrands (apple2) -> Navigate to page 'category/*'
-Step 4: Click on button addToCart (addToCart)
-Step 5: Click on label deviceSpecifications (512Gb)
-Step 6: Click on label deviceSpecifications (green)
+Step 3: Click on link apple2 -> Navigate to page 'category/*'
+Step 4: Click on button addToCart
+Step 5: Click on label 512Gb
+Step 6: Click on label green
 Step 7: Click on button buy
-Step 8: Click on link cart (cart) -> Navigate to page '/cart'
+Step 8: Click on link cart -> Navigate to page '/cart'
 Step 9: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
-Step 10: Click on button completeOrder -> Navigate to page ''
+Step 10: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 11: Take full page screenshot as checkpoint
 ",Medium
-2,Purchase Phone Case with Specifications and Checkout,"Navigate to the homepage, select a mobile brand and phone case, check specifications, fill in shipping details, and complete the purchase.","Step 1: Navigate to /
+2,Purchase Google Pixel 8 with 512GB and Verify Thank You Page,"Navigate to home, select Google Pixel 8 with 512GB, fill in shipping details, and verify the Thank You page.","Step 1: Navigate to /
 Step 2: Hover over item item2
-Step 3: Click on link mobileBrands (googlePixel) -> Navigate to page 'category/*'
-Step 4: Click on link phoneCases (googlePixel8) -> Navigate to page 'product/*'
-Step 5: Click on label productSpecifications (512Gb)
-Step 6: Click on label productSpecifications (black)
+Step 3: Click on link googlePixel -> Navigate to page 'category/*'
+Step 4: Click on link googlePixel8 -> Navigate to page 'product/*'
+Step 5: Click on label 512Gb
+Step 6: Click on label black
 Step 7: Click on button buy
-Step 8: Click on link cart (cart)
+Step 8: Click on link cart
 Step 9: Fill in shipping details and complete the checkout process
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
@@ -89,23 +89,23 @@ Step 9: Fill in shipping details and complete the checkout process
 	- Step 28: Click on button completeOrder
 Step 10: Take full page screenshot as checkpoint
 ",Low
-3,Complete Order for Phone Case with Checkout Process,"Navigate to the homepage, select a mobile brand and phone case, check specifications, proceed to checkout, and complete the order.","Step 1: Navigate to /
+3,Complete Checkout for Samsung Device with Google Pixel 8,"Navigate to home, select Samsung device, complete checkout for Google Pixel 8, and verify the Thank You page.","Step 1: Navigate to /
 Step 2: Hover over item item2
-Step 3: Click on link mobileBrands (samsung) -> Navigate to page 'category/*'
-Step 4: Click on link phoneCases (googlePixel8) -> Navigate to page 'product/*'
-Step 5: Click on label productSpecifications (512Gb)
-Step 6: Click on label productSpecifications (blue)
+Step 3: Click on link samsung -> Navigate to page 'category/*'
+Step 4: Click on link googlePixel8 -> Navigate to page 'product/*'
+Step 5: Click on label 512Gb
+Step 6: Click on label blue
 Step 7: Click on button buy2
-Step 8: Hover over link cart (cart)
+Step 8: Hover over link cart
 Step 9: Click on span shoppingCart -> Navigate to page '/cart'
 Step 10: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
-Step 11: Click on button completeOrder -> Navigate to page ''
+Step 11: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 12: Take full page screenshot as checkpoint
 ",Low
-5,Add Phone to Cart and Complete Purchase with Shipping,"Navigate to the homepage, add a phone to the cart, select color and storage options, fill in shipping details, and complete the purchase.","Step 1: Navigate to /
-Step 2: Click on button addToCart (addToCart)
-Step 3: Click on label colorStorageOptions (512Gb)
-Step 4: Click on label colorStorageOptions (green)
+5,Add to Cart and Checkout for Green Device with 512GB,"Navigate to home, add a green device with 512GB to the cart, fill in shipping details, and verify the Thank You page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on label 512Gb
+Step 4: Click on label green
 Step 5: Click on button increased
 Step 6: Click on button buy
 Step 7: Click on link cart
@@ -140,10 +140,10 @@ Step 8: Fill in shipping details and complete the checkout process
 	- Step 28: Click on button completeOrder
 Step 9: Take full page screenshot as checkpoint
 ",Low
-6,Purchase Phone Case and Complete Checkout,"Navigate to the homepage, select a mobile brand and phone case, place an order, fill in shipping details, and complete the purchase.","Step 1: Navigate to /
+6,Purchase iPhone 15 Clear Case with MagSafe and Verify Thank You Page,"Navigate to home, select iPhone 15 Clear Case with MagSafe, complete shipping details, and verify the Thank You page.","Step 1: Navigate to /
 Step 2: Hover over item item
-Step 3: Click on link mobileBrands (apple) -> Navigate to page 'category/*'
-Step 4: Click on link phoneCases (iphone15ClearCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on link iphone15ClearCaseWithMagSafe -> Navigate to page 'product/*'
 Step 5: Click on button buy3
 Step 6: Click on link placeAnOrder
 Step 7: Fill in shipping details and complete the checkout process
@@ -177,16 +177,16 @@ Step 7: Fill in shipping details and complete the checkout process
 	- Step 28: Click on button completeOrder
 Step 8: Take full page screenshot as checkpoint
 ",Low
-7,Add Multiple Products to Cart and Complete Checkout,"Navigate to the homepage, add a phone case and iPhone case to the cart, check specifications, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
-Step 2: Click on button addToCart (addToCart2)
-Step 3: Click on label colorStorageOptions (512Gb)
-Step 4: Click on label colorStorageOptions (blueTitanium)
+7,Add Multiple iPhone Cases to Cart and Complete Checkout,"Navigate to home, add multiple iPhone cases to the cart, fill in shipping details, and verify the Thank You page.","Step 1: Navigate to /
+Step 2: Click on button addToCart2
+Step 3: Click on label 512Gb
+Step 4: Click on label blueTitanium
 Step 5: Click on button buy
 Step 6: Click on link iphone15SiliconeCaseWithMagSafe -> Navigate to page 'product/*'
-Step 7: Click on label productSpecifications (iphone15Pro)
-Step 8: Click on label productSpecifications (winterBlue)
+Step 7: Click on label iphone15Pro
+Step 8: Click on label winterBlue
 Step 9: Click on button buy2
-Step 10: Click on link cart (cart)
+Step 10: Click on link cart
 Step 11: Fill in shipping details and complete the checkout process
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
