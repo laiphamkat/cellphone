@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-3,Complete Purchase of iPhone 15 Silicone Case with Shipping Information,"Log in and navigate to the iPhone 15 Silicone Case. Add to cart, fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+3,Complete Order for New iPhone 15 Silicone Case,"Login and navigate to the iPhone 15 Silicone Case. Add to cart, fill in shipping details, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item2
@@ -9,7 +9,7 @@ Step 7: Click on label iphone15Plus
 Step 8: Click on label cypress
 Step 9: Click on button buy
 Step 10: Click on link goToCart
-Step 11: Fill shipping information and proceed to payment
+Step 11: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
@@ -40,7 +40,7 @@ Step 11: Fill shipping information and proceed to payment
 Step 12: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 13: Take full page screenshot as checkpoint
 ",High
-1,Purchase 512GB Green Apple Product with Checkout Process,"Log in and select a 512GB Apple product. Add to cart, fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+1,Complete Order for Apple Product with 512GB Storage,"Login, navigate to Apple products, add a 512GB item to cart, and proceed to checkout. Fill details and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item
@@ -54,7 +54,7 @@ Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/payment
 Step 12: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 13: Take full page screenshot as checkpoint
 ",Medium
-2,Add iPhone 15 Plus to Cart and Verify Checkout Information,"Log in and add iPhone 15 Plus to cart. Proceed to checkout, verify checkout information without completing the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+2,Checkout Process for iPhone 15 Plus with Selected Options,"Login, select iPhone 15 Plus with specific options, add to cart, and proceed to checkout. Verify checkout information.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item2
@@ -67,32 +67,17 @@ Step 10: Click on link goToCart -> Navigate to page '/cart'
 Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 Step 12: Take full page screenshot as checkpoint
 ",Low
-4,Purchase Samsung Galaxy Z Fold 5 with Payment Completion,"Log in and select Samsung Galaxy Z Fold 5. Add to cart, fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
-Step 2: Login -> Navigate to page '/'
-Step 3: Navigate to /
-Step 4: Hover over item item
-Step 5: Click on link samsung -> Navigate to page 'category/*'
-Step 6: Click on link samsungGalaxyZfold5 -> Navigate to page 'product/*'
-Step 7: Click on label 512Gb
-Step 8: Click on label blue
-Step 9: Click on button buy
-Step 10: Hover over link goToCart
-Step 11: Click on span shoppingCart -> Navigate to page '/cart'
-Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
-Step 13: Click on button completeOrder -> Navigate to page 'thank-you/*'
-Step 14: Take full page screenshot as checkpoint
-",Low
-5,Complete Purchase of Google Pixel with Shipping Information,"Log in and select Google Pixel. Add to cart, fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+4,Complete Order for Google Pixel with Shipping Details,"Login, select Google Pixel 8, fill in shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item
 Step 5: Click on link googlePixel -> Navigate to page 'category/*'
-Step 6: Click on link samsungGalaxyZfold5 -> Navigate to page 'product/*'
+Step 6: Click on link googlePixel8 -> Navigate to page 'product/*'
 Step 7: Click on label 512Gb
 Step 8: Click on label black
-Step 9: Click on button buy2
-Step 10: Click on link goToCart
-Step 11: Fill shipping information and proceed to payment
+Step 9: Click on button buy
+Step 10: Click on link cart
+Step 11: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
@@ -123,7 +108,22 @@ Step 11: Fill shipping information and proceed to payment
 Step 12: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 13: Take full page screenshot as checkpoint
 ",Low
-6,Add and Purchase 512GB Green Product with Checkout Process,"Log in and add a 512GB green product to cart. Fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+5,Complete Order for Samsung Product with Blue Color Option,"Login, select Samsung Galaxy S23 Ultra, fill in shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item item
+Step 5: Click on link samsung -> Navigate to page 'category/*'
+Step 6: Click on link googlePixel8 -> Navigate to page 'product/*'
+Step 7: Click on label 512Gb
+Step 8: Click on label blue
+Step 9: Click on button buy2
+Step 10: Hover over link cart
+Step 11: Click on span shoppingCart -> Navigate to page '/cart'
+Step 12: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
+Step 13: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 14: Take full page screenshot as checkpoint
+",Low
+6,Complete Order for Increased Storage Apple Product,"Login, select an Apple product with increased storage, fill in shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Click on button addToCart
@@ -132,7 +132,7 @@ Step 6: Click on label green
 Step 7: Click on button increased
 Step 8: Click on button buy
 Step 9: Click on link cart
-Step 10: Fill shipping information and proceed to payment
+Step 10: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
@@ -163,7 +163,7 @@ Step 10: Fill shipping information and proceed to payment
 Step 11: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 12: Take full page screenshot as checkpoint
 ",Low
-7,Purchase Samsung Galaxy S23 Ultra with Home Page Verification,"Log in and select Samsung Galaxy S23 Ultra. Fill shipping info, complete the order, return to home page, and verify.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+7,Complete Order for Samsung Galaxy S23 Ultra with Multiple Colors,"Login, select Samsung Galaxy S23 Ultra in multiple colors, fill in shipping details, and complete the order. Verify home page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item
@@ -172,9 +172,9 @@ Step 6: Click on link samsungGalaxyS23Ultra -> Navigate to page 'product/*'
 Step 7: Click on label 512Gb
 Step 8: Click on label blue
 Step 9: Click on label black
-Step 10: Click on button buy
-Step 11: Click on link goToCart
-Step 12: Fill shipping information and proceed to payment
+Step 10: Click on button buy2
+Step 11: Click on link cart
+Step 12: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
@@ -206,7 +206,7 @@ Step 13: Click on button completeOrder
 Step 14: Click on button completeOrder -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",Low
-8,Complete Purchase of iPhone 15 Clear Case with Shipping Information,"Log in and select iPhone 15 Clear Case. Fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+8,Complete Order for iPhone 15 Clear Case with Shipping Details,"Login, select iPhone 15 Clear Case, fill in shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Hover over item item2
@@ -214,7 +214,7 @@ Step 5: Click on link apple2 -> Navigate to page 'category/*'
 Step 6: Click on link iphone15ClearCaseWithMagSafe -> Navigate to page 'product/*'
 Step 7: Click on button buy3
 Step 8: Click on link placeAnOrder
-Step 9: Fill shipping information and proceed to payment
+Step 9: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
@@ -245,7 +245,7 @@ Step 9: Fill shipping information and proceed to payment
 Step 10: Click on button completeOrder -> Navigate to page 'thank-you/*'
 Step 11: Take full page screenshot as checkpoint
 ",Low
-9,Purchase Multiple iPhone 15 Accessories with Checkout Completion,"Log in and add multiple iPhone 15 accessories to cart. Fill shipping info, complete the order, and verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+9,Complete Order for iPhone 15 Silicone Case with Additional Options,"Login, select iPhone 15 Silicone Case with additional options, fill in shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
 Step 2: Login -> Navigate to page '/'
 Step 3: Navigate to /
 Step 4: Click on button addToCart2
@@ -255,9 +255,9 @@ Step 7: Click on button buy
 Step 8: Click on link iphone15SiliconeCaseWithMagSafe -> Navigate to page 'product/*'
 Step 9: Click on label iphone15Pro
 Step 10: Click on label winterBlue
-Step 11: Click on button buy
-Step 12: Click on link goToCart
-Step 13: Fill shipping information and proceed to payment
+Step 11: Click on button buy2
+Step 12: Click on link cart
+Step 13: Fill in shipping details and continue to payment step
 	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div element
 	- Step 3: Click on input email
