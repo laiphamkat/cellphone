@@ -1,9 +1,8 @@
 import internal.GlobalVariable
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.common.fillShippingInformationAndProceedToPayment
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.truetest.TrueTestScripts
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -33,7 +32,7 @@ TrueTestScripts.navigate("/")
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_item2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Hover over item item2.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Hover over item item2.png')
 
 "Step 5: Click on link apple2 -> Navigate to page 'category/*'"
 
@@ -41,15 +40,15 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Hover over item item2.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_apple2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link apple2 - Navigate to page category.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on link apple2 - Navigate to page category.png')
 
-"Step 6: Click on button newIphone15SiliconeCase"
+"Step 6: Click on button addToCart2"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_newIphone15SiliconeCase'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_addToCart2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button newIphone15SiliconeCase.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on button addToCart2.png')
 
 "Step 7: Click on label iphone15Plus"
 
@@ -57,7 +56,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button newIphone15Si
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/label_iphone15Plus'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on label iphone15Plus.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on label iphone15Plus.png')
 
 "Step 8: Click on label cypress"
 
@@ -65,7 +64,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on label iphone15Plus.p
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/label_cypress'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on label cypress.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Click on label cypress.png')
 
 "Step 9: Click on button buy"
 
@@ -73,31 +72,27 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on label cypress.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_buy'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 9-Click on button buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 9-Click on button buy.png')
 
-"Step 10: Click on link goToCart"
+"Step 10: Click on link goToCart -> Navigate to page '/cart'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_goToCart'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 10-Click on link goToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Click on link goToCart - Navigate to page cart.png')
 
-"Step 11: Fill in shipping details and continue to payment step"
+"Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'"
 
-fillShippingInformationAndProceedToPayment.execute(data_path_0, Integer.valueOf(index_0))
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-"Step 12: Click on button completeOrder -> Navigate to page 'thank-you/*'"
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_proceedToCheckout'))
 
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Click on button proceedToCheckout - Navigate to page checkoutinfo.png')
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_completeOrder'))
+"Step 12: Take full page screenshot as checkpoint"
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 12-Click on button completeOrder - Navigate to page thank-you.png')
-
-"Step 13: Take full page screenshot as checkpoint"
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Complete Order for New iPhone 15 Silicone Case_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Proceed to Checkout Info for Apple 15 Plus Case_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

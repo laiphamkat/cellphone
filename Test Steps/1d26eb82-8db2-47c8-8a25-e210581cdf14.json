@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Hover over item item",
+        "step 5: Click on link samsung -> Navigate to page 'category/*'",
+        "step 6: Click on link samsungGalaxyS23Ultra -> Navigate to page 'product/*'",
+        "step 7: Click on label 512Gb",
+        "step 8: Click on label blue",
+        "step 9: Click on label black",
+        "step 10: Click on button buy",
+        "step 11: Click on link goToCart",
+        "step 12: Fill in email and shipping information for checkout process",
+        "step 13: Click on button completeOrder",
+        "step 14: Click on button completeOrder -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}

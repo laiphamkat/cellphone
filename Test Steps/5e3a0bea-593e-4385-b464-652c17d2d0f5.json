@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Click on button addToCart",
+        "step 5: Click on label 512Gb",
+        "step 6: Click on label green",
+        "step 7: Click on button increased",
+        "step 8: Click on button buy",
+        "step 9: Click on link cart",
+        "step 10: Fill in email and shipping information for checkout process",
+        "step 11: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
