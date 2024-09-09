@@ -1,8 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/cart",
-        "step 2: Hover over item listitem2",
-        "step 3: Click on link apple -> Navigate to page 'category/*'",
-        "step 4: Take full page screenshot as checkpoint"
-    ]
-}

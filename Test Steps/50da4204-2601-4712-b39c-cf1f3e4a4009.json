@@ -1,6 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/checkout/info",
-        "step 2: Fill shipping address information"
-    ]
-}

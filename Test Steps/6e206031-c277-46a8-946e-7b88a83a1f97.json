@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
-        "step 2: Click on div",
-        "step 3: Click on link 'About' -> Navigate to page 'about'",
-        "step 4: Click on link 'Apple' -> Navigate to page 'category/*'",
-        "step 5: Click on link 'Apple'"
-    ]
-}
