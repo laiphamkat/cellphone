@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Click on link apple2 -> Navigate to page 'category/*'",
+        "step 5: Click on link iphone15ClearCaseWithMagSafe -> Navigate to page 'product/*'",
+        "step 6: Click on button buy2",
+        "step 7: Click on link placeAnOrder",
+        "step 8: Fill in email and shipping information for checkout process",
+        "step 9: Click on button completeOrder -> Navigate to page 'thank-you/*'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
