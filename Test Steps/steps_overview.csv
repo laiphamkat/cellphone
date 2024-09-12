@@ -5,6 +5,15 @@ Step 3: Click on link byTitle
 Step 4: Click on link phoneSupport -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High
+65,Purchase iPhone 15 Pro and Verify Cart,"Navigate to home, select iPhone 15 Pro, choose options, buy the product, and verify that the shopping cart is updated.","Step 1: Navigate to /
+Step 2: Click on link iphone15Pro -> Navigate to page 'product/*'
+Step 3: Click on label blueTitanium
+Step 4: Click on label blueTitanium
+Step 5: Click on button buy
+Step 6: Click on button buy
+Step 7: Click on span shoppingCart -> Navigate to page '/cart'
+Step 8: Take full page screenshot as checkpoint
+",High
 64,Order Accessories and Verify Home Page,"Navigate to home, select accessories, place an order for a USB-C adapter, and verify the home page after checkout.","Step 1: Navigate to /
 Step 2: Click on link accessories -> Navigate to page 'category/*'
 Step 3: Click on link byTitle
@@ -16,16 +25,7 @@ Step 8: Click on input email
 Step 9: Enter input value in input email
 Step 10: Click on button continueToShipping -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
-",High
-65,Purchase iPhone 15 Pro and Verify Cart,"Navigate to home, select iPhone 15 Pro, choose options, buy the product, and verify that the shopping cart is updated.","Step 1: Navigate to /
-Step 2: Click on link iphone15Pro -> Navigate to page 'product/*'
-Step 3: Click on label blueTitanium
-Step 4: Click on label blueTitanium
-Step 5: Click on button buy
-Step 6: Click on button buy
-Step 7: Click on span shoppingCart -> Navigate to page '/cart'
-Step 8: Take full page screenshot as checkpoint
-",High
+",Medium
 66,Purchase Samsung Galaxy Case and Verify Thank You Page,"Navigate to home, select Samsung Galaxy case, add to cart, fill shipping details, and verify the thank you page after payment.","Step 1: Navigate to /
 Step 2: Click on button samsungGalaxyS23UltraSmartviewCases
 Step 3: Click on link cart -> Navigate to page '/cart'
@@ -52,37 +52,7 @@ Step 5: Fill in shipping details and proceed to payment section
 	- Step 19: Click on input phone -> Navigate to page 'checkout/payment'
 	- Step 20: Click on button continueToShipping
 Step 6: Take full page screenshot as checkpoint
-",High
-67,Order New iPhone 15 and Verify Thank You Page,"Navigate to home, select Apple category, order a new iPhone 15, fill shipping details, and verify the thank you page.","Step 1: Navigate to /
-Step 2: Click on link apple -> Navigate to page 'category/*'
-Step 3: Click on button hotNewIphone15
-Step 4: Click on label 256Gb
-Step 5: Click on label green
-Step 6: Click on button buy
-Step 7: Click on link cart
-Step 8: Fill in shipping details and proceed to payment section
-	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
-	- Step 2: Click on input email
-	- Step 3: Enter input value in input email
-	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
-	- Step 5: Click on input email
-	- Step 6: Enter input value in button continueToShipping
-	- Step 7: Click on input firstName
-	- Step 8: Enter input value in input firstName
-	- Step 9: Click on input lastName
-	- Step 10: Enter input value in input lastName
-	- Step 11: Click on input address
-	- Step 12: Enter input value in input address
-	- Step 13: Click on input zipCode
-	- Step 14: Enter input value in input zipCode
-	- Step 15: Click on input city
-	- Step 16: Enter input value in input city
-	- Step 17: Click on input state
-	- Step 18: Enter input value in input state
-	- Step 19: Click on input phone -> Navigate to page 'checkout/payment'
-	- Step 20: Click on button continueToShipping
-Step 9: Take full page screenshot as checkpoint
-",High
+",Medium
 68,Purchase Samsung Galaxy S23 Ultra and Verify Thank You Page,"Navigate to home, select Samsung Galaxy S23 Ultra, place an order, fill shipping details, and verify the thank you page.","Step 1: Navigate to /
 Step 2: Click on link samsung2 -> Navigate to page 'category/*'
 Step 3: Click on link byTitle
@@ -116,4 +86,71 @@ Step 12: Fill in shipping details and proceed to payment section
 	- Step 19: Click on input phone -> Navigate to page 'checkout/payment'
 	- Step 20: Click on button continueToShipping
 Step 13: Take full page screenshot as checkpoint
-",High
+",Low
+69,Complete Purchase Flow for Multiple Cellphones with Shipping Information,"Navigate through cellphone categories, select multiple devices, add to cart, and proceed to checkout. Enter shipping and payment details before completing the purchase.","Step 1: Navigate to /
+Step 2: Click on link googlePixel -> Navigate to page 'category/*'
+Step 3: Click on link categorySamsung
+Step 4: Click on link byTitle
+Step 5: Click on button samsungGalaxyZfold5
+Step 6: Click on label 512Gb
+Step 7: Click on label blue
+Step 8: Click on button buy
+Step 9: Click on link categoryApple
+Step 10: Click on button addToCart
+Step 11: Click on div gbVariants
+Step 12: Click on label 512Gb2
+Step 13: Click on label green
+Step 14: Click on button buy
+Step 15: Click on link placeAnOrder -> Navigate to page '/cart'
+Step 16: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 17: Click on input email
+Step 18: Enter input value in input email
+Step 19: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 20: Click on input email
+Step 21: Enter input value in button continueToShipping
+Step 22: Click on input firstName
+Step 23: Enter input value in input firstName
+Step 24: Click on input lastName
+Step 25: Enter input value in input lastName
+Step 26: Click on input address
+Step 27: Enter input value in input address
+Step 28: Click on input zipCode
+Step 29: Enter input value in input zipCode
+Step 30: Click on input city
+Step 31: Enter input value in input city
+Step 32: Click on input state
+Step 33: Enter input value in input state
+Step 34: Click on input phone -> Navigate to page 'checkout/payment'
+Step 35: Click on button continueToShipping -> Navigate to page ''
+Step 36: Take full page screenshot as checkpoint
+",Trivial
+67,Order New iPhone 15 and Verify Thank You Page,"Navigate to home, select Apple category, order a new iPhone 15, fill shipping details, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on button hotNewIphone15
+Step 4: Click on label 256Gb
+Step 5: Click on label green
+Step 6: Click on button buy
+Step 7: Click on link cart
+Step 8: Fill in shipping details and proceed to payment section
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input email
+	- Step 6: Enter input value in button continueToShipping
+	- Step 7: Click on input firstName
+	- Step 8: Enter input value in input firstName
+	- Step 9: Click on input lastName
+	- Step 10: Enter input value in input lastName
+	- Step 11: Click on input address
+	- Step 12: Enter input value in input address
+	- Step 13: Click on input zipCode
+	- Step 14: Enter input value in input zipCode
+	- Step 15: Click on input city
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Enter input value in input state
+	- Step 19: Click on input phone -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button continueToShipping
+Step 9: Take full page screenshot as checkpoint
+",Trivial
