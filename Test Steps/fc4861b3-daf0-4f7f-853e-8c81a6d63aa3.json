@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link accessories -> Navigate to page 'category/*'",
+        "step 3: Click on link byTitle",
+        "step 4: Click on button sale20WusbtypeCadapter",
+        "step 5: Click on link placeAnOrder -> Navigate to page '/cart'",
+        "step 6: Click on button increased",
+        "step 7: Click on button proceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 8: Click on input email",
+        "step 9: Enter input value in input email",
+        "step 10: Click on button continueToShipping -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
