@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CF308E5979EF9AC0D548BA56CB80BF33",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.proceedToCheckoutEnterEmailContinueToShipping",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

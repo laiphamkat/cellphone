@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7821AF69B4433E447A5F2AC3377BE369",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.fillShippingInformationAndContinue",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

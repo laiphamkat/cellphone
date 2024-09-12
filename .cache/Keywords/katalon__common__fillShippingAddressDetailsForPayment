@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8841761CBBA22176B2C412C260E16E44",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.fillShippingAddressDetailsForPayment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

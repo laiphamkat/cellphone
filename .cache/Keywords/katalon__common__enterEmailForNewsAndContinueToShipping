@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "61D6F18B24DECFA206F6EE48E31ED9B5",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterEmailForNewsAndContinueToShipping",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

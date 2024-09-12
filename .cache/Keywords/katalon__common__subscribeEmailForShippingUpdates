@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "34906FEB30C1D4C0B8C82F22CBC0CD12",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.subscribeEmailForShippingUpdates",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

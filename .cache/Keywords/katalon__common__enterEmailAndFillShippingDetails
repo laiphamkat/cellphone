@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A5F42108FAD49E4263DBDD11F8FDA7A1",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterEmailAndFillShippingDetails",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "06F3079349BE2E73DCCA5B05EF5293F0",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.browseAccessoriesAndPurchaseIPhone",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F1AC3D6D2DA0EB28D292E6905B50AE3A",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.buyAndNavigateToLinkedObject",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

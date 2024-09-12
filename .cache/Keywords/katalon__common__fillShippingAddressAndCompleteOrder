@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3122CF5B86A1EA59F7ED34031C7D339B",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.fillShippingAddressAndCompleteOrder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "74D21D2385A7E0D12F2F403125D46664",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.addAccessoriesToCart",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5996015008FF042612640C2A232C49A8",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.completePurchaseAndContinueToShipping",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

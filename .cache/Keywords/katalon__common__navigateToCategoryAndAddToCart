@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8B5C6E7FC3B23F0911176ED0A500DC0B",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.navigateToCategoryAndAddToCart",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

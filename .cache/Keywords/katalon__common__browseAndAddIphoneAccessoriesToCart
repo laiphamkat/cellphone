@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3B9FD7807D998FF0450B1E612E357EF1",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.browseAndAddIphoneAccessoriesToCart",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

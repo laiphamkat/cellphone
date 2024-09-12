@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "AD4A3365F57E6DBF47398347E029AF5E",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.navigateToAppleCategoryAndBuy",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

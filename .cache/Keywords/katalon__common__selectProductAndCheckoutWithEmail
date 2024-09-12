@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2D2010BBA8B5D55A035BE1895934062E",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectProductAndCheckoutWithEmail",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E2D13A8CD412FD25273160C6BC4A0959",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.selectOptionsAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

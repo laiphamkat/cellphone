@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "79002B443370029A1FCEDD3967205D46",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.chooseStorageOptionsAndProceedToCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

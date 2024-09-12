@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "703216F90DD4C031E14C188115182F1B",
+  "keywordClasses": [
+    {
+      "name": "katalon.common.enterShippingAddressAndCompletePayment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
