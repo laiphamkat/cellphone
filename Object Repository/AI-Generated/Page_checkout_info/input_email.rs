@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r0:</value>
-        <webElementGuid>c4576196-40be-410b-8226-c361c6f3de69</webElementGuid>
+        <webElementGuid>f50ed7ab-aae7-43c9-8493-f1ef9d198ba5</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>c4576196-40be-410b-8226-c361c6f3de69</webElementGuid>
+        <webElementGuid>f50ed7ab-aae7-43c9-8493-f1ef9d198ba5</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>c4576196-40be-410b-8226-c361c6f3de69</webElementGuid>
+        <webElementGuid>f50ed7ab-aae7-43c9-8493-f1ef9d198ba5</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
