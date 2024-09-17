@@ -1,0 +1,104 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+5,Complete Purchase of Apple Product with Shipping Information,"Navigate to the homepage, select an Apple product, add it to the cart, and complete the checkout process by filling in shipping details. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on button addToCart
+Step 4: Click on label 512Gb
+Step 5: Click on label yellow
+Step 6: Click on button buy
+Step 7: Click on span object
+Step 8: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input firstName
+	- Step 6: Enter input value in input firstName
+	- Step 7: Click on input lastName
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Enter input value in input address
+	- Step 11: Click on body object
+	- Step 12: Enter input value in input zipCode
+	- Step 13: Click on input city
+	- Step 14: Enter input value in input city
+	- Step 15: Click on input state
+	- Step 16: Enter input value in input state
+	- Step 17: Click on input phone
+	- Step 18: Enter input value in input phone
+	- Step 19: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button completeOrder
+Step 9: Take full page screenshot as checkpoint
+",High
+6,Complete Order for Apple Product with Direct Checkout,"Navigate to the homepage, select an Apple product, add it to the cart, and place an order by filling in shipping information. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link apple -> Navigate to page 'category/*'
+Step 3: Click on button addToCart
+Step 4: Click on label 512Gb
+Step 5: Click on label yellow
+Step 6: Click on button buy
+Step 7: Click on link placeAnOrder
+Step 8: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input firstName
+	- Step 6: Enter input value in input firstName
+	- Step 7: Click on input lastName
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Enter input value in input address
+	- Step 11: Click on body object
+	- Step 12: Enter input value in input zipCode
+	- Step 13: Click on input city
+	- Step 14: Enter input value in input city
+	- Step 15: Click on input state
+	- Step 16: Enter input value in input state
+	- Step 17: Click on input phone
+	- Step 18: Enter input value in input phone
+	- Step 19: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button completeOrder
+Step 9: Take full page screenshot as checkpoint
+",High
+7,Explore and Purchase Apple iPhone 15 with Accessories,"Navigate through the homepage, explore Apple products and accessories, add the iPhone 15 to the cart, and verify the homepage after purchase.","Step 1: Navigate to /
+Step 2: Click on link productAppleIphone15New -> Navigate to page 'product/*'
+Step 3: Click on link apple -> Navigate to page 'category/*'
+Step 4: Click on link categoryChekhlyNaIphone
+Step 5: Click on button sale20WusbtypeCadapter
+Step 6: Click on link categoryAccessories
+Step 7: Click on link categoryAccessories
+Step 8: Click on button samsungGalaxyS23Ultra
+Step 9: Click on link kCellphoneShop -> Navigate to page '/'
+Step 10: Click on button addToCart
+Step 11: Click on label iphone15s
+Step 12: Click on button buy
+Step 13: Click on button productAddedToCart -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Trivial
+8,Purchase Samsung Galaxy S23 Ultra Smartview Case,"Navigate to the homepage, select power and cables, choose the Samsung Galaxy S23 Ultra case, complete the checkout, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link powerAndCables -> Navigate to page 'category/*'
+Step 3: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product/*'
+Step 4: Click on button buy
+Step 5: Click on span object
+Step 6: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Click on input firstName
+	- Step 6: Enter input value in input firstName
+	- Step 7: Click on input lastName
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Enter input value in input address
+	- Step 11: Click on body object
+	- Step 12: Enter input value in input zipCode
+	- Step 13: Click on input city
+	- Step 14: Enter input value in input city
+	- Step 15: Click on input state
+	- Step 16: Enter input value in input state
+	- Step 17: Click on input phone
+	- Step 18: Enter input value in input phone
+	- Step 19: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 20: Click on button completeOrder
+Step 7: Take full page screenshot as checkpoint
+",Trivial
