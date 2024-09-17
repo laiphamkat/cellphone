@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/cart</value>
-        <webElementGuid>c928cfb3-f874-4612-8c64-74ca8a2f5c20</webElementGuid>
+        <webElementGuid>f81d5fc1-f168-4a1c-991d-27cf222e1c03</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Place an order</value>
-        <webElementGuid>c928cfb3-f874-4612-8c64-74ca8a2f5c20</webElementGuid>
+        <webElementGuid>f81d5fc1-f168-4a1c-991d-27cf222e1c03</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
