@@ -6,7 +6,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class completeCheckoutProcessWithShippingDetails {
+public class completeCheckoutInformationForm {
     
     private static def execute_functional_method(Map data) {
         
@@ -50,9 +50,9 @@ public class completeCheckoutProcessWithShippingDetails {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_address'), data['input_address'])
         
-        "Step 11: Click on body object"
+        "Step 11: Click on input zipCode"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/body_object'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_zipCode'))
         
         "Step 12: Enter input value in input zipCode"
         
@@ -82,13 +82,9 @@ public class completeCheckoutProcessWithShippingDetails {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_phone'), data['input_phone'])
         
-        "Step 19: Click on button continueToPayment -> Navigate to page 'checkout/payment'"
+        "Step 19: Click on button continueToPayment"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        
-        "Step 20: Click on button completeOrder"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_completeOrder'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {

@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brand (apple) -> Navigate to page 'category/*'",
+        "step 3: Click on button addToCart (addToCart)",
+        "step 4: Click on label colorStorageOption (512Gb)",
+        "step 5: Click on label colorStorageOption (yellow)",
+        "step 6: Click on button buy",
+        "step 7: Click on link placeAnOrder",
+        "step 8: Fill in shipping details and complete the checkout process",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
