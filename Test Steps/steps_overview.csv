@@ -1,0 +1,6 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+25,Explore New iPhone 15 Features on Home Page,"Navigate to the home page, select the new iPhone 15, choose the 512GB option, and verify the home page displays correctly.","Step 1: Navigate to /
+Step 2: Click on button hotNewIphone15
+Step 3: Click on label 512Gb -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,STABLE
