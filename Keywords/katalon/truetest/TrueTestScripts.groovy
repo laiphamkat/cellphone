@@ -1,17 +1,18 @@
 package katalon.truetest
 
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import internal.GlobalVariable
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import internal.GlobalVariable
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
 public class TrueTestScripts {
     
     public static void login() {
         try {
             // Trigger a Login test case
+            //test
             WebUI.callTestCase(findTestCase('<path to testcase>/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
             // Trigger a custom Login method
             // import your.package
