@@ -1,0 +1,229 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+55,Complete Checkout Process for Selected Item with Color and Storage Options,"Login and navigate through the organization settings. Add an item to the cart, choose color and storage options, fill shipping info, and complete checkout.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item item
+Step 5: Click on link brand (apple) -> Navigate to page 'category/*'
+Step 6: Click on button addToCart (addToCart)
+Step 7: Click on label colorStorageOption (512Gb)
+Step 8: Click on label colorStorageOption (yellow)
+Step 9: Click on button buy
+Step 10: Hover over link goToCart
+Step 11: Click on span object
+Step 12: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 13: Take full page screenshot as checkpoint
+",High,NEW
+56,Complete Checkout Process for Selected Item with Order Placement,"Login and navigate through the organization settings. Add an item to the cart, choose options, place an order, fill shipping info, and complete checkout.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item item
+Step 5: Click on link brand (apple) -> Navigate to page 'category/*'
+Step 6: Click on button addToCart (addToCart)
+Step 7: Click on label colorStorageOption (512Gb)
+Step 8: Click on label colorStorageOption (yellow)
+Step 9: Click on button buy
+Step 10: Click on link placeAnOrder
+Step 11: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+58,Complete Checkout Process for Selected Item via Cart Navigation,"Login and navigate through the organization settings. Add an item to the cart, choose options, navigate to cart, fill shipping info, and complete checkout.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item item
+Step 5: Click on link brand (samsung) -> Navigate to page 'category/*'
+Step 6: Click on button addToCart (addToCart2)
+Step 7: Click on label colorStorageOption (512Gb2)
+Step 8: Click on label colorStorageOption (blue)
+Step 9: Click on button buy
+Step 10: Click on link cart
+Step 11: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+57,Complete Checkout Process for Apple iPhone 15 with Options,"Login and navigate through the organization settings. Select Apple iPhone 15, choose options, place an order, fill shipping info, and complete checkout.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on link productAppleIphone15New -> Navigate to page 'product/*'
+Step 5: Click on label colorSizeOption (tb)
+Step 6: Click on label colorSizeOption (blue)
+Step 7: Click on button buy
+Step 8: Click on link placeAnOrder
+Step 9: Fill shipping information and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button completeOrder
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+54,Purchase New iPhone and Verify Home Page,"Select a new iPhone, add to cart, and verify the home page after purchase.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on link productAppleIphone15New -> Navigate to page 'product/*'
+Step 5: Hover over item phoneAccessories (item)
+Step 6: Click on link phoneBrand (apple3) -> Navigate to page 'category/*'
+Step 7: Click on link phoneBrand (categoryChekhlyNaIphone)
+Step 8: Click on button phoneBrand (sale20WusbtypeCadapter)
+Step 9: Hover over item phoneAccessories (item)
+Step 10: Click on link categoryNavigation (categoryAccessories)
+Step 11: Hover over item phoneAccessories (item)
+Step 12: Click on link categoryNavigation (categoryAccessories)
+Step 13: Click on button phoneBrand (samsungGalaxyS23Ultra2)
+Step 14: Click on link kCellphoneShop -> Navigate to page '/'
+Step 15: Click on button addToCart (addToCart3)
+Step 16: Click on label colorStorageOption (iphone15s)
+Step 17: Click on button buy
+Step 18: Click on button productAddedToCart -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Low,STABLE
+43,Complete Purchase for Accessories and Verify Thank You Page,"Select accessories, complete the order, and verify the Thank You page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item item2
+Step 5: Click on link apple2 -> Navigate to page 'category/*'
+Step 6: Click on link byTitle
+Step 7: Click on link phoneAccessories (apple20wUsbCpowerAdapter) -> Navigate to page 'product/*'
+Step 8: Click on button increaseQuantity (increased)
+Step 9: Click on button buy2
+Step 10: Click on link cartNavigation (cart) -> Navigate to page '/cart'
+Step 11: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+Step 12: Hover over div email
+Step 13: Click on input email
+Step 14: Enter input value in input email
+Step 15: Click on button continueToShipping
+Step 16: Fill out personal details for order processing
+	- Step 1: Hover over div inputBase
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div inputBase2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div inputBase3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div inputBase4
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div inputBase5
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div inputBase6
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div inputBase7
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment
+Step 17: Click on link backToTheCart -> Navigate to page '/cart'
+Step 18: Click on button increaseQuantity (increased3)
+Step 19: Click on button proceedToCheckout
+Step 20: Click on button proceedToCheckout -> Navigate to page 'checkout/payment'
+Step 21: Click on button completeOrder -> Navigate to page 'thank-you/*'
+Step 22: Take full page screenshot as checkpoint
+",Trivial,STABLE
