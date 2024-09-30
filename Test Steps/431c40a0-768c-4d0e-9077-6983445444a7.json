@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Click on link productAppleIphone15New -> Navigate to page 'product/*'",
+        "step 5: Hover over item phoneAccessories (item)",
+        "step 6: Click on link phoneBrand (apple3) -> Navigate to page 'category/*'",
+        "step 7: Click on link phoneBrand (categoryChekhlyNaIphone)",
+        "step 8: Click on button phoneBrand (sale20WusbtypeCadapter)",
+        "step 9: Hover over item phoneAccessories (item)",
+        "step 10: Click on link categoryNavigation (categoryAccessories)",
+        "step 11: Hover over item phoneAccessories (item)",
+        "step 12: Click on link categoryNavigation (categoryAccessories)",
+        "step 13: Click on button phoneBrand (samsungGalaxyS23Ultra2)",
+        "step 14: Click on link kCellphoneShop -> Navigate to page '/'",
+        "step 15: Click on button addToCart (addToCart3)",
+        "step 16: Click on label colorStorageOption (iphone15s)",
+        "step 17: Click on button buy",
+        "step 18: Click on button productAddedToCart -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
