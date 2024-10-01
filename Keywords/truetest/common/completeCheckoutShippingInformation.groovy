@@ -1,12 +1,12 @@
-package katalon.common
+package truetest.common
 
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class completeCheckoutProcessWithShippingInfo {
+public class completeCheckoutShippingInformation {
     
     private static def execute_functional_method(Map data) {
         
@@ -114,13 +114,9 @@ public class completeCheckoutProcessWithShippingInfo {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_phone'), data['input_phone'])
         
-        "Step 27: Click on button continueToPayment -> Navigate to page 'checkout/payment'"
+        "Step 27: Click on button continueToPayment"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_continueToPayment'))
-        
-        "Step 28: Click on button completeOrder"
-        
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_completeOrder'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {

@@ -1,11 +1,11 @@
 package truetest.custom
 
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-import internal.GlobalVariable
-import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
+import internal.GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public class TrueTestScripts {
     

@@ -1,0 +1,323 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+78,Verify Navigation and Contact Number Access on Home Page,"Login and navigate to the home page. Hover over items, click on Samsung category, and verify the home page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object
+Step 5: Click on link samsung -> Navigate to page 'category/*'
+Step 6: Click on link byTitle
+Step 7: Click on link ContactNumber -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+79,Verify Purchase Flow for iPhone 15 Pro,"Login and navigate to the home page. Select iPhone 15 Pro, add to cart, and verify the cart after purchase.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on link iPhone15Pro -> Navigate to page 'product/*'
+Step 5: Click on label productAttributes (BlueTitanium)
+Step 6: Click on label productAttributes (BlueTitanium)
+Step 7: Click on button Buy
+Step 8: Click on button Buy
+Step 9: Hover over link GoToCart
+Step 10: Click on span ProductLink -> Navigate to page '/cart'
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+76,Complete Order Process for Apple Product in Organization Settings,"Login to the application, navigate to the organization settings, select an Apple product, and complete the order. Verify the thank you page after the order is complete.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object
+Step 5: Click on link Apple -> Navigate to page 'category/*'
+Step 6: Click on label colorStorageOption (512GB)
+Step 7: Click on label colorStorageOption (Color)
+Step 8: Hover over link Cart -> Navigate to page 'checkout/payment'
+Step 9: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 10: Take full page screenshot as checkpoint
+",High,STABLE
+77,Verify Checkout Process for Case Product,"Login and navigate to the home page. Add a case product to the cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on button caseProduct (SamsungGalaxyS23UltraCase)
+Step 5: Click on link GoToCart -> Navigate to page '/cart'
+Step 6: Click on button IncreaseQuantity
+Step 7: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 8: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+81,Verify Checkout Process for Samsung Product,"Login and navigate to the home page. Add Samsung product to cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object2
+Step 5: Click on link Samsung -> Navigate to page 'category/*'
+Step 6: Click on button addToCart (AddToCart)
+Step 7: Click on label storageColor (512GB)
+Step 8: Click on label storageColor (Blue)
+Step 9: Click on button Buy
+Step 10: Click on link GoToCart
+Step 11: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 12: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+83,Verify Purchase Flow for iPhone 15,"Login and navigate to the home page. Select iPhone 15, add to cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on link iPhone15 -> Navigate to page 'product/*'
+Step 5: Click on label productAttributes (TB)
+Step 6: Click on label productAttributes (Blue)
+Step 7: Click on button Buy
+Step 8: Click on link placeOrder
+Step 9: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+80,Verify Checkout Process for Accessories with Sale,"Login and navigate to the home page. Add accessory product to cart, fill shipping info, and verify the home page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object
+Step 5: Click on link Accessories -> Navigate to page 'category/*'
+Step 6: Click on link byTitle
+Step 7: Click on button Sale20WUSBAdapter
+Step 8: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 9: Click on button IncreaseQuantity
+Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 11: Hover over div CheckoutInfo
+Step 12: Click on input Email
+Step 13: Enter input value in input Email
+Step 14: Click on button ContinueToShipping -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Low,NEW
+82,Verify Checkout Process for Apple Accessory Products,"Login and navigate to the home page. Add Apple accessory to cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object
+Step 5: Click on link apple -> Navigate to page 'category/*'
+Step 6: Click on link accessoryProducts (iPhone15SiliconeCase) -> Navigate to page 'product/*'
+Step 7: Click on label productAttributes (iphone15Plus)
+Step 8: Click on label productAttributes (cypress)
+Step 9: Click on button Buy
+Step 10: Click on link cartNavigation (GoToCart2)
+Step 11: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 12: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 13: Take full page screenshot as checkpoint
+",Low,NEW
+84,Verify Multiple Purchases and Checkout Process,"Login and navigate to the home page. Add multiple accessory products to cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object
+Step 5: Click on link apple -> Navigate to page 'category/*'
+Step 6: Click on link byTitle
+Step 7: Click on link accessoryProducts (20WUSBPowerAdapter) -> Navigate to page 'product/*'
+Step 8: Click on button quantityIncrease (increased)
+Step 9: Click on button Buy2
+Step 10: Click on link cartNavigation (goToCart)
+Step 11: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 12: Click on link BackToCart -> Navigate to page '/cart'
+Step 13: Click on button IncreaseQuantity
+Step 14: Click on button ProceedToCheckout
+Step 15: Click on button ProceedToCheckout -> Navigate to page 'checkout/payment'
+Step 16: Click on button CompleteOrder
+Step 17: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 18: Take full page screenshot as checkpoint
+",Trivial,NEW
+85,Verify Purchase Flow for New iPhone and Accessories,"Login and navigate to the home page. Add new iPhone and accessories to cart, then verify the home page.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Click on link iPhone15HotNew -> Navigate to page 'product/*'
+Step 5: Hover over item Product
+Step 6: Click on link Apple -> Navigate to page 'category/*'
+Step 7: Click on link brandSelection (Apple)
+Step 8: Click on button Sale20WUSBAdapter
+Step 9: Hover over item Category
+Step 10: Click on link Accessories
+Step 11: Hover over item Category
+Step 12: Click on link Accessories
+Step 13: Click on button SamsungGalaxyS23Ultra
+Step 14: Click on link KCellphoneShop -> Navigate to page '/'
+Step 15: Click on button AddToCart
+Step 16: Click on label deviceName (iPhone15)
+Step 17: Click on button Buy
+Step 18: Click on button ProductAddedToCart -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
+86,Verify Checkout Process for Google Pixel and Samsung Product,"Login and navigate to the home page. Add Google Pixel and Samsung products to cart, fill shipping info, and complete the order.","Step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909
+Step 2: Login -> Navigate to page '/'
+Step 3: Navigate to /
+Step 4: Hover over item object2
+Step 5: Click on link GooglePixel -> Navigate to page 'category/*'
+Step 6: Click on link brandSelection (samsung)
+Step 7: Click on link byTitle
+Step 8: Click on button SamsungGalaxyZFold5
+Step 9: Click on label storageColor (512GB)
+Step 10: Click on label storageColor (Blue)
+Step 11: Click on button Buy
+Step 12: Click on link brandSelection (Apple2)
+Step 13: Click on button addToCart (AddToCart2)
+Step 14: Click on div GBOptions
+Step 15: Click on label storageColor (512GB2)
+Step 16: Click on label storageColor (Color)
+Step 17: Click on button Buy
+Step 18: Click on link PlaceAnOrder
+Step 19: Fill in shipping information and proceed to payment
+	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div element
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div element
+	- Step 7: Click on input firstName
+	- Step 8: Hover over div element2
+	- Step 9: Enter input value in input firstName
+	- Step 10: Click on input lastName
+	- Step 11: Hover over div element3
+	- Step 12: Enter input value in input lastName
+	- Step 13: Click on input address
+	- Step 14: Hover over div element4
+	- Step 15: Enter input value in input address
+	- Step 16: Click on input zipCode
+	- Step 17: Hover over div element5
+	- Step 18: Enter input value in input zipCode
+	- Step 19: Click on input city
+	- Step 20: Hover over div element6
+	- Step 21: Enter input value in input city
+	- Step 22: Click on input state
+	- Step 23: Hover over div element7
+	- Step 24: Enter input value in input state
+	- Step 25: Click on input phone
+	- Step 26: Enter input value in input phone
+	- Step 27: Click on button continueToPayment
+Step 20: Click on button CompleteOrder
+Step 21: Click on button CompleteOrder -> Navigate to page ''
+Step 22: Take full page screenshot as checkpoint
+",Trivial,NEW

@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://testops.qa.katalon.com/organization/7584/settings/truetest/5909",
+        "step 2: Login -> Navigate to page '/'",
+        "step 3: Navigate to /",
+        "step 4: Hover over item object",
+        "step 5: Click on link Apple -> Navigate to page 'category/*'",
+        "step 6: Click on label colorStorageOption (512GB)",
+        "step 7: Click on label colorStorageOption (Color)",
+        "step 8: Hover over link Cart -> Navigate to page 'checkout/payment'",
+        "step 9: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
