@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button addToCart (addToCart)",
+        "step 3: Click on label colorStorageOption (512GB)",
+        "step 4: Click on label colorStorageOption (ColorGreen)",
+        "step 5: Click on button IncreaseQuantity",
+        "step 6: Click on button Buy",
+        "step 7: Click on link goToCart (goToCart) -> Navigate to page '/cart'",
+        "step 8: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'",
+        "step 9: Hover over div EmailSubscription",
+        "step 10: Click on input Email",
+        "step 11: Enter input value in input Email",
+        "step 12: Click on button ContinueToShipping",
+        "step 13: Fill out personal details for order processing",
+        "step 14: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}
