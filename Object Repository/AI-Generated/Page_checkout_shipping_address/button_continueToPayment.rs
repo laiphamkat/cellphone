@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>CONTINUE TO PAYMENT</value>
-        <webElementGuid>bf31018f-c6d6-4aef-ac2c-6a489733ae80</webElementGuid>
+        <webElementGuid>96c9b3e0-e518-4b8f-b5e5-0f9bd4cde133</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>submit</value>
-        <webElementGuid>bf31018f-c6d6-4aef-ac2c-6a489733ae80</webElementGuid>
+        <webElementGuid>96c9b3e0-e518-4b8f-b5e5-0f9bd4cde133</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

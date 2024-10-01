@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link productDetail (iPhone15Pro) -> Navigate to page 'product/*'",
+        "step 3: Click on label storageOptions (Storage512GB)",
+        "step 4: Click on label storageOptions (Storage512GB)",
+        "step 5: Click on button Buy",
+        "step 6: Click on button Buy",
+        "step 7: Click on label storageOptions (256GB)",
+        "step 8: Click on label storageOptions (BlueTitanium)",
+        "step 9: Hover over link goToCartMultiple (GoToCart2)",
+        "step 10: Click on span productDetails (ProductLink) -> Navigate to page '/cart'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
