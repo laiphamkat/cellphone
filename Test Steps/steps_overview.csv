@@ -1,0 +1,207 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+15,Complete Purchase of New iPhone with Color and Storage Options,"Navigate to mobile brands, select a new iPhone with color and storage options, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button newIPhoneOptions (NewIPhone15Plus)
+Step 5: Click on label colorStorageOptions (Storage256GB)
+Step 6: Click on label colorStorageOptions (ColorGreen)
+Step 7: Click on button purchaseActions (Buy)
+Step 8: Click on link GoToCart
+Step 9: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+16,Purchase New iPhone with Multiple Actions and Verify Order Completion,"Select a new iPhone, adjust options, and complete the order. Verify the thank you page after successful purchase.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button newIPhoneOptions (HotNewIPhone15)
+Step 5: Click on label colorStorageOptions (Storage512GB)
+Step 6: Click on label colorStorageOptions (ColorYellow)
+Step 7: Click on button purchaseActions (Increased)
+Step 8: Click on button purchaseActions (Buy)
+Step 9: Hover over link GoToCart2
+Step 10: Click on span dynamicObject (Link2) -> Navigate to page 'cart page#cart'
+Step 11: Click on button Increased
+Step 12: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 13: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 14: Take full page screenshot as checkpoint
+",High,NEW
+17,Add to Cart and Complete Checkout for Selected Mobile Device,"Add a mobile device to the cart, adjust quantity, and complete the checkout process. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button quantityAdjustment (IncreaseQuantity)
+Step 4: Click on label colorStorageSelection (256GB)
+Step 5: Click on label colorStorageSelection (ColorSelection)
+Step 6: Click on button Buy
+Step 7: Click on link cartNavigation (GoToCart) -> Navigate to page 'cart page#cart'
+Step 8: Click on button Increased
+Step 9: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 11: Take full page screenshot as checkpoint
+",Medium,NEW
+18,Checkout Process After Adding Mobile Device to Cart,"Select a mobile device, add it to the cart, and proceed to checkout. Complete the order and verify return to home page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (GooglePixel) -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Hover over link GoToCart2
+Step 6: Click on span dynamicObject (Link1) -> Navigate to page 'cart page#cart'
+Step 7: Click on div PriceQtyTotal
+Step 8: Click on div PriceQtyTotal
+Step 9: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+19,Purchase Mobile Device with Multiple Quantity Adjustments,"Add a mobile device to the cart, adjust quantity multiple times, and complete the order. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button quantityAdjustment (IncreaseQuantity)
+Step 4: Click on button quantityAdjustment (IncreaseQuantity)
+Step 5: Click on button quantityAdjustment (IncreaseQuantity)
+Step 6: Click on button quantityAdjustment (IncreaseQuantity)
+Step 7: Click on div ProductDetails
+Step 8: Click on label colorStorageSelection (256GB)
+Step 9: Click on label colorStorageSelection (ColorSelection)
+Step 10: Click on button Buy
+Step 11: Hover over link CartNavigation
+Step 12: Click on span dynamicObject (AdditionalLink) -> Navigate to page 'cart page#cart'
+Step 13: Click on button Increased
+Step 14: Click on button Increased
+Step 15: Click on button Increased
+Step 16: Click on button Increased
+Step 17: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 18: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
