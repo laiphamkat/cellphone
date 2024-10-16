@@ -1,0 +1,118 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+28,Complete Purchase Flow with Customization and Checkout,"Navigate to the homepage, add a cellphone to the cart, customize options, and proceed through the checkout process by filling in personal and shipping information before completing the order.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button IncreaseQuantity
+Step 4: Click on label colorStorageOption (256GB)
+Step 5: Click on label colorStorageOption (ColorSelection)
+Step 6: Click on button Buy
+Step 7: Click on link goToCart -> Navigate to page 'cart page#cart'
+Step 8: Click on button Increased
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 14: Hover over div CheckoutPage
+Step 15: Click on input FirstName
+Step 16: Click on input FirstName
+Step 17: Hover over div CheckoutPage2
+Step 18: Enter input value in input FirstName
+Step 19: Click on input LastName
+Step 20: Hover over div CheckoutPage3
+Step 21: Enter input value in input LastName
+Step 22: Click on input Address
+Step 23: Hover over div CheckoutPage4
+Step 24: Enter input value in input Address
+Step 25: Click on input ZipCode
+Step 26: Hover over div CheckoutPage5
+Step 27: Enter input value in input ZipCode
+Step 28: Click on input City
+Step 29: Hover over div CheckoutPage6
+Step 30: Enter input value in input City
+Step 31: Click on input State
+Step 32: Hover over div CheckoutPage7
+Step 33: Enter input value in input State
+Step 34: Click on input Phone
+Step 35: Enter input value in input Phone
+Step 36: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 37: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 38: Take full page screenshot as checkpoint
+",High,NEW
+26,Complete Purchase of New Mobile Phone from Mobile Brands,"Navigate to the homepage, select a mobile brand, choose a new phone, and complete the checkout process. Verify the thank you page after order completion.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button newMobilePhone (NewIPhone15Plus)
+Step 5: Click on label storageColorOption (Storage256GB)
+Step 6: Click on label storageColorOption (ColorGreen)
+Step 7: Click on button purchase (Buy)
+Step 8: Click on link GoToCart
+Step 9: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 11: Take full page screenshot as checkpoint
+",Medium,STABLE
+27,Add Mobile Phone to Cart and Complete Checkout Process,"Start from the homepage, add a mobile phone to the cart, proceed to checkout, fill in the required information, and verify the return to the homepage after completing the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (GooglePixel) -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Hover over link GoToCart2
+Step 6: Click on span dynamicObject (Link1) -> Navigate to page 'cart page#cart'
+Step 7: Click on div PriceQtyTotal
+Step 8: Click on div PriceQtyTotal
+Step 9: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial,STABLE

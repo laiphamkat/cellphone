@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category page#category/{*}'",
+        "step 4: Click on button newMobilePhone (NewIPhone15Plus)",
+        "step 5: Click on label storageColorOption (Storage256GB)",
+        "step 6: Click on label storageColorOption (ColorGreen)",
+        "step 7: Click on button purchase (Buy)",
+        "step 8: Click on link GoToCart",
+        "step 9: Fill out the checkout information form and proceed to payment",
+        "step 10: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
