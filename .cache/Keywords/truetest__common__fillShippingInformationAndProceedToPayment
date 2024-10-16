@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8473CAEDE6FC2E38C4A0AFB55303B3DF",
+  "keywordClasses": [
+    {
+      "name": "truetest.common.fillShippingInformationAndProceedToPayment",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

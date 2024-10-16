@@ -10,12 +10,14 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile test_issue_login : The domain of the application under test</p>
+     * <p>Profile demo : The domain of the application under test
+Profile test_issue_login : The domain of the application under test</p>
      */
     public static Object application_domain
      
     /**
-     * <p>Profile test_issue_login : The default query parameters of the URL</p>
+     * <p>Profile demo : The default query parameters of the URL
+Profile test_issue_login : The default query parameters of the URL</p>
      */
     public static Object query_params
      
