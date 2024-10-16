@@ -1,0 +1,259 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+20,Purchase Apple iPhone 15 and Complete Checkout Process,"Navigate to home, select iPhone 15, choose options, add to cart, fill checkout details, and verify order completion.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button HotNewIPhone15
+Step 5: Click on label storageColorOption (Storage512GB)
+Step 6: Click on label storageColorOption (ColorYellow)
+Step 7: Click on button purchaseActions (Increased)
+Step 8: Click on button purchaseActions (Buy)
+Step 9: Hover over link GoToCart
+Step 10: Click on span dynamicObject (Link2) -> Navigate to page 'cart page#cart'
+Step 11: Click on button Increased
+Step 12: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 13: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 14: Take full page screenshot as checkpoint
+",High,NEW
+21,Purchase New iPhone 15 Plus and Verify Order Completion,"Navigate to home, select iPhone 15 Plus, choose options, add to cart, fill checkout details, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on button NewiPhone15Plus
+Step 3: Click on button purchaseActions (IncreaseQuantity)
+Step 4: Click on label colorStorageOption (256GB)
+Step 5: Click on label colorStorageOption (ColorSelection)
+Step 6: Click on button purchaseActions (Buy)
+Step 7: Hover over link CartNavigation
+Step 8: Click on span dynamicObject (link) -> Navigate to page 'cart page#cart'
+Step 9: Click on button Increased
+Step 10: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 11: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+23,Add Apple Product to Cart and Complete Purchase,"Navigate to home, select Apple product, choose options, add to cart, fill checkout details, and verify order completion.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/{*}'
+Step 4: Click on button AddToCart
+Step 5: Click on label storageColorOption (Storage512GB)
+Step 6: Click on label storageColorOption (ColorYellow)
+Step 7: Click on button Increased2
+Step 8: Click on button purchaseActions (Decreased)
+Step 9: Click on button purchaseActions (Buy)
+Step 10: Hover over link GoToCart
+Step 11: Click on span dynamicObject (Link1)
+Step 12: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 13: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 14: Take full page screenshot as checkpoint
+",High,NEW
+22,Add Product to Cart and Complete Checkout with Home Redirect,"Navigate to home, add product to cart, choose options, fill checkout details, complete order and redirect to home.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button purchaseActions (IncreaseQuantity)
+Step 4: Click on button purchaseActions (IncreaseQuantity)
+Step 5: Click on label colorStorageOption (256GB)
+Step 6: Click on label colorStorageOption (ColorSelection)
+Step 7: Click on button purchaseActions (Buy)
+Step 8: Hover over link CartNavigation
+Step 9: Click on span dynamicObject (StorageInformation) -> Navigate to page 'cart page#cart'
+Step 10: Click on button Increased
+Step 11: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 12: Click on button CompleteOrder -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Medium,NEW
+25,Purchase Multiple Color Options for Product and Verify Order Completion,"Navigate to home, add product multiple times, select options, fill checkout details, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button purchaseActions (IncreaseQuantity)
+Step 4: Click on button purchaseActions (IncreaseQuantity)
+Step 5: Click on button purchaseActions (IncreaseQuantity)
+Step 6: Click on button purchaseActions (IncreaseQuantity)
+Step 7: Click on button purchaseActions (IncreaseQuantity)
+Step 8: Click on label colorStorageOption (256GB)
+Step 9: Click on label colorStorageOption (256GB)
+Step 10: Click on label colorStorageOption (256GB)
+Step 11: Click on label colorStorageOption (ColorSelection)
+Step 12: Click on label colorStorageOption (ColorSelection2)
+Step 13: Click on label colorStorageOption (ColorSelection)
+Step 14: Click on button purchaseActions (Buy)
+Step 15: Click on link CartNavigation2
+Step 16: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 17: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 18: Take full page screenshot as checkpoint
+",Low,NEW
+24,Select Multiple Options for Product and Complete Checkout Process,"Navigate to home, add product, select multiple options, fill checkout details, and verify order completion.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button purchaseActions (IncreaseQuantity)
+Step 4: Click on button purchaseActions (IncreaseQuantity)
+Step 5: Click on button purchaseActions (IncreaseQuantity)
+Step 6: Click on button purchaseActions (IncreaseQuantity)
+Step 7: Click on div ProductDetails
+Step 8: Click on label colorStorageOption (256GB)
+Step 9: Click on label colorStorageOption (ColorSelection)
+Step 10: Click on button Buy2
+Step 11: Hover over link CartNavigation
+Step 12: Click on span dynamicObject (AdditionalLink) -> Navigate to page 'cart page#cart'
+Step 13: Click on button Increased
+Step 14: Click on button Increased
+Step 15: Click on button Increased
+Step 16: Click on button Increased
+Step 17: Fill out the checkout information form and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+	- Step 6: Hover over div CheckoutPage
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutPage2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutPage3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutPage4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutPage5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutPage6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutPage7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 18: Click on button CompleteOrder -> Navigate to page 'thank you page#thank-you/{*}'
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
