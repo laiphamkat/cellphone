@@ -1,9 +1,9 @@
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import truetest.custom.TrueTestScripts
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import truetest.common.fillShippingInformationForCheckout
-import internal.GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration
+import internal.GlobalVariable
+import truetest.common.fillShippingInformationForCheckout
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -83,7 +83,7 @@ WebUI.takeScreenshot(reportLocation + '/TC49/Step 8-Click on button quantityCont
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/{.*}?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_category_page/link_GoToCart'))
+WebUI.mouseOver(findTestObject('AI-Generated/Page_category_page/link_GoToCart2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC49/Step 9-Hover over link GoToCart.png')
 

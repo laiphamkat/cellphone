@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value></value>
-        <webElementGuid>2ca9c166-98ab-4c83-8a2f-b900a704456e</webElementGuid>
+        <webElementGuid>a1f55c71-72e7-4ae2-b43a-803b6f1215cb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>title</name>
         <type>Main</type>
         <value>Increased</value>
-        <webElementGuid>2ca9c166-98ab-4c83-8a2f-b900a704456e</webElementGuid>
+        <webElementGuid>a1f55c71-72e7-4ae2-b43a-803b6f1215cb</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>2ca9c166-98ab-4c83-8a2f-b900a704456e</webElementGuid>
+        <webElementGuid>a1f55c71-72e7-4ae2-b43a-803b6f1215cb</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -13,7 +13,7 @@
     <testCaseGuid>38b9b25f-0961-4801-831d-b86b9390b328</testCaseGuid>
     <testDataLinks>
         <combinationType>ONE</combinationType>
-        <id>d4194599-13d9-4ef6-94d6-190636a3d5a1</id>
+        <id>ee5e7988-6915-4b87-9a54-575156d31669</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -23,118 +23,118 @@
     <variable>
         <defaultValue>'Increased'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>4f53e600-8311-4f57-8b5a-b749ad19adce</id>
+        <id>be60e597-5016-4e50-b125-1800d0efb83e</id>
         <masked>false</masked>
         <name>button_quantityControl_internalRoleButtonName</name>
     </variable>
     <variable>
         <defaultValue>'Buy'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>35c84e27-767e-427e-ac31-d81aac92f1c1</id>
+        <id>d5270ba2-1d55-49ab-9dd9-aaf19dc51dc9</id>
         <masked>false</masked>
         <name>button_quantityControl_internalRoleButtonName_1</name>
     </variable>
     <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillShippingInformationForCheckout-test-data'</defaultValue>
         <description>Common function data file id</description>
-        <id>6b829864-09a5-4c79-a507-9ff0a34327cf</id>
+        <id>765d1b29-5be2-45d4-9a32-24bc4a02755a</id>
         <masked>false</masked>
         <name>data_path_0</name>
     </variable>
     <variable>
         <defaultValue>'1'</defaultValue>
         <description>Common function data row index</description>
-        <id>95370089-4ae5-47c2-9ed5-4c731b3209e7</id>
+        <id>7d85df11-9bdf-493b-b195-1eb933ad54f0</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52170-case-635'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>4d76b2fd-a735-4d07-848d-fd8361cc09af</id>
+        <id>bfcedb27-3e50-490a-80d6-5027af2ec98e</id>
         <masked>false</masked>
         <name>label_storageColorOption_for</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52171-case-639'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>f6a6fa96-e144-4e37-9159-5c3d7c31abaf</id>
+        <id>577a074d-a9e8-45d6-8aac-f97a2e56aa41</id>
         <masked>false</masked>
         <name>label_storageColorOption_for_1</name>
     </variable>
     <variable>
         <defaultValue>'512 GB'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>28168164-fda8-433d-b7a9-961138fa1886</id>
+        <id>17ca0fb1-f670-4c3e-ae9e-37cea7db637a</id>
         <masked>false</masked>
         <name>label_storageColorOption_internalText</name>
     </variable>
     <variable>
         <defaultValue>'Yellow'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>dcf26098-2d42-4d6a-9fd8-e96865dac7f1</id>
+        <id>8927525d-483a-485e-8af8-071a3fa6cfc1</id>
         <masked>false</masked>
         <name>label_storageColorOption_internalText_1</name>
     </variable>
     <variable>
         <defaultValue>'2'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>4977012d-ba94-461e-a8aa-4cf1c54368a0</id>
+        <id>21a466b4-feb8-4caf-83d5-61ffcde4da6b</id>
         <masked>false</masked>
         <name>span_dynamicObject_internalRoleLinkName</name>
     </variable>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_quantityControl_internalRoleButtonName</value>
-        <variableId>4f53e600-8311-4f57-8b5a-b749ad19adce</variableId>
+        <variableId>be60e597-5016-4e50-b125-1800d0efb83e</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>button_quantityControl_internalRoleButtonName_1</value>
-        <variableId>35c84e27-767e-427e-ac31-d81aac92f1c1</variableId>
+        <variableId>d5270ba2-1d55-49ab-9dd9-aaf19dc51dc9</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>data_path_0</value>
-        <variableId>6b829864-09a5-4c79-a507-9ff0a34327cf</variableId>
+        <variableId>765d1b29-5be2-45d4-9a32-24bc4a02755a</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>index_0</value>
-        <variableId>95370089-4ae5-47c2-9ed5-4c731b3209e7</variableId>
+        <variableId>7d85df11-9bdf-493b-b195-1eb933ad54f0</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>label_storageColorOption_for</value>
-        <variableId>4d76b2fd-a735-4d07-848d-fd8361cc09af</variableId>
+        <variableId>bfcedb27-3e50-490a-80d6-5027af2ec98e</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>label_storageColorOption_for_1</value>
-        <variableId>f6a6fa96-e144-4e37-9159-5c3d7c31abaf</variableId>
+        <variableId>577a074d-a9e8-45d6-8aac-f97a2e56aa41</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>label_storageColorOption_internalText</value>
-        <variableId>28168164-fda8-433d-b7a9-961138fa1886</variableId>
+        <variableId>17ca0fb1-f670-4c3e-ae9e-37cea7db637a</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>label_storageColorOption_internalText_1</value>
-        <variableId>dcf26098-2d42-4d6a-9fd8-e96865dac7f1</variableId>
+        <variableId>8927525d-483a-485e-8af8-071a3fa6cfc1</variableId>
     </variableLinks>
     <variableLinks>
-        <testDataLinkId>d4194599-13d9-4ef6-94d6-190636a3d5a1</testDataLinkId>
+        <testDataLinkId>ee5e7988-6915-4b87-9a54-575156d31669</testDataLinkId>
         <type>DATA_COLUMN</type>
         <value>span_dynamicObject_internalRoleLinkName</value>
-        <variableId>4977012d-ba94-461e-a8aa-4cf1c54368a0</variableId>
+        <variableId>21a466b4-feb8-4caf-83d5-61ffcde4da6b</variableId>
     </variableLinks>
 </TestCaseEntity>
