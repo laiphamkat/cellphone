@@ -1,0 +1,157 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+68,Add Apple Product to Cart and Complete Checkout Process,"Navigate to the homepage, select an Apple product, customize options, add to cart, and complete the checkout process while verifying the homepage.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page '/category/apple'
+Step 4: Click on button AddToCart
+Step 5: Click on label colorStorageOption (Storage256GB)
+Step 6: Click on label colorStorageOption (ColorGreen)
+Step 7: Click on button Buy
+Step 8: Click on link GoToCart
+Step 9: Fill shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page '/checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+69,Add Multiple Products to Cart and Complete Checkout Process,"Navigate to the homepage, add a product to the cart, increase its quantity, customize options, and complete the checkout process while verifying the homepage.","Step 1: Navigate to /
+Step 2: Click on button addToCart
+Step 3: Click on button IncreaseQuantity
+Step 4: Click on label colorStorageSelection (256GB)
+Step 5: Click on label colorStorageSelection (ColorSelection)
+Step 6: Click on button Buy
+Step 7: Click on link goToCart -> Navigate to page '/cart'
+Step 8: Click on button IncreaseQuantity
+Step 9: Fill shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page '/checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+67,Order Apple Product and Verify Return to Home Page,"Navigate to the homepage, select an Apple product, add it to the cart, complete the order with shipping details, and verify the return to the homepage.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page '/category/apple'
+Step 4: Click on button AddToCart2
+Step 5: Click on label colorStorageOptions (Storage512GB)
+Step 6: Click on label colorStorageOptions (ColorGreen)
+Step 7: Click on button Buy
+Step 8: Click on link GoToCart
+Step 9: Enter shipping details and continue to payment section
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,STABLE
+64,Complete Purchase for Google Pixel with Shipping Details,"Navigate to the homepage, select a Google Pixel product, add to cart, enter shipping details, and complete the order. Verify the homepage after completion.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link GooglePixel -> Navigate to page '/category/google-pixel'
+Step 4: Click on button AddToCart
+Step 5: Hover over link GoToCart
+Step 6: Click on span Link -> Navigate to page '/cart'
+Step 7: Click on div CartSummary
+Step 8: Click on div CartSummary
+Step 9: Enter shipping details and continue to payment section
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input City
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input City
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial,STABLE
