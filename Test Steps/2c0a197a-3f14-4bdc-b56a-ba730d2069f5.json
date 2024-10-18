@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link GooglePixel -> Navigate to page '/category/google-pixel'",
+        "step 4: Click on button AddToCart",
+        "step 5: Hover over link GoToCart",
+        "step 6: Click on span Link -> Navigate to page '/cart'",
+        "step 7: Click on div CartSummary",
+        "step 8: Click on div CartSummary",
+        "step 9: Enter shipping details and continue to payment section",
+        "step 10: Click on button CompleteOrder -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

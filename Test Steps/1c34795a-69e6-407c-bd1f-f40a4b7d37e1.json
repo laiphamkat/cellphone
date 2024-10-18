@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link Apple -> Navigate to page '/category/apple'",
+        "step 4: Click on button addToCart (AddToCart)",
+        "step 5: Click on label storageColorOption (Storage256GB)",
+        "step 6: Click on label storageColorOption (ColorGreen)",
+        "step 7: Click on button buy (Buy)",
+        "step 8: Click on link GoToCart",
+        "step 9: Enter shipping details and continue to payment section",
+        "step 10: Click on button CompleteOrder -> Navigate to page '/thank-you/*'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
