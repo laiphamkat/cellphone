@@ -1,8 +1,8 @@
 package truetest.custom
 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public class TrueTestScripts {
