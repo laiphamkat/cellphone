@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link iPhone15Pro -> Navigate to page 'product/*'",
+        "step 3: Click on label productAttributes (BlueTitanium)",
+        "step 4: Click on label productAttributes (BlueTitanium)",
+        "step 5: Click on button Buy",
+        "step 6: Click on button Buy",
+        "step 7: Hover over link GoToCart",
+        "step 8: Click on span ProductLink -> Navigate to page '/cart'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
