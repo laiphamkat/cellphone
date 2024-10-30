@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r2:</value>
-        <webElementGuid>ab77dba9-7cfa-4b45-a923-4ae11358449c</webElementGuid>
+        <webElementGuid>82987a31-0938-43d3-85a6-aee0d6ba217c</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>shipping_address.first_name</value>
-        <webElementGuid>ab77dba9-7cfa-4b45-a923-4ae11358449c</webElementGuid>
+        <webElementGuid>82987a31-0938-43d3-85a6-aee0d6ba217c</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>ab77dba9-7cfa-4b45-a923-4ae11358449c</webElementGuid>
+        <webElementGuid>82987a31-0938-43d3-85a6-aee0d6ba217c</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
