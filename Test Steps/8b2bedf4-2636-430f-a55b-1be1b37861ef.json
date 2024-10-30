@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button AddToCart",
+        "step 3: Click on button increase (Increased)",
+        "step 4: Click on button increase (Increased)",
+        "step 5: Click on button increase (Increased)",
+        "step 6: Click on button increase (Increased)",
+        "step 7: Click on div ProductDetails",
+        "step 8: Click on label colorStorageOptions (Storage256GB)",
+        "step 9: Click on label colorStorageOptions (ColorSelection)",
+        "step 10: Click on button Buy",
+        "step 11: Hover over link CartNavigation",
+        "step 12: Click on span additionalLink (AdditionalLink) -> Navigate to page '/cart'",
+        "step 13: Click on button Increased",
+        "step 14: Click on button Increased",
+        "step 15: Click on button Increased",
+        "step 16: Click on button Increased",
+        "step 17: Fill in shipping information and continue to payment section",
+        "step 18: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
