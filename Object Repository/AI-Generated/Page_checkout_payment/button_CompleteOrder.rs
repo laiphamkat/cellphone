@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>COMPLETE ORDER</value>
-        <webElementGuid>82987a31-0938-43d3-85a6-aee0d6ba217c</webElementGuid>
+        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>submit</value>
-        <webElementGuid>82987a31-0938-43d3-85a6-aee0d6ba217c</webElementGuid>
+        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
