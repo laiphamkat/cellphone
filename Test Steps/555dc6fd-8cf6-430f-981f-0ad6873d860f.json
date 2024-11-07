@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object2",
+        "step 3: Click on link brandNames (Apple) -> Navigate to page 'category/*'",
+        "step 4: Click on button addToCart (AddToCart)",
+        "step 5: Select product options and proceed to checkout",
+        "step 6: Fill in shipping address details for checkout",
+        "step 7: Enter input value in input City",
+        "step 8: Click on input State",
+        "step 9: Hover over div CheckoutShippingAddress2",
+        "step 10: Enter input value in input State",
+        "step 11: Click on input Phone",
+        "step 12: Enter input value in input Phone",
+        "step 13: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'",
+        "step 14: Click on button CompleteOrder -> Navigate to page ''",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}
