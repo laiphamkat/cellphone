@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Phone</value>
-        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
+        <webElementGuid>80aaffb4-1b61-4b7a-9375-7247eb756ded</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>href</name>
         <type>Main</type>
         <value>category/${{link_productCategories_category_id}}</value>
-        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
+        <webElementGuid>80aaffb4-1b61-4b7a-9375-7247eb756ded</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

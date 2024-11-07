@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>desk_filter_price_min</value>
-        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
+        <webElementGuid>80aaffb4-1b61-4b7a-9375-7247eb756ded</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>price_min</value>
-        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
+        <webElementGuid>80aaffb4-1b61-4b7a-9375-7247eb756ded</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>number</value>
-        <webElementGuid>ed674711-7949-4fa7-8118-59eb18b1d692</webElementGuid>
+        <webElementGuid>80aaffb4-1b61-4b7a-9375-7247eb756ded</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
