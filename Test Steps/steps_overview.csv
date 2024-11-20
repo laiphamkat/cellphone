@@ -1,0 +1,741 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+23,Navigate to Accessories and Proceed to Checkout,"Navigate to the accessories category, select a mobile device, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link accessories (Accessories) -> Navigate to page 'category/*'
+Step 4: Click on link ByTitle
+Step 5: Click on button mobileDevices (Sale20WUSBAdapter)
+Step 6: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 7: Click on button quantityControl (Increased)
+Step 8: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 9: Hover over div CheckoutInfo
+Step 10: Click on input Email
+Step 11: Click on button ContinueToShipping -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+26,Buy Iphone 15 Pro and Verify Cart,"Select Iphone 15 Pro, add it to the cart, and verify the cart contents.","Step 1: Navigate to /
+Step 2: Click on link iphone15Pro (iPhone15Pro) -> Navigate to page 'product/*'
+Step 3: Click on label colorOptions (BlueTitanium)
+Step 4: Click on label colorOptions (BlueTitanium)
+Step 5: Click on button Buy
+Step 6: Click on button Buy
+Step 7: Hover over link GoToCart
+Step 8: Click on span dynamicObject (Zero) -> Navigate to page '/cart'
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+27,Select Apple Accessories and Checkout,"Navigate to Apple accessories, select items, and verify checkout information.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple
+Step 4: Hover over item object
+Step 5: Click on link Apple2 -> Navigate to page 'category/*'
+Step 6: Click on link accessoryProducts (iPhone15SiliconeCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 7: Click on list HomeAccessoriesApple
+Step 8: Click on label colorOptions (iPhone15Plus)
+Step 9: Click on label colorOptions (Cypress)
+Step 10: Click on link goToCart (GoToCart2) -> Navigate to page 'checkout/info'
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+46,Navigate to Apple Category and Verify Homepage,"Select Apple category, navigate through products, and verify the homepage.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page 'category/*'
+Step 4: Click on div Close
+Step 5: Hover over item object2
+Step 6: Click on link productCategories (Phone)
+Step 7: Hover over item object
+Step 8: Click on link productCategories (Accessories2)
+Step 9: Click on div object
+Step 10: Click on input PriceMin -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+29,View Hot New Products on Homepage,Navigate to hot new products and verify the homepage.,"Step 1: Navigate to /
+Step 2: Click on button hotNewProducts (HotNewProduct)
+Step 3: Click on label colorStorageOptions (512GB) -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+30,Add Apple Device to Cart and Checkout,"Add an Apple device to the cart, proceed to checkout, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Click on label colorStorageOptions (Storage512GB)
+Step 6: Click on label colorStorageOptions (Green)
+Step 7: Click on button Buy
+Step 8: Click on link goToCart (GoToCart3) -> Navigate to page '/cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/payment'
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+24,View Samsung Products and Contact Information,Navigate to Samsung products and access contact information from the homepage.,"Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Samsung -> Navigate to page 'category/*'
+Step 4: Click on link ByTitle
+Step 5: Click on link contactInformation (ContactNumber) -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+38,Complete Order for Apple Device with Shipping Info,"Select an Apple device, fill in shipping details, and finalize the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page 'category/*'
+Step 4: Click on button mobileDevices (NewiPhone15Case)
+Step 5: Click on label colorStorageOptions (iPhone15Plus)
+Step 6: Click on label colorStorageOptions (Cypress)
+Step 7: Click on button Buy
+Step 8: Click on link GoToCart2 -> Navigate to page '/cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress7
+Step 15: Click on input FirstName
+Step 16: Hover over div CheckoutShippingAddress
+Step 17: Enter input value in input FirstName
+Step 18: Click on input LastName
+Step 19: Hover over div CheckoutShippingAddress2
+Step 20: Enter input value in input LastName
+Step 21: Click on input Address
+Step 22: Hover over div CheckoutShippingAddress3
+Step 23: Enter input value in input Address
+Step 24: Click on input ZipCode
+Step 25: Hover over div CheckoutShippingAddress4
+Step 26: Enter input value in input ZipCode
+Step 27: Click on input ShippingCity
+Step 28: Enter input value in input ShippingCity
+Step 29: Click on div State
+Step 30: Hover over div CheckoutShippingAddress6
+Step 31: Enter input value in input State
+Step 32: Click on input Phone
+Step 33: Enter input value in input Phone
+Step 34: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 35: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 36: Take full page screenshot as checkpoint
+",Medium,NEW
+25,Purchase Apple Mobile Device with Shipping Information,"Select an Apple mobile device, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category/*'
+Step 4: Click on button mobileDevices (HotNewProduct)
+Step 5: Click on label colorStorageOptions (Storage512GB)
+Step 6: Click on label colorStorageOptions (Green)
+Step 7: Click on button Buy
+Step 8: Hover over link GoToCart
+Step 9: Click on span dynamicObject (Link1) -> Navigate to page '/cart'
+Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 11: Hover over div CheckoutInfo
+Step 12: Click on input Email
+Step 13: Enter input value in input Email
+Step 14: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 15: Hover over div CheckoutShippingAddress
+Step 16: Enter input value in input FirstName
+Step 17: Click on input LastName
+Step 18: Hover over div CheckoutShippingAddress2
+Step 19: Enter input value in input LastName
+Step 20: Click on input Address
+Step 21: Hover over div CheckoutShippingAddress3
+Step 22: Enter input value in input Address
+Step 23: Click on input ZipCode
+Step 24: Hover over div CheckoutShippingAddress4
+Step 25: Enter input value in input ZipCode
+Step 26: Click on input ShippingCity
+Step 27: Hover over div CheckoutShippingAddress5
+Step 28: Enter input value in input ShippingCity
+Step 29: Click on input State
+Step 30: Hover over div CheckoutShippingAddress6
+Step 31: Enter input value in input State
+Step 32: Click on input Phone
+Step 33: Enter input value in input Phone
+Step 34: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 35: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 36: Take full page screenshot as checkpoint
+",Medium,NEW
+31,Purchase Apple Accessories and Finalize Order,"Select Apple accessories, fill in shipping details, and finalize the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page 'category/*'
+Step 4: Click on link accessoryProducts (iPhone15SiliconeCaseWithMagSafe) -> Navigate to page 'product/*'
+Step 5: Click on label colorOptions (iPhone15Plus)
+Step 6: Click on label colorOptions (Cypress)
+Step 7: Click on button Buy
+Step 8: Click on link goToCart (GoToCart2)
+Step 9: Complete shipping information and finalize order at checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+34,Order Apple Accessories and Verify Homepage,"Select Apple accessories, complete the shipping information, and verify the homepage.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page 'category/*'
+Step 4: Click on link accessoryProducts (iPhone15ClearCase) -> Navigate to page 'product/*'
+Step 5: Click on button Buy2
+Step 6: Click on link PlaceAnOrder
+Step 7: Complete shipping information and finalize order at checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 8: Take full page screenshot as checkpoint
+",Medium,NEW
+36,Add Hot New Products to Cart and Verify Homepage,"Select hot new products, add them to the cart, and verify the homepage.","Step 1: Navigate to /
+Step 2: Click on link hotNewProduct (HotNewProduct) -> Navigate to page 'product/*'
+Step 3: Hover over item Product
+Step 4: Click on link productCategory (AppleCategory) -> Navigate to page 'category/*'
+Step 5: Click on link brandCategories (AppleCategory)
+Step 6: Click on button mobileDevices (Sale20WUSBAdapter)
+Step 7: Hover over item object
+Step 8: Click on link productCategories (Accessories)
+Step 9: Hover over item object
+Step 10: Click on link productCategories (Accessories)
+Step 11: Click on button mobileDevices (SamsungGalaxyS23Ultra)
+Step 12: Click on link KCellphoneShop -> Navigate to page '/'
+Step 13: Click on button addToCart (AddToCart2)
+Step 14: Click on label colorStorageOptions (iPhone15)
+Step 15: Click on button purchaseOptions (Buy)
+Step 16: Click on button ProductAddedToCart -> Navigate to page ''
+Step 17: Take full page screenshot as checkpoint
+",Medium,NEW
+37,Checkout from Hot New Products Cart,"Navigate to hot new products, access the cart, and complete the order.","Step 1: Navigate to /
+Step 2: Click on button hotNewProducts (SamsungGalaxyS23Ultra)
+Step 3: Click on link goToCart (GoToCart3) -> Navigate to page '/cart'
+Step 4: Click on button quantityControl (Increased)
+Step 5: Complete shipping information and finalize order at checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
+43,Purchase Google Pixel and Verify Thank You Page,"Select Google Pixel, fill in shipping details, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link GooglePixel -> Navigate to page 'category/*'
+Step 4: Click on link GoToCart2 -> Navigate to page 'checkout/info'
+Step 5: Hover over div CheckoutInfo
+Step 6: Click on input Email
+Step 7: Enter input value in input Email
+Step 8: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 9: Hover over div CheckoutShippingAddress7
+Step 10: Click on input FirstName
+Step 11: Hover over div CheckoutShippingAddress
+Step 12: Enter input value in input FirstName
+Step 13: Click on input LastName
+Step 14: Hover over div CheckoutShippingAddress2
+Step 15: Enter input value in input LastName
+Step 16: Click on input Address
+Step 17: Hover over div CheckoutShippingAddress3
+Step 18: Enter input value in input Address
+Step 19: Click on input ZipCode
+Step 20: Hover over div CheckoutShippingAddress4
+Step 21: Enter input value in input ZipCode
+Step 22: Click on input ShippingCity
+Step 23: Hover over div CheckoutShippingAddress5
+Step 24: Enter input value in input ShippingCity
+Step 25: Click on input State
+Step 26: Hover over div CheckoutShippingAddress6
+Step 27: Enter input value in input State
+Step 28: Click on input Phone
+Step 29: Enter input value in input Phone
+Step 30: Click on div deliveryInformation (DeliveryInformation)
+Step 31: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 32: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 33: Take full page screenshot as checkpoint
+",Low,NEW
+39,Finalize Order for Multiple Products,"Select multiple products, fill in shipping information, and complete the order.","Step 1: Navigate to /
+Step 2: Click on button AddToCart
+Step 3: Click on label colorStorageOptions (512GB2)
+Step 4: Click on label colorStorageOptions (Green)
+Step 5: Click on button purchaseOptions (Increased)
+Step 6: Click on button purchaseOptions (Buy)
+Step 7: Click on link goToCart (GoToCart2) -> Navigate to page '/cart'
+Step 8: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 9: Hover over div CheckoutInfo
+Step 10: Click on input Email
+Step 11: Enter input value in input Email
+Step 12: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 13: Hover over div CheckoutShippingAddress7
+Step 14: Click on input FirstName
+Step 15: Hover over div CheckoutShippingAddress
+Step 16: Enter input value in input FirstName
+Step 17: Click on input LastName
+Step 18: Hover over div CheckoutShippingAddress2
+Step 19: Enter input value in input LastName
+Step 20: Click on input Address
+Step 21: Hover over div CheckoutShippingAddress3
+Step 22: Enter input value in input Address
+Step 23: Click on input ZipCode
+Step 24: Hover over div CheckoutShippingAddress4
+Step 25: Enter input value in input ZipCode
+Step 26: Click on input ShippingCity
+Step 27: Hover over div CheckoutShippingAddress5
+Step 28: Enter input value in input ShippingCity
+Step 29: Click on input State
+Step 30: Hover over div CheckoutShippingAddress6
+Step 31: Enter input value in input State
+Step 32: Click on input Phone
+Step 33: Enter input value in input Phone
+Step 34: Click on button ContinueToPayment
+Step 35: Click on div ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 36: Click on span CompleteOrder -> Navigate to page 'thank-you/*'
+Step 37: Take full page screenshot as checkpoint
+",Low,NEW
+47,Checkout for Apple Cart with Shipping Information,"Access Apple cart, fill in shipping information, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page '/cart'
+Step 4: Click on button quantityControl (IncreaseQuantity)
+Step 5: Click on button quantityControl (IncreaseQuantity)
+Step 6: Click on button quantityControl (IncreaseQuantity)
+Step 7: Click on button quantityControl (Decrease)
+Step 8: Click on button quantityControl (Decrease) -> Navigate to page 'checkout/info'
+Step 9: Hover over div CheckoutInfo
+Step 10: Click on input Email
+Step 11: Enter input value in input Email
+Step 12: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 13: Hover over div CheckoutShippingAddress7
+Step 14: Click on input FirstName
+Step 15: Hover over div CheckoutShippingAddress
+Step 16: Enter input value in input FirstName
+Step 17: Click on input LastName
+Step 18: Hover over div CheckoutShippingAddress2
+Step 19: Enter input value in input LastName
+Step 20: Click on input Address
+Step 21: Enter input value in input Address
+Step 22: Hover over div CheckoutShippingAddress4
+Step 23: Enter input value in input ZipCode
+Step 24: Click on input ShippingCity
+Step 25: Hover over div CheckoutShippingAddress5
+Step 26: Enter input value in input ShippingCity
+Step 27: Click on input State
+Step 28: Hover over div CheckoutShippingAddress6
+Step 29: Enter input value in input State
+Step 30: Click on input Phone
+Step 31: Enter input value in input Phone
+Step 32: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 33: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 34: Take full page screenshot as checkpoint
+",Low,NEW
+33,Purchase Options for Hot New Products,"Select hot new products, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Click on button hotNewProducts (NewIPhone15Plus)
+Step 3: Click on button purchaseOptions (Increased)
+Step 4: Click on label colorStorageOptions (Storage256GB)
+Step 5: Click on label colorStorageOptions (Pink)
+Step 6: Click on button purchaseOptions (Buy)
+Step 7: Hover over link GoToCart
+Step 8: Click on span dynamicObject (Link2) -> Navigate to page '/cart'
+Step 9: Click on button quantityControl (Increased)
+Step 10: Fill in shipping information after proceeding to checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 11: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+32,Buy Apple Device and Complete Checkout,"Select an Apple device, proceed to checkout, and finalize the order.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart2)
+Step 5: Click on label colorStorageOptions (Storage512GB2)
+Step 6: Click on label colorStorageOptions (Green2)
+Step 7: Click on button Buy
+Step 8: Click on link GoToCart2
+Step 9: Fill in shipping information after proceeding to checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+28,Purchase Apple Mobile Device and Complete Order,"Select an Apple mobile device, proceed to checkout, and finalize the order.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link Apple -> Navigate to page 'category/*'
+Step 4: Click on button mobileDevices (NewIPhone15Plus)
+Step 5: Click on label colorStorageOptions (Storage256GB)
+Step 6: Click on label colorStorageOptions (Green2)
+Step 7: Click on button Buy
+Step 8: Click on link GoToCart2
+Step 9: Fill in shipping information after proceeding to checkout
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress7
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress2
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress3
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress4
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress5
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress6
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+40,Purchase Samsung Accessories and Complete Order,"Select Samsung accessories, fill in shipping details, and finalize the order.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Samsung -> Navigate to page 'category/*'
+Step 4: Click on link accessoryProducts (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product/*'
+Step 5: Click on button dynamicObject (Increased)
+Step 6: Click on button dynamicObject (Increased)
+Step 7: Click on button Buy2
+Step 8: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress7
+Step 15: Click on input FirstName
+Step 16: Hover over div CheckoutShippingAddress
+Step 17: Enter input value in input FirstName
+Step 18: Click on input LastName
+Step 19: Enter input value in input LastName
+Step 20: Click on div Address
+Step 21: Hover over div CheckoutShippingAddress2
+Step 22: Click on input Address
+Step 23: Enter input value in input Address
+Step 24: Hover over div CheckoutShippingAddress4
+Step 25: Enter input value in input ZipCode
+Step 26: Click on input ShippingCity
+Step 27: Enter input value in input ShippingCity
+Step 28: Hover over div CheckoutShippingAddress6
+Step 29: Enter input value in input State
+Step 30: Click on input Phone
+Step 31: Enter input value in input Phone
+Step 32: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 33: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 34: Take full page screenshot as checkpoint
+",Trivial,NEW
+41,Purchase Google Pixel with Shipping Information,"Select a Google Pixel, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link GooglePixel -> Navigate to page 'category/*'
+Step 4: Click on link brandCategories (Samsung)
+Step 5: Click on link ByTitle
+Step 6: Click on button mobileDevices (SamsungGalaxyZFold5)
+Step 7: Click on label colorStorageOptions (Storage512GB3)
+Step 8: Click on label colorStorageOptions (Blue)
+Step 9: Click on button Buy
+Step 10: Click on link brandCategories (AppleCategory2)
+Step 11: Click on button addToCart (AddToCart2)
+Step 12: Click on div GB256GB512GB
+Step 13: Click on label colorStorageOptions (Storage512GB2)
+Step 14: Click on label colorStorageOptions (Green2)
+Step 15: Click on button Buy
+Step 16: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 17: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 18: Hover over div CheckoutInfo
+Step 19: Click on input Email
+Step 20: Enter input value in input Email
+Step 21: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 22: Hover over div CheckoutShippingAddress7
+Step 23: Click on input FirstName
+Step 24: Hover over div CheckoutShippingAddress
+Step 25: Enter input value in input FirstName
+Step 26: Click on input LastName
+Step 27: Hover over div CheckoutShippingAddress2
+Step 28: Enter input value in input LastName
+Step 29: Click on input Address
+Step 30: Enter input value in input Address
+Step 31: Hover over div CheckoutShippingAddress4
+Step 32: Enter input value in input ZipCode
+Step 33: Click on input ShippingCity
+Step 34: Enter input value in input ShippingCity
+Step 35: Hover over div CheckoutShippingAddress6
+Step 36: Enter input value in input State
+Step 37: Click on input Phone
+Step 38: Enter input value in input Phone
+Step 39: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 40: Click on button CompleteOrder -> Navigate to page ''
+Step 41: Take full page screenshot as checkpoint
+",Trivial,NEW
+42,Buy Apple Accessories and Verify Thank You Page,"Select Apple accessories, fill in shipping details, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple2 -> Navigate to page 'category/*'
+Step 4: Click on link ByTitle
+Step 5: Click on link accessoryProducts (20WUSBAdapter) -> Navigate to page 'product/*'
+Step 6: Click on button dynamicObject (Increased)
+Step 7: Click on button Buy2
+Step 8: Click on link goToCart (GoToCart3) -> Navigate to page '/cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress7
+Step 15: Click on input FirstName
+Step 16: Enter input value in input FirstName
+Step 17: Hover over div CheckoutShippingAddress2
+Step 18: Enter input value in input LastName
+Step 19: Click on input Address
+Step 20: Hover over div CheckoutShippingAddress3
+Step 21: Enter input value in input Address
+Step 22: Click on input ZipCode
+Step 23: Hover over div CheckoutShippingAddress4
+Step 24: Enter input value in input ZipCode
+Step 25: Click on input ShippingCity
+Step 26: Hover over div CheckoutShippingAddress5
+Step 27: Enter input value in input ShippingCity
+Step 28: Click on input State
+Step 29: Hover over div CheckoutShippingAddress6
+Step 30: Enter input value in input State
+Step 31: Click on input Phone
+Step 32: Enter input value in input Phone
+Step 33: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 34: Click on link BackToCart -> Navigate to page '/cart'
+Step 35: Click on button quantityControl (Increased)
+Step 36: Click on button ProceedToCheckout
+Step 37: Click on button ProceedToCheckout -> Navigate to page 'checkout/payment'
+Step 38: Click on button CompleteOrder
+Step 39: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 40: Take full page screenshot as checkpoint
+",Trivial,NEW
+44,Complete Order for Multiple Devices,"Select multiple devices, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Click on button AddToCart
+Step 3: Click on button purchaseOptions (Increased)
+Step 4: Click on button purchaseOptions (Increased)
+Step 5: Click on button purchaseOptions (Increased)
+Step 6: Click on button purchaseOptions (Increased)
+Step 7: Click on div StorageAndColor
+Step 8: Click on label colorStorageOptions (Storage256GB)
+Step 9: Click on label colorStorageOptions (Pink)
+Step 10: Click on button Buy2
+Step 11: Hover over link GoToCart
+Step 12: Click on span dynamicObject (Five) -> Navigate to page '/cart'
+Step 13: Click on button quantityControl (Increased)
+Step 14: Click on button quantityControl (Increased)
+Step 15: Click on button quantityControl (Increased)
+Step 16: Click on button quantityControl (Increased)
+Step 17: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 18: Hover over div CheckoutInfo
+Step 19: Click on input Email
+Step 20: Enter input value in input Email
+Step 21: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 22: Hover over div CheckoutShippingAddress7
+Step 23: Click on input FirstName
+Step 24: Hover over div CheckoutShippingAddress
+Step 25: Enter input value in input FirstName
+Step 26: Click on input LastName
+Step 27: Hover over div CheckoutShippingAddress2
+Step 28: Enter input value in input LastName
+Step 29: Click on input Address
+Step 30: Hover over div CheckoutShippingAddress3
+Step 31: Enter input value in input Address
+Step 32: Click on input ZipCode
+Step 33: Hover over div CheckoutShippingAddress4
+Step 34: Enter input value in input ZipCode
+Step 35: Click on input ShippingCity
+Step 36: Hover over div CheckoutShippingAddress5
+Step 37: Enter input value in input ShippingCity
+Step 38: Click on input State
+Step 39: Hover over div CheckoutShippingAddress6
+Step 40: Click on input Phone
+Step 41: Enter input value in input State
+Step 42: Enter input value in input Phone
+Step 43: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 44: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 45: Take full page screenshot as checkpoint
+",Trivial,NEW
+45,Add Google Pixel to Cart and Verify Thank You Page,"Select Google Pixel, fill in shipping details, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link GooglePixel -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart3)
+Step 5: Hover over link GoToCart
+Step 6: Click on span dynamicObject (Link1) -> Navigate to page '/cart'
+Step 7: Click on div cartSummary (CartSummary)
+Step 8: Click on div cartSummary (CartSummary)
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress7
+Step 15: Click on input FirstName
+Step 16: Hover over div CheckoutShippingAddress
+Step 17: Enter input value in input FirstName
+Step 18: Click on input LastName
+Step 19: Hover over div CheckoutShippingAddress2
+Step 20: Enter input value in input LastName
+Step 21: Click on input Address
+Step 22: Hover over div CheckoutShippingAddress3
+Step 23: Enter input value in input Address
+Step 24: Click on input ZipCode
+Step 25: Hover over div CheckoutShippingAddress4
+Step 26: Enter input value in input ZipCode
+Step 27: Click on input ShippingCity
+Step 28: Hover over div CheckoutShippingAddress5
+Step 29: Click on input State
+Step 30: Enter input value in input ShippingCity
+Step 31: Hover over div CheckoutShippingAddress6
+Step 32: Enter input value in input State
+Step 33: Click on input Phone
+Step 34: Enter input value in input Phone
+Step 35: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 36: Click on button CompleteOrder -> Navigate to page ''
+Step 37: Take full page screenshot as checkpoint
+",Trivial,NEW
+35,Purchase Multiple Items and Complete Checkout,"Select multiple items, fill in shipping information, and finalize the order.","Step 1: Navigate to /
+Step 2: Click on button AddToCart
+Step 3: Click on button purchaseOptions (Increased)
+Step 4: Click on label colorStorageOptions (Storage256GB)
+Step 5: Click on label colorStorageOptions (Pink)
+Step 6: Click on button Buy2
+Step 7: Click on link goToCart (GoToCart2) -> Navigate to page '/cart'
+Step 8: Click on button quantityControl (Increased)
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress7
+Step 15: Click on input FirstName
+Step 16: Click on input FirstName
+Step 17: Hover over div CheckoutShippingAddress
+Step 18: Enter input value in input FirstName
+Step 19: Click on input LastName
+Step 20: Hover over div CheckoutShippingAddress2
+Step 21: Enter input value in input LastName
+Step 22: Click on input Address
+Step 23: Hover over div CheckoutShippingAddress3
+Step 24: Enter input value in input Address
+Step 25: Click on input ZipCode
+Step 26: Hover over div CheckoutShippingAddress4
+Step 27: Enter input value in input ZipCode
+Step 28: Click on input ShippingCity
+Step 29: Hover over div CheckoutShippingAddress5
+Step 30: Enter input value in input ShippingCity
+Step 31: Click on input State
+Step 32: Hover over div CheckoutShippingAddress6
+Step 33: Enter input value in input State
+Step 34: Click on input Phone
+Step 35: Enter input value in input Phone
+Step 36: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 37: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 38: Take full page screenshot as checkpoint
+",Trivial,NEW
