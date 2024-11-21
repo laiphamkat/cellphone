@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link Apple -> Navigate to page 'category/*'",
+        "step 4: Click on link iPhone15 -> Navigate to page 'product/*'",
+        "step 5: Click on label 512GB",
+        "step 6: Click on label Green -> Navigate to page '/cart'",
+        "step 7: Click on button Increased",
+        "step 8: Fill out shipping address form and complete order",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

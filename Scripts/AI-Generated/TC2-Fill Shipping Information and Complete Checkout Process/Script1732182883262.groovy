@@ -1,8 +1,8 @@
-import com.kms.katalon.core.configuration.RunConfiguration
-import truetest.custom.TrueTestScripts
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import truetest.custom.TrueTestScripts
+import internal.GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -252,7 +252,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 30-Click on button CompleteOrde
 
 "Step 31: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Complete Purchase of Apple Product with Shipping Details_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Fill Shipping Information and Complete Checkout Process_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

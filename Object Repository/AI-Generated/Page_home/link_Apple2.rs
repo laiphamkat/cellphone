@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/category/chekhly-na-iphone</value>
-        <webElementGuid>32bfad6b-996c-441b-8e5b-4f37dabd298a</webElementGuid>
+        <webElementGuid>2a9a7df5-2702-4c6e-a451-14a9903d8b3c</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Apple</value>
-        <webElementGuid>32bfad6b-996c-441b-8e5b-4f37dabd298a</webElementGuid>
+        <webElementGuid>2a9a7df5-2702-4c6e-a451-14a9903d8b3c</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
