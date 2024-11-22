@@ -1,8 +1,8 @@
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import truetest.custom.TrueTestScripts
 import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -18,21 +18,21 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Hover over item object2"
+"Step 2: Hover over item object"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object2'))
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Hover over item object2.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Hover over item object.png')
 
-"Step 3: Click on link Apple2 -> Navigate to page 'checkout/info'"
+"Step 3: Click on link Apple -> Navigate to page 'checkout/info'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple2'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link Apple2 - Navigate to page checkoutinfo.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link Apple - Navigate to page checkoutinfo.png')
 
 "Step 4: Hover over div CheckoutInfo"
 
@@ -40,7 +40,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link Apple2 - Naviga
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_CheckoutInfo'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Hover over div CheckoutInfo.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Hover over div CheckoutInfo.png')
 
 "Step 5: Click on input Email"
 
@@ -48,7 +48,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Hover over div CheckoutInfo.p
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_Email'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on input Email.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on input Email.png')
 
 "Step 6: Enter input value in input Email"
 
@@ -56,7 +56,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on input Email.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), input_Email)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Enter input value in input Email.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Enter input value in input Email.png')
 
 "Step 7: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'"
 
@@ -64,7 +64,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Enter input value in input Em
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_ContinueToShipping'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on button ContinueToShipping - Navigate to page checkoutshipping-address.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 7-Click on button ContinueToShipping - Navigate to page checkoutshipping-address.png')
 
 "Step 8: Hover over div CheckoutShippingAddress"
 
@@ -72,7 +72,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on button ContinueToShi
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Hover over div CheckoutShippingAddress.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 8-Hover over div CheckoutShippingAddress.png')
 
 "Step 9: Click on input FirstName"
 
@@ -80,7 +80,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Hover over div CheckoutShippi
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 9-Click on input FirstName.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 9-Click on input FirstName.png')
 
 "Step 10: Hover over div CheckoutShippingAddress2"
 
@@ -88,7 +88,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 9-Click on input FirstName.png'
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Hover over div CheckoutShippingAddress2.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 10-Hover over div CheckoutShippingAddress2.png')
 
 "Step 11: Enter input value in input FirstName"
 
@@ -96,7 +96,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 10-Hover over div CheckoutShipp
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName'), input_FirstName)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Enter input value in input FirstName.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 11-Enter input value in input FirstName.png')
 
 "Step 12: Click on input LastName"
 
@@ -104,7 +104,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Enter input value in input F
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_LastName'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 12-Click on input LastName.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 12-Click on input LastName.png')
 
 "Step 13: Hover over div CheckoutShippingAddress3"
 
@@ -112,7 +112,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 12-Click on input LastName.png'
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress3'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 13-Hover over div CheckoutShippingAddress3.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 13-Hover over div CheckoutShippingAddress3.png')
 
 "Step 14: Enter input value in input LastName"
 
@@ -120,7 +120,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 13-Hover over div CheckoutShipp
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_LastName'), input_LastName)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Enter input value in input LastName.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 14-Enter input value in input LastName.png')
 
 "Step 15: Click on input Address"
 
@@ -128,7 +128,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Enter input value in input L
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Address'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Click on input Address.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 15-Click on input Address.png')
 
 "Step 16: Hover over div CheckoutShippingAddress4"
 
@@ -136,7 +136,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Click on input Address.png')
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress4'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Hover over div CheckoutShippingAddress4.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 16-Hover over div CheckoutShippingAddress4.png')
 
 "Step 17: Enter input value in input Address"
 
@@ -144,7 +144,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 16-Hover over div CheckoutShipp
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Address'), input_Address)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Enter input value in input Address.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 17-Enter input value in input Address.png')
 
 "Step 18: Click on input ZipCode"
 
@@ -152,7 +152,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Enter input value in input A
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ZipCode'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Click on input ZipCode.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 18-Click on input ZipCode.png')
 
 "Step 19: Hover over div CheckoutShippingAddress5"
 
@@ -160,7 +160,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Click on input ZipCode.png')
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress5'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 19-Hover over div CheckoutShippingAddress5.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 19-Hover over div CheckoutShippingAddress5.png')
 
 "Step 20: Enter input value in input ZipCode"
 
@@ -168,7 +168,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 19-Hover over div CheckoutShipp
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ZipCode'), input_ZipCode)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 20-Enter input value in input ZipCode.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 20-Enter input value in input ZipCode.png')
 
 "Step 21: Click on input ShippingCity"
 
@@ -176,7 +176,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 20-Enter input value in input Z
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ShippingCity'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 21-Click on input ShippingCity.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 21-Click on input ShippingCity.png')
 
 "Step 22: Hover over div CheckoutShippingAddress6"
 
@@ -184,7 +184,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 21-Click on input ShippingCity.
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress6'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 22-Hover over div CheckoutShippingAddress6.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 22-Hover over div CheckoutShippingAddress6.png')
 
 "Step 23: Click on input State"
 
@@ -192,7 +192,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 22-Hover over div CheckoutShipp
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_State'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 23-Click on input State.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 23-Click on input State.png')
 
 "Step 24: Enter input value in input ShippingCity"
 
@@ -200,7 +200,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 23-Click on input State.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ShippingCity'), input_ShippingCity)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 24-Enter input value in input ShippingCity.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 24-Enter input value in input ShippingCity.png')
 
 "Step 25: Hover over div CheckoutShippingAddress7"
 
@@ -208,7 +208,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 24-Enter input value in input S
 
 WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress7'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 25-Hover over div CheckoutShippingAddress7.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 25-Hover over div CheckoutShippingAddress7.png')
 
 "Step 26: Enter input value in input State"
 
@@ -216,7 +216,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 25-Hover over div CheckoutShipp
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_State'), input_State)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 26-Enter input value in input State.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 26-Enter input value in input State.png')
 
 "Step 27: Click on input Phone"
 
@@ -224,7 +224,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 26-Enter input value in input S
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 27-Click on input Phone.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 27-Click on input Phone.png')
 
 "Step 28: Enter input value in input Phone"
 
@@ -232,7 +232,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 27-Click on input Phone.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone'), input_Phone)
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 28-Enter input value in input Phone.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 28-Enter input value in input Phone.png')
 
 "Step 29: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'"
 
@@ -240,7 +240,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 28-Enter input value in input P
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_ContinueToPayment'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 29-Click on button ContinueToPayment - Navigate to page checkoutpayment.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 29-Click on button ContinueToPayment - Navigate to page checkoutpayment.png')
 
 "Step 30: Click on button CompleteOrder -> Navigate to page 'thank-you/*'"
 
@@ -248,11 +248,11 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 29-Click on button ContinueToPa
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_CompleteOrder'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 30-Click on button CompleteOrder - Navigate to page thank-you.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 30-Click on button CompleteOrder - Navigate to page thank-you.png')
 
 "Step 31: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Fill Shipping Information and Complete Checkout Process_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Complete Order with Detailed Shipping Information_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
