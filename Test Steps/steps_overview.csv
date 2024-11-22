@@ -1,0 +1,153 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+2,Navigate to Home and Verify Page,"Access the home page, hover over items, click a mobile brand link, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrand (Samsung) -> Navigate to page 'category/*'
+Step 4: Click on footer contentInfo -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+5,Verify Product Page for Samsung Galaxy Z Fold 4,"Navigate to the home page, select a mobile brand, and verify the product page for Samsung Galaxy Z Fold 4.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrand (Samsung) -> Navigate to page 'category/*'
+Step 4: Click on link samsungGalaxyZFold4 -> Navigate to page 'product/*'
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+1,Complete Order Process for Apple Product,"Navigate to the home page, select an Apple product, enter shipping details, and complete the order process.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page '/cart'
+Step 4: Click on button Increased
+Step 5: Enter shipping details and complete the order process
+	- Step 1: Hover over div CheckoutInfo
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Hover over div CheckoutShippingAddress
+	- Step 6: Click on input FirstName
+	- Step 7: Hover over div CheckoutShippingAddress2
+	- Step 8: Enter input value in input FirstName
+	- Step 9: Click on input Address
+	- Step 10: Hover over div CheckoutShippingAddress4
+	- Step 11: Enter input value in input Address
+	- Step 12: Click on input ZipCode
+	- Step 13: Hover over div CheckoutShippingAddress6
+	- Step 14: Enter input value in input ZipCode
+	- Step 15: Click on input ShippingCity
+	- Step 16: Hover over div CheckoutShippingAddress3
+	- Step 17: Enter input value in input ShippingCity
+	- Step 18: Click on input LastName
+	- Step 19: Hover over div CheckoutShippingAddress5
+	- Step 20: Enter input value in input LastName
+	- Step 21: Click on input State
+	- Step 22: Hover over div CheckoutShippingAddress7
+	- Step 23: Enter input value in input State
+	- Step 24: Click on input Phone
+	- Step 25: Enter input value in input Phone
+	- Step 26: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 27: Click on button CompleteOrder
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Order Process for iPhone 15 Pro,"Navigate to the home page, select an iPhone 15 Pro, enter shipping details, and complete the order process.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category/*'
+Step 4: Click on label iPhone15Pro
+Step 5: Click on label winterBlue -> Navigate to page '/cart'
+Step 6: Click on button Increased
+Step 7: Enter shipping details and complete the order process
+	- Step 1: Hover over div CheckoutInfo
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Hover over div CheckoutShippingAddress
+	- Step 6: Click on input FirstName
+	- Step 7: Hover over div CheckoutShippingAddress2
+	- Step 8: Enter input value in input FirstName
+	- Step 9: Click on input Address
+	- Step 10: Hover over div CheckoutShippingAddress4
+	- Step 11: Enter input value in input Address
+	- Step 12: Click on input ZipCode
+	- Step 13: Hover over div CheckoutShippingAddress6
+	- Step 14: Enter input value in input ZipCode
+	- Step 15: Click on input ShippingCity
+	- Step 16: Hover over div CheckoutShippingAddress3
+	- Step 17: Enter input value in input ShippingCity
+	- Step 18: Click on input LastName
+	- Step 19: Hover over div CheckoutShippingAddress5
+	- Step 20: Enter input value in input LastName
+	- Step 21: Click on input State
+	- Step 22: Hover over div CheckoutShippingAddress7
+	- Step 23: Enter input value in input State
+	- Step 24: Click on input Phone
+	- Step 25: Enter input value in input Phone
+	- Step 26: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 27: Click on button CompleteOrder
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+3,Complete Order for Mobile Brand Product,"Navigate to the home page, select a mobile brand, choose a product, and complete the order process with shipping details.","Step 1: Navigate to /
+Step 2: Click on div swiperSliderContent
+Step 3: Click on link mobileBrand (iPhone15Plus) -> Navigate to page 'product/*'
+Step 4: Click on label storageColorOption (512GB)
+Step 5: Click on label storageColorOption (Green)
+Step 6: Click on link goToCart
+Step 7: Enter shipping details and complete the order process
+	- Step 1: Hover over div CheckoutInfo
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 5: Hover over div CheckoutShippingAddress
+	- Step 6: Click on input FirstName
+	- Step 7: Hover over div CheckoutShippingAddress2
+	- Step 8: Enter input value in input FirstName
+	- Step 9: Click on input Address
+	- Step 10: Hover over div CheckoutShippingAddress4
+	- Step 11: Enter input value in input Address
+	- Step 12: Click on input ZipCode
+	- Step 13: Hover over div CheckoutShippingAddress6
+	- Step 14: Enter input value in input ZipCode
+	- Step 15: Click on input ShippingCity
+	- Step 16: Hover over div CheckoutShippingAddress3
+	- Step 17: Enter input value in input ShippingCity
+	- Step 18: Click on input LastName
+	- Step 19: Hover over div CheckoutShippingAddress5
+	- Step 20: Enter input value in input LastName
+	- Step 21: Click on input State
+	- Step 22: Hover over div CheckoutShippingAddress7
+	- Step 23: Enter input value in input State
+	- Step 24: Click on input Phone
+	- Step 25: Enter input value in input Phone
+	- Step 26: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 27: Click on button CompleteOrder
+Step 8: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,Complete Order with Detailed Shipping Information,"Navigate to the home page, select a product, enter detailed shipping information, and complete the order process.","Step 1: Navigate to /
+Step 2: Click on link mobileBrand (iPhone15Plus) -> Navigate to page 'product/*'
+Step 3: Click on label storageColorOption (256GB)
+Step 4: Click on label yellow -> Navigate to page '/cart'
+Step 5: Click on button Increased -> Navigate to page 'checkout/info'
+Step 6: Hover over div CheckoutInfo
+Step 7: Click on input Email
+Step 8: Enter input value in input Email
+Step 9: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 10: Hover over div CheckoutShippingAddress
+Step 11: Click on input FirstName
+Step 12: Hover over div CheckoutShippingAddress2
+Step 13: Enter input value in input FirstName
+Step 14: Click on input Address
+Step 15: Hover over div CheckoutShippingAddress3
+Step 16: Enter input value in input Address
+Step 17: Click on input LastName
+Step 18: Hover over div CheckoutShippingAddress4
+Step 19: Enter input value in input LastName
+Step 20: Click on input ZipCode
+Step 21: Hover over div CheckoutShippingAddress5
+Step 22: Click on input State
+Step 23: Enter input value in input ZipCode
+Step 24: Hover over div CheckoutShippingAddress6
+Step 25: Enter input value in input State
+Step 26: Click on input ShippingCity
+Step 27: Hover over div CheckoutShippingAddress7
+Step 28: Enter input value in input ShippingCity
+Step 29: Click on input Phone
+Step 30: Enter input value in input Phone
+Step 31: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 32: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 33: Take full page screenshot as checkpoint
+",Trivial,NEW
