@@ -1,9 +1,9 @@
-import truetest.custom.TrueTestScripts
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration
-import truetest.common.fillCheckoutShippingDetailsAndCompleteOrder
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable
+import truetest.custom.TrueTestScripts
+import truetest.common.fillShippingInfoAndCompleteOrder
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -43,9 +43,9 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_Increased'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button Increased.png')
 
-"Step 5: Enter shipping details and complete the order process"
+"Step 5: Fill shipping information and complete order process"
 
-fillCheckoutShippingDetailsAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
+fillShippingInfoAndCompleteOrder.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 6: Take full page screenshot as checkpoint"
 
