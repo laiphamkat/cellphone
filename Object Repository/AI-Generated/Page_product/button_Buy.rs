@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Buy</value>
-        <webElementGuid>9629f7d8-f184-4a7a-ae9d-6a8192b4a0d4</webElementGuid>
+        <webElementGuid>d1f90ee1-36f8-45e2-8ea1-03f31d020394</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>title</name>
         <type>Main</type>
         <value>Buy</value>
-        <webElementGuid>9629f7d8-f184-4a7a-ae9d-6a8192b4a0d4</webElementGuid>
+        <webElementGuid>d1f90ee1-36f8-45e2-8ea1-03f31d020394</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>button</value>
-        <webElementGuid>9629f7d8-f184-4a7a-ae9d-6a8192b4a0d4</webElementGuid>
+        <webElementGuid>d1f90ee1-36f8-45e2-8ea1-03f31d020394</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

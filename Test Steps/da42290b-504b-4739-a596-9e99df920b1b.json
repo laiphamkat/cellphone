@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link mobileBrand (Apple) -> Navigate to page 'category/*'",
+        "step 4: Click on button AddToCart",
+        "step 5: Click on label colorStorageOption (Storage256GB)",
+        "step 6: Click on label colorStorageOption (Green)",
+        "step 7: Click on button Buy",
+        "step 8: Click on link cartNavigation (GoToCart2)",
+        "step 9: Fill in shipping information and complete the order",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
