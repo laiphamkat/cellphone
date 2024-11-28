@@ -1,0 +1,272 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Navigate to Mobile Brands and Complete Checkout,"Navigate to the homepage, explore mobile brands, add a product to the cart, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (GooglePixel) -> Navigate to page 'category/*'
+Step 4: Click on button productDetails (GooglePixel7Pro)
+Step 5: Click on link cartNavigation (GoToCart)
+Step 6: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+3,Add Mobile Brand Product to Cart and Checkout,"Navigate to the homepage, select a mobile brand, add a product to the cart, fill in shipping details, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Hover over item object2
+Step 3: Click on link mobileBrands (Samsung) -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 6: Click on button Increased
+Step 7: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+2,Select iPhone 15 and Complete Purchase,"Navigate to the homepage, select the iPhone 15, choose storage options, add to cart, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link phoneCategory (Phone) -> Navigate to page 'category/*'
+Step 4: Click on link iPhone15 -> Navigate to page 'product/*'
+Step 5: Click on label storageColorOptions (ProductTB)
+Step 6: Click on label storageColorOptions (Blue)
+Step 7: Click on button Buy
+Step 8: Click on link PlaceAnOrder
+Step 9: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Add Mobile Brand Product with Options and Checkout,"Navigate to the homepage, select a mobile brand product, choose storage options, add to cart, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart2)
+Step 5: Click on label storageColorOptions (Storage256GB)
+Step 6: Click on label storageColorOptions (Green)
+Step 7: Click on button Buy
+Step 8: Click on link cartNavigation (GoToCart2)
+Step 9: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+6,View Product Details and Complete Checkout,"Navigate to the homepage, view product details, select options, add to cart, fill in shipping details, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrands (Apple) -> Navigate to page 'category/*'
+Step 4: Click on button productDetails (HotNewProduct)
+Step 5: Click on label storageColorOptions (Storage512GB)
+Step 6: Click on label storageColorOptions (Green2)
+Step 7: Click on button Increased
+Step 8: Click on button Buy
+Step 9: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 10: Click on link GoToCart
+Step 11: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 12: Take full page screenshot as checkpoint
+",Low,NEW
+5,Purchase Mobile Product with Color Options,"Navigate to the homepage, select a mobile product, choose color options, add to cart, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
+Step 2: Click on link mobileProduct (iPhone15Plus) -> Navigate to page 'product/*'
+Step 3: Click on label storageColorOptions (512GB)
+Step 4: Click on label storageColorOptions (Pink)
+Step 5: Click on button Increased
+Step 6: Click on button Buy
+Step 7: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 8: Click on button Increased
+Step 9: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Trivial,NEW
+7,Multiple Purchases of Mobile Product and Checkout,"Navigate to the homepage, select a mobile product, choose options, add multiple items to cart, fill in shipping details, and complete the checkout.","Step 1: Navigate to /
+Step 2: Click on link mobileProduct (iPhone15Plus) -> Navigate to page 'product/*'
+Step 3: Click on button Increased
+Step 4: Click on button Increased
+Step 5: Click on button Buy
+Step 6: Click on label storageColorOptions (128GB)
+Step 7: Click on label storageColorOptions (Blue2)
+Step 8: Click on button Buy
+Step 9: Click on link goToCart
+Step 10: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 11: Take full page screenshot as checkpoint
+",Trivial,NEW

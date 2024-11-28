@@ -10,7 +10,7 @@ public class completeCheckoutProcessWithShippingDetails {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Click on button ProceedToCheckout -> Navigate to page '/checkout/info'"
+        "Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
         
@@ -26,7 +26,7 @@ public class completeCheckoutProcessWithShippingDetails {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), data['input_Email'])
         
-        "Step 5: Click on button ContinueToShipping -> Navigate to page '/checkout/shipping-address'"
+        "Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_ContinueToShipping'))
         
@@ -82,17 +82,17 @@ public class completeCheckoutProcessWithShippingDetails {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ZipCode'), data['input_ZipCode'])
         
-        "Step 19: Click on input City"
+        "Step 19: Click on input ShippingCity"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_City'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ShippingCity'))
         
         "Step 20: Hover over div CheckoutShippingAddress6"
         
         WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_CheckoutShippingAddress6'))
         
-        "Step 21: Enter input value in input City"
+        "Step 21: Enter input value in input ShippingCity"
         
-        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_City'), data['input_City'])
+        WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_ShippingCity'), data['input_ShippingCity'])
         
         "Step 22: Click on input State"
         
@@ -114,7 +114,7 @@ public class completeCheckoutProcessWithShippingDetails {
         
         WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone'), data['input_Phone'])
         
-        "Step 27: Click on button ContinueToPayment -> Navigate to page '/checkout/payment'"
+        "Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/button_ContinueToPayment'))
         
@@ -127,11 +127,11 @@ public class completeCheckoutProcessWithShippingDetails {
         TestData testData = findTestData(datasource)
         Map data = [:]
         data['input_Address'] = testData.getValue('input_Address', rowIndex)
-        data['input_City'] = testData.getValue('input_City', rowIndex)
         data['input_Email'] = testData.getValue('input_Email', rowIndex)
         data['input_FirstName'] = testData.getValue('input_FirstName', rowIndex)
         data['input_LastName'] = testData.getValue('input_LastName', rowIndex)
         data['input_Phone'] = testData.getValue('input_Phone', rowIndex)
+        data['input_ShippingCity'] = testData.getValue('input_ShippingCity', rowIndex)
         data['input_State'] = testData.getValue('input_State', rowIndex)
         data['input_ZipCode'] = testData.getValue('input_ZipCode', rowIndex)
         execute_functional_method(data)
@@ -140,11 +140,11 @@ public class completeCheckoutProcessWithShippingDetails {
     private static def execute_without_data_source() {
         Map data = [:]
         data['input_Address'] = 'default_data'
-        data['input_City'] = 'default_data'
         data['input_Email'] = 'default_data'
         data['input_FirstName'] = 'default_data'
         data['input_LastName'] = 'default_data'
         data['input_Phone'] = 'default_data'
+        data['input_ShippingCity'] = 'default_data'
         data['input_State'] = 'default_data'
         data['input_ZipCode'] = 'default_data'
         execute_functional_method(data)
