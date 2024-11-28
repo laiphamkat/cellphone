@@ -1,0 +1,189 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Order for Google Pixel 7 Pro Mobile Phone,"Navigate to the homepage, select Google Pixel 7 Pro, fill in shipping information, and complete the order. Verify that the homepage is displayed.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrand (GooglePixel) -> Navigate to page 'category/*'
+Step 4: Click on button GooglePixel7Pro
+Step 5: Click on link cartNavigation (GoToCart)
+Step 6: Fill in shipping information and complete the order
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 7: Take full page screenshot as checkpoint
+",High,STABLE
+4,Complete Checkout Process with Shipping Information on Cellphone Staging,"Navigate through the homepage, add an item to the cart, and proceed to checkout. Enter shipping details and complete the order, verifying the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link brand (Samsung) -> Navigate to page 'category/*'
+Step 4: Click on button addToCart (AddToCart)
+Step 5: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 6: Click on button Increased
+Step 7: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 8: Hover over div CheckoutInfo
+Step 9: Click on input Email
+Step 10: Enter input value in input Email
+Step 11: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 12: Hover over div CheckoutShippingAddress
+Step 13: Click on input FirstName
+Step 14: Hover over div CheckoutShippingAddress2
+Step 15: Enter input value in input FirstName
+Step 16: Click on input LastName
+Step 17: Hover over div CheckoutShippingAddress3
+Step 18: Enter input value in input LastName
+Step 19: Click on input Address
+Step 20: Hover over div CheckoutShippingAddress4
+Step 21: Enter input value in input Address
+Step 22: Click on input ZipCode
+Step 23: Hover over div CheckoutShippingAddress5
+Step 24: Enter input value in input ZipCode
+Step 25: Click on input ShippingCity
+Step 26: Hover over div CheckoutShippingAddress6
+Step 27: Enter input value in input ShippingCity
+Step 28: Click on input State
+Step 29: Hover over div CheckoutShippingAddress7
+Step 30: Enter input value in input State
+Step 31: Click on input Phone
+Step 32: Enter input value in input Phone
+Step 33: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 34: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 35: Take full page screenshot as checkpoint
+",Medium,STABLE
+5,Complete Purchase Flow for iPhone 15 on Cellphone Staging,"Navigate to the homepage, select the iPhone 15, and proceed through the checkout process by entering shipping and payment details, then verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link phone (Phone) -> Navigate to page 'category/*'
+Step 4: Click on link iPhone15 -> Navigate to page 'product/*'
+Step 5: Click on label colorProduct (ProductTB)
+Step 6: Click on label colorProduct (Blue)
+Step 7: Click on button Buy
+Step 8: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+Step 10: Hover over div CheckoutInfo
+Step 11: Click on input Email
+Step 12: Enter input value in input Email
+Step 13: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+Step 14: Hover over div CheckoutShippingAddress
+Step 15: Click on input FirstName
+Step 16: Hover over div CheckoutShippingAddress2
+Step 17: Enter input value in input FirstName
+Step 18: Click on input LastName
+Step 19: Hover over div CheckoutShippingAddress3
+Step 20: Enter input value in input LastName
+Step 21: Click on input Address
+Step 22: Hover over div CheckoutShippingAddress4
+Step 23: Enter input value in input Address
+Step 24: Click on input ZipCode
+Step 25: Hover over div CheckoutShippingAddress5
+Step 26: Enter input value in input ZipCode
+Step 27: Click on input ShippingCity
+Step 28: Hover over div CheckoutShippingAddress6
+Step 29: Enter input value in input ShippingCity
+Step 30: Click on input State
+Step 31: Hover over div CheckoutShippingAddress7
+Step 32: Enter input value in input State
+Step 33: Click on input Phone
+Step 34: Enter input value in input Phone
+Step 35: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+Step 36: Click on button CompleteOrder -> Navigate to page 'thank-you/*'
+Step 37: Take full page screenshot as checkpoint
+",Low,NEW
+2,Add Mobile Phone to Cart and Complete Order,"Navigate to the homepage, add a mobile phone to the cart, select color and storage options, fill in shipping information, and complete the order. Verify the homepage.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link mobileBrand (Apple) -> Navigate to page 'category/*'
+Step 4: Click on button AddToCart
+Step 5: Click on label colorStorageOption (Storage256GB)
+Step 6: Click on label colorStorageOption (Green)
+Step 7: Click on button Buy
+Step 8: Click on link cartNavigation (GoToCart2)
+Step 9: Fill in shipping information and complete the order
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Trivial,STABLE
+3,Place Order for Mobile Phone with Storage Color Options,"Navigate to the homepage, select a mobile product, choose storage and color options, place the order, fill in shipping information, and verify the homepage.","Step 1: Navigate to /
+Step 2: Click on link mobileProduct (iPhone15Plus) -> Navigate to page 'product/*'
+Step 3: Click on label storageColorOption (512GB)
+Step 4: Click on label storageColorOption (Pink)
+Step 5: Click on button Increased
+Step 6: Click on button Buy
+Step 7: Click on link PlaceAnOrder -> Navigate to page '/cart'
+Step 8: Click on button Increased
+Step 9: Fill in shipping information and complete the order
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div CheckoutInfo
+	- Step 3: Click on input Email
+	- Step 4: Enter input value in input Email
+	- Step 5: Click on button ContinueToShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 6: Hover over div CheckoutShippingAddress
+	- Step 7: Click on input FirstName
+	- Step 8: Hover over div CheckoutShippingAddress2
+	- Step 9: Enter input value in input FirstName
+	- Step 10: Click on input LastName
+	- Step 11: Hover over div CheckoutShippingAddress3
+	- Step 12: Enter input value in input LastName
+	- Step 13: Click on input Address
+	- Step 14: Hover over div CheckoutShippingAddress4
+	- Step 15: Enter input value in input Address
+	- Step 16: Click on input ZipCode
+	- Step 17: Hover over div CheckoutShippingAddress5
+	- Step 18: Enter input value in input ZipCode
+	- Step 19: Click on input ShippingCity
+	- Step 20: Hover over div CheckoutShippingAddress6
+	- Step 21: Enter input value in input ShippingCity
+	- Step 22: Click on input State
+	- Step 23: Hover over div CheckoutShippingAddress7
+	- Step 24: Enter input value in input State
+	- Step 25: Click on input Phone
+	- Step 26: Enter input value in input Phone
+	- Step 27: Click on button ContinueToPayment -> Navigate to page 'checkout/payment'
+	- Step 28: Click on button CompleteOrder
+Step 10: Take full page screenshot as checkpoint
+",Trivial,STABLE
