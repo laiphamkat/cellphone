@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>CONTINUE TO SHIPPING</value>
-        <webElementGuid>d454bf38-fd31-4d58-8f5d-24115bb616a5</webElementGuid>
+        <webElementGuid>c2fd9e47-d925-4af7-8947-9d45fce3ec82</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>submit</value>
-        <webElementGuid>d454bf38-fd31-4d58-8f5d-24115bb616a5</webElementGuid>
+        <webElementGuid>c2fd9e47-d925-4af7-8947-9d45fce3ec82</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
