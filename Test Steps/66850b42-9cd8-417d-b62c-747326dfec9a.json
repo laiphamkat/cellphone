@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object2",
+        "step 3: Click on link mobileBrands",
+        "step 4: Hover over item object22",
+        "step 5: Click on link mobileBrands (Apple) -> Navigate to page 'category/*'",
+        "step 6: Click on link productOptions (iPhone15Case) -> Navigate to page 'product/*'",
+        "step 7: Click on list HomeAccessoriesApple",
+        "step 8: Click on label colorStorageOptions (ProductName)",
+        "step 9: Click on label colorStorageOptions (ColorCypress)",
+        "step 10: Click on link cartNavigation (GoToCart) -> Navigate to page 'checkout/info'",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
