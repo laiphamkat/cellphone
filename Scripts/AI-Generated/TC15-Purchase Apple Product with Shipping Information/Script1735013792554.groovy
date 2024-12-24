@@ -1,0 +1,59 @@
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import truetest.common.enterShippingInfoAndProceedToPayment
+import truetest.custom.TrueTestScripts
+
+def reportLocation = RunConfiguration.getReportFolder()
+
+'Initialize test session: Open browser and set view port'
+
+@com.kms.katalon.core.annotation.SetUp
+def setup() {
+	WebUI.openBrowser('')
+	WebUI.setViewPortSize(1920, 1080)	
+}
+
+"Step 1: Navigate to /"
+
+TrueTestScripts.navigate("/")
+
+"Step 2: Hover over item object2"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
+
+WebUI.takeScreenshot(reportLocation + '/TC15/Step 2-Hover over item object2.png')
+
+"Step 3: Click on link Apple4"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
+
+WebUI.takeScreenshot(reportLocation + '/TC15/Step 3-Click on link Apple4.png')
+
+"Step 4: Input shipping information and proceed to payment options"
+
+enterShippingInfoAndProceedToPayment.execute(data_path_0, Integer.valueOf(index_0))
+
+"Step 5: Click on button CompleteOrder -> Navigate to page 'thank-you/*'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_payment/button_CompleteOrder'))
+
+WebUI.takeScreenshot(reportLocation + '/TC15/Step 5-Click on button CompleteOrder - Navigate to page thank-you.png')
+
+"Step 6: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC15-Purchase Apple Product with Shipping Information_visual_checkpoint')
+
+'Terminate test session: Close browser'
+
+@com.kms.katalon.core.annotation.TearDown
+def teardown() {
+	WebUI.closeBrowser()
+}

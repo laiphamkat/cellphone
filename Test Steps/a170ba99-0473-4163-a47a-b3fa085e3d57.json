@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on div swiperSliderContent",
+        "step 3: Click on link productItem (Iphone15Plus) -> Navigate to page 'product/*'",
+        "step 4: Click on label productDetails (StorageCapacity)",
+        "step 5: Click on label productDetails (colorOption)",
+        "step 6: Click on link cartNavigationMultiple (GoToCart3)",
+        "step 7: Enter email and shipping address details before payment",
+        "step 8: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
