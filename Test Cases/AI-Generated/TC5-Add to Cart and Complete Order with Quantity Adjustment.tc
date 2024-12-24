@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>999fc9e4-fc29-4b65-b5f5-783fc41ead14</id>
@@ -15,7 +16,7 @@
         <id>b3c9a5f4-8d77-4e16-8221-851c0a3e9665</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC5-Add to Cart and Complete Order with Quantity Adjustment-test-data</testDataId>
     </testDataLinks>
@@ -69,7 +70,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'9'</defaultValue>
+        <defaultValue>'26'</defaultValue>
         <description>Common function data row index</description>
         <id>5fabaa4d-f86a-4cb1-9895-2820b4a6a954</id>
         <masked>false</masked>

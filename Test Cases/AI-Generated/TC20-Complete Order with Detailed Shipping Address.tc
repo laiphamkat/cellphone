@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>176f93e3-d1a8-4a2c-b32f-03b4b91879aa</id>
@@ -15,7 +16,7 @@
         <id>336da19d-298c-4ca9-afdd-d6338343f6a3</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC20-Complete Order with Detailed Shipping Address-test-data</testDataId>
     </testDataLinks>
@@ -55,14 +56,14 @@
         <name>data_path_1</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>'4'</defaultValue>
         <description>Common function data row index</description>
         <id>5172f0a4-2aa4-4c07-906d-b0b119302333</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'2'</defaultValue>
         <description>Common function data row index</description>
         <id>01adef89-dccd-48ad-9016-afee95e29103</id>
         <masked>false</masked>

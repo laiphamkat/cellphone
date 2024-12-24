@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>b34594f9-caf9-403a-9eb7-d14d83e83a31</id>
@@ -15,7 +16,7 @@
         <id>a1436f3c-a957-493e-95ff-9588062616ee</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC7-Complete Order with Storage and Color Options-test-data</testDataId>
     </testDataLinks>
@@ -27,7 +28,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'16'</defaultValue>
+        <defaultValue>'29'</defaultValue>
         <description>Common function data row index</description>
         <id>0b0281eb-2351-4d61-a98d-4e802dea58f6</id>
         <masked>false</masked>

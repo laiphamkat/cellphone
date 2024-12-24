@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>85c7d9d3-f522-4b48-b20a-8af8a65a142e</id>
@@ -15,7 +16,7 @@
         <id>a95e6dc1-1765-40ea-afd3-37527e7cd86f</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC9-Complete Order from Product Details to Home Page-test-data</testDataId>
     </testDataLinks>
@@ -34,7 +35,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'5'</defaultValue>
+        <defaultValue>'23'</defaultValue>
         <description>Common function data row index</description>
         <id>a3195bb8-7342-436b-8f3d-c29f97b77ce5</id>
         <masked>false</masked>

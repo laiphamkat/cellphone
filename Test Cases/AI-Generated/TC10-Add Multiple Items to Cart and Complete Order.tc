@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>010d1b34-4d7c-4f15-b18a-3b6e03178351</id>
@@ -15,7 +16,7 @@
         <id>2e76e7d2-f8f1-4955-9d24-fad1653cfc6e</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC10-Add Multiple Items to Cart and Complete Order-test-data</testDataId>
     </testDataLinks>
@@ -62,7 +63,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'27'</defaultValue>
         <description>Common function data row index</description>
         <id>50628655-994b-4c1b-9bef-7ef6f9c697f8</id>
         <masked>false</masked>

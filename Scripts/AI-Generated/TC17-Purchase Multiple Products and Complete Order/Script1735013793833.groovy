@@ -24,7 +24,7 @@ TrueTestScripts.navigate("/")
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_productItem"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_productItem', ['link_productItem_class': link_productItem_class, 'link_productItem_nth': link_productItem_nth, 'link_productItem_internalRoleLinkName': link_productItem_internalRoleLinkName, 'product_id': product_id]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_productItem', ['link_productItem_class': link_productItem_class, 'link_productItem_internalRoleLinkName': link_productItem_internalRoleLinkName, 'link_productItem_nth': link_productItem_nth, 'product_id': product_id]))
 
 WebUI.takeScreenshot(reportLocation + '/TC17/Step 2-Click on link productItem Iphone15Plus - Navigate to page product.png')
 

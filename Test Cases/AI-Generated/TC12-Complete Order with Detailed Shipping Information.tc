@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment />
+    <comment></comment>
     <customField>
         <flow>
             <id>2aa4302d-e211-4a5c-8f27-5a6a2b777957</id>
@@ -15,7 +16,7 @@
         <id>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</id>
         <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value />
+            <value></value>
         </iterationEntity>
         <testDataId>Data Files/AI-Generated/TC12-Complete Order with Detailed Shipping Information-test-data</testDataId>
     </testDataLinks>
@@ -55,25 +56,25 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'5'</defaultValue>
         <description>Common function data row index</description>
         <id>28a0b6d6-348e-4b4c-a157-97e9937051f5</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'dfgfd'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>d56948c9-7443-43c2-91ce-ec5dc0679941</id>
+        <id>71b0289c-f8a3-408b-9527-3a84333865f2</id>
         <masked>false</masked>
-        <name>input_Address2</name>
+        <name>input_Address</name>
     </variable>
     <variable>
-        <defaultValue>'gsdfg'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>539f3739-776e-438a-b34c-26f674754c47</id>
+        <id>05f525fc-7fa3-44d3-aa40-3884047b14b4</id>
         <masked>false</masked>
-        <name>input_City2</name>
+        <name>input_City</name>
     </variable>
     <variable>
         <defaultValue>'fgdf'</defaultValue>
@@ -83,32 +84,32 @@
         <name>input_FirstName</name>
     </variable>
     <variable>
-        <defaultValue>'dfgdf'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>0e58d6af-19c4-423b-b0d4-b3ee65bba935</id>
+        <id>a214e663-e69c-4cbc-ac5d-8eb7ff205b76</id>
         <masked>false</masked>
-        <name>input_LastName2</name>
+        <name>input_LastName</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>cc05804f-b0a7-4f72-b87f-550f7695cbec</id>
+        <id>32e9c4c9-8243-41da-9513-2b537c8b71be</id>
         <masked>false</masked>
-        <name>input_Phone2</name>
+        <name>input_Phone</name>
     </variable>
     <variable>
-        <defaultValue>'44'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>07ed0be3-2da9-4f5e-ad7d-0b8b3d9d54ac</id>
+        <id>8a5939eb-426c-424c-bb62-b942bf3f9237</id>
         <masked>false</masked>
-        <name>input_State2</name>
+        <name>input_State</name>
     </variable>
     <variable>
-        <defaultValue>'444'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>526c9a70-6506-411a-b6d4-096de77d2120</id>
+        <id>af7396c3-76f2-4868-9a74-9e7ebc11377b</id>
         <masked>false</masked>
-        <name>input_ZipCode2</name>
+        <name>input_ZipCode</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52173-case-650'</defaultValue>
@@ -184,14 +185,14 @@
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Address2</value>
-        <variableId>d56948c9-7443-43c2-91ce-ec5dc0679941</variableId>
+        <value>input_Address</value>
+        <variableId>71b0289c-f8a3-408b-9527-3a84333865f2</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_City2</value>
-        <variableId>539f3739-776e-438a-b34c-26f674754c47</variableId>
+        <value>input_City</value>
+        <variableId>05f525fc-7fa3-44d3-aa40-3884047b14b4</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
@@ -202,26 +203,26 @@
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_LastName2</value>
-        <variableId>0e58d6af-19c4-423b-b0d4-b3ee65bba935</variableId>
+        <value>input_LastName</value>
+        <variableId>a214e663-e69c-4cbc-ac5d-8eb7ff205b76</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Phone2</value>
-        <variableId>cc05804f-b0a7-4f72-b87f-550f7695cbec</variableId>
+        <value>input_Phone</value>
+        <variableId>32e9c4c9-8243-41da-9513-2b537c8b71be</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_State2</value>
-        <variableId>07ed0be3-2da9-4f5e-ad7d-0b8b3d9d54ac</variableId>
+        <value>input_State</value>
+        <variableId>8a5939eb-426c-424c-bb62-b942bf3f9237</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_ZipCode2</value>
-        <variableId>526c9a70-6506-411a-b6d4-096de77d2120</variableId>
+        <value>input_ZipCode</value>
+        <variableId>af7396c3-76f2-4868-9a74-9e7ebc11377b</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>dfdb2977-b49f-414f-bce7-6270bc9b4c4a</testDataLinkId>
