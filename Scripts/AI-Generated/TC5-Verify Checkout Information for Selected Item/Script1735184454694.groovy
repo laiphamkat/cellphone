@@ -30,7 +30,7 @@ WebUI.takeScreenshot(reportLocation + '/TC5/Step 2-Hover over item object3.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_AppleCategory'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20241226/Page_home/link_AppleCategory'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 3-Click on link AppleCategory.png')
 
