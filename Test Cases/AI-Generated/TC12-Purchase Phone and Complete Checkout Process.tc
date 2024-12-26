@@ -10,7 +10,7 @@
     <name>TC12-Purchase Phone and Complete Checkout Process</name>
     <origin>TRUETEST</origin>
     <tag></tag>
-    <testCaseGuid>d2b52daa-b2fc-4425-ad7d-c09216580e73</testCaseGuid>
+    <testCaseGuid>cb2905c7-b237-4353-8621-bd8a90c37660</testCaseGuid>
     <testDataLinks>
         <combinationType>ONE</combinationType>
         <id>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</id>
@@ -21,7 +21,7 @@
         <testDataId>Data Files/AI-Generated/TC12-Purchase Phone and Complete Checkout Process-test-data</testDataId>
     </testDataLinks>
     <variable>
-        <defaultValue>'Data Files/AI-Generated/Common/fillShippingAddressAndProceed-test-data'</defaultValue>
+        <defaultValue>'Data Files/AI-Generated/Common/fillShippingAddressDetailsAndContinueToPayment-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>ee14cd65-1654-47aa-9f0e-3e2ef5469093</id>
         <masked>false</masked>
@@ -37,30 +37,30 @@
     <variable>
         <defaultValue>'\\31 52170-case-636'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>d2c9a17b-3542-4d35-9216-a0b5001f29be</id>
+        <id>48c13e76-5b96-4e28-8af8-48740f4522f4</id>
         <masked>false</masked>
-        <name>label_productAttributes_for</name>
+        <name>label_storageColorOptions_for</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52171-case-637'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>7ff822dd-a730-4284-b121-8307c586d5d4</id>
+        <id>0a6455b4-2dc1-48d4-808b-db5edcaf65c1</id>
         <masked>false</masked>
-        <name>label_productAttributes_for_1</name>
+        <name>label_storageColorOptions_for_1</name>
     </variable>
     <variable>
         <defaultValue>'TB'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>1ccfe6f7-8f66-42c7-b14b-8a284d31d16e</id>
+        <id>d4f7a306-d986-4456-a5ae-b583ff10eeea</id>
         <masked>false</masked>
-        <name>label_productAttributes_internalText</name>
+        <name>label_storageColorOptions_internalText</name>
     </variable>
     <variable>
         <defaultValue>'Blue'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>1b1a7952-faf5-481c-8ee4-44725c76f415</id>
+        <id>1b9ee64f-8d31-4f4b-9579-3bf01e34880e</id>
         <masked>false</masked>
-        <name>label_productAttributes_internalText_1</name>
+        <name>label_storageColorOptions_internalText_1</name>
     </variable>
     <variable>
         <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(2) [class="products__title'</defaultValue>
@@ -98,26 +98,26 @@
     <variableLinks>
         <testDataLinkId>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_productAttributes_for</value>
-        <variableId>d2c9a17b-3542-4d35-9216-a0b5001f29be</variableId>
+        <value>label_storageColorOptions_for</value>
+        <variableId>48c13e76-5b96-4e28-8af8-48740f4522f4</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_productAttributes_for_1</value>
-        <variableId>7ff822dd-a730-4284-b121-8307c586d5d4</variableId>
+        <value>label_storageColorOptions_for_1</value>
+        <variableId>0a6455b4-2dc1-48d4-808b-db5edcaf65c1</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_productAttributes_internalText</value>
-        <variableId>1ccfe6f7-8f66-42c7-b14b-8a284d31d16e</variableId>
+        <value>label_storageColorOptions_internalText</value>
+        <variableId>d4f7a306-d986-4456-a5ae-b583ff10eeea</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>label_productAttributes_internalText_1</value>
-        <variableId>1b1a7952-faf5-481c-8ee4-44725c76f415</variableId>
+        <value>label_storageColorOptions_internalText_1</value>
+        <variableId>1b9ee64f-8d31-4f4b-9579-3bf01e34880e</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>16763e3c-30b5-4d2d-8e8c-b6ee2d526094</testDataLinkId>

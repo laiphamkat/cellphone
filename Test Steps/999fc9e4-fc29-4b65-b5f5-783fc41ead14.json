@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link brandCategories (Samsung) -> Navigate to page 'category/*'",
+        "step 4: Click on button addToCart (AddToCart)",
+        "step 5: Click on link PlaceOrder -> Navigate to page '/cart'",
+        "step 6: Click on button quantityAdjustment (IncreaseQuantity2)",
+        "step 7: Click on button ProceedToCheckout2",
+        "step 8: Complete shipping address form and proceed to payment",
+        "step 9: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
