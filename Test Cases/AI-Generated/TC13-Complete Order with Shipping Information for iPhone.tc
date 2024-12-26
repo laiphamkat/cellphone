@@ -28,18 +28,18 @@
         <name>category_id</name>
     </variable>
     <variable>
-        <defaultValue>'ho chi minh'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>2204162c-cdcf-471d-8c6b-3e96b6060980</id>
+        <id>b17bbd3f-ce39-422d-ac35-92b33d0d66dd</id>
         <masked>false</masked>
-        <name>input_Address2</name>
+        <name>input_Address3</name>
     </variable>
     <variable>
-        <defaultValue>'ho chi minh city'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>0c72f206-7172-45a2-9f88-99973193cada</id>
+        <id>f6c4fc65-c2b8-48da-96be-70aa61f9ce9f</id>
         <masked>false</masked>
-        <name>input_City2</name>
+        <name>input_City3</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
@@ -49,39 +49,39 @@
         <name>input_Email2</name>
     </variable>
     <variable>
-        <defaultValue>'ifirst'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>93a0d0bd-d112-4ce8-8477-cc1568c29323</id>
+        <id>7069992c-340e-4b9a-8279-006b686cbc86</id>
         <masked>false</masked>
-        <name>input_FirstName</name>
-    </variable>
-    <variable>
-        <defaultValue>'lastss'</defaultValue>
-        <description>Input data variable</description>
-        <id>57315937-df08-4229-9a7b-ff952cfffecf</id>
-        <masked>false</masked>
-        <name>input_LastName2</name>
+        <name>input_FirstName3</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>991affee-13c4-41a8-a497-3e389aeb26ad</id>
+        <id>2abde067-e6a5-4e44-b166-8ac27488b079</id>
         <masked>false</masked>
-        <name>input_Phone2</name>
+        <name>input_LastName3</name>
     </variable>
     <variable>
-        <defaultValue>'state'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>c53ef2ce-ee59-4866-b204-482e81012809</id>
+        <id>58b08d27-a9b5-4aa5-aca5-88fa7b4cee2a</id>
         <masked>false</masked>
-        <name>input_State2</name>
+        <name>input_Phone3</name>
     </variable>
     <variable>
-        <defaultValue>'333'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>df76976d-ae1d-469f-9de3-beb3eeeef1ab</id>
+        <id>88ca76c3-2307-40b4-90f5-f21b389a7b91</id>
         <masked>false</masked>
-        <name>input_ZipCode2</name>
+        <name>input_State3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>7409a1bf-1fbb-4fb2-b9ab-7a081d3fcd35</id>
+        <masked>false</masked>
+        <name>input_ZipCode</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
@@ -106,14 +106,14 @@
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Address2</value>
-        <variableId>2204162c-cdcf-471d-8c6b-3e96b6060980</variableId>
+        <value>input_Address3</value>
+        <variableId>b17bbd3f-ce39-422d-ac35-92b33d0d66dd</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_City2</value>
-        <variableId>0c72f206-7172-45a2-9f88-99973193cada</variableId>
+        <value>input_City3</value>
+        <variableId>f6c4fc65-c2b8-48da-96be-70aa61f9ce9f</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
@@ -124,32 +124,32 @@
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_FirstName</value>
-        <variableId>93a0d0bd-d112-4ce8-8477-cc1568c29323</variableId>
+        <value>input_FirstName3</value>
+        <variableId>7069992c-340e-4b9a-8279-006b686cbc86</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_LastName2</value>
-        <variableId>57315937-df08-4229-9a7b-ff952cfffecf</variableId>
+        <value>input_LastName3</value>
+        <variableId>2abde067-e6a5-4e44-b166-8ac27488b079</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Phone2</value>
-        <variableId>991affee-13c4-41a8-a497-3e389aeb26ad</variableId>
+        <value>input_Phone3</value>
+        <variableId>58b08d27-a9b5-4aa5-aca5-88fa7b4cee2a</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_State2</value>
-        <variableId>c53ef2ce-ee59-4866-b204-482e81012809</variableId>
+        <value>input_State3</value>
+        <variableId>88ca76c3-2307-40b4-90f5-f21b389a7b91</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_ZipCode2</value>
-        <variableId>df76976d-ae1d-469f-9de3-beb3eeeef1ab</variableId>
+        <value>input_ZipCode</value>
+        <variableId>7409a1bf-1fbb-4fb2-b9ab-7a081d3fcd35</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>

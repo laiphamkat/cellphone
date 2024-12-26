@@ -80,14 +80,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/span_
 
 WebUI.takeScreenshot(reportLocation + '/TC7/Step 8-Click on span dynamicObject 2 - Navigate to page cart.png')
 
-"Step 9: Click on button quantityAdjustment (IncreaseQuantity2)"
+"Step 9: Click on button quantityAdjustment (quantityAdjustment3)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment_1"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment_1', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_class': button_quantityAdjustment_class, 'button_quantityAdjustment_internalRoleButtonName': button_quantityAdjustment_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment_2"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment_2', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_internalRoleButtonName': button_quantityAdjustment_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC7/Step 9-Click on button quantityAdjustment IncreaseQuantity2.png')
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 9-Click on button quantityAdjustment quantityAdjustment3.png')
 
 "Step 10: Click on button ProceedToCheckout"
 

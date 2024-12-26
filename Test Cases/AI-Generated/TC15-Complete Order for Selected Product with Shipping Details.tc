@@ -49,7 +49,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'6'</defaultValue>
+        <defaultValue>'32'</defaultValue>
         <description>Common function data row index</description>
         <id>cc6c6f4a-25e1-4314-a186-72ae8b416728</id>
         <masked>false</masked>

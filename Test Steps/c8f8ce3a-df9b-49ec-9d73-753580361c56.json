@@ -8,7 +8,7 @@
         "step 6: Click on button purchaseOptions (Buy)",
         "step 7: Hover over link GoToCart",
         "step 8: Click on span dynamicObject (2) -> Navigate to page '/cart'",
-        "step 9: Click on button quantityAdjustment (IncreaseQuantity2)",
+        "step 9: Click on button quantityAdjustment (quantityAdjustment3)",
         "step 10: Click on button ProceedToCheckout",
         "step 11: Complete shipping address form and proceed to payment",
         "step 12: Click on button CompleteOrder -> Navigate to page 'thank-you/*'",

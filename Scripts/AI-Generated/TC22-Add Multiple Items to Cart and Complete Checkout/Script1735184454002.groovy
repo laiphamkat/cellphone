@@ -36,14 +36,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_
 
 WebUI.takeScreenshot(reportLocation + '/TC22/Step 3-Click on link brandCategories Apple3 - Navigate to page category.png')
 
-"Step 4: Click on link productDetails (iPhone15Case) -> Navigate to page 'product/*'"
+"Step 4: Click on link productDetails (productDetails) -> Navigate to page 'product/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleHeadingName': link_productDetails_internalRoleHeadingName, 'product_id': product_id]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails_2"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails_2', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleLinkName': link_productDetails_internalRoleLinkName, 'product_id': product_id]))
 
-WebUI.takeScreenshot(reportLocation + '/TC22/Step 4-Click on link productDetails iPhone15Case - Navigate to page product.png')
+WebUI.takeScreenshot(reportLocation + '/TC22/Step 4-Click on link productDetails productDetails - Navigate to page product.png')
 
 "Step 5: Click on label storageColorOptions (ProductName)"
 

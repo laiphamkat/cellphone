@@ -77,14 +77,14 @@
         <name>data_path_1</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>'28'</defaultValue>
         <description>Common function data row index</description>
         <id>a4aad3f1-51d4-4fd6-b20f-0bb334331e63</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'4'</defaultValue>
+        <defaultValue>'29'</defaultValue>
         <description>Common function data row index</description>
         <id>c06052e8-4569-4b46-afbf-c7684dca41f2</id>
         <masked>false</masked>
@@ -175,14 +175,14 @@
         <name>link_productDetails_class</name>
     </variable>
     <variable>
-        <defaultValue>''</defaultValue>
+        <defaultValue>'iPhone 15 Silicone Case with MagSafe'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>c450e589-e957-4904-919e-492918b1e3ae</id>
+        <id>e65bbdd5-9b47-4f13-a4dc-db2e198224c7</id>
         <masked>false</masked>
-        <name>link_productDetails_internalRoleHeadingName</name>
+        <name>link_productDetails_internalRoleLinkName</name>
     </variable>
     <variable>
-        <defaultValue>'apple-iphone-15-silicone-case-with-magsafe?category=99'</defaultValue>
+        <defaultValue>'ss-galaxy-z-fold5?sort=title&amp;category=121'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>041ed703-7e31-4c7d-bc2c-9db8a01fe873</id>
         <masked>false</masked>
@@ -323,8 +323,8 @@
     <variableLinks>
         <testDataLinkId>4468e00a-d98d-47a6-bea3-68f07a70db3d</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>link_productDetails_internalRoleHeadingName</value>
-        <variableId>c450e589-e957-4904-919e-492918b1e3ae</variableId>
+        <value>link_productDetails_internalRoleLinkName</value>
+        <variableId>e65bbdd5-9b47-4f13-a4dc-db2e198224c7</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>4468e00a-d98d-47a6-bea3-68f07a70db3d</testDataLinkId>

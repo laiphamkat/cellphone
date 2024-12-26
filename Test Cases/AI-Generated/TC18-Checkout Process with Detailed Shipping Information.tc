@@ -49,34 +49,6 @@
         <name>button_purchaseOptions_internalRoleButtonName_3</name>
     </variable>
     <variable>
-        <defaultValue>'btn\\ btn-outline-secondary\\ text-center'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>ec90edf9-0984-4459-90f0-781b990431f3</id>
-        <masked>false</masked>
-        <name>button_quantityAdjustment_class</name>
-    </variable>
-    <variable>
-        <defaultValue>'btn\\ btn-outline-secondary\\ text-center'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>3ad57e74-e7fe-4fc3-a6fb-14ae06ec3946</id>
-        <masked>false</masked>
-        <name>button_quantityAdjustment_class_1</name>
-    </variable>
-    <variable>
-        <defaultValue>'btn\\ btn-outline-secondary\\ text-center'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>3bcd29db-5a93-4eba-abdf-5b0064843f66</id>
-        <masked>false</masked>
-        <name>button_quantityAdjustment_class_2</name>
-    </variable>
-    <variable>
-        <defaultValue>'btn\\ btn-outline-secondary\\ text-center'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>87d59e64-12dd-403d-90d6-637c5b3a7cc3</id>
-        <masked>false</masked>
-        <name>button_quantityAdjustment_class_3</name>
-    </variable>
-    <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>325868e0-2725-486e-9ba6-47558e743773</id>
@@ -105,28 +77,28 @@
         <name>button_quantityAdjustment_internalRoleButtonName_3</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>d39f504d-3743-4e1f-a833-8985027bcddf</id>
         <masked>false</masked>
         <name>button_quantityAdjustment_nthChild</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>85c642ec-39db-4ebf-98c5-4e9e1e66f0c2</id>
         <masked>false</masked>
         <name>button_quantityAdjustment_nthChild_1</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>5161bffb-6a16-4da3-8f3e-d5facaf5091b</id>
         <masked>false</masked>
         <name>button_quantityAdjustment_nthChild_2</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>8a5af855-25e6-4bd3-b127-c20574bd60af</id>
         <masked>false</masked>
@@ -140,60 +112,60 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'6'</defaultValue>
         <description>Common function data row index</description>
         <id>0b1e397c-7c82-41a1-8615-7f33405ac0e3</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'ho chi minh'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>9e839c5e-8a9b-4331-99ea-5b04865f6470</id>
+        <id>a9b58abb-88b8-4f21-b01f-dd37f2b25377</id>
         <masked>false</masked>
-        <name>input_Address2</name>
-    </variable>
-    <variable>
-        <defaultValue>'ho chi minh'</defaultValue>
-        <description>Input data variable</description>
-        <id>43af78f0-06bd-416c-b6f5-945853f27d79</id>
-        <masked>false</masked>
-        <name>input_City2</name>
-    </variable>
-    <variable>
-        <defaultValue>'first'</defaultValue>
-        <description>Input data variable</description>
-        <id>0e0b287a-1db3-4c5f-aedb-b659c39818cc</id>
-        <masked>false</masked>
-        <name>input_FirstName</name>
-    </variable>
-    <variable>
-        <defaultValue>'last'</defaultValue>
-        <description>Input data variable</description>
-        <id>d9bfe009-9d28-4bd2-b2cb-b17d5043a892</id>
-        <masked>false</masked>
-        <name>input_LastName2</name>
+        <name>input_Address3</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>3cab7dbc-3825-4414-904d-5067a952d484</id>
+        <id>a14f41f0-5fc2-4774-ad49-6505ce963c1d</id>
         <masked>false</masked>
-        <name>input_Phone2</name>
+        <name>input_City3</name>
     </variable>
     <variable>
-        <defaultValue>'33'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>87418a76-297d-4492-ba8b-a468901fec25</id>
+        <id>c8977edf-4e50-45f1-9f0a-dbb4a5d42128</id>
         <masked>false</masked>
-        <name>input_State2</name>
+        <name>input_FirstName3</name>
     </variable>
     <variable>
-        <defaultValue>'333'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>e6053849-30f9-4005-83b6-06614cc79a61</id>
+        <id>3e9ec62b-dd80-4fb2-9fc1-0fb69b65af15</id>
         <masked>false</masked>
-        <name>input_ZipCode2</name>
+        <name>input_LastName3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>b9618b6f-b850-43ee-bf48-3b73ea30ff41</id>
+        <masked>false</masked>
+        <name>input_Phone3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>9764cb93-0a79-4d03-9898-b27c6540e037</id>
+        <masked>false</masked>
+        <name>input_State3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>0f0ca9b5-2c63-47d0-b168-6eff80622f3a</id>
+        <masked>false</masked>
+        <name>input_ZipCode</name>
     </variable>
     <variable>
         <defaultValue>'\\31 52173-case-650'</defaultValue>
@@ -253,30 +225,6 @@
         <type>DATA_COLUMN</type>
         <value>button_purchaseOptions_internalRoleButtonName_3</value>
         <variableId>ad420205-8d00-49a5-82f5-22d3e757433f</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_quantityAdjustment_class</value>
-        <variableId>ec90edf9-0984-4459-90f0-781b990431f3</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_quantityAdjustment_class_1</value>
-        <variableId>3ad57e74-e7fe-4fc3-a6fb-14ae06ec3946</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_quantityAdjustment_class_2</value>
-        <variableId>3bcd29db-5a93-4eba-abdf-5b0064843f66</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_quantityAdjustment_class_3</value>
-        <variableId>87d59e64-12dd-403d-90d6-637c5b3a7cc3</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
@@ -341,44 +289,44 @@
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Address2</value>
-        <variableId>9e839c5e-8a9b-4331-99ea-5b04865f6470</variableId>
+        <value>input_Address3</value>
+        <variableId>a9b58abb-88b8-4f21-b01f-dd37f2b25377</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_City2</value>
-        <variableId>43af78f0-06bd-416c-b6f5-945853f27d79</variableId>
+        <value>input_City3</value>
+        <variableId>a14f41f0-5fc2-4774-ad49-6505ce963c1d</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_FirstName</value>
-        <variableId>0e0b287a-1db3-4c5f-aedb-b659c39818cc</variableId>
+        <value>input_FirstName3</value>
+        <variableId>c8977edf-4e50-45f1-9f0a-dbb4a5d42128</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_LastName2</value>
-        <variableId>d9bfe009-9d28-4bd2-b2cb-b17d5043a892</variableId>
+        <value>input_LastName3</value>
+        <variableId>3e9ec62b-dd80-4fb2-9fc1-0fb69b65af15</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Phone2</value>
-        <variableId>3cab7dbc-3825-4414-904d-5067a952d484</variableId>
+        <value>input_Phone3</value>
+        <variableId>b9618b6f-b850-43ee-bf48-3b73ea30ff41</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_State2</value>
-        <variableId>87418a76-297d-4492-ba8b-a468901fec25</variableId>
+        <value>input_State3</value>
+        <variableId>9764cb93-0a79-4d03-9898-b27c6540e037</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_ZipCode2</value>
-        <variableId>e6053849-30f9-4005-83b6-06614cc79a61</variableId>
+        <value>input_ZipCode</value>
+        <variableId>0f0ca9b5-2c63-47d0-b168-6eff80622f3a</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>baa48b2a-ea28-434d-b903-fca5d55dc0f3</testDataLinkId>

@@ -35,13 +35,6 @@
         <name>button_purchaseOptions_internalRoleButtonName_1</name>
     </variable>
     <variable>
-        <defaultValue>'btn\\ btn-outline-secondary\\ text-center'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>0a120831-3884-47df-a4a3-eb4c17a5f5ef</id>
-        <masked>false</masked>
-        <name>button_quantityAdjustment_class</name>
-    </variable>
-    <variable>
         <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>9450cb15-0546-4f19-b052-f1e62c5906b6</id>
@@ -49,7 +42,7 @@
         <name>button_quantityAdjustment_internalRoleButtonName</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>b57376d7-5dc6-4f94-bc86-5e7e3e2c350a</id>
         <masked>false</masked>
@@ -63,7 +56,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'9'</defaultValue>
+        <defaultValue>'30'</defaultValue>
         <description>Common function data row index</description>
         <id>c7eeb2e1-03a7-4abf-a212-0d9c6912b550</id>
         <masked>false</masked>
@@ -115,12 +108,6 @@
         <type>DATA_COLUMN</type>
         <value>button_purchaseOptions_internalRoleButtonName_1</value>
         <variableId>d0b44af0-35d1-4e1d-a3fe-5a8dbeb9d3db</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>d7fb5c70-d345-459f-b2e2-3f3bc9275cfb</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_quantityAdjustment_class</value>
-        <variableId>0a120831-3884-47df-a4a3-eb4c17a5f5ef</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>d7fb5c70-d345-459f-b2e2-3f3bc9275cfb</testDataLinkId>

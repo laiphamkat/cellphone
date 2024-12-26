@@ -84,14 +84,14 @@
         <name>link_productDetails_class</name>
     </variable>
     <variable>
-        <defaultValue>''</defaultValue>
+        <defaultValue>'iPhone 15 Silicone Case with MagSafe'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>7acd2aa6-021d-4d5e-81e7-c6f89d8fffd0</id>
+        <id>812b5a71-08c6-471f-85b5-a3583336d50c</id>
         <masked>false</masked>
-        <name>link_productDetails_internalRoleHeadingName</name>
+        <name>link_productDetails_internalRoleLinkName</name>
     </variable>
     <variable>
-        <defaultValue>'apple-iphone-15-silicone-case-with-magsafe?category=99'</defaultValue>
+        <defaultValue>'ss-galaxy-z-fold5?sort=title&amp;category=121'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>b1a38905-8b91-492e-8dea-8c7f40e7a45b</id>
         <masked>false</masked>
@@ -154,8 +154,8 @@
     <variableLinks>
         <testDataLinkId>3798122c-47d7-4714-a573-44800a3f3f7f</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>link_productDetails_internalRoleHeadingName</value>
-        <variableId>7acd2aa6-021d-4d5e-81e7-c6f89d8fffd0</variableId>
+        <value>link_productDetails_internalRoleLinkName</value>
+        <variableId>812b5a71-08c6-471f-85b5-a3583336d50c</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>3798122c-47d7-4714-a573-44800a3f3f7f</testDataLinkId>

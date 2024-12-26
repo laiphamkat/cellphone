@@ -35,7 +35,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'16'</defaultValue>
+        <defaultValue>'27'</defaultValue>
         <description>Common function data row index</description>
         <id>1d2ccc28-099a-4d4b-826e-c40b5f1501f6</id>
         <masked>false</masked>
@@ -70,14 +70,14 @@
         <name>link_productDetails_class</name>
     </variable>
     <variable>
-        <defaultValue>''</defaultValue>
+        <defaultValue>'20W USB-C Power Adapter'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>022b9ca3-342f-4fc2-a334-7c735d64c808</id>
+        <id>24ad0600-a307-440a-b270-481bc0daca9c</id>
         <masked>false</masked>
-        <name>link_productDetails_internalRoleHeadingName</name>
+        <name>link_productDetails_internalRoleLinkName</name>
     </variable>
     <variable>
-        <defaultValue>'apple-20w-usb-c-power-adapter?category=99'</defaultValue>
+        <defaultValue>'apple-iphone-15-silicone-case-with-magsafe?category=99'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>b4e158f5-c6dc-42b1-8db2-875d3022db8e</id>
         <masked>false</masked>
@@ -128,8 +128,8 @@
     <variableLinks>
         <testDataLinkId>d47ba25e-2f25-4f19-8081-0b4b6ff35137</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>link_productDetails_internalRoleHeadingName</value>
-        <variableId>022b9ca3-342f-4fc2-a334-7c735d64c808</variableId>
+        <value>link_productDetails_internalRoleLinkName</value>
+        <variableId>24ad0600-a307-440a-b270-481bc0daca9c</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>d47ba25e-2f25-4f19-8081-0b4b6ff35137</testDataLinkId>

@@ -35,7 +35,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'12'</defaultValue>
+        <defaultValue>'25'</defaultValue>
         <description>Common function data row index</description>
         <id>68373a25-96c1-42a3-a977-7c11ef613a3e</id>
         <masked>false</masked>

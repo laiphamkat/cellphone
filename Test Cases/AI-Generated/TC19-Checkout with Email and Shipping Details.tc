@@ -56,14 +56,14 @@
         <name>data_path_1</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'4'</defaultValue>
         <description>Common function data row index</description>
         <id>daf22012-5693-432f-a8fb-f6ba626545c8</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'2'</defaultValue>
         <description>Common function data row index</description>
         <id>9d17bcb6-83a8-4cf9-9f20-d46923cc9c41</id>
         <masked>false</masked>

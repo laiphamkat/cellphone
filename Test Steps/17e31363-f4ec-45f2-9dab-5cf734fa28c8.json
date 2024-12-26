@@ -3,7 +3,7 @@
         "step 1: Navigate to /",
         "step 2: Hover over item object",
         "step 3: Click on link brandCategories (Apple3) -> Navigate to page 'category/*'",
-        "step 4: Click on link productDetails (iPhone15Case) -> Navigate to page 'product/*'",
+        "step 4: Click on link productDetails (productDetails) -> Navigate to page 'product/*'",
         "step 5: Click on label storageColorOptions (ProductName)",
         "step 6: Click on label storageColorOptions (colorStorageOptions5)",
         "step 7: Click on link cartNavigation (GoToCart5) -> Navigate to page '/cart'",
