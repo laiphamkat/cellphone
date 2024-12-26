@@ -40,8 +40,8 @@ WebUI.takeScreenshot(reportLocation + '/TC8/Step 3-Click on link brandCategories
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails_2"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails_2', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleLinkName': link_productDetails_internalRoleLinkName, 'product_id': product_id]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleLinkName': link_productDetails_internalRoleLinkName, 'product_id': product_id]))
 
 WebUI.takeScreenshot(reportLocation + '/TC8/Step 4-Click on link productDetails productDetails2 - Navigate to page product.png')
 

@@ -40,8 +40,8 @@ WebUI.takeScreenshot(reportLocation + '/TC22/Step 3-Click on link brandCategorie
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails_2"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails_2', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleLinkName': link_productDetails_internalRoleLinkName, 'product_id': product_id]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productDetails"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productDetails', ['link_productDetails_class': link_productDetails_class, 'link_productDetails_internalRoleLinkName': link_productDetails_internalRoleLinkName, 'product_id': product_id]))
 
 WebUI.takeScreenshot(reportLocation + '/TC22/Step 4-Click on link productDetails productDetails - Navigate to page product.png')
 
@@ -77,7 +77,7 @@ WebUI.takeScreenshot(reportLocation + '/TC22/Step 7-Click on link cartNavigation
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild, 'button_quantityAdjustment_class': button_quantityAdjustment_class]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_class': button_quantityAdjustment_class, 'button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild]))
 
 WebUI.takeScreenshot(reportLocation + '/TC22/Step 8-Click on button quantityAdjustment IncreaseQuantity.png')
 
@@ -132,7 +132,7 @@ WebUI.takeScreenshot(reportLocation + '/TC22/Step 14-Click on label winterBlue2 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild_1, 'button_quantityAdjustment_class': button_quantityAdjustment_class_1]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart/button_quantityAdjustment', ['button_quantityAdjustment_class': button_quantityAdjustment_class_1, 'button_quantityAdjustment_nthChild': button_quantityAdjustment_nthChild_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC22/Step 15-Click on button quantityAdjustment IncreaseQuantity.png')
 

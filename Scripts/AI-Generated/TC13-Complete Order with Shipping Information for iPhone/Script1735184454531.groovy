@@ -83,13 +83,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_
 
 WebUI.takeScreenshot(reportLocation + '/TC13/Step 9-Hover over div checkoutShippingAddress.png')
 
-"Step 10: Click on input FirstName3"
+"Step 10: Click on input Phone3"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone_1'))
 
-WebUI.takeScreenshot(reportLocation + '/TC13/Step 10-Click on input FirstName3.png')
+WebUI.takeScreenshot(reportLocation + '/TC13/Step 10-Click on input Phone3.png')
 
 "Step 11: Hover over div checkoutShippingAddress2"
 
@@ -99,13 +99,13 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_shipping_address/div_
 
 WebUI.takeScreenshot(reportLocation + '/TC13/Step 11-Hover over div checkoutShippingAddress2.png')
 
-"Step 12: Enter input value in input FirstName3"
+"Step 12: Enter input value in input Phone3"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName_1'), input_FirstName3)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone_1'), input_Phone3)
 
-WebUI.takeScreenshot(reportLocation + '/TC13/Step 12-Enter input value in input FirstName3.png')
+WebUI.takeScreenshot(reportLocation + '/TC13/Step 12-Enter input value in input Phone3.png')
 
 "Step 13: Click on input ZipCode22"
 
@@ -135,7 +135,7 @@ WebUI.takeScreenshot(reportLocation + '/TC13/Step 15-Enter input value in input 
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping_address/input_FirstName4'))
 
 WebUI.takeScreenshot(reportLocation + '/TC13/Step 16-Click on input FirstName4.png')
 
@@ -239,7 +239,7 @@ WebUI.takeScreenshot(reportLocation + '/TC13/Step 28-Click on input State4.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone_1'), input_Phone3)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout_shipping_address/input_Phone_1'), input_Phone3_1)
 
 WebUI.takeScreenshot(reportLocation + '/TC13/Step 29-Enter input value in input Phone3.png')
 

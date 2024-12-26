@@ -49,7 +49,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'5'</defaultValue>
+        <defaultValue>'8'</defaultValue>
         <description>Common function data row index</description>
         <id>8a511fc2-28c2-4783-a07c-e1f4d129d84f</id>
         <masked>false</masked>
@@ -72,13 +72,6 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>c02bc14d-c744-4aac-9b7f-dd3d38bd0ebf</id>
-        <masked>false</masked>
-        <name>input_FirstName3</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
         <id>708f166a-37ef-4902-beac-f0da73995747</id>
         <masked>false</masked>
         <name>input_LastName3</name>
@@ -89,6 +82,13 @@
         <id>e095c670-532a-4c2f-b689-13a1f4d7de4e</id>
         <masked>false</masked>
         <name>input_Phone3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>82b9d141-34ec-4f1e-9415-fef8476bc1ba</id>
+        <masked>false</masked>
+        <name>input_Phone3_1</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
@@ -184,12 +184,6 @@
     <variableLinks>
         <testDataLinkId>b9cad29f-6422-4297-9add-47d13b1f188d</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_FirstName3</value>
-        <variableId>c02bc14d-c744-4aac-9b7f-dd3d38bd0ebf</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>b9cad29f-6422-4297-9add-47d13b1f188d</testDataLinkId>
-        <type>DATA_COLUMN</type>
         <value>input_LastName3</value>
         <variableId>708f166a-37ef-4902-beac-f0da73995747</variableId>
     </variableLinks>
@@ -198,6 +192,12 @@
         <type>DATA_COLUMN</type>
         <value>input_Phone3</value>
         <variableId>e095c670-532a-4c2f-b689-13a1f4d7de4e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>b9cad29f-6422-4297-9add-47d13b1f188d</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_Phone3_1</value>
+        <variableId>82b9d141-34ec-4f1e-9415-fef8476bc1ba</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>b9cad29f-6422-4297-9add-47d13b1f188d</testDataLinkId>

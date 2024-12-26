@@ -51,13 +51,6 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>7069992c-340e-4b9a-8279-006b686cbc86</id>
-        <masked>false</masked>
-        <name>input_FirstName3</name>
-    </variable>
-    <variable>
-        <defaultValue>''</defaultValue>
-        <description>Input data variable</description>
         <id>2abde067-e6a5-4e44-b166-8ac27488b079</id>
         <masked>false</masked>
         <name>input_LastName3</name>
@@ -68,6 +61,13 @@
         <id>58b08d27-a9b5-4aa5-aca5-88fa7b4cee2a</id>
         <masked>false</masked>
         <name>input_Phone3</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>4986e2ce-707f-4dab-b595-b3637e2ea710</id>
+        <masked>false</masked>
+        <name>input_Phone3_1</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
@@ -124,12 +124,6 @@
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_FirstName3</value>
-        <variableId>7069992c-340e-4b9a-8279-006b686cbc86</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
-        <type>DATA_COLUMN</type>
         <value>input_LastName3</value>
         <variableId>2abde067-e6a5-4e44-b166-8ac27488b079</variableId>
     </variableLinks>
@@ -138,6 +132,12 @@
         <type>DATA_COLUMN</type>
         <value>input_Phone3</value>
         <variableId>58b08d27-a9b5-4aa5-aca5-88fa7b4cee2a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>input_Phone3_1</value>
+        <variableId>4986e2ce-707f-4dab-b595-b3637e2ea710</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>7474b8fc-b383-479b-985b-9af7a9a19d64</testDataLinkId>
