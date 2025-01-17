@@ -1,0 +1,106 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase for Selected Product with Shipping Information,"Navigate to the homepage, select a product, choose options, place an order, fill shipping details, and complete the purchase.","Step 1: Navigate to /
+Step 2: Click on link brand (Apple) -> Navigate to page 'category#category/*'
+Step 3: Click on link productDetails (iPhone15) -> Navigate to page 'product#product/*'
+Step 4: Click on label colorStorageOption (128GB)
+Step 5: Click on label colorStorageOption (Green)
+Step 6: Click on button purchaseOption (Increased)
+Step 7: Click on button purchaseOption (Buy)
+Step 8: Click on link PlaceAnOrder
+Step 9: Fill shipping information and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 5: Click on input FirstName
+	- Step 6: Enter input value in input FirstName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on input Address
+	- Step 10: Enter input value in input Address
+	- Step 11: Click on input ZipCode
+	- Step 12: Enter input value in input ZipCode
+	- Step 13: Click on input City
+	- Step 14: Enter input value in input City
+	- Step 15: Click on input State
+	- Step 16: Enter input value in input State
+	- Step 17: Click on input Phone
+	- Step 18: Enter input value in input Phone
+	- Step 19: Click on button ContinueToPayment
+Step 10: Click on button CompleteOrder -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",High,NEW
+2,Purchase Product and Accessories with Shipping Information,"Navigate to the homepage, select a product and its accessories, fill in shipping details, and complete the order successfully.","Step 1: Navigate to /
+Step 2: Click on link brand (Samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product#product/*'
+Step 4: Click on button purchaseOption (Buy2)
+Step 5: Click on link Accessories -> Navigate to page 'category#category/*'
+Step 6: Click on link Samsung
+Step 7: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases)
+Step 8: Select product variant and add to cart for purchase
+	- Step 1: Click on link Apple -> Navigate to page 'category#category/*'
+	- Step 2: Click on button addToCart
+	- Step 3: Click on label productVariant
+	- Step 4: Click on label productVariant
+	- Step 5: Click on button purchaseOption
+Step 9: Click on link PlaceAnOrder
+Step 10: Fill shipping information and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 5: Click on input FirstName
+	- Step 6: Enter input value in input FirstName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on input Address
+	- Step 10: Enter input value in input Address
+	- Step 11: Click on input ZipCode
+	- Step 12: Enter input value in input ZipCode
+	- Step 13: Click on input City
+	- Step 14: Enter input value in input City
+	- Step 15: Click on input State
+	- Step 16: Enter input value in input State
+	- Step 17: Click on input Phone
+	- Step 18: Enter input value in input Phone
+	- Step 19: Click on button ContinueToPayment
+Step 11: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 12: Take full page screenshot as checkpoint
+",Medium,NEW
+3,Purchase Multiple Variants of a Product with Shipping Information,"Navigate to the homepage, select a product, add multiple variants to the cart, fill shipping information, and complete the order.","Step 1: Navigate to /
+Step 2: Click on link brand (Samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product#product/*'
+Step 4: Click on button purchaseOption (Increased2)
+Step 5: Click on button purchaseOption (Buy2)
+Step 6: Select product variant and add to cart for purchase
+	- Step 1: Click on link Apple -> Navigate to page 'category#category/*'
+	- Step 2: Click on button addToCart
+	- Step 3: Click on label productVariant
+	- Step 4: Click on label productVariant
+	- Step 5: Click on button purchaseOption
+Step 7: Click on button purchaseOption (Increased)
+Step 8: Click on button purchaseOption (Buy)
+Step 9: Click on link GoToCart
+Step 10: Fill shipping information and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 5: Click on input FirstName
+	- Step 6: Enter input value in input FirstName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on input Address
+	- Step 10: Enter input value in input Address
+	- Step 11: Click on input ZipCode
+	- Step 12: Enter input value in input ZipCode
+	- Step 13: Click on input City
+	- Step 14: Enter input value in input City
+	- Step 15: Click on input State
+	- Step 16: Enter input value in input State
+	- Step 17: Click on input Phone
+	- Step 18: Enter input value in input Phone
+	- Step 19: Click on button ContinueToPayment
+Step 11: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 12: Take full page screenshot as checkpoint
+",Trivial,NEW
