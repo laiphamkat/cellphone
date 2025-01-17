@@ -1,0 +1,66 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase and Checkout Process for Multiple Products,"Navigate through product categories, add items to the cart, fill in shipping details, and complete the order to reach the thank you page.","Step 1: Navigate to /
+Step 2: Click on link brand (Samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product listing#product/*'
+Step 4: Click on button purchaseQuantity (Buy)
+Step 5: Click on link Accessories -> Navigate to page 'category#category/*'
+Step 6: Click on link Samsung
+Step 7: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product listing#product/*'
+Step 8: Click on link Apple -> Navigate to page 'category#category/*'
+Step 9: Click on button AddToCart
+Step 10: Click on label productType (iPhone15Plus)
+Step 11: Click on label productType (Cypress)
+Step 12: Click on button Buy
+Step 13: Click on link PlaceOrder -> Navigate to page 'display list of items:/{fixed page}'
+Step 14: Click on button ProceedToCheckout -> Navigate to page 'form:/{fixed part}/{fixed page}'
+Step 15: Click on input Email
+Step 16: Enter input value in input Email
+Step 17: Click on button ContinueToShipping
+Step 18: Click on input FirstName
+Step 19: Enter input value in input FirstName
+Step 20: Click on input LastName
+Step 21: Enter input value in input LastName
+Step 22: Click on input Address
+Step 23: Enter input value in input Address
+Step 24: Click on input ZipCode
+Step 25: Enter input value in input ZipCode
+Step 26: Click on input City
+Step 27: Enter input value in input City
+Step 28: Click on input State
+Step 29: Enter input value in input State
+Step 30: Click on input Phone
+Step 31: Enter input value in input Phone
+Step 32: Click on button ContinueToPayment
+Step 33: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 34: Take full page screenshot as checkpoint
+",High,NEW
+2,Order Placement with Custom Storage and Color Options,"Select product options, add to cart, enter shipping information, and complete the order to return to the home page.","Step 1: Navigate to /
+Step 2: Click on link brand (Apple) -> Navigate to page 'category#category/*'
+Step 3: Click on link productDetails (productItems) -> Navigate to page 'product listing#product/*'
+Step 4: Click on label storageColor (128GB)
+Step 5: Click on label storageColor (Green)
+Step 6: Click on button purchaseQuantity (Buy2)
+Step 7: Click on button purchaseQuantity (Buy3)
+Step 8: Click on link PlaceAnOrder -> Navigate to page 'display list of items:/{fixed page}'
+Step 9: Click on button ProceedToCheckout -> Navigate to page 'form:/{fixed part}/{fixed page}'
+Step 10: Click on input Email
+Step 11: Enter input value in input Email
+Step 12: Click on button ContinueToShipping
+Step 13: Click on input FirstName
+Step 14: Enter input value in input FirstName
+Step 15: Click on input LastName
+Step 16: Enter input value in input LastName
+Step 17: Click on input Address
+Step 18: Enter input value in input Address
+Step 19: Click on input ZipCode
+Step 20: Enter input value in input ZipCode
+Step 21: Click on input City
+Step 22: Enter input value in input City
+Step 23: Click on input State
+Step 24: Enter input value in input State
+Step 25: Click on input Phone
+Step 26: Enter input value in input Phone
+Step 27: Click on button ContinueToPayment
+Step 28: Click on button CompleteOrder -> Navigate to page ''
+Step 29: Take full page screenshot as checkpoint
+",High,NEW

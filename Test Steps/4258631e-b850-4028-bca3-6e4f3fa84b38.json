@@ -1,0 +1,33 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brand (Apple) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link productDetails (productItems) -> Navigate to page 'product listing#product/*'",
+        "step 4: Click on label storageColor (128GB)",
+        "step 5: Click on label storageColor (Green)",
+        "step 6: Click on button purchaseQuantity (Buy2)",
+        "step 7: Click on button purchaseQuantity (Buy3)",
+        "step 8: Click on link PlaceAnOrder -> Navigate to page 'display list of items:/{fixed page}'",
+        "step 9: Click on button ProceedToCheckout -> Navigate to page 'form:/{fixed part}/{fixed page}'",
+        "step 10: Click on input Email",
+        "step 11: Enter input value in input Email",
+        "step 12: Click on button ContinueToShipping",
+        "step 13: Click on input FirstName",
+        "step 14: Enter input value in input FirstName",
+        "step 15: Click on input LastName",
+        "step 16: Enter input value in input LastName",
+        "step 17: Click on input Address",
+        "step 18: Enter input value in input Address",
+        "step 19: Click on input ZipCode",
+        "step 20: Enter input value in input ZipCode",
+        "step 21: Click on input City",
+        "step 22: Enter input value in input City",
+        "step 23: Click on input State",
+        "step 24: Enter input value in input State",
+        "step 25: Click on input Phone",
+        "step 26: Enter input value in input Phone",
+        "step 27: Click on button ContinueToPayment",
+        "step 28: Click on button CompleteOrder -> Navigate to page ''",
+        "step 29: Take full page screenshot as checkpoint"
+    ]
+}
