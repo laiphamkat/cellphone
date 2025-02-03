@@ -6,7 +6,7 @@
         "step 4: Click on label colorStorageOption (128GB)",
         "step 5: Click on label colorStorageOption (Green)",
         "step 6: Click on button purchaseAction (Increased)",
-        "step 7: Click on button purchaseAction (Buy)",
+        "step 7: Click on button purchaseAction (purchaseAction4)",
         "step 8: Click on link PlaceAnOrder",
         "step 9: Fill shipping information and proceed to payment",
         "step 10: Click on button CompleteOrder -> Navigate to page ''",

@@ -64,14 +64,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/bu
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button purchaseAction Increased.png')
 
-"Step 7: Click on button purchaseAction (Buy)"
+"Step 7: Click on button purchaseAction (purchaseAction4)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button purchaseAction Buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button purchaseAction purchaseAction4.png')
 
 "Step 8: Click on link PlaceAnOrder"
 
