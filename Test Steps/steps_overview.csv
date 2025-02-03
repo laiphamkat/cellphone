@@ -1,0 +1,63 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase of iPhone 15 with Checkout Verification,"Navigate to the homepage, select iPhone 15, add to cart, fill in checkout details, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link brandNames (Apple) -> Navigate to page 'category#category/*'
+Step 3: Click on link iPhone15HotNew -> Navigate to page 'product#product/*'
+Step 4: Click on label productAttributes (ProductStorage)
+Step 5: Click on label productAttributes (ProductColor)
+Step 6: Click on button Buy
+Step 7: Click on link PlaceAnOrder
+Step 8: Fill in the checkout information and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 5: Click on input FirstName
+	- Step 6: Enter input value in input FirstName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on input Address
+	- Step 10: Enter input value in input Address
+	- Step 11: Click on input ZipCode
+	- Step 12: Enter input value in input ZipCode
+	- Step 13: Click on input City
+	- Step 14: Enter input value in input City
+	- Step 15: Click on input State
+	- Step 16: Enter input value in input State
+	- Step 17: Click on input Phone
+	- Step 18: Enter input value in input Phone
+	- Step 19: Click on button ContinueToPayment
+Step 9: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+2,Add Item to Cart and Verify Return to Home Page,"Navigate to the homepage, filter products by price, add an item to the cart, proceed through checkout, and verify return to the homepage after completing the order.","Step 1: Navigate to /
+Step 2: Click on link brandNames (Samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link ByPrice
+Step 4: Click on button AddToCart
+Step 5: Click on div Slider
+Step 6: Click on button ShowItem
+Step 7: Click on div Slider
+Step 8: Click on link CategoryApple
+Step 9: Click on link GoToCart
+Step 10: Fill in the checkout information and proceed to payment
+	- Step 1: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Click on input Email
+	- Step 3: Enter input value in input Email
+	- Step 4: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 5: Click on input FirstName
+	- Step 6: Enter input value in input FirstName
+	- Step 7: Click on input LastName
+	- Step 8: Enter input value in input LastName
+	- Step 9: Click on input Address
+	- Step 10: Enter input value in input Address
+	- Step 11: Click on input ZipCode
+	- Step 12: Enter input value in input ZipCode
+	- Step 13: Click on input City
+	- Step 14: Enter input value in input City
+	- Step 15: Click on input State
+	- Step 16: Enter input value in input State
+	- Step 17: Click on input Phone
+	- Step 18: Enter input value in input Phone
+	- Step 19: Click on button ContinueToPayment
+Step 11: Click on button CompleteOrder -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
+",High,NEW

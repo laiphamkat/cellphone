@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brandNames (Samsung) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link ByPrice",
+        "step 4: Click on button AddToCart",
+        "step 5: Click on div Slider",
+        "step 6: Click on button ShowItem",
+        "step 7: Click on div Slider",
+        "step 8: Click on link CategoryApple",
+        "step 9: Click on link GoToCart",
+        "step 10: Fill in the checkout information and proceed to payment",
+        "step 11: Click on button CompleteOrder -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
