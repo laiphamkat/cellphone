@@ -55,23 +55,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/la
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label colorStorageOption Green.png')
 
-"Step 6: Click on button purchaseOption (Increased)"
+"Step 6: Click on button purchaseAction (Increased)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button purchaseOption Increased.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 6-Click on button purchaseAction Increased.png')
 
-"Step 7: Click on button purchaseOption (Buy)"
+"Step 7: Click on button purchaseAction (Buy)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button purchaseOption Buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 7-Click on button purchaseAction Buy.png')
 
 "Step 8: Click on link PlaceAnOrder"
 

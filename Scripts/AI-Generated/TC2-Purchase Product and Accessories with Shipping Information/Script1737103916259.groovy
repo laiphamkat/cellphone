@@ -38,14 +38,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/l
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on link productDetails SamsungGalaxyS23UltraSmartviewCases - Navigate to page productproduct.png')
 
-"Step 4: Click on button purchaseOption (Buy2)"
+"Step 4: Click on button purchaseAction (Buy2)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button purchaseOption Buy2.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button purchaseAction Buy2.png')
 
 "Step 5: Click on link Accessories -> Navigate to page 'category#category/*'"
 
@@ -55,13 +55,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/link_Accessories')
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on link Accessories - Navigate to page categorycategory.png')
 
-"Step 6: Click on link Samsung"
+"Step 6: Click on link brand (Apple)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_Samsung'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_brand"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_brand', ['link_brand_nthChild': link_brand_nthChild_1, 'link_brand_internalRoleLinkName': link_brand_internalRoleLinkName_1, 'category_id': category_id_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on link Samsung.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on link brand Apple.png')
 
 "Step 7: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases)"
 

@@ -38,23 +38,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/l
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link productDetails SamsungGalaxyS23UltraSmartviewCases - Navigate to page productproduct.png')
 
-"Step 4: Click on button purchaseOption (Increased2)"
+"Step 4: Click on button purchaseAction (Increased2)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button purchaseOption Increased2.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button purchaseAction Increased2.png')
 
-"Step 5: Click on button purchaseOption (Buy2)"
+"Step 5: Click on button purchaseAction (Buy2)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName_1]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseAction"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseAction', ['button_purchaseAction_internalRoleButtonName': button_purchaseAction_internalRoleButtonName_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on button purchaseOption Buy2.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on button purchaseAction Buy2.png')
 
 "Step 6: Select product variant and add to cart for purchase"
 
@@ -65,7 +65,7 @@ selectProductVariantAndAddToCart.execute(data_path_0, Integer.valueOf(index_0))
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName_2]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on button purchaseOption Increased.png')
 
@@ -74,7 +74,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Click on button purchaseOptio
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/button_purchaseOption"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName_3]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_purchaseOption', ['button_purchaseOption_internalRoleButtonName': button_purchaseOption_internalRoleButtonName_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on button purchaseOption Buy.png')
 

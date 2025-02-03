@@ -23,6 +23,20 @@
     <variable>
         <defaultValue>'Increased'</defaultValue>
         <description>Dynamic locator variable</description>
+        <id>5a31874a-fa71-44ff-91fc-f395f2d77151</id>
+        <masked>false</masked>
+        <name>button_purchaseAction_internalRoleButtonName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>dc578143-6bfe-4b23-8dc9-2ede614f205c</id>
+        <masked>false</masked>
+        <name>button_purchaseAction_internalRoleButtonName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
         <id>472b4843-4088-4364-917d-263df82b9a7d</id>
         <masked>false</masked>
         <name>button_purchaseOption_internalRoleButtonName</name>
@@ -33,20 +47,6 @@
         <id>6f970a88-b82a-4248-b537-23f4ab27eb55</id>
         <masked>false</masked>
         <name>button_purchaseOption_internalRoleButtonName_1</name>
-    </variable>
-    <variable>
-        <defaultValue>'Increased'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>03bb68d0-0a6c-4e4d-a4c7-f166b32df1ae</id>
-        <masked>false</masked>
-        <name>button_purchaseOption_internalRoleButtonName_2</name>
-    </variable>
-    <variable>
-        <defaultValue>'Buy'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>21811aef-73fa-4382-8abe-3fe0e6068690</id>
-        <masked>false</masked>
-        <name>button_purchaseOption_internalRoleButtonName_3</name>
     </variable>
     <variable>
         <defaultValue>'power-and-cables'</defaultValue>
@@ -70,14 +70,14 @@
         <name>data_path_1</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'4'</defaultValue>
         <description>Common function data row index</description>
         <id>85c76693-fa0a-4e33-88ba-18deac81e7fc</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'6'</defaultValue>
         <description>Common function data row index</description>
         <id>b979226b-ca17-4d40-8ff1-025ce7654aaa</id>
         <masked>false</masked>
@@ -107,6 +107,18 @@
     <variableLinks>
         <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
         <type>DATA_COLUMN</type>
+        <value>button_purchaseAction_internalRoleButtonName</value>
+        <variableId>5a31874a-fa71-44ff-91fc-f395f2d77151</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchaseAction_internalRoleButtonName_1</value>
+        <variableId>dc578143-6bfe-4b23-8dc9-2ede614f205c</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
+        <type>DATA_COLUMN</type>
         <value>button_purchaseOption_internalRoleButtonName</value>
         <variableId>472b4843-4088-4364-917d-263df82b9a7d</variableId>
     </variableLinks>
@@ -115,18 +127,6 @@
         <type>DATA_COLUMN</type>
         <value>button_purchaseOption_internalRoleButtonName_1</value>
         <variableId>6f970a88-b82a-4248-b537-23f4ab27eb55</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_purchaseOption_internalRoleButtonName_2</value>
-        <variableId>03bb68d0-0a6c-4e4d-a4c7-f166b32df1ae</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_purchaseOption_internalRoleButtonName_3</value>
-        <variableId>21811aef-73fa-4382-8abe-3fe0e6068690</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>4ab1df0c-55f6-4786-8ebb-06a589efb85e</testDataLinkId>
