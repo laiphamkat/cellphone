@@ -36,14 +36,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_ByPrice'))
 
 WebUI.takeScreenshot(reportLocation + '/TC9/Step 3-Click on link ByPrice.png')
 
-"Step 4: Click on button addToCart (AddToCart)"
+"Step 4: Click on button addToCart (AddToCart3)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/button_addToCart"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/button_addToCart', ['button_addToCart_class': button_addToCart_class, 'button_addToCart_internalHasText': button_addToCart_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 4-Click on button addToCart AddToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 4-Click on button addToCart AddToCart3.png')
 
 "Step 5: Click on div PriceDisplay"
 
@@ -69,22 +69,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/div_PriceDisplay'
 
 WebUI.takeScreenshot(reportLocation + '/TC9/Step 7-Click on div PriceDisplay.png')
 
-"Step 8: Click on link brand (brand)"
+"Step 8: Click on link brand (Apple)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_brand"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_brand', ['link_brand_nthChild': link_brand_nthChild, 'link_brand_internalRoleLinkName': link_brand_internalRoleLinkName, 'category_id': category_id_1]))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 8-Click on link brand brand.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 8-Click on link brand Apple.png')
 
-"Step 9: Click on link GoToCart"
+"Step 9: Click on link cart (Cart)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_GoToCart'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_cart"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_cart', ['link_cart_internalRoleLinkName': link_cart_internalRoleLinkName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC9/Step 9-Click on link GoToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC9/Step 9-Click on link cart Cart.png')
 
 "Step 10: Fill shipping information and proceed to payment"
 

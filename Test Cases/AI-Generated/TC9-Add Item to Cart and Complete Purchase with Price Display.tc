@@ -21,14 +21,14 @@
         <testDataId>Data Files/AI-Generated/TC9-Add Item to Cart and Complete Purchase with Price Display-test-data</testDataId>
     </testDataLinks>
     <variable>
-        <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(2) [type="button'</defaultValue>
+        <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(3) [type="button'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>9b8d9a9a-4da6-41f2-996d-83f20d36c946</id>
         <masked>false</masked>
         <name>button_addToCart_class</name>
     </variable>
     <variable>
-        <defaultValue>'New!iPhone 15 Silicone Case'</defaultValue>
+        <defaultValue>'Hot! New! Best choiceiPhone'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>f9001b87-604d-4898-ae0b-d5374ebef935</id>
         <masked>false</masked>
@@ -56,7 +56,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'3'</defaultValue>
         <description>Common function data row index</description>
         <id>1cbc8787-57c8-42d9-bd53-d391a56e94b3</id>
         <masked>false</masked>
@@ -89,6 +89,13 @@
         <id>c4ab3a1d-26b2-4e9c-8583-2c4a56d6fe35</id>
         <masked>false</masked>
         <name>link_brand_nthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'5'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>660193cd-7736-4ee0-a7ff-e4c23c6b367c</id>
+        <masked>false</masked>
+        <name>link_cart_internalRoleLinkName</name>
     </variable>
     <variableLinks>
         <testDataLinkId>e4db3a89-2870-48d6-8a86-84d5dbc004b5</testDataLinkId>
@@ -149,5 +156,11 @@
         <type>DATA_COLUMN</type>
         <value>link_brand_nthChild</value>
         <variableId>c4ab3a1d-26b2-4e9c-8583-2c4a56d6fe35</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>e4db3a89-2870-48d6-8a86-84d5dbc004b5</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_cart_internalRoleLinkName</value>
+        <variableId>660193cd-7736-4ee0-a7ff-e4c23c6b367c</variableId>
     </variableLinks>
 </TestCaseEntity>

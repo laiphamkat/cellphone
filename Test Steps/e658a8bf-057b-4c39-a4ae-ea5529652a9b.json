@@ -5,7 +5,7 @@
         "step 3: Click on link iPhone15HotNew -> Navigate to page 'product#product/*'",
         "step 4: Click on label colorStorageOptions (512GB)",
         "step 5: Click on label colorStorageOptions (Green)",
-        "step 6: Click on button purchaseAction",
+        "step 6: Click on button action (Buy)",
         "step 7: Click on link PlaceAnOrder",
         "step 8: Fill shipping information and proceed to payment",
         "step 9: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",

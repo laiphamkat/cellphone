@@ -21,6 +21,13 @@
         <testDataId>Data Files/AI-Generated/TC8-Complete Purchase Process for iPhone 15 with Shipping Information-test-data</testDataId>
     </testDataLinks>
     <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>566db7ec-9f8f-40e1-9cd8-d1a497051675</id>
+        <masked>false</masked>
+        <name>button_action_internalRoleButtonName</name>
+    </variable>
+    <variable>
         <defaultValue>'apple'</defaultValue>
         <description>Dynamic locator variable</description>
         <id>857262f7-cbe5-4bf2-bb9e-eca91a03947f</id>
@@ -35,7 +42,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'4'</defaultValue>
         <description>Common function data row index</description>
         <id>1e4793f6-8c59-42b7-8aff-ce694da406a6</id>
         <masked>false</masked>
@@ -83,6 +90,12 @@
         <masked>false</masked>
         <name>link_brandNames_nthChild</name>
     </variable>
+    <variableLinks>
+        <testDataLinkId>b1936d01-6087-4098-879e-4e1126373595</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_action_internalRoleButtonName</value>
+        <variableId>566db7ec-9f8f-40e1-9cd8-d1a497051675</variableId>
+    </variableLinks>
     <variableLinks>
         <testDataLinkId>b1936d01-6087-4098-879e-4e1126373595</testDataLinkId>
         <type>DATA_COLUMN</type>
