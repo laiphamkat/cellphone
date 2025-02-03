@@ -23,7 +23,7 @@ TrueTestScripts.navigate("/")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object2'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250203/Page_home/item_object2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC8/Step 2-Hover over item object.png')
 
