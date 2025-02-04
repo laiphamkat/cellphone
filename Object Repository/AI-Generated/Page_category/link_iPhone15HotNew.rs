@@ -35,7 +35,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/product/apple-iphone-15-new</value>
-        <webElementGuid>e8334da1-ab2b-4f47-8d49-28407ad1bbc2</webElementGuid>
+        <webElementGuid>848b9610-5d75-419d-9126-f3f25a4d55ca</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -44,6 +44,6 @@
         <type>Main</type>
         <value>Hot!
          New!</value>
-        <webElementGuid>e8334da1-ab2b-4f47-8d49-28407ad1bbc2</webElementGuid>
+        <webElementGuid>848b9610-5d75-419d-9126-f3f25a4d55ca</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
