@@ -18,14 +18,14 @@
             <value>//*[equals(@type,'submit') and equals(@text,'COMPLETE ORDER')]</value>
         </entry>
     </selectorCollection>
-    <selectorMethod>CSS</selectorMethod>
+    <selectorMethod>XPATH</selectorMethod>
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
             <value>internal:role=button[name="Complete order"i]</value>
         </entry>
     </smartLocatorCollection>
-    <smartLocatorEnabled>false</smartLocatorEnabled>
+    <smartLocatorEnabled>true</smartLocatorEnabled>
     <tag></tag>
     <useRalativeImagePath>false</useRalativeImagePath>
     <webElementProperties>
@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>COMPLETE ORDER</value>
-        <webElementGuid>848b9610-5d75-419d-9126-f3f25a4d55ca</webElementGuid>
+        <webElementGuid>e2433141-aa5e-4f3e-9d8b-f3f3b9ee4386</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>submit</value>
-        <webElementGuid>848b9610-5d75-419d-9126-f3f25a4d55ca</webElementGuid>
+        <webElementGuid>e2433141-aa5e-4f3e-9d8b-f3f3b9ee4386</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
