@@ -5,10 +5,10 @@
         "step 3: Click on link ByPrice",
         "step 4: Click on button addToCart (AddToCart)",
         "step 5: Click on div Slider",
-        "step 6: Click on button ShowItem",
+        "step 6: Click on button Show1",
         "step 7: Click on div Slider",
         "step 8: Click on link brand (Apple)",
-        "step 9: Click on link cart (Cart)",
+        "step 9: Click on link cartNavigation (GoToCart)",
         "step 10: Proceed to checkout and fill in shipping information",
         "step 11: Click on button CompleteOrder -> Navigate to page ''",
         "step 12: Take full page screenshot as checkpoint"

@@ -18,14 +18,14 @@
             <value>//*[equals(@text,'Proceed to checkout')]</value>
         </entry>
     </selectorCollection>
-    <selectorMethod>XPATH</selectorMethod>
+    <selectorMethod>CSS</selectorMethod>
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
             <value>internal:role=button[name="Proceed to checkout"i]</value>
         </entry>
     </smartLocatorCollection>
-    <smartLocatorEnabled>true</smartLocatorEnabled>
+    <smartLocatorEnabled>false</smartLocatorEnabled>
     <tag></tag>
     <useRalativeImagePath>false</useRalativeImagePath>
     <webElementProperties>
@@ -34,6 +34,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Proceed to checkout</value>
-        <webElementGuid>e2433141-aa5e-4f3e-9d8b-f3f3b9ee4386</webElementGuid>
+        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

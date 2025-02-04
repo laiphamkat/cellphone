@@ -2,13 +2,13 @@
     "steps": [
         "step 1: Navigate to /",
         "step 2: Click on link brand (Samsung) -> Navigate to page 'category#category/*'",
-        "step 3: Click on link productCases (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product#product/*'",
+        "step 3: Click on link productDetails (SamsungGalaxyS23UltraSmartviewCases) -> Navigate to page 'product#product/*'",
         "step 4: Click on button purchaseAction (Increased)",
         "step 5: Click on button purchaseAction (Buy2)",
-        "step 6: Select an Apple product and add it to the shopping cart",
+        "step 6: Select Apple product and complete the purchase process",
         "step 7: Click on button purchaseAction (Increased)",
         "step 8: Click on button purchaseAction (Buy)",
-        "step 9: Click on link cart (Cart2)",
+        "step 9: Click on link cartNavigation (GoToCart2)",
         "step 10: Proceed to checkout and fill in shipping information",
         "step 11: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
         "step 12: Take full page screenshot as checkpoint"

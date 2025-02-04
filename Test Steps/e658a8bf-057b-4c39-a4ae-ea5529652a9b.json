@@ -2,9 +2,9 @@
     "steps": [
         "step 1: Navigate to /",
         "step 2: Click on link brand (Apple2) -> Navigate to page 'category#category/*'",
-        "step 3: Click on link iPhone15HotNew -> Navigate to page 'product#product/*'",
-        "step 4: Click on label productAttributes (ProductStorage)",
-        "step 5: Click on label productAttributes (ProductColor)",
+        "step 3: Click on link HotNew -> Navigate to page 'product#product/*'",
+        "step 4: Click on label colorStorageOption (512GB)",
+        "step 5: Click on label colorStorageOption (Green)",
         "step 6: Click on button purchaseAction (Buy)",
         "step 7: Click on link PlaceAnOrder",
         "step 8: Proceed to checkout and fill in shipping information",

@@ -1,7 +1,7 @@
 {
     "steps": [
         "step 1: Navigate to /",
-        "step 2: Select a brand and purchase a product from the category",
+        "step 2: View product details for a brand and complete the purchase",
         "step 3: Click on link PlaceAnOrder",
         "step 4: Proceed to checkout and fill in shipping information",
         "step 5: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",

@@ -18,14 +18,14 @@
             <value>//*[equals(@href,'/product/apple-iphone-15-pro') and equals(@text,'iPhone 15 Pro')]</value>
         </entry>
     </selectorCollection>
-    <selectorMethod>XPATH</selectorMethod>
+    <selectorMethod>CSS</selectorMethod>
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
             <value>internal:role=link[name="iPhone 15 Pro"s]</value>
         </entry>
     </smartLocatorCollection>
-    <smartLocatorEnabled>true</smartLocatorEnabled>
+    <smartLocatorEnabled>false</smartLocatorEnabled>
     <tag></tag>
     <useRalativeImagePath>false</useRalativeImagePath>
     <webElementProperties>
@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/product/apple-iphone-15-pro</value>
-        <webElementGuid>e2433141-aa5e-4f3e-9d8b-f3f3b9ee4386</webElementGuid>
+        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>iPhone 15 Pro</value>
-        <webElementGuid>e2433141-aa5e-4f3e-9d8b-f3f3b9ee4386</webElementGuid>
+        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

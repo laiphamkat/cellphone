@@ -14,14 +14,14 @@
             <value>[for="${label_colorStorageOption_for}"]</value>
         </entry>
     </selectorCollection>
-    <selectorMethod>XPATH</selectorMethod>
+    <selectorMethod>CSS</selectorMethod>
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
             <value>internal:text="${label_colorStorageOption_internalText}"i</value>
         </entry>
     </smartLocatorCollection>
-    <smartLocatorEnabled>true</smartLocatorEnabled>
+    <smartLocatorEnabled>false</smartLocatorEnabled>
     <tag></tag>
     <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
