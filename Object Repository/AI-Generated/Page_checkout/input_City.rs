@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r6:</value>
-        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
+        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>shipping_address.city</value>
-        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
+        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>66805ac9-6244-4da9-bf6a-a7485d72297d</webElementGuid>
+        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to category/*",
+        "step 2: Click on link Apple",
+        "step 3: Click on link New -> Navigate to page 'product#product/*'",
+        "step 4: Click on label storageColorOptions (256GB)",
+        "step 5: Click on div ColorOptions",
+        "step 6: Select storage color and proceed to checkout",
+        "step 7: Click on input FirstName",
+        "step 8: Enter input value in input FirstName",
+        "step 9: Click on input LastName",
+        "step 10: Enter input value in input LastName",
+        "step 11: Click on input Address",
+        "step 12: Enter input value in input Address",
+        "step 13: Enter input value in input ZipCode",
+        "step 14: Click on input City",
+        "step 15: Enter input value in input City",
+        "step 16: Enter input value in input State",
+        "step 17: Click on input Phone",
+        "step 18: Enter input value in input Phone",
+        "step 19: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'",
+        "step 20: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}
