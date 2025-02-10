@@ -36,15 +36,25 @@ public class TrueTestScripts {
     
     static Integer DELAY_TIME = 3 // in seconds
     
-    public static void navigate(String path) {
-        String applicationDomain = GlobalVariable.application_domain;
+    private static String combineUrlQueryParams(Map<String, String> queryParams) {
         String queryParameters = "";
         try {
             queryParameters = GlobalVariable.query_params;
         }
         catch (Exception e) {
-            KeywordUtil.logInfo(e.getMessage())
+            KeywordUtil.logInfo(e.getMessage());
         }
+        for (Map.Entry<String, String> param: queryParams) {
+            if (queryParameters.length() > 0) {
+                queryParameters += "&";
+            }
+            queryParameters += "${param.getKey()}=${param.getValue()}";
+        }
+        return queryParameters;
+    }
+    
+    private static void do_navigate(String path, String queryParameters) {
+        String applicationDomain = GlobalVariable.application_domain;
         if (path == null) {
             path = "";
         }
@@ -57,6 +67,15 @@ public class TrueTestScripts {
         }
         WebUI.navigateToUrl(url);
         WebUI.delay(DELAY_TIME);
+    }
+    
+    public static void navigate(String path, Map<String, String> searchParams) {
+        String queryParameters = this.combineUrlQueryParams(searchParams);
+        this.do_navigate(path, queryParameters);
+    }
+    
+    public static void navigate(String path) {
+        this.do_navigate(path, "");
     }
     
     public static void selectOptionByValue(TestObject to, String rawValue) {

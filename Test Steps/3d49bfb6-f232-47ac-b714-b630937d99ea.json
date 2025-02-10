@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link GooglePixel -> Navigate to page 'product category page#*/*'",
+        "step 3: Click on link GooglePixel7Pro -> Navigate to page 'product#product/*'",
+        "step 4: Click on button purchase (Increased)",
+        "step 5: Click on button purchase (Buy)",
+        "step 6: Click on link PlaceAnOrder -> Navigate to page 'cart#cart'",
+        "step 7: Click on button IncreaseQuantity",
+        "step 8: Fill out shipping information and continue to payment step",
+        "step 9: Click on button CompleteOrder -> Navigate to page ''",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
