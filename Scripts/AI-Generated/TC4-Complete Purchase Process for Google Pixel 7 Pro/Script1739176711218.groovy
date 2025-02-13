@@ -40,7 +40,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link GooglePixel7Pro
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', []))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on button purchase Increased.png')
 
@@ -49,7 +49,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on button purchase Incr
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', []))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on button purchase Buy.png')
 

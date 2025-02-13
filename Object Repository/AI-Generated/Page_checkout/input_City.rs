@@ -18,14 +18,14 @@
             <value>//*[equals(@id,':r6:') and equals(@name,'shipping_address.city') and equals(@type,'text')]</value>
         </entry>
     </selectorCollection>
-    <selectorMethod>CSS</selectorMethod>
+    <selectorMethod>XPATH</selectorMethod>
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
             <value>internal:label="City *"i</value>
         </entry>
     </smartLocatorCollection>
-    <smartLocatorEnabled>false</smartLocatorEnabled>
+    <smartLocatorEnabled>true</smartLocatorEnabled>
     <tag></tag>
     <useRalativeImagePath>false</useRalativeImagePath>
     <webElementProperties>
@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r6:</value>
-        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
+        <webElementGuid>bba2f09f-b0d8-4aa2-b52b-8c6bc1137a6d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>shipping_address.city</value>
-        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
+        <webElementGuid>bba2f09f-b0d8-4aa2-b52b-8c6bc1137a6d</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>3511c48e-429d-4cd8-9e63-20215a73519b</webElementGuid>
+        <webElementGuid>bba2f09f-b0d8-4aa2-b52b-8c6bc1137a6d</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

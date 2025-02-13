@@ -4,7 +4,7 @@
         "step 2: Click on link Apple -> Navigate to page 'category#category/*'",
         "step 3: Click on link iPhone15",
         "step 4: Click on link productItems (iPhone15Plus) -> Navigate to page 'product#product/*'",
-        "step 5: Click on label storageColorOptions (512GB)",
+        "step 5: Click on label storageColorAndCapacity (Black)",
         "step 6: Select storage color and proceed to checkout",
         "step 7: Click on input FirstName",
         "step 8: Enter input value in input FirstName",

@@ -28,7 +28,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'3'</defaultValue>
+        <defaultValue>'6'</defaultValue>
         <description>Common function data row index</description>
         <id>1cabfce3-b13c-474b-89df-189bd820d15a</id>
         <masked>false</masked>
@@ -97,27 +97,6 @@
         <masked>false</masked>
         <name>label_storageColorOptions_internalText</name>
     </variable>
-    <variable>
-        <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(2) [class="products__title'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>178e2557-2be1-4cf6-aae5-e38c45b55d1b</id>
-        <masked>false</masked>
-        <name>link_productItems_class</name>
-    </variable>
-    <variable>
-        <defaultValue>'iPhone 15 Plus'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>6d6ecf3d-fbe7-45d4-8f84-95af2dd8a61f</id>
-        <masked>false</masked>
-        <name>link_productItems_internalRoleLinkName</name>
-    </variable>
-    <variable>
-        <defaultValue>'apple-iphone-15-plus'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>61868484-c835-424b-bc7b-2ef563c35ff6</id>
-        <masked>false</masked>
-        <name>product_id</name>
-    </variable>
     <variableLinks>
         <testDataLinkId>3ed01061-c929-4cec-bc56-9accc2cd07b2</testDataLinkId>
         <type>DATA_COLUMN</type>
@@ -183,23 +162,5 @@
         <type>DATA_COLUMN</type>
         <value>label_storageColorOptions_internalText</value>
         <variableId>1ff078fb-3616-4fb8-b181-2e2022648588</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>3ed01061-c929-4cec-bc56-9accc2cd07b2</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>link_productItems_class</value>
-        <variableId>178e2557-2be1-4cf6-aae5-e38c45b55d1b</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>3ed01061-c929-4cec-bc56-9accc2cd07b2</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>link_productItems_internalRoleLinkName</value>
-        <variableId>6d6ecf3d-fbe7-45d4-8f84-95af2dd8a61f</variableId>
-    </variableLinks>
-    <variableLinks>
-        <testDataLinkId>3ed01061-c929-4cec-bc56-9accc2cd07b2</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>product_id</value>
-        <variableId>61868484-c835-424b-bc7b-2ef563c35ff6</variableId>
     </variableLinks>
 </TestCaseEntity>

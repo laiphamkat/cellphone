@@ -40,7 +40,7 @@ WebUI.takeScreenshot(reportLocation + '/TC5/Step 3-Click on link iPhone15Plus - 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions', []))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText]))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 4-Click on label storageColorOptions Storage128GB.png')
 
@@ -49,7 +49,7 @@ WebUI.takeScreenshot(reportLocation + '/TC5/Step 4-Click on label storageColorOp
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions', []))
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for_1, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 5-Click on label storageColorOptions ColorBlue.png')
 
@@ -57,8 +57,7 @@ WebUI.takeScreenshot(reportLocation + '/TC5/Step 5-Click on label storageColorOp
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', []))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_Buy'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 6-Click on button purchase Increased.png')
 

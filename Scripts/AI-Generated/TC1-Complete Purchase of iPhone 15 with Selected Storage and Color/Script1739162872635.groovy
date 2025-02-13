@@ -39,19 +39,18 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link iPhone15.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_productItems"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_productItems', ['link_productItems_class': link_productItems_class, 'link_productItems_internalRoleLinkName': link_productItems_internalRoleLinkName, 'product_id': product_id]))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_iPhone15Plus'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on link productItems iPhone15Plus - Navigate to page productproduct.png')
 
-"Step 5: Click on label storageColorOptions (512GB)"
+"Step 5: Click on label storageColorAndCapacity (Black)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 // Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions"
 WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_storageColorOptions', ['label_storageColorOptions_for': label_storageColorOptions_for, 'label_storageColorOptions_internalText': label_storageColorOptions_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label storageColorOptions 512GB.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 5-Click on label storageColorAndCapacity Black.png')
 
 "Step 6: Select storage color and proceed to checkout"
 

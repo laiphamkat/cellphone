@@ -21,13 +21,6 @@
         <testDataId>Data Files/AI-Generated/TC5-Complete Purchase Process for iPhone 15 Plus-test-data</testDataId>
     </testDataLinks>
     <variable>
-        <defaultValue>'Increased'</defaultValue>
-        <description>Dynamic locator variable</description>
-        <id>9c7c6bee-8543-45c1-9c3c-795705c4f96f</id>
-        <masked>false</masked>
-        <name>button_purchase_internalRoleButtonName</name>
-    </variable>
-    <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillCheckoutInformationAndProceedToPayment-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>90870c18-b732-4f9a-99f9-238a80d7a236</id>
@@ -35,7 +28,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'3'</defaultValue>
         <description>Common function data row index</description>
         <id>0c2fb815-56ba-41f6-bf2f-930f69dd7e7a</id>
         <masked>false</masked>
@@ -69,12 +62,6 @@
         <masked>false</masked>
         <name>label_storageColorOptions_internalText_1</name>
     </variable>
-    <variableLinks>
-        <testDataLinkId>b147d698-4e0f-4d06-a48b-577fc4795fe0</testDataLinkId>
-        <type>DATA_COLUMN</type>
-        <value>button_purchase_internalRoleButtonName</value>
-        <variableId>9c7c6bee-8543-45c1-9c3c-795705c4f96f</variableId>
-    </variableLinks>
     <variableLinks>
         <testDataLinkId>b147d698-4e0f-4d06-a48b-577fc4795fe0</testDataLinkId>
         <type>DATA_COLUMN</type>
