@@ -18,7 +18,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC4-Complete Purchase Process for Google Pixel 7 Pro-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250213/TC4-Complete Purchase Process for Google Pixel 7 Pro-test-data</testDataId>
     </testDataLinks>
     <variable>
         <defaultValue>'Increased'</defaultValue>
@@ -35,7 +35,7 @@
         <name>button_purchase_internalRoleButtonName_1</name>
     </variable>
     <variable>
-        <defaultValue>'Data Files/AI-Generated/Common/fillCheckoutInformationAndProceedToPayment-test-data'</defaultValue>
+        <defaultValue>'Data Files/Archived/Archived_20250213/Common/fillCheckoutInformationAndProceedToPayment-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>0018f3c4-c170-48cd-b635-97134283eb00</id>
         <masked>false</masked>

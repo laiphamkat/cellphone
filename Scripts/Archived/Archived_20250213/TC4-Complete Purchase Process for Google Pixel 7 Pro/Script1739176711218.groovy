@@ -2,7 +2,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import truetest.common.fillCheckoutInformationAndProceedToPayment
+import archived.archived_20250213.truetest.common.fillCheckoutInformationAndProceedToPayment
 import truetest.custom.TrueTestScripts
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -23,7 +23,7 @@ TrueTestScripts.navigate("/")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_GooglePixel'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250213/Page_home/link_GooglePixel'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Click on link GooglePixel - Navigate to page product category page.png')
 
@@ -31,7 +31,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Click on link GooglePixel - N
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_category_page/link_GooglePixel7Pro'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250213/Page_product_category_page/link_GooglePixel7Pro'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link GooglePixel7Pro - Navigate to page productproduct.png')
 
@@ -39,8 +39,8 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link GooglePixel7Pro
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName]))
+// Bind values to the variables in the locators of "Archived/Archived_20250213/Dynamic Objects/Page_product/button_purchase"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250213/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on button purchase Increased.png')
 
@@ -48,8 +48,8 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on button purchase Incr
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250213/Dynamic Objects/Page_product/button_purchase"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250213/Dynamic Objects/Page_product/button_purchase', ['button_purchase_internalRoleButtonName': button_purchase_internalRoleButtonName_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on button purchase Buy.png')
 
@@ -65,7 +65,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Click on link PlaceAnOrder - 
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_IncreaseQuantity'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250213/Page_cart/button_IncreaseQuantity'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 7-Click on button IncreaseQuantity.png')
 

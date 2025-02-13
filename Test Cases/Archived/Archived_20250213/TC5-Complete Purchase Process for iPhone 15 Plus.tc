@@ -18,10 +18,10 @@
             <iterationType>ALL</iterationType>
             <value></value>
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC5-Complete Purchase Process for iPhone 15 Plus-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250213/TC5-Complete Purchase Process for iPhone 15 Plus-test-data</testDataId>
     </testDataLinks>
     <variable>
-        <defaultValue>'Data Files/AI-Generated/Common/fillCheckoutInformationAndProceedToPayment-test-data'</defaultValue>
+        <defaultValue>'Data Files/Archived/Archived_20250213/Common/fillCheckoutInformationAndProceedToPayment-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>90870c18-b732-4f9a-99f9-238a80d7a236</id>
         <masked>false</masked>
