@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Order Process on Cellphone Staging Application,"Navigate to the checkout information page, input personal and address details, and complete the order. Verify the thank you page after successful order completion.","Step 1: Navigate to checkout/info
+1,Complete Checkout Information for Cellphone Purchase,"Navigate to the checkout info page, input personal and address details, and complete the order. Verify the thank you page after successful order completion.","Step 1: Navigate to checkout/info
 Step 2: Enter input value in input Email
 Step 3: Press key Enter on input Email -> Navigate to page 'checkout#checkout/shipping-address'
 Step 4: Hover over div Object

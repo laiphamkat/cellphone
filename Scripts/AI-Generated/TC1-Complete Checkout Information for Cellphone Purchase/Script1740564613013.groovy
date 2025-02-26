@@ -181,7 +181,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 21-Click on button CompleteOrde
 
 "Step 22: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Order Process on Cellphone Staging Application_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Complete Checkout Information for Cellphone Purchase_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
