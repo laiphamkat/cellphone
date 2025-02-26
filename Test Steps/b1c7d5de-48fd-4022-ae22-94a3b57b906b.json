@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to checkout/info",
+        "step 2: Enter input value in input Email",
+        "step 3: Press key Enter on input Email -> Navigate to page 'checkout#checkout/shipping-address'",
+        "step 4: Hover over div Object",
+        "step 5: Click on input FirstName",
+        "step 6: Enter input value in input LastName",
+        "step 7: Enter input value in input Address",
+        "step 8: Enter input value in input FirstName",
+        "step 9: Press key Tab on input FirstName",
+        "step 10: Press key Tab on input LastName",
+        "step 11: Hover over div Object2",
+        "step 12: Click on input ZipCode",
+        "step 13: Enter input value in input Phone",
+        "step 14: Enter input value in input State",
+        "step 15: Enter input value in input City",
+        "step 16: Enter input value in input ZipCode",
+        "step 17: Press key Tab on input ZipCode",
+        "step 18: Press key Tab on input City",
+        "step 19: Press key Tab on input State",
+        "step 20: Press key Enter on input Phone -> Navigate to page 'checkout#checkout/payment'",
+        "step 21: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

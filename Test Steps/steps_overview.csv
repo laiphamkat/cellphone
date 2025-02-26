@@ -1,42 +1,24 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Checkout Process for iPhone Cases and Verify Home Page,"Navigate through the homepage, select iPhone cases, and proceed to checkout. Fill in shipping and payment details, then verify the homepage after completion.","Step 1: Navigate to /
-Step 2: Hover over item Object
-Step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-Step 4: Click on link Sale
-Step 5: Click on link NewyorkAccount -> Navigate to page 'product#product/*'
-Step 6: Click on button Buy
-Step 7: Click on link PlaceAnOrder -> Navigate to page 'cart#cart'
-Step 8: Click on button ProceedToCheckout
-Step 9: Click on button ProceedToCheckout2 -> Navigate to page 'checkout info#checkout/info'
-Step 10: Hover over div Object
-Step 11: Click on input Email
-Step 12: Enter input value in input Email
-Step 13: Enter input value in input EmailAddress
-Step 14: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-Step 15: Hover over div Object
-Step 16: Click on input FirstName
-Step 17: Enter input value in input FirstName
-Step 18: Hover over div Object2
-Step 19: Click on input LastName
-Step 20: Enter input value in input LastName
-Step 21: Hover over div Object3
-Step 22: Click on input Address
-Step 23: Enter input value in input Address
-Step 24: Hover over div Object
-Step 25: Click on input FirstName
-Step 26: Enter input value in input FirstName
-Step 27: Hover over div Object4
-Step 28: Click on input ZipCode
-Step 29: Enter input value in input ZipCode
-Step 30: Hover over div Object5
-Step 31: Click on input City
-Step 32: Enter input value in input City
-Step 33: Hover over div Object6
-Step 34: Click on input State
-Step 35: Enter input value in input State
-Step 36: Hover over div Object7
-Step 37: Click on input Phone
-Step 38: Enter input value in input Phone
-Step 39: Click on button ContinueToPayment -> Navigate to page ''
-Step 40: Take full page screenshot as checkpoint
+1,Complete Order Process on Cellphone Staging Application,"Navigate to the checkout information page, input personal and address details, and complete the order. Verify the thank you page after successful order completion.","Step 1: Navigate to checkout/info
+Step 2: Enter input value in input Email
+Step 3: Press key Enter on input Email -> Navigate to page 'checkout#checkout/shipping-address'
+Step 4: Hover over div Object
+Step 5: Click on input FirstName
+Step 6: Enter input value in input LastName
+Step 7: Enter input value in input Address
+Step 8: Enter input value in input FirstName
+Step 9: Press key Tab on input FirstName
+Step 10: Press key Tab on input LastName
+Step 11: Hover over div Object2
+Step 12: Click on input ZipCode
+Step 13: Enter input value in input Phone
+Step 14: Enter input value in input State
+Step 15: Enter input value in input City
+Step 16: Enter input value in input ZipCode
+Step 17: Press key Tab on input ZipCode
+Step 18: Press key Tab on input City
+Step 19: Press key Tab on input State
+Step 20: Press key Enter on input Phone -> Navigate to page 'checkout#checkout/payment'
+Step 21: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 22: Take full page screenshot as checkpoint
 ",High,NEW
