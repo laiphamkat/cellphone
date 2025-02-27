@@ -18,7 +18,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC1-Complete Checkout Information for Cellphone Purchase-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250227/TC1-Complete Checkout Information for Cellphone Purchase-test-data</testDataId>
     </testDataLinks>
     <variable>
         <defaultValue>'addressr'</defaultValue>
