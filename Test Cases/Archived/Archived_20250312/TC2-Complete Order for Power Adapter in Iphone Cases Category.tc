@@ -17,7 +17,7 @@
             <iterationType>ALL</iterationType>
             <value />
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC2-Complete Order for Power Adapter in Iphone Cases Category-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250312/TC2-Complete Order for Power Adapter in Iphone Cases Category-test-data</testDataId>
     </testDataLinks>
     <variable>
         <defaultValue>'Increased'</defaultValue>

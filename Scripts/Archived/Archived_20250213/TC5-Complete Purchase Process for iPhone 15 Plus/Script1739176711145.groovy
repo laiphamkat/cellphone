@@ -77,7 +77,7 @@ fillCheckoutInformationAndProceedToPayment.execute(data_path_0, Integer.valueOf(
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_CompleteOrder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Page_checkout/button_CompleteOrder'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 9-Click on button CompleteOrder - Navigate to page thank youthank-you.png')
 

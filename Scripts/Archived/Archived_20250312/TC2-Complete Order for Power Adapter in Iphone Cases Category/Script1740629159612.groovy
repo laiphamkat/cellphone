@@ -22,7 +22,7 @@ TrueTestScripts.navigate("${path_param_1}/${path_param_2}")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '.*/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link_ProductPowerAdapter'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Page_iphone_cases_category/link_ProductPowerAdapter'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Click on link ProductPowerAdapter - Navigate to page productproduct.png')
 
@@ -30,8 +30,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 2-Click on link ProductPowerAda
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName, 'button_purchaseOptions_type': button_purchaseOptions_type]))
+// Bind values to the variables in the locators of "Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName, 'button_purchaseOptions_type': button_purchaseOptions_type]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on button purchaseOptions Increased.png')
 
@@ -39,8 +39,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 3-Click on button purchaseOptio
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName_1, 'button_purchaseOptions_type': button_purchaseOptions_type_1]))
+// Bind values to the variables in the locators of "Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName_1, 'button_purchaseOptions_type': button_purchaseOptions_type_1]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button purchaseOptions Increased.png')
 
@@ -48,8 +48,8 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button purchaseOptio
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName_2, 'button_purchaseOptions_type': button_purchaseOptions_type_2]))
+// Bind values to the variables in the locators of "Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions"
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Dynamic Objects/Page_product/button_purchaseOptions', ['button_purchaseOptions_internalRoleButtonName': button_purchaseOptions_internalRoleButtonName_2, 'button_purchaseOptions_type': button_purchaseOptions_type_2]))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on button purchaseOptions Buy.png')
 
@@ -73,7 +73,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 7-Click on button ProceedToChec
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_Object'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout_info/div_Object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 8-Hover over div Object.png')
 
@@ -105,7 +105,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 11-Click on button ContinueToSh
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 12-Hover over div Object.png')
 
@@ -129,7 +129,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 14-Enter input value in input F
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object2_1'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object2_1'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 15-Hover over div Object2.png')
 
@@ -153,7 +153,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 17-Enter input value in input L
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object3'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object3'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 18-Hover over div Object3.png')
 
@@ -177,7 +177,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 20-Enter input value in input A
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object2'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 21-Hover over div Object4.png')
 
@@ -201,7 +201,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 23-Enter input value in input Z
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object5'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object5'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 24-Hover over div Object5.png')
 
@@ -225,7 +225,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 26-Enter input value in input C
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object6'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object6'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 27-Hover over div Object6.png')
 
@@ -249,7 +249,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 29-Enter input value in input S
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object7'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object7'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 30-Hover over div Object7.png')
 
@@ -281,7 +281,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 33-Click on button ContinueToPa
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_CompleteOrder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Page_checkout/button_CompleteOrder'))
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 34-Click on button CompleteOrder - Navigate to page thank youthank-you.png')
 

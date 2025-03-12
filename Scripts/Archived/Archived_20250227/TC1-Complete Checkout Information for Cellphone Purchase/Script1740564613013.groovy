@@ -39,7 +39,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Press key Enter on input Emai
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Hover over div Object.png')
 
@@ -95,7 +95,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Press key Tab on input LastN
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/shipping-address?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout/div_Object2'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250312/Page_checkout/div_Object2'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 11-Hover over div Object2.png')
 
@@ -175,7 +175,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 20-Press key Enter on input Pho
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_CompleteOrder'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250312/Page_checkout/button_CompleteOrder'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 21-Click on button CompleteOrder - Navigate to page thank youthank-you.png')
 
