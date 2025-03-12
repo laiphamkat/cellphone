@@ -1,0 +1,109 @@
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import truetest.common.fillShippingInformationAndProceedToPayment
+import truetest.custom.TrueTestScripts
+
+def reportLocation = RunConfiguration.getReportFolder()
+
+'Initialize test session: Open browser and set view port'
+
+@com.kms.katalon.core.annotation.SetUp
+def setup() {
+	WebUI.openBrowser('')
+	WebUI.setViewPortSize(1920, 1080)	
+}
+
+"Step 1: Navigate to /"
+
+TrueTestScripts.navigate("/")
+
+"Step 2: Click on link Apple -> Navigate to page 'category#category/*'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 2-Click on link Apple - Navigate to page categorycategory.png')
+
+"Step 3: Click on link iPhone15 -> Navigate to page 'product#product/*'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_iPhone15'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 3-Click on link iPhone15 - Navigate to page productproduct.png')
+
+"Step 4: Click on label 128GB"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_128GB'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 4-Click on label 128GB.png')
+
+"Step 5: Click on label Green"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_Green'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 5-Click on label Green.png')
+
+"Step 6: Click on button increaseQuantity (Increased2)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity', ['button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName, 'button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type]))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 6-Click on button increaseQuantity Increased2.png')
+
+"Step 7: Click on button increaseQuantity (Increased2)"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity', ['button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName_1, 'button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type_1]))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 7-Click on button increaseQuantity Increased2.png')
+
+"Step 8: Click on link PlaceOrder -> Navigate to page 'cart#cart'"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/link_PlaceOrder'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 8-Click on link PlaceOrder - Navigate to page cartcart.png')
+
+"Step 9: Click on button ProceedToCheckout"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 9-Click on button ProceedToCheckout.png')
+
+"Step 10: Enter shipping details and continue to payment step"
+
+fillShippingInformationAndProceedToPayment.execute(data_path_0, Integer.valueOf(index_0))
+
+"Step 11: Click on button CompleteOrder -> Navigate to page ''"
+
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/payment?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout/button_CompleteOrder'))
+
+WebUI.takeScreenshot(reportLocation + '/TC7/Step 11-Click on button CompleteOrder - Navigate to page .png')
+
+"Step 12: Take full page screenshot as checkpoint"
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Purchase iPhone 15 with Shipping Details_visual_checkpoint')
+
+'Terminate test session: Close browser'
+
+@com.kms.katalon.core.annotation.TearDown
+def teardown() {
+	WebUI.closeBrowser()
+}
