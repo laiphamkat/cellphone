@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link Apple -> Navigate to page 'iphone cases category#*/*'",
+        "step 3: Click on link iphoneAccessories (MagSafeCharger) -> Navigate to page 'product#product/*'",
+        "step 4: Click on link Apple -> Navigate to page ''",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over item object",
+        "step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'",
+        "step 4: Click on link iphoneAccessories (iPhone15ClearCaseWithMagSafe) -> Navigate to page 'product#product/*'",
+        "step 5: Click on button purchaseQuantity (Buy2)",
+        "step 6: Click on link PlaceOrder -> Navigate to page 'cart#cart'",
+        "step 7: Click on button Increase",
+        "step 8: Proceed to checkout and enter email for shipping",
+        "step 9: Fill in shipping details and complete the order",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

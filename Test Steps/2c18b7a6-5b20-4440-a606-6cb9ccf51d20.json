@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link iPhone15Plus -> Navigate to page 'product#product/*'",
+        "step 3: Click on link Phone -> Navigate to page 'general phone category#*/*'",
+        "step 4: Click on button AddToCart",
+        "step 5: Click on label 256GB",
+        "step 6: Click on label Green",
+        "step 7: Click on button Buy",
+        "step 8: Click on link PlaceAnOrder",
+        "step 9: Proceed to checkout and enter email for shipping",
+        "step 10: Fill in shipping details and complete the order",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

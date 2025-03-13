@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link newArrivals (HotNew)",
+        "step 4: Select phone options and proceed to checkout",
+        "step 5: Enter shipping details and continue to payment step",
+        "step 6: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}
