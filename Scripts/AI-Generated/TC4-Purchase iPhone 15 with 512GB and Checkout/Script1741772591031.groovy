@@ -26,21 +26,23 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/item_object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Hover over item object.png')
 
-"Step 3: Click on link Apple -> Navigate to page 'category#category/*'"
+"Step 3: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileBrand"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileBrand', ['link_mobileBrand_category_id': link_mobileBrand_category_id, 'link_mobileBrand_link_mobileBrand_internalRoleLinkName': link_mobileBrand_link_mobileBrand_internalRoleLinkName, 'link_mobileBrand_link_mobileBrand_nthChild': link_mobileBrand_link_mobileBrand_nthChild]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link Apple - Navigate to page categorycategory.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link mobileBrand Samsung2 - Navigate to page categorycategory.png')
 
-"Step 4: Click on link iPhone15 -> Navigate to page 'product#product/*'"
+"Step 4: Click on link mobileDevice (SamsungGalaxyS23Ultra) -> Navigate to page 'product#product/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_iPhone15'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category/link_mobileDevice"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category/link_mobileDevice', ['link_mobileDevice_class': link_mobileDevice_class, 'link_mobileDevice_internalRoleLinkName': link_mobileDevice_internalRoleLinkName, 'product_id': product_id]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on link iPhone15 - Navigate to page productproduct.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 4-Click on link mobileDevice SamsungGalaxyS23Ultra - Navigate to page productproduct.png')
 
 "Step 5: Click on label 512GB"
 
@@ -50,22 +52,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_512GB'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 5-Click on label 512GB.png')
 
-"Step 6: Click on label Green"
+"Step 6: Click on label colorOption (Yellow)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_Green'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/label_colorOption"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/label_colorOption', ['label_colorOption_for': label_colorOption_for, 'label_colorOption_internalText': label_colorOption_internalText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Click on label Green.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 6-Click on label colorOption Yellow.png')
 
-"Step 7: Click on button increaseQuantity (Increased2)"
+"Step 7: Click on button purchaseQuantity (Buy7)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_increaseQuantity', ['button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName, 'button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type': button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseQuantity"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseQuantity', ['button_purchaseQuantity_internalRoleButtonName': button_purchaseQuantity_internalRoleButtonName, 'button_purchaseQuantity_type': button_purchaseQuantity_type]))
 
-WebUI.takeScreenshot(reportLocation + '/TC4/Step 7-Click on button increaseQuantity Increased2.png')
+WebUI.takeScreenshot(reportLocation + '/TC4/Step 7-Click on button purchaseQuantity Buy7.png')
 
 "Step 8: Click on link GoToCart -> Navigate to page 'cart#cart'"
 

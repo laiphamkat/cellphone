@@ -63,6 +63,34 @@
         <name>button_buy_type_2</name>
     </variable>
     <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2ce77abb-9d06-4b6a-92a6-f543f7a9dee0</id>
+        <masked>false</masked>
+        <name>button_purchaseQuantity_internalRoleButtonName</name>
+    </variable>
+    <variable>
+        <defaultValue>'Increased'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>f4393cb5-958b-4a33-a633-5c4d938d20d6</id>
+        <masked>false</masked>
+        <name>button_purchaseQuantity_internalRoleButtonName_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>e7650e81-6577-4680-8d70-a3857cc176ec</id>
+        <masked>false</masked>
+        <name>button_purchaseQuantity_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'button'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>deb78c9b-69cd-4ae7-bbf6-878ea032a090</id>
+        <masked>false</masked>
+        <name>button_purchaseQuantity_type_1</name>
+    </variable>
+    <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillShippingInformationAndProceedToPayment-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>9976770c-adc4-4463-9be4-f4e53f3ad5fb</id>
@@ -70,11 +98,32 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'1'</defaultValue>
+        <defaultValue>'5'</defaultValue>
         <description>Common function data row index</description>
         <id>efc28b6a-d17e-4971-871a-a377de4cdf6e</id>
         <masked>false</masked>
         <name>index_0</name>
+    </variable>
+    <variable>
+        <defaultValue>'samsung'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a1d63d0b-d3ea-489c-ad85-2e6f63c1c082</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_category_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Samsung'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b2d1d106-b985-48e2-b11c-65fbcfeb5852</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_link_mobileBrand_internalRoleLinkName</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d3c52f95-3b26-48cb-b3e2-bb0bcf9f4362</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_link_mobileBrand_nthChild</name>
     </variable>
     <variableLinks>
         <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
@@ -115,6 +164,30 @@
     <variableLinks>
         <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
         <type>DATA_COLUMN</type>
+        <value>button_purchaseQuantity_internalRoleButtonName</value>
+        <variableId>2ce77abb-9d06-4b6a-92a6-f543f7a9dee0</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchaseQuantity_internalRoleButtonName_1</value>
+        <variableId>f4393cb5-958b-4a33-a633-5c4d938d20d6</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchaseQuantity_type</value>
+        <variableId>e7650e81-6577-4680-8d70-a3857cc176ec</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchaseQuantity_type_1</value>
+        <variableId>deb78c9b-69cd-4ae7-bbf6-878ea032a090</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
         <value>data_path_0</value>
         <variableId>9976770c-adc4-4463-9be4-f4e53f3ad5fb</variableId>
     </variableLinks>
@@ -123,5 +196,23 @@
         <type>DATA_COLUMN</type>
         <value>index_0</value>
         <variableId>efc28b6a-d17e-4971-871a-a377de4cdf6e</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_category_id</value>
+        <variableId>a1d63d0b-d3ea-489c-ad85-2e6f63c1c082</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_link_mobileBrand_internalRoleLinkName</value>
+        <variableId>b2d1d106-b985-48e2-b11c-65fbcfeb5852</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>fe466240-f113-4c3c-b501-18e9fb98303e</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_link_mobileBrand_nthChild</value>
+        <variableId>d3c52f95-3b26-48cb-b3e2-bb0bcf9f4362</variableId>
     </variableLinks>
 </TestCaseEntity>

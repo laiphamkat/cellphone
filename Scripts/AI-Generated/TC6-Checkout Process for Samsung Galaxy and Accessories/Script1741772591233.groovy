@@ -19,13 +19,14 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Click on link Samsung -> Navigate to page 'category#category/*'"
+"Step 2: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Samsung'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileBrand"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileBrand', ['link_mobileBrand_category_id': link_mobileBrand_category_id, 'link_mobileBrand_link_mobileBrand_internalRoleLinkName': link_mobileBrand_link_mobileBrand_internalRoleLinkName, 'link_mobileBrand_link_mobileBrand_nthChild': link_mobileBrand_link_mobileBrand_nthChild]))
 
-WebUI.takeScreenshot(reportLocation + '/TC6/Step 2-Click on link Samsung - Navigate to page categorycategory.png')
+WebUI.takeScreenshot(reportLocation + '/TC6/Step 2-Click on link mobileBrand Samsung2 - Navigate to page categorycategory.png')
 
 "Step 3: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'"
 
@@ -35,13 +36,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_SamsungGalax
 
 WebUI.takeScreenshot(reportLocation + '/TC6/Step 3-Click on link SamsungGalaxyS23Ultra - Navigate to page productproduct.png')
 
-"Step 4: Click on button Buy"
+"Step 4: Click on button purchaseQuantity (Buy7)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_Buy'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchaseQuantity"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchaseQuantity', ['button_purchaseQuantity_internalRoleButtonName': button_purchaseQuantity_internalRoleButtonName, 'button_purchaseQuantity_type': button_purchaseQuantity_type]))
 
-WebUI.takeScreenshot(reportLocation + '/TC6/Step 4-Click on button Buy.png')
+WebUI.takeScreenshot(reportLocation + '/TC6/Step 4-Click on button purchaseQuantity Buy7.png')
 
 "Step 5: Click on link Accessories -> Navigate to page 'category#category/*'"
 

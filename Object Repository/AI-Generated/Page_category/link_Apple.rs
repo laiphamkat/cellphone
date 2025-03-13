@@ -11,7 +11,7 @@
         </entry>
         <entry>
             <key>CSS</key>
-            <value>[class="horizontal-menu__child-element"]:nth-child(1) &gt; [class="horizontal-menu__element\ is-link\ is-child"]</value>
+            <value>[class="horizontal-menu__element\ is-link\ is-child"]</value>
         </entry>
         <entry>
             <key>BASIC</key>
@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/category/chekhly-na-iphone</value>
-        <webElementGuid>2aa6b63e-7993-4fc0-9404-593ff3542db2</webElementGuid>
+        <webElementGuid>ea8022ae-25d4-44a0-8330-9c03f50e09ef</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Apple</value>
-        <webElementGuid>2aa6b63e-7993-4fc0-9404-593ff3542db2</webElementGuid>
+        <webElementGuid>ea8022ae-25d4-44a0-8330-9c03f50e09ef</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

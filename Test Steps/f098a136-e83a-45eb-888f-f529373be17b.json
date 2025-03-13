@@ -1,12 +1,12 @@
 {
     "steps": [
         "step 1: Navigate to /",
-        "step 2: Click on link Apple -> Navigate to page 'category#category/*'",
-        "step 3: Click on link iPhone15 -> Navigate to page 'product#product/*'",
-        "step 4: Click on label 128GB",
-        "step 5: Click on label Green",
-        "step 6: Click on button increaseQuantity (Increased2)",
-        "step 7: Click on button increaseQuantity (Increased2)",
+        "step 2: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link mobileDevice (SamsungGalaxyS23Ultra) -> Navigate to page 'product#product/*'",
+        "step 4: Click on label storageOption (256GB2)",
+        "step 5: Click on label colorOption (Yellow)",
+        "step 6: Click on button purchaseQuantity (Buy7)",
+        "step 7: Click on button purchaseQuantity (Buy7)",
         "step 8: Click on link PlaceOrder -> Navigate to page 'cart#cart'",
         "step 9: Click on button ProceedToCheckout",
         "step 10: Enter shipping details and continue to payment step",

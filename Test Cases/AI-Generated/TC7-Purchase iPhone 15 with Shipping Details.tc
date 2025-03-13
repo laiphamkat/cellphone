@@ -23,30 +23,30 @@
     <variable>
         <defaultValue>'Increased'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>67a25726-cc43-4701-892e-b0ee8528b9da</id>
+        <id>4d6c49eb-5cec-469f-9c41-6bac99352e68</id>
         <masked>false</masked>
-        <name>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName</name>
+        <name>button_purchaseQuantity_internalRoleButtonName</name>
     </variable>
     <variable>
         <defaultValue>'Increased'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>1a1cfb16-62ed-4d17-8c51-bd2efc630d20</id>
+        <id>2feb1b1f-b12f-4682-b02f-8cc9c9afd0fa</id>
         <masked>false</masked>
-        <name>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName_1</name>
+        <name>button_purchaseQuantity_internalRoleButtonName_1</name>
     </variable>
     <variable>
         <defaultValue>'button'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>d1f14ad0-dce2-4fe2-a5a1-3e22215e0aef</id>
+        <id>da4c32c6-a7dc-462c-8c35-dd067ac19aef</id>
         <masked>false</masked>
-        <name>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type</name>
+        <name>button_purchaseQuantity_type</name>
     </variable>
     <variable>
         <defaultValue>'button'</defaultValue>
         <description>Dynamic locator variable</description>
-        <id>d6755879-f622-4638-b39a-555f452c4302</id>
+        <id>db13253e-bb99-43b2-8352-5245acd787d1</id>
         <masked>false</masked>
-        <name>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type_1</name>
+        <name>button_purchaseQuantity_type_1</name>
     </variable>
     <variable>
         <defaultValue>'Data Files/AI-Generated/Common/fillShippingInformationAndProceedToPayment-test-data'</defaultValue>
@@ -56,35 +56,105 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'2'</defaultValue>
+        <defaultValue>'4'</defaultValue>
         <description>Common function data row index</description>
         <id>77f0ccc6-1ec8-4c4a-b1b5-70832e24e2ac</id>
         <masked>false</masked>
         <name>index_0</name>
     </variable>
+    <variable>
+        <defaultValue>'\\31 52174-case-654'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>2eefb728-91c0-48fc-a4d4-62648267a701</id>
+        <masked>false</masked>
+        <name>label_colorOption_for</name>
+    </variable>
+    <variable>
+        <defaultValue>'Yellow'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>a43e85a5-859f-4dba-98f1-55879eb5791a</id>
+        <masked>false</masked>
+        <name>label_colorOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'\\31 52181-case-675'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>fd23ee18-616c-4093-bfb5-de12da08d145</id>
+        <masked>false</masked>
+        <name>label_storageOption_for</name>
+    </variable>
+    <variable>
+        <defaultValue>'256 GB'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>03e8c9ee-70d1-41ab-bdda-18a9dd1d3a95</id>
+        <masked>false</masked>
+        <name>label_storageOption_internalText</name>
+    </variable>
+    <variable>
+        <defaultValue>'samsung'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>80ab1a0a-4a2d-4f4b-88ba-6849bdb2863f</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_category_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Samsung'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>3e9fbe3c-7077-4c57-b3c5-830c07aeb4a1</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_link_mobileBrand_internalRoleLinkName</name>
+    </variable>
+    <variable>
+        <defaultValue>'2'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0d8999a1-0f10-46d9-a0c1-b5adb3266538</id>
+        <masked>false</masked>
+        <name>link_mobileBrand_link_mobileBrand_nthChild</name>
+    </variable>
+    <variable>
+        <defaultValue>'products__item\\ in-stock\\ products__item_3-in-row"]:nth-child(1) [class="products__title'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>59d055ff-04d2-4ed9-b17c-09b673d20a43</id>
+        <masked>false</masked>
+        <name>link_mobileDevice_class</name>
+    </variable>
+    <variable>
+        <defaultValue>'Samsung Galaxy S23 Ultra'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>cfde72a8-ee3a-431b-a81e-b964276f1d6f</id>
+        <masked>false</masked>
+        <name>link_mobileDevice_internalRoleLinkName</name>
+    </variable>
+    <variable>
+        <defaultValue>'ss-galaxy-s23-ultra?category=121'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>90080b1d-cdd8-4d2a-b83f-e3feeb3de46f</id>
+        <masked>false</masked>
+        <name>product_id</name>
+    </variable>
     <variableLinks>
         <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName</value>
-        <variableId>67a25726-cc43-4701-892e-b0ee8528b9da</variableId>
+        <value>button_purchaseQuantity_internalRoleButtonName</value>
+        <variableId>4d6c49eb-5cec-469f-9c41-6bac99352e68</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_internalRoleButtonName_1</value>
-        <variableId>1a1cfb16-62ed-4d17-8c51-bd2efc630d20</variableId>
+        <value>button_purchaseQuantity_internalRoleButtonName_1</value>
+        <variableId>2feb1b1f-b12f-4682-b02f-8cc9c9afd0fa</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type</value>
-        <variableId>d1f14ad0-dce2-4fe2-a5a1-3e22215e0aef</variableId>
+        <value>button_purchaseQuantity_type</value>
+        <variableId>da4c32c6-a7dc-462c-8c35-dd067ac19aef</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>button_increaseQuantity_button_increaseQuantity_button_purchaseOptions_button_purchaseOptions_type_1</value>
-        <variableId>d6755879-f622-4638-b39a-555f452c4302</variableId>
+        <value>button_purchaseQuantity_type_1</value>
+        <variableId>db13253e-bb99-43b2-8352-5245acd787d1</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
@@ -97,5 +167,65 @@
         <type>DATA_COLUMN</type>
         <value>index_0</value>
         <variableId>77f0ccc6-1ec8-4c4a-b1b5-70832e24e2ac</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_colorOption_for</value>
+        <variableId>2eefb728-91c0-48fc-a4d4-62648267a701</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_colorOption_internalText</value>
+        <variableId>a43e85a5-859f-4dba-98f1-55879eb5791a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOption_for</value>
+        <variableId>fd23ee18-616c-4093-bfb5-de12da08d145</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>label_storageOption_internalText</value>
+        <variableId>03e8c9ee-70d1-41ab-bdda-18a9dd1d3a95</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_category_id</value>
+        <variableId>80ab1a0a-4a2d-4f4b-88ba-6849bdb2863f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_link_mobileBrand_internalRoleLinkName</value>
+        <variableId>3e9fbe3c-7077-4c57-b3c5-830c07aeb4a1</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileBrand_link_mobileBrand_nthChild</value>
+        <variableId>0d8999a1-0f10-46d9-a0c1-b5adb3266538</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileDevice_class</value>
+        <variableId>59d055ff-04d2-4ed9-b17c-09b673d20a43</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_mobileDevice_internalRoleLinkName</value>
+        <variableId>cfde72a8-ee3a-431b-a81e-b964276f1d6f</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>05c0abe4-85e5-4f38-b0aa-c907a89d7ef8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>product_id</value>
+        <variableId>90080b1d-cdd8-4d2a-b83f-e3feeb3de46f</variableId>
     </variableLinks>
 </TestCaseEntity>

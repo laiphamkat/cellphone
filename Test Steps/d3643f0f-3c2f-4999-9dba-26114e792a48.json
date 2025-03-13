@@ -1,9 +1,9 @@
 {
     "steps": [
         "step 1: Navigate to /",
-        "step 2: Click on link Samsung -> Navigate to page 'category#category/*'",
+        "step 2: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'",
         "step 3: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'",
-        "step 4: Click on button Buy",
+        "step 4: Click on button purchaseQuantity (Buy7)",
         "step 5: Click on link Accessories -> Navigate to page 'category#category/*'",
         "step 6: Click on link Samsung",
         "step 7: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'",
