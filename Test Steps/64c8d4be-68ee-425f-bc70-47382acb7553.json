@@ -11,7 +11,7 @@
         "step 9: Click on link iPhone15Pro",
         "step 10: Click on button purchaseQuantity (Buy)",
         "step 11: Click on link PlaceOrder -> Navigate to page 'cart#cart'",
-        "step 12: Click on button ProceedToCheckout",
+        "step 12: Click on button checkout (ProceedToCheckout)",
         "step 13: Enter shipping details and continue to payment step",
         "step 14: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
         "step 15: Take full page screenshot as checkpoint"

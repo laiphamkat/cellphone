@@ -69,13 +69,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_Increase'))
 
 WebUI.takeScreenshot(reportLocation + '/TC16/Step 7-Click on button Increase.png')
 
-"Step 8: Click on button ProceedToCheckout"
+"Step 8: Click on button checkout (ProceedToCheckout)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
 
-WebUI.takeScreenshot(reportLocation + '/TC16/Step 8-Click on button ProceedToCheckout.png')
+WebUI.takeScreenshot(reportLocation + '/TC16/Step 8-Click on button checkout ProceedToCheckout.png')
 
 "Step 9: Enter shipping details and continue to payment step"
 

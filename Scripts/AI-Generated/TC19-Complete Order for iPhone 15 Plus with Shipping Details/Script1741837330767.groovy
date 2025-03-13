@@ -20,13 +20,14 @@ def setup() {
 
 TrueTestScripts.navigate("/")
 
-"Step 2: Click on link iPhone15Plus -> Navigate to page 'product#product/*'"
+"Step 2: Click on link mobileDevices (iPhone15) -> Navigate to page 'product#product/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_iPhone15Plus'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_home/link_mobileDevices"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_home/link_mobileDevices', ['link_mobileDevices_class': link_mobileDevices_class, 'link_mobileDevices_internalRoleLinkName': link_mobileDevices_internalRoleLinkName, 'link_mobileDevices_nth': link_mobileDevices_nth, 'product_id': product_id]))
 
-WebUI.takeScreenshot(reportLocation + '/TC19/Step 2-Click on link iPhone15Plus - Navigate to page productproduct.png')
+WebUI.takeScreenshot(reportLocation + '/TC19/Step 2-Click on link mobileDevices iPhone15 - Navigate to page productproduct.png')
 
 "Step 3: Click on link Phone -> Navigate to page 'general phone category#*/*'"
 

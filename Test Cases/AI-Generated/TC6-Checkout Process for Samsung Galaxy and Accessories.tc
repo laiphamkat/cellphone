@@ -42,7 +42,7 @@
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'6'</defaultValue>
+        <defaultValue>'15'</defaultValue>
         <description>Common function data row index</description>
         <id>74f4a168-5e47-471e-8880-c31eccb0441a</id>
         <masked>false</masked>

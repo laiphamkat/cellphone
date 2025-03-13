@@ -37,9 +37,9 @@
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>108474f2-8b80-4d28-b47c-762b4a4dbccc</id>
+        <id>e5ecc862-347a-4ce7-a44d-61d0462f08e9</id>
         <masked>false</masked>
-        <name>input_Email</name>
+        <name>input_EmailAddress</name>
     </variable>
     <variable>
         <defaultValue>'First'</defaultValue>
@@ -91,8 +91,8 @@
     <variableLinks>
         <testDataLinkId>6d0c5e90-b8c4-4d9e-829f-78a76bd1f996</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Email</value>
-        <variableId>108474f2-8b80-4d28-b47c-762b4a4dbccc</variableId>
+        <value>input_EmailAddress</value>
+        <variableId>e5ecc862-347a-4ce7-a44d-61d0462f08e9</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>6d0c5e90-b8c4-4d9e-829f-78a76bd1f996</testDataLinkId>

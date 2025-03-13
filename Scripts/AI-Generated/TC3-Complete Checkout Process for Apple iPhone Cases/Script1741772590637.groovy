@@ -50,13 +50,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link PlaceOrder - Navigate to page cartcart.png')
 
-"Step 6: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
+"Step 6: Click on button checkout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button ProceedToCheckout - Navigate to page checkout infocheckoutinfo.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button checkout ProceedToCheckout - Navigate to page checkout infocheckoutinfo.png')
 
 "Step 7: Hover over div checkoutInfo"
 
@@ -66,21 +66,21 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_checkout_info/div_checkoutInfo
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 7-Hover over div checkoutInfo.png')
 
-"Step 8: Click on input Email"
+"Step 8: Click on input EmailAddress"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/input_Email'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on input Email.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 8-Click on input EmailAddress.png')
 
-"Step 9: Enter input value in input Email"
+"Step 9: Enter input value in input EmailAddress"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'checkout/info?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), input_Email)
+WebUI.setText(findTestObject('AI-Generated/Page_checkout_info/input_Email'), input_EmailAddress)
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 9-Enter input value in input Email.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 9-Enter input value in input EmailAddress.png')
 
 "Step 10: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'"
 

@@ -49,18 +49,18 @@
         <name>input_City</name>
     </variable>
     <variable>
-        <defaultValue>'{{url}}'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>70d75871-4316-4490-a00f-570ae6eea439</id>
+        <id>3179640f-bf6f-4d74-93fd-9dc3b8dbe92d</id>
         <masked>false</masked>
-        <name>input_Email</name>
+        <name>input_EmailAddress</name>
     </variable>
     <variable>
         <defaultValue>''</defaultValue>
         <description>Input data variable</description>
-        <id>1587060f-a203-4687-8e74-d59b62054a3c</id>
+        <id>0e874f3b-5dbc-4c80-9ccc-bcb9cad05c1c</id>
         <masked>false</masked>
-        <name>input_Email_1</name>
+        <name>input_EmailAddress_1</name>
     </variable>
     <variable>
         <defaultValue>'f3 first'</defaultValue>
@@ -180,14 +180,14 @@
     <variableLinks>
         <testDataLinkId>61b1c444-8926-4681-8cfc-c1fc64dba944</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Email</value>
-        <variableId>70d75871-4316-4490-a00f-570ae6eea439</variableId>
+        <value>input_EmailAddress</value>
+        <variableId>3179640f-bf6f-4d74-93fd-9dc3b8dbe92d</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>61b1c444-8926-4681-8cfc-c1fc64dba944</testDataLinkId>
         <type>DATA_COLUMN</type>
-        <value>input_Email_1</value>
-        <variableId>1587060f-a203-4687-8e74-d59b62054a3c</variableId>
+        <value>input_EmailAddress_1</value>
+        <variableId>0e874f3b-5dbc-4c80-9ccc-bcb9cad05c1c</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>61b1c444-8926-4681-8cfc-c1fc64dba944</testDataLinkId>

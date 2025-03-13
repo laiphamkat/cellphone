@@ -1,7 +1,7 @@
 {
     "steps": [
         "step 1: Navigate to /",
-        "step 2: Click on link iPhone15Plus -> Navigate to page 'product#product/*'",
+        "step 2: Click on link mobileDevices (iPhone15) -> Navigate to page 'product#product/*'",
         "step 3: Click on link Phone -> Navigate to page 'general phone category#*/*'",
         "step 4: Click on button AddToCart",
         "step 5: Click on label 256GB",

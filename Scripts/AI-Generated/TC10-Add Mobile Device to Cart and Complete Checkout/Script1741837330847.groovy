@@ -84,13 +84,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_iphone_cases_category/link
 
 WebUI.takeScreenshot(reportLocation + '/TC10/Step 9-Click on link GoToCart - Navigate to page cartcart.png')
 
-"Step 10: Click on button ProceedToCheckout"
+"Step 10: Click on button checkout (ProceedToCheckout)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_ProceedToCheckout'))
 
-WebUI.takeScreenshot(reportLocation + '/TC10/Step 10-Click on button ProceedToCheckout.png')
+WebUI.takeScreenshot(reportLocation + '/TC10/Step 10-Click on button checkout ProceedToCheckout.png')
 
 "Step 11: Enter shipping details and continue to payment step"
 
