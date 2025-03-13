@@ -23,7 +23,7 @@ TrueTestScripts.navigate("/")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250313/Page_home/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC5/Step 2-Click on link Apple - Navigate to page categorycategory.png')
 
