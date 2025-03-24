@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over items and select iPhone accessories to buy",
+        "step 3: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'",
+        "step 4: Hover over div checkoutInfo",
+        "step 5: Click on input Email",
+        "step 6: Enter input value in input Email",
+        "step 7: Press key Enter on input Email -> Navigate to page 'checkout#checkout/shipping-address'",
+        "step 8: Hover over div checkout",
+        "step 9: Click on input FirstName",
+        "step 10: Enter input value in input FirstName",
+        "step 11: Enter input value in input Address",
+        "step 12: Enter input value in input LastName",
+        "step 13: Press key Tab on input FirstName",
+        "step 14: Press key Tab on input LastName",
+        "step 15: Hover over div checkout7",
+        "step 16: Click on input ZipCode",
+        "step 17: Enter input value in input ZipCode",
+        "step 18: Enter input value in input City",
+        "step 19: Enter input value in input State",
+        "step 20: Enter input value in input Phone",
+        "step 21: Press key Tab on input ZipCode",
+        "step 22: Press key Tab on input City",
+        "step 23: Press key Tab on input State",
+        "step 24: Press key Enter on input Phone -> Navigate to page 'checkout#checkout/payment'",
+        "step 25: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}

@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/cart</value>
-        <webElementGuid>86b6ac07-25dd-4a86-9530-c337598c3c0c</webElementGuid>
+        <webElementGuid>d7a5e62f-4963-4a55-a2af-05c4dd5f810b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>text</name>
         <type>Main</type>
         <value>1</value>
-        <webElementGuid>86b6ac07-25dd-4a86-9530-c337598c3c0c</webElementGuid>
+        <webElementGuid>d7a5e62f-4963-4a55-a2af-05c4dd5f810b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>title</name>
         <type>Main</type>
         <value>Go to cart</value>
-        <webElementGuid>86b6ac07-25dd-4a86-9530-c337598c3c0c</webElementGuid>
+        <webElementGuid>d7a5e62f-4963-4a55-a2af-05c4dd5f810b</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

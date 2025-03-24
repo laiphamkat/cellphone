@@ -7,6 +7,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import groovy.json.JsonSlurper
 import internal.GlobalVariable
+import java.util.regex.Pattern
 
 public class TrueTestScripts {
     
@@ -86,7 +87,7 @@ public class TrueTestScripts {
         def jsonSlurper = new JsonSlurper()
         def options = jsonSlurper.parseText(parsedValue)
         for (option in options) {
-            WebUI.selectOptionByValue(to, option, true)
+            WebUI.selectOptionByValue(to, Pattern.quote(option), true)
         }
     }
     

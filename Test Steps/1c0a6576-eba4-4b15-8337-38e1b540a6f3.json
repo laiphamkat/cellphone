@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brandNames (Samsung) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link mobilePhones (SamsungGalaxyS23Ultra2) -> Navigate to page 'product#product/*'",
+        "step 4: Click on label storageOptions (TB)",
+        "step 5: Click on label colorOptions (White)",
+        "step 6: Click on label colorOptions (Black)",
+        "step 7: Click on label storageOptions (256GB)",
+        "step 8: Click on button buyQuantity (Buy)",
+        "step 9: Click on link iPhone15Pro",
+        "step 10: Click on button buyQuantity (Buy)",
+        "step 11: Click on link PlaceOrder -> Navigate to page 'cart#cart'",
+        "step 12: Click on button proceedToCheckout (ProceedToCheckout)",
+        "step 13: Input shipping information for checkout process",
+        "step 14: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 15: Take full page screenshot as checkpoint"
+    ]
+}

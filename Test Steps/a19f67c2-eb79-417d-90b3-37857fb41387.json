@@ -1,16 +1,16 @@
 {
     "steps": [
         "step 1: Navigate to /",
-        "step 2: Click on link mobileBrand (Samsung2) -> Navigate to page 'category#category/*'",
+        "step 2: Click on link brandNames (samsung) -> Navigate to page 'category#category/*'",
         "step 3: Click on link ByPrice",
         "step 4: Click on button AddToCart",
         "step 5: Click on div Slider",
         "step 6: Click on button Show",
         "step 7: Click on div Slider",
-        "step 8: Click on link Apple -> Navigate to page 'iphone cases category#*/*'",
+        "step 8: Click on link Apple2 -> Navigate to page 'iphone cases category#*/*'",
         "step 9: Click on link GoToCart -> Navigate to page 'cart#cart'",
-        "step 10: Click on button checkout (ProceedToCheckout)",
-        "step 11: Enter shipping details and continue to payment step",
+        "step 10: Click on button proceedToCheckout (ProceedToCheckout)",
+        "step 11: Input shipping information for checkout process",
         "step 12: Click on button CompleteOrder -> Navigate to page ''",
         "step 13: Take full page screenshot as checkpoint"
     ]

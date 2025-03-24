@@ -11,7 +11,7 @@
         </entry>
         <entry>
             <key>CSS</key>
-            <value>[for="\31 52173-case-651"]</value>
+            <value>[for="\31 52170-case-635"]</value>
         </entry>
     </selectorCollection>
     <selectorMethod>XPATH</selectorMethod>

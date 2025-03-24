@@ -1,0 +1,26 @@
+{
+    "steps": [
+        "step 1: Navigate to */*",
+        "step 2: Click on link Apple -> Navigate to page 'category#category/*'",
+        "step 3: Click on link newArrivals (New) -> Navigate to page 'product#product/*'",
+        "step 4: Click on label 256GB2",
+        "step 5: Click on div VariantPicker",
+        "step 6: Click on label colorOptions (Yellow)",
+        "step 7: Select quantity and proceed to checkout with email input",
+        "step 8: Click on input FirstName",
+        "step 9: Enter input value in input FirstName",
+        "step 10: Click on input LastName",
+        "step 11: Enter input value in input LastName",
+        "step 12: Click on input Address",
+        "step 13: Enter input value in input Address",
+        "step 14: Enter input value in input ZipCode",
+        "step 15: Click on input City",
+        "step 16: Enter input value in input City",
+        "step 17: Enter input value in input State",
+        "step 18: Click on input Phone",
+        "step 19: Enter input value in input Phone",
+        "step 20: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'",
+        "step 21: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 22: Take full page screenshot as checkpoint"
+    ]
+}

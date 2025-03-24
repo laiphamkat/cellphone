@@ -15,7 +15,7 @@
         </entry>
         <entry>
             <key>BASIC</key>
-            <value>//*[equals(@href,'product/${product_id}') and equals(@text,'MagSafe Charger')]</value>
+            <value>//*[equals(@href,'product/${product_id}') and equals(@text,'iPhone 15 Clear Case with MagSafe')]</value>
         </entry>
     </selectorCollection>
     <selectorMethod>XPATH</selectorMethod>
@@ -33,8 +33,8 @@
         <matchCondition>equals</matchCondition>
         <name>text</name>
         <type>Main</type>
-        <value>MagSafe Charger</value>
-        <webElementGuid>86b6ac07-25dd-4a86-9530-c337598c3c0c</webElementGuid>
+        <value>iPhone 15 Clear Case with MagSafe</value>
+        <webElementGuid>d7a5e62f-4963-4a55-a2af-05c4dd5f810b</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>href</name>
         <type>Main</type>
         <value>product/${{product_id}}</value>
-        <webElementGuid>86b6ac07-25dd-4a86-9530-c337598c3c0c</webElementGuid>
+        <webElementGuid>d7a5e62f-4963-4a55-a2af-05c4dd5f810b</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

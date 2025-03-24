@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link brandNames (samsung) -> Navigate to page 'category#category/*'",
+        "step 3: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'",
+        "step 4: Click on button buyQuantity (Buy4)",
+        "step 5: Click on button buyQuantity (Buy3)",
+        "step 6: Click on link Apple3 -> Navigate to page 'category#category/*'",
+        "step 7: Click on button AddToCart2",
+        "step 8: Click on label 1TB",
+        "step 9: Click on label BlueTitanium",
+        "step 10: Click on button purchaseOptions (Increased)",
+        "step 11: Click on button purchaseOptions (Increased)",
+        "step 12: Click on button purchaseOptions (Buy)",
+        "step 13: Click on link GoToCart -> Navigate to page 'cart#cart'",
+        "step 14: Click on button proceedToCheckout (ProceedToCheckout)",
+        "step 15: Input shipping information for checkout process",
+        "step 16: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}
