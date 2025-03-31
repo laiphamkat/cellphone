@@ -22,7 +22,7 @@ TrueTestScripts.navigate("thank-you/${GlobalVariable.thank_you_id}")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'thank-you/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_thank_you/item_object'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250331/Page_thank_you/item_object'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Hover over item object.png')
 
@@ -30,7 +30,7 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 2-Hover over item object.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'thank-you/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_thank_you/link_Apple'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250331/Page_thank_you/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on link Apple - Navigate to page .png')
 
