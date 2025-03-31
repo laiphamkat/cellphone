@@ -1,564 +1,564 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-17,Complete Order for Mobile Phone with Custom Options,"Navigate to mobile phones, select a phone with custom storage and color, add to cart, and complete the order with shipping details.","Step 1: Navigate to /
-Step 2: Click on link mobilePhones (iPhone15Plus) -> Navigate to page 'product#product/*'
+17,Add Mobile Device to Cart and Complete Checkout Process,"Navigate to mobile devices, select a phone, add to cart, choose options, and finalize the order through checkout.","Step 1: Navigate to /
+Step 2: Click on link mobileDevices (iPhone15Plus) -> Navigate to page 'product#product/*'
 Step 3: Click on link phone -> Navigate to page 'general phone category#*/*'
 Step 4: Click on button addToCart
-Step 5: Click on label storage256Gb
-Step 6: Click on label colorGreen
+Step 5: Click on label  256Gb
+Step 6: Click on label green
 Step 7: Click on button buy
 Step 8: Click on link placeOrder
-Step 9: Enter email and continue to shipping details for checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout info#checkout/info'
-	- Step 2: Hover over div checkoutInfo
-	- Step 3: Click on input Email
-	- Step 4: Enter input value in input Email
-	- Step 5: Click on button ContinueToShipping
-Step 10: Fill in all shipping details and complete the order
-	- Step 1: Hover over div checkout
-	- Step 2: Click on input FirstName
-	- Step 3: Hover over div checkout2
-	- Step 4: Enter input value in input FirstName
-	- Step 5: Click on input LastName
-	- Step 6: Hover over div checkout3
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Hover over div checkout7
-	- Step 10: Enter input value in input Address
-	- Step 11: Click on input ZipCode
-	- Step 12: Hover over div checkout4
-	- Step 13: Enter input value in input ZipCode
-	- Step 14: Click on input City
-	- Step 15: Hover over div checkout5
-	- Step 16: Enter input value in input City
-	- Step 17: Click on input State
-	- Step 18: Hover over div checkout6
-	- Step 19: Enter input value in input State
-	- Step 20: Click on input Phone
-	- Step 21: Enter input value in input Phone
-	- Step 22: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'
-	- Step 23: Click on button CompleteOrder
+Step 9: Access checkout info and continue to shipping details
+	- Step 1: Click on button checkout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 10: Complete checkout form and finalize the order
+	- Step 1: Hover over div object
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div object2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div object3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div object7
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div object4
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div object5
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div object6
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment -> Navigate to page 'checkout#checkout/payment'
+	- Step 23: Click on button completeOrder
 Step 11: Take full page screenshot as checkpoint
 ",High,NEW
-15,Checkout Process for Selected Mobile Phone Brand,"Choose a mobile phone brand, select quantity, and complete the order by filling in shipping information.","Step 1: Navigate to /
-Step 2: Select a mobile phone brand and choose quantity to buy
-	- Step 1: Click on link brandNames -> Navigate to page 'category#category/*'
-	- Step 2: Click on link mobilePhones -> Navigate to page 'product#product/*'
-	- Step 3: Click on label 512GB
+15,Set Purchase Quantity and Complete Checkout for Mobile Devices,"Select mobile devices, set purchase quantity, and proceed through checkout to finalize the order.","Step 1: Navigate to /
+Step 2: Select mobile devices and set purchase quantity
+	- Step 1: Click on link brandCategories -> Navigate to page 'category#category/*'
+	- Step 2: Click on link mobileDevices -> Navigate to page 'product#product/*'
+	- Step 3: Click on label  512Gb
 	- Step 4: Click on label colorOptions
-	- Step 5: Click on button buyQuantity
-Step 3: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 4: Click on button proceedToCheckout (ProceedToCheckout)
-Step 5: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 6: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+	- Step 5: Click on button purchaseQuantity
+Step 3: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 4: Click on button checkout (proceedToCheckout)
+Step 5: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 6: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 7: Take full page screenshot as checkpoint
 ",High,NEW
-11,Navigate to iPhone Accessories Category,Access the iPhone accessories category from the homepage and verify navigation back to the homepage.,"Step 1: Navigate to /
-Step 2: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-Step 3: Click on link iphoneAccessories (MagSafeCharger) -> Navigate to page 'product#product/*'
-Step 4: Click on link Apple -> Navigate to page ''
+11,Navigate to iPhone Cases Category and Verify Home Page,"Access iPhone cases category and accessories, then verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+Step 3: Click on link accessories (magSafeCharger) -> Navigate to page 'product#product/*'
+Step 4: Click on link apple -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High,NEW
-8,Navigate to Apple Brand Page,"From the homepage, click on the Apple brand link and verify that navigation to the homepage is successful.","Step 1: Navigate to /
-Step 2: Click on link Apple -> Navigate to page ''
+8,Verify Navigation from Home to Apple Category,Navigate to Apple category from home and verify the home page.,"Step 1: Navigate to /
+Step 2: Click on link apple2 -> Navigate to page ''
 Step 3: Take full page screenshot as checkpoint
 ",High,NEW
-18,Navigate from iPhone Case to Homepage,"Select an iPhone case, navigate back to the homepage, and verify successful navigation.","Step 1: Navigate to */*
-Step 2: Click on link iPhone15SiliconeCaseWithMagSafe
-Step 3: Click on link iPhone15SiliconeCaseWithMagSafe -> Navigate to page 'product#product/*'
-Step 4: Click on label iPhone15Plus -> Navigate to page ''
+18,Verify Navigation from iPhone Cases to Home Page,Navigate from iPhone cases to the home page and verify.,"Step 1: Navigate to */*
+Step 2: Click on link iphone15SiliconeCaseWithMagSafe
+Step 3: Click on link iphone15SiliconeCaseWithMagSafe -> Navigate to page 'product#product/*'
+Step 4: Click on label iphone15PlusVariant -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High,NEW
-3,Navigate from Thank You Page to Apple Brand,"From the thank you page, navigate back to the Apple brand page and verify navigation to the homepage.","Step 1: Navigate to thank-you/*
+3,Verify Navigation from Thank You Page to Home,Navigate from the thank you page back to the home page.,"Step 1: Navigate to thank-you/*
 Step 2: Hover over item object
-Step 3: Click on link Apple -> Navigate to page ''
+Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High,NEW
-1,Complete Order for iPhone Case with Detailed Checkout,"Select an iPhone case, add to cart, and complete the order by filling in detailed shipping information.","Step 1: Navigate to category/*
+1,Complete Checkout with iPhone Cases and Shipping Details,"Select iPhone cases, add to cart, fill in shipping and payment details, and finalize the order.","Step 1: Navigate to category/*
 Step 2: Hover over item object
-Step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-Step 4: Click on button AddToCart
-Step 5: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 6: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
-Step 7: Hover over div checkoutInfo
-Step 8: Click on input Email
-Step 9: Enter input value in input Email
-Step 10: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-Step 11: Hover over div checkout
-Step 12: Click on input FirstName
-Step 13: Hover over div checkout2
-Step 14: Enter input value in input FirstName
-Step 15: Click on input LastName
-Step 16: Hover over div checkout3
-Step 17: Enter input value in input LastName
-Step 18: Click on input Address
-Step 19: Enter input value in input Address
-Step 20: Hover over div checkout4
-Step 21: Enter input value in input ZipCode
-Step 22: Click on input City
-Step 23: Hover over div checkout5
-Step 24: Enter input value in input City
-Step 25: Click on input State
-Step 26: Hover over div checkout6
-Step 27: Enter input value in input State
-Step 28: Click on input Phone
-Step 29: Enter input value in input Phone
-Step 30: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'
-Step 31: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 3: Click on link apple -> Navigate to page 'iphone cases category#*/*'
+Step 4: Click on button addToCart
+Step 5: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 6: Click on button checkout (proceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
+Step 7: Hover over div object
+Step 8: Click on input email
+Step 9: Enter input value in input email
+Step 10: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+Step 11: Hover over div object
+Step 12: Click on input firstName
+Step 13: Hover over div object2
+Step 14: Enter input value in input firstName
+Step 15: Click on input lastName
+Step 16: Hover over div object3
+Step 17: Enter input value in input lastName
+Step 18: Click on input address
+Step 19: Enter input value in input address
+Step 20: Hover over div object4
+Step 21: Enter input value in input zipCode
+Step 22: Click on input city
+Step 23: Hover over div object5
+Step 24: Enter input value in input city
+Step 25: Click on input state
+Step 26: Hover over div object6
+Step 27: Enter input value in input state
+Step 28: Click on input phone
+Step 29: Enter input value in input phone
+Step 30: Click on button continueToPayment -> Navigate to page 'checkout#checkout/payment'
+Step 31: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 32: Take full page screenshot as checkpoint
 ",Medium,NEW
-7,Checkout Process for Mobile Phone by Price,"Choose a mobile phone by price, add to cart, and complete the order by filling in shipping details.","Step 1: Navigate to /
-Step 2: Click on link brandNames (samsung) -> Navigate to page 'category#category/*'
-Step 3: Click on link ByPrice
-Step 4: Click on button AddToCart
-Step 5: Click on div Slider
-Step 6: Click on button Show
-Step 7: Click on div Slider
-Step 8: Click on link Apple2 -> Navigate to page 'iphone cases category#*/*'
-Step 9: Click on link GoToCart -> Navigate to page 'cart#cart'
-Step 10: Click on button proceedToCheckout (ProceedToCheckout)
-Step 11: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 12: Click on button CompleteOrder -> Navigate to page ''
+7,Add Product by Price and Complete Checkout,"Browse brand categories, add a product to the cart, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link byPrice
+Step 4: Click on button addToCart
+Step 5: Click on div object
+Step 6: Click on button show
+Step 7: Click on div object
+Step 8: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+Step 9: Click on link goToCart -> Navigate to page 'cart#cart'
+Step 10: Click on button checkout (proceedToCheckout)
+Step 11: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 12: Click on button completeOrder -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Medium,NEW
-6,Checkout for New Arrivals in Mobile Phones,"Select new arrivals in mobile phones, choose options, and complete the order with shipping information.","Step 1: Navigate to /
-Step 2: Click on link brandNames (apple) -> Navigate to page 'category#category/*'
-Step 3: Click on link newArrivals (HotNew)
-Step 4: Choose mobile phone options and proceed to checkout
-	- Step 1: Click on label 512GB
+6,Purchase New Products and Finalize Order,"Browse new products, choose options, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (apple) -> Navigate to page 'category#category/*'
+Step 3: Click on link newProducts (hotNew)
+Step 4: Choose product options and proceed to checkout
+	- Step 1: Click on label  512Gb
 	- Step 2: Click on label colorOptions
-	- Step 3: Click on button buyQuantity
-	- Step 4: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-	- Step 5: Click on button proceedToCheckout
-Step 5: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 6: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+	- Step 3: Click on button purchaseQuantity
+	- Step 4: Click on link placeOrder -> Navigate to page 'cart#cart'
+	- Step 5: Click on button checkout
+Step 5: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 6: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 7: Take full page screenshot as checkpoint
 ",Medium,NEW
-16,Checkout Process for iPhone Accessories,"Select iPhone accessories, increase quantity, and complete the order with shipping details.","Step 1: Navigate to /
-Step 2: Hover over items and select iPhone accessories to buy
+16,Increase Quantity of iPhone Cases and Complete Checkout,"Select iPhone cases, increase quantity, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Hover over items and select iPhone cases from accessories
 	- Step 1: Hover over item object3
-	- Step 2: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-	- Step 3: Click on link iphoneAccessories -> Navigate to page 'product#product/*'
-	- Step 4: Click on button buyQuantity
-	- Step 5: Click on link PlaceOrder
-Step 3: Click on button Increase
-Step 4: Enter email and continue to shipping details for checkout
-	- Step 1: Click on button proceedToCheckout -> Navigate to page 'checkout info#checkout/info'
-	- Step 2: Hover over div checkoutInfo
-	- Step 3: Click on input Email
-	- Step 4: Enter input value in input Email
-	- Step 5: Click on button ContinueToShipping
-Step 5: Fill in all shipping details and complete the order
-	- Step 1: Hover over div checkout
-	- Step 2: Click on input FirstName
-	- Step 3: Hover over div checkout2
-	- Step 4: Enter input value in input FirstName
-	- Step 5: Click on input LastName
-	- Step 6: Hover over div checkout3
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Hover over div checkout7
-	- Step 10: Enter input value in input Address
-	- Step 11: Click on input ZipCode
-	- Step 12: Hover over div checkout4
-	- Step 13: Enter input value in input ZipCode
-	- Step 14: Click on input City
-	- Step 15: Hover over div checkout5
-	- Step 16: Enter input value in input City
-	- Step 17: Click on input State
-	- Step 18: Hover over div checkout6
-	- Step 19: Enter input value in input State
-	- Step 20: Click on input Phone
-	- Step 21: Enter input value in input Phone
-	- Step 22: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'
-	- Step 23: Click on button CompleteOrder
+	- Step 2: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+	- Step 3: Click on link accessories -> Navigate to page 'product#product/*'
+	- Step 4: Click on button purchaseQuantity
+	- Step 5: Click on link placeOrder
+Step 3: Click on button increase
+Step 4: Access checkout info and continue to shipping details
+	- Step 1: Click on button checkout -> Navigate to page 'checkout info#checkout/info'
+	- Step 2: Hover over div object
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 5: Complete checkout form and finalize the order
+	- Step 1: Hover over div object
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div object2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div object3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div object7
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div object4
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div object5
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div object6
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment -> Navigate to page 'checkout#checkout/payment'
+	- Step 23: Click on button completeOrder
 Step 6: Take full page screenshot as checkpoint
 ",Medium,NEW
-20,Checkout Process for Mobile Phone with Custom Options,"Select a mobile phone with storage and color options, add to cart, and proceed to checkout to complete the order.","Step 1: Navigate to /
-Step 2: Click on link mobilePhones (iPhone15) -> Navigate to page 'product#product/*'
-Step 3: Click on label 512GB
-Step 4: Click on label colorOptions (Green)
-Step 5: Click on button buyQuantity (Buy)
-Step 6: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 7: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout#checkout/payment'
-Step 8: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+20,Purchase Mobile Device with Specific Storage and Color Options,"Select a mobile device, specify storage and color, add to cart, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on link mobileDevices (iPhone15) -> Navigate to page 'product#product/*'
+Step 3: Click on label  512Gb
+Step 4: Click on label colorOptions (green)
+Step 5: Click on button purchaseQuantity (buy)
+Step 6: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 7: Click on button checkout (proceedToCheckout) -> Navigate to page 'checkout#checkout/payment'
+Step 8: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 9: Take full page screenshot as checkpoint
 ",Medium,NEW
-12,Complete Order for Mobile Phone with Storage Options,"Select a mobile phone with storage options, add to cart, and complete the order with shipping details.","Step 1: Navigate to /
-Step 2: Click on link brandNames (apple) -> Navigate to page 'category#category/*'
-Step 3: Click on link mobilePhones (iPhone15)
-Step 4: Click on link mobilePhones (iPhone15Plus) -> Navigate to page 'product#product/*'
-Step 5: Click on label 512GB2
-Step 6: Click on label storageOptions (Black2)
-Step 7: Click on button buyQuantity (Buy)
-Step 8: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 9: Click on button proceedToCheckout (ProceedToCheckout)
-Step 10: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 11: Click on button CompleteOrder -> Navigate to page ''
+12,Purchase Mobile Device with Storage Options and Checkout,"Select mobile devices, choose storage options, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (apple) -> Navigate to page 'category#category/*'
+Step 3: Click on link mobileDevices (iPhone15)
+Step 4: Click on link mobileDevices (iphone15Plus) -> Navigate to page 'product#product/*'
+Step 5: Click on label  512Gb2
+Step 6: Click on label storageOptions (colorBlackVariant)
+Step 7: Click on button purchaseQuantity (buy)
+Step 8: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 9: Click on button checkout (proceedToCheckout)
+Step 10: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 11: Click on button completeOrder -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",Low,NEW
-13,Complete Order for Google Pixel with Quantity Selection,"Select a Google Pixel phone, increase quantity, and complete the order by filling in shipping information.","Step 1: Navigate to /
-Step 2: Click on link GooglePixel -> Navigate to page 'product category page#*/*'
-Step 3: Click on link GooglePixel7Pro -> Navigate to page 'product#product/*'
-Step 4: Click on button buyQuantity (Buy4)
-Step 5: Click on button buyQuantity (Buy3)
-Step 6: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 7: Click on button Increase
-Step 8: Click on button proceedToCheckout (ProceedToCheckout)
-Step 9: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 10: Click on button CompleteOrder -> Navigate to page ''
+13,Purchase Google Pixel and Complete Checkout,"Select Google Pixel, set purchase quantities, and finalize the order through checkout.","Step 1: Navigate to /
+Step 2: Click on link googlePixel -> Navigate to page 'product category page#*/*'
+Step 3: Click on link googlePixel7Pro -> Navigate to page 'product#product/*'
+Step 4: Click on button purchaseQuantity (buy4)
+Step 5: Click on button purchaseQuantity (buy3)
+Step 6: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 7: Click on button increase
+Step 8: Click on button checkout (proceedToCheckout)
+Step 9: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Low,NEW
-2,Checkout Process for Mobile Phone with Brand Selection,"Select a mobile phone brand, add to cart, and complete the order by filling in shipping information.","Step 1: Navigate to /
+2,Complete Checkout with Email Verification,"Select mobile devices, input email, and complete the checkout process with shipping details.","Step 1: Navigate to /
 Step 2: Hover over item object
-Step 3: Select a mobile phone brand and choose quantity to buy
-	- Step 1: Click on link brandNames -> Navigate to page 'category#category/*'
-	- Step 2: Click on link mobilePhones -> Navigate to page 'product#product/*'
-	- Step 3: Click on label 512GB
+Step 3: Select mobile devices and set purchase quantity
+	- Step 1: Click on link brandCategories -> Navigate to page 'category#category/*'
+	- Step 2: Click on link mobileDevices -> Navigate to page 'product#product/*'
+	- Step 3: Click on label  512Gb
 	- Step 4: Click on label colorOptions
-	- Step 5: Click on button buyQuantity
-Step 4: Click on link GoToCart -> Navigate to page 'cart#cart'
-Step 5: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
-Step 6: Hover over div checkoutInfo
-Step 7: Click on input Email
-Step 8: Enter input value in input Email
-Step 9: Click on button ContinueToShipping
-Step 10: Hover over div checkoutInfo
-Step 11: Click on input Email
-Step 12: Enter input value in input Email
-Step 13: Click on button ContinueToShipping
-Step 14: Fill in all shipping details and complete the order
-	- Step 1: Hover over div checkout
-	- Step 2: Click on input FirstName
-	- Step 3: Hover over div checkout2
-	- Step 4: Enter input value in input FirstName
-	- Step 5: Click on input LastName
-	- Step 6: Hover over div checkout3
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Hover over div checkout7
-	- Step 10: Enter input value in input Address
-	- Step 11: Click on input ZipCode
-	- Step 12: Hover over div checkout4
-	- Step 13: Enter input value in input ZipCode
-	- Step 14: Click on input City
-	- Step 15: Hover over div checkout5
-	- Step 16: Enter input value in input City
-	- Step 17: Click on input State
-	- Step 18: Hover over div checkout6
-	- Step 19: Enter input value in input State
-	- Step 20: Click on input Phone
-	- Step 21: Enter input value in input Phone
-	- Step 22: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'
-	- Step 23: Click on button CompleteOrder
+	- Step 5: Click on button purchaseQuantity
+Step 4: Click on link goToCart -> Navigate to page 'cart#cart'
+Step 5: Click on button checkout (proceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
+Step 6: Hover over div object
+Step 7: Click on input email
+Step 8: Enter input value in input email
+Step 9: Click on button continueToShipping
+Step 10: Hover over div object
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Click on button continueToShipping
+Step 14: Complete checkout form and finalize the order
+	- Step 1: Hover over div object
+	- Step 2: Click on input firstName
+	- Step 3: Hover over div object2
+	- Step 4: Enter input value in input firstName
+	- Step 5: Click on input lastName
+	- Step 6: Hover over div object3
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Hover over div object7
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Hover over div object4
+	- Step 13: Enter input value in input zipCode
+	- Step 14: Click on input city
+	- Step 15: Hover over div object5
+	- Step 16: Enter input value in input city
+	- Step 17: Click on input state
+	- Step 18: Hover over div object6
+	- Step 19: Enter input value in input state
+	- Step 20: Click on input phone
+	- Step 21: Enter input value in input phone
+	- Step 22: Click on button continueToPayment -> Navigate to page 'checkout#checkout/payment'
+	- Step 23: Click on button completeOrder
 Step 15: Take full page screenshot as checkpoint
 ",Low,NEW
-5,Complete Order for Samsung Galaxy with Custom Options,"Select a Samsung Galaxy phone with storage and color options, add to cart, and complete the order.","Step 1: Navigate to /
-Step 2: Click on link brandNames (samsung) -> Navigate to page 'category#category/*'
-Step 3: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'
-Step 4: Click on button buyQuantity (Buy4)
-Step 5: Click on button buyQuantity (Buy3)
-Step 6: Click on link Apple3 -> Navigate to page 'category#category/*'
-Step 7: Click on button AddToCart2
-Step 8: Click on label 1TB
-Step 9: Click on label BlueTitanium
-Step 10: Click on button purchaseOptions (Increased)
-Step 11: Click on button purchaseOptions (Increased)
-Step 12: Click on button purchaseOptions (Buy)
-Step 13: Click on link GoToCart -> Navigate to page 'cart#cart'
-Step 14: Click on button proceedToCheckout (ProceedToCheckout)
-Step 15: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 16: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+5,Complete Checkout for Samsung Cases with Multiple Options,"Select Samsung cases, choose options, and finalize the order through checkout.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product#product/*'
+Step 4: Click on button purchaseQuantity (buy4)
+Step 5: Click on button purchaseQuantity (buy3)
+Step 6: Click on link apple3 -> Navigate to page 'category#category/*'
+Step 7: Click on button addToCart2
+Step 8: Click on label storage1Tb
+Step 9: Click on label colorBlueTitanium
+Step 10: Click on button purchaseAction (increased)
+Step 11: Click on button purchaseAction (increased)
+Step 12: Click on button purchaseAction (buy)
+Step 13: Click on link goToCart -> Navigate to page 'cart#cart'
+Step 14: Click on button checkout (proceedToCheckout)
+Step 15: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 16: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 17: Take full page screenshot as checkpoint
 ",Low,NEW
-4,Complete Order for Samsung Galaxy with Accessories,"Select a Samsung Galaxy phone and accessories, add to cart, and complete the order with shipping information.","Step 1: Navigate to /
-Step 2: Click on link brandNames (samsung) -> Navigate to page 'category#category/*'
-Step 3: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'
-Step 4: Click on button buyQuantity (Buy3)
-Step 5: Click on link Accessories -> Navigate to page 'category#category/*'
-Step 6: Click on link Samsung
-Step 7: Click on link SamsungGalaxyS23Ultra -> Navigate to page 'product#product/*'
-Step 8: Click on link Apple2 -> Navigate to page 'iphone cases category#*/*'
-Step 9: Click on button AddToCart2
+4,Purchase Samsung Cases and Complete Checkout,"Select Samsung cases, add to cart, and complete the order through checkout.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (samsung) -> Navigate to page 'category#category/*'
+Step 3: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product#product/*'
+Step 4: Click on button purchaseQuantity (buy3)
+Step 5: Click on link accessories -> Navigate to page 'category#category/*'
+Step 6: Click on link samsung
+Step 7: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page 'product#product/*'
+Step 8: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+Step 9: Click on button addToCart2
 Step 10: Click on label iPhone15Plus
-Step 11: Click on label Cypress
-Step 12: Click on button Buy
-Step 13: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 14: Click on button proceedToCheckout (ProceedToCheckout)
-Step 15: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 16: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 11: Click on label cypress
+Step 12: Click on button buy
+Step 13: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 14: Click on button checkout (proceedToCheckout)
+Step 15: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 16: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 17: Take full page screenshot as checkpoint
 ",Low,NEW
-9,Checkout Process for Mobile Phone with Customization,"Select a mobile phone with storage and color options, add to cart, and complete the order with shipping details.","Step 1: Navigate to /
-Step 2: Click on link brandNames (Samsung) -> Navigate to page 'category#category/*'
-Step 3: Click on link mobilePhones (SamsungGalaxyS23Ultra2) -> Navigate to page 'product#product/*'
-Step 4: Click on label storageOptions (TB)
-Step 5: Click on label colorOptions (White)
-Step 6: Click on label colorOptions (Black)
-Step 7: Click on label storageOptions (256GB)
-Step 8: Click on button buyQuantity (Buy)
-Step 9: Click on link iPhone15Pro
-Step 10: Click on button buyQuantity (Buy)
-Step 11: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 12: Click on button proceedToCheckout (ProceedToCheckout)
-Step 13: Input shipping information for checkout process
-	- Step 1: Click on input Email
-	- Step 2: Enter input value in input Email
-	- Step 3: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-	- Step 4: Click on input FirstName
-	- Step 5: Enter input value in input FirstName
-	- Step 6: Click on input LastName
-	- Step 7: Enter input value in input LastName
-	- Step 8: Click on input Address
-	- Step 9: Enter input value in input Address
-	- Step 10: Click on input ZipCode
-	- Step 11: Enter input value in input ZipCode
-	- Step 12: Click on input City
-	- Step 13: Enter input value in input City
-	- Step 14: Click on input State
-	- Step 15: Enter input value in input State
-	- Step 16: Click on input Phone
-	- Step 17: Enter input value in input Phone
-	- Step 18: Click on button ContinueToPayment
-Step 14: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+9,Purchase iPhone with Multiple Options and Complete Checkout,"Select an iPhone, choose storage and color options, and complete the checkout process.","Step 1: Navigate to /
+Step 2: Click on link brandCategories (samsungCategory) -> Navigate to page 'category#category/*'
+Step 3: Click on link mobileDevices (samsungGalaxyS23Ultra) -> Navigate to page 'product#product/*'
+Step 4: Click on label storageOptions (storageTb)
+Step 5: Click on label colorOptions (colorWhite)
+Step 6: Click on label colorOptions (colorBlack)
+Step 7: Click on label storageOptions (storage256Gb)
+Step 8: Click on button purchaseQuantity (buy)
+Step 9: Click on link iphone15Pro
+Step 10: Click on button purchaseQuantity (buy)
+Step 11: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 12: Click on button checkout (proceedToCheckout)
+Step 13: Fill in checkout information and proceed to payment
+	- Step 1: Click on input email
+	- Step 2: Enter input value in input email
+	- Step 3: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+	- Step 4: Click on input firstName
+	- Step 5: Enter input value in input firstName
+	- Step 6: Click on input lastName
+	- Step 7: Enter input value in input lastName
+	- Step 8: Click on input address
+	- Step 9: Enter input value in input address
+	- Step 10: Click on input zipCode
+	- Step 11: Enter input value in input zipCode
+	- Step 12: Click on input city
+	- Step 13: Enter input value in input city
+	- Step 14: Click on input state
+	- Step 15: Enter input value in input state
+	- Step 16: Click on input phone
+	- Step 17: Enter input value in input phone
+	- Step 18: Click on button continueToPayment
+Step 14: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 15: Take full page screenshot as checkpoint
 ",Trivial,NEW
-10,Checkout Process for New Arrivals in iPhone Cases,"Select new arrivals in iPhone cases, choose options, and complete the order with shipping information.","Step 1: Navigate to */*
-Step 2: Click on link Apple -> Navigate to page 'category#category/*'
-Step 3: Click on link newArrivals (New) -> Navigate to page 'product#product/*'
-Step 4: Click on label 256GB2
-Step 5: Click on div VariantPicker
-Step 6: Click on label colorOptions (Yellow)
-Step 7: Select quantity and proceed to checkout with email input
-	- Step 1: Click on button buyQuantity
-	- Step 2: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-	- Step 3: Click on button proceedToCheckout -> Navigate to page 'checkout info#checkout/info'
-	- Step 4: Click on input Email
-	- Step 5: Enter input value in input Email
-	- Step 6: Click on button ContinueToShipping
-Step 8: Click on input FirstName
-Step 9: Enter input value in input FirstName
-Step 10: Click on input LastName
-Step 11: Enter input value in input LastName
-Step 12: Click on input Address
-Step 13: Enter input value in input Address
-Step 14: Enter input value in input ZipCode
-Step 15: Click on input City
-Step 16: Enter input value in input City
-Step 17: Enter input value in input State
-Step 18: Click on input Phone
-Step 19: Enter input value in input Phone
-Step 20: Click on button ContinueToPayment -> Navigate to page 'checkout#checkout/payment'
-Step 21: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+10,Purchase New Products in iPhone Cases Category,"Select new products, choose options, and complete the checkout process with shipping details.","Step 1: Navigate to */*
+Step 2: Click on link appleCategory -> Navigate to page 'category#category/*'
+Step 3: Click on link newProducts (iphone15PlusNew) -> Navigate to page 'product#product/*'
+Step 4: Click on label storage256Gbvariant
+Step 5: Click on div colorVariants
+Step 6: Click on label colorOptions (colorYellow)
+Step 7: Select purchase quantity and place order in cart
+	- Step 1: Click on button purchaseQuantity
+	- Step 2: Click on link placeOrder -> Navigate to page 'cart#cart'
+	- Step 3: Click on button checkout -> Navigate to page 'checkout info#checkout/info'
+	- Step 4: Click on input email
+	- Step 5: Enter input value in input email
+	- Step 6: Click on button continueToShipping
+Step 8: Click on input firstName
+Step 9: Enter input value in input firstName
+Step 10: Click on input lastName
+Step 11: Enter input value in input lastName
+Step 12: Click on input address
+Step 13: Enter input value in input address
+Step 14: Enter input value in input zipCode
+Step 15: Click on input city
+Step 16: Enter input value in input city
+Step 17: Enter input value in input state
+Step 18: Click on input phone
+Step 19: Enter input value in input phone
+Step 20: Click on button continueToPayment -> Navigate to page 'checkout#checkout/payment'
+Step 21: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 22: Take full page screenshot as checkpoint
 ",Trivial,NEW
-14,Purchase Multiple Quantities of iPhone,"Select an iPhone model, increase the quantity, and verify navigation back to the homepage.","Step 1: Navigate to /
-Step 2: Click on link mobilePhones (SamsungGalaxyS23Ultra)
+14,Purchase Multiple Quantities of iPhone and Verify Home Page,"Select iPhone, set multiple purchase quantities, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link mobileDevices (samsungGalaxyS23Ultra)
 Step 3: Click on link iPhone15Pro -> Navigate to page 'product#product/*'
-Step 4: Click on button buyQuantity (Buy2)
-Step 5: Click on button buyQuantity (Buy2)
-Step 6: Click on button buyQuantity (Buy)
-Step 7: Click on button buyQuantity (Buy)
-Step 8: Click on button buyQuantity (Buy)
-Step 9: Click on button buyQuantity (Buy)
-Step 10: Click on link Apple -> Navigate to page ''
+Step 4: Click on button purchaseQuantity (buy2)
+Step 5: Click on button purchaseQuantity (buy2)
+Step 6: Click on button purchaseQuantity (buy)
+Step 7: Click on button purchaseQuantity (buy)
+Step 8: Click on button purchaseQuantity (buy)
+Step 9: Click on button purchaseQuantity (buy)
+Step 10: Click on link apple -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial,NEW
-19,Complete Order for iPhone Accessories with Detailed Checkout,"Select iPhone accessories, add to cart, and complete the order by filling in detailed shipping information.","Step 1: Navigate to /
+19,Complete Checkout for Multiple Items with Shipping Details,"Select items, fill in shipping details, and finalize the order through checkout.","Step 1: Navigate to /
 Step 2: Hover over item object2
-Step 3: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-Step 4: Click on link Sale
-Step 5: Click on link NewyorkAccount -> Navigate to page 'product#product/*'
-Step 6: Click on button buyQuantity (Buy3)
-Step 7: Click on link PlaceOrder -> Navigate to page 'cart#cart'
-Step 8: Click on button proceedToCheckout (ProceedToCheckout)
-Step 9: Click on button proceedToCheckout (ProceedToCheckout2) -> Navigate to page 'checkout info#checkout/info'
-Step 10: Hover over div checkoutInfo
-Step 11: Click on input Email
-Step 12: Enter input value in input Email
-Step 13: Enter input value in input EmailAddress
-Step 14: Click on button ContinueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
-Step 15: Hover over div checkout
-Step 16: Click on input FirstName
-Step 17: Enter input value in input FirstName
-Step 18: Hover over div checkout2
-Step 19: Click on input LastName
-Step 20: Enter input value in input LastName
-Step 21: Hover over div checkout3
-Step 22: Click on input Address
-Step 23: Enter input value in input Address
-Step 24: Hover over div checkout
-Step 25: Click on input FirstName
-Step 26: Enter input value in input FirstName
-Step 27: Hover over div checkout7
-Step 28: Click on input ZipCode
-Step 29: Enter input value in input ZipCode
-Step 30: Hover over div checkout4
-Step 31: Click on input City
-Step 32: Enter input value in input City
-Step 33: Hover over div checkout5
-Step 34: Click on input State
-Step 35: Enter input value in input State
-Step 36: Hover over div checkout6
-Step 37: Click on input Phone
-Step 38: Enter input value in input Phone
-Step 39: Click on button ContinueToPayment -> Navigate to page ''
+Step 3: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+Step 4: Click on link usbCpowerAdapterSale
+Step 5: Click on link newyorkBankAccountNumber -> Navigate to page 'product#product/*'
+Step 6: Click on button purchaseQuantity (buy3)
+Step 7: Click on link placeOrder -> Navigate to page 'cart#cart'
+Step 8: Click on button checkout (proceedToCheckout)
+Step 9: Click on button checkout (proceedToCheckout2) -> Navigate to page 'checkout info#checkout/info'
+Step 10: Hover over div object
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Enter input value in input email2
+Step 14: Click on button continueToShipping -> Navigate to page 'checkout#checkout/shipping-address'
+Step 15: Hover over div object
+Step 16: Click on input firstName
+Step 17: Enter input value in input firstName
+Step 18: Hover over div object2
+Step 19: Click on input lastName
+Step 20: Enter input value in input lastName
+Step 21: Hover over div object3
+Step 22: Click on input address
+Step 23: Enter input value in input address
+Step 24: Hover over div object
+Step 25: Click on input firstName
+Step 26: Enter input value in input firstName
+Step 27: Hover over div object7
+Step 28: Click on input zipCode
+Step 29: Enter input value in input zipCode
+Step 30: Hover over div object4
+Step 31: Click on input city
+Step 32: Enter input value in input city
+Step 33: Hover over div object5
+Step 34: Click on input state
+Step 35: Enter input value in input state
+Step 36: Hover over div object6
+Step 37: Click on input phone
+Step 38: Enter input value in input phone
+Step 39: Click on button continueToPayment -> Navigate to page ''
 Step 40: Take full page screenshot as checkpoint
 ",Trivial,NEW
-21,Checkout Process for iPhone Accessories with Detailed Information,"Select iPhone accessories, proceed to checkout, and fill in detailed shipping information to complete the order.","Step 1: Navigate to /
-Step 2: Hover over items and select iPhone accessories to buy
+21,Complete Checkout with Multiple Shipping Details,"Select items, fill in multiple shipping details, and finalize the order through checkout.","Step 1: Navigate to /
+Step 2: Hover over items and select iPhone cases from accessories
 	- Step 1: Hover over item object3
-	- Step 2: Click on link Apple -> Navigate to page 'iphone cases category#*/*'
-	- Step 3: Click on link iphoneAccessories -> Navigate to page 'product#product/*'
-	- Step 4: Click on button buyQuantity
-	- Step 5: Click on link PlaceOrder
-Step 3: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
-Step 4: Hover over div checkoutInfo
-Step 5: Click on input Email
-Step 6: Enter input value in input Email
-Step 7: Press key Enter on input Email -> Navigate to page 'checkout#checkout/shipping-address'
-Step 8: Hover over div checkout
-Step 9: Click on input FirstName
-Step 10: Enter input value in input FirstName
-Step 11: Enter input value in input Address
-Step 12: Enter input value in input LastName
-Step 13: Press key Tab on input FirstName
-Step 14: Press key Tab on input LastName
-Step 15: Hover over div checkout7
-Step 16: Click on input ZipCode
-Step 17: Enter input value in input ZipCode
-Step 18: Enter input value in input City
-Step 19: Enter input value in input State
-Step 20: Enter input value in input Phone
-Step 21: Press key Tab on input ZipCode
-Step 22: Press key Tab on input City
-Step 23: Press key Tab on input State
-Step 24: Press key Enter on input Phone -> Navigate to page 'checkout#checkout/payment'
-Step 25: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+	- Step 2: Click on link apple2 -> Navigate to page 'iphone cases category#*/*'
+	- Step 3: Click on link accessories -> Navigate to page 'product#product/*'
+	- Step 4: Click on button purchaseQuantity
+	- Step 5: Click on link placeOrder
+Step 3: Click on button checkout (proceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
+Step 4: Hover over div object
+Step 5: Click on input email
+Step 6: Enter input value in input email
+Step 7: Press key Enter on input email -> Navigate to page 'checkout#checkout/shipping-address'
+Step 8: Hover over div object
+Step 9: Click on input firstName
+Step 10: Enter input value in input firstName
+Step 11: Enter input value in input address
+Step 12: Enter input value in input lastName
+Step 13: Press key Tab on input firstName
+Step 14: Press key Tab on input lastName
+Step 15: Hover over div object7
+Step 16: Click on input zipCode
+Step 17: Enter input value in input zipCode
+Step 18: Enter input value in input city
+Step 19: Enter input value in input state
+Step 20: Enter input value in input phone
+Step 21: Press key Tab on input zipCode
+Step 22: Press key Tab on input city
+Step 23: Press key Tab on input state
+Step 24: Press key Enter on input phone -> Navigate to page 'checkout#checkout/payment'
+Step 25: Click on button completeOrder -> Navigate to page 'thank you#thank-you/*'
 Step 26: Take full page screenshot as checkpoint
 ",Trivial,NEW
