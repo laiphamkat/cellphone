@@ -1,0 +1,32 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over link accessories",
+        "step 3: Click on link apple",
+        "step 4: Click on button addToCart",
+        "step 5: Click on input storageColorOption ( 512Gb)",
+        "step 6: Click on input storageColorOption (yellow)",
+        "step 7: Click on button buy",
+        "step 8: Click on link placeOrder -> Navigate to page '/cart'",
+        "step 9: Click on button proceedToCheckout -> Navigate to page '/checkout/info'",
+        "step 10: Click on input email",
+        "step 11: Enter input value in input email",
+        "step 12: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'",
+        "step 13: Click on input firstName",
+        "step 14: Enter input value in input firstName",
+        "step 15: Click on input lastName",
+        "step 16: Enter input value in input lastName",
+        "step 17: Click on input address",
+        "step 18: Enter input value in input address",
+        "step 19: Click on input zipCode",
+        "step 20: Enter input value in input zipCode",
+        "step 21: Click on input city",
+        "step 22: Enter input value in input city",
+        "step 23: Click on input state",
+        "step 24: Enter input value in input state",
+        "step 25: Click on input phone",
+        "step 26: Enter input value in input phone",
+        "step 27: Click on button continueToPayment -> Navigate to page ''",
+        "step 28: Take full page screenshot as checkpoint"
+    ]
+}

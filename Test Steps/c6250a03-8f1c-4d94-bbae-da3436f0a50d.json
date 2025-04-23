@@ -1,0 +1,25 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over link accessories",
+        "step 3: Click on link samsung2 -> Navigate to page '/category/power-and-cables'",
+        "step 4: Click on input priceMin",
+        "step 5: Enter input value in input priceMin",
+        "step 6: Click on input priceMax",
+        "step 7: Enter input value in input priceMax",
+        "step 8: Click on input inStock",
+        "step 9: Click on link sortOptions (byTitle)",
+        "step 10: Click on link sortOptions (byPrice)",
+        "step 11: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page '/product/*'",
+        "step 12: Click on button purchaseActions (increased)",
+        "step 13: Click on button purchaseActions (buy)",
+        "step 14: Click on link accessories -> Navigate to page '/category/accessories'",
+        "step 15: Click on button object",
+        "step 16: Click on button addToCart",
+        "step 17: Hover over link iphone15SiliconeCaseWithMagSafe",
+        "step 18: Click on input accessoryType (iphone15)",
+        "step 19: Click on input accessoryType (cypress)",
+        "step 20: Click on button buy -> Navigate to page ''",
+        "step 21: Take full page screenshot as checkpoint"
+    ]
+}
