@@ -22,7 +22,7 @@
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
-            <value>internal:label="Email *"s</value>
+            <value>internal:label=\"Email *\"s</value>
         </entry>
     </smartLocatorCollection>
     <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r0:</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>email</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

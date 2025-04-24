@@ -22,7 +22,7 @@
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
-            <value>button &gt;&gt; internal:text="Continue to payment"s</value>
+            <value>button &gt;&gt; internal:text=\"Continue to payment\"s</value>
         </entry>
     </smartLocatorCollection>
     <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -34,7 +34,7 @@
         <name>text</name>
         <type>Main</type>
         <value>CONTINUE TO PAYMENT</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>type</name>
         <type>Main</type>
         <value>submit</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -34,7 +34,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/category/power-and-cables</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Samsung</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

@@ -22,7 +22,7 @@
     <smartLocatorCollection>
         <entry>
             <key>SMART_LOCATOR</key>
-            <value>internal:label="Address *"s</value>
+            <value>internal:label=\"Address *\"s</value>
         </entry>
     </smartLocatorCollection>
     <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -34,7 +34,7 @@
         <name>id</name>
         <type>Main</type>
         <value>:r4:</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
         <name>name</name>
         <type>Main</type>
         <value>shipping_address.address_line_1</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -50,6 +50,6 @@
         <name>type</name>
         <type>Main</type>
         <value>text</value>
-        <webElementGuid>f023589b-7845-441d-9bcd-d8ea5a773c14</webElementGuid>
+        <webElementGuid>ccce5d2c-d1c3-4f15-b32c-e0b0642476cc</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

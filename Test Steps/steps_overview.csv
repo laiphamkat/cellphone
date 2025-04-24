@@ -1,73 +1,84 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Purchase of Apple Accessories with Shipping Information,"Navigate to the homepage, select Apple accessories, add to cart, and enter shipping information to complete the purchase.","Step 1: Navigate to /
-Step 2: Hover over link accessories
-Step 3: Click on link apple
-Step 4: Click on button addToCart
-Step 5: Click on input storageColorOption ( 512Gb)
-Step 6: Click on input storageColorOption (yellow)
-Step 7: Click on button buy
-Step 8: Click on link placeOrder -> Navigate to page '/cart'
-Step 9: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-Step 10: Click on input email
-Step 11: Enter input value in input email
-Step 12: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-Step 13: Click on input firstName
-Step 14: Enter input value in input firstName
-Step 15: Click on input lastName
-Step 16: Enter input value in input lastName
-Step 17: Click on input address
-Step 18: Enter input value in input address
-Step 19: Click on input zipCode
-Step 20: Enter input value in input zipCode
-Step 21: Click on input city
-Step 22: Enter input value in input city
-Step 23: Click on input state
-Step 24: Enter input value in input state
-Step 25: Click on input phone
-Step 26: Enter input value in input phone
-Step 27: Click on button continueToPayment -> Navigate to page ''
-Step 28: Take full page screenshot as checkpoint
-",High,NEW
-3,Purchase Samsung Accessories with Price Filtering,"Navigate to the homepage, filter Samsung accessories by price, add to cart, and verify the homepage after completing the purchase.","Step 1: Navigate to /
-Step 2: Hover over link accessories
-Step 3: Click on link samsung2 -> Navigate to page '/category/power-and-cables'
-Step 4: Click on input priceMin
-Step 5: Enter input value in input priceMin
-Step 6: Click on input priceMax
-Step 7: Enter input value in input priceMax
-Step 8: Click on input inStock
-Step 9: Click on link sortOptions (byTitle)
-Step 10: Click on link sortOptions (byPrice)
-Step 11: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page '/product/*'
-Step 12: Click on button purchaseActions (increased)
-Step 13: Click on button purchaseActions (buy)
-Step 14: Click on link accessories -> Navigate to page '/category/accessories'
-Step 15: Click on button object
-Step 16: Click on button addToCart
-Step 17: Hover over link iphone15SiliconeCaseWithMagSafe
-Step 18: Click on input accessoryType (iphone15)
-Step 19: Click on input accessoryType (cypress)
-Step 20: Click on button buy -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",Medium,NEW
-2,Add Samsung Products to Cart and Verify Sorting Options,"Navigate to the homepage, select Samsung products, add to cart, and explore sorting options before verifying the homepage.","Step 1: Navigate to /
-Step 2: Hover over span object
+1,Complete Order for Samsung Phone with Custom Options,"Navigate to the home page, select a Samsung phone, customize options, and complete the order through checkout.","Step 1: Navigate to /
+Step 2: Hover over link phone
 Step 3: Click on link samsung -> Navigate to page '/category/samsung'
 Step 4: Click on button addToCart
-Step 5: Click on input storageColorOption ( 512Gb)
-Step 6: Click on input storageColorOption (white)
-Step 7: Click on input storageColorOption (black)
+Step 5: Click on label colorStorageOption (storage512Gb)
+Step 6: Click on label colorStorageOption (colorWhite)
+Step 7: Click on label colorStorageOption (colorBlack)
 Step 8: Click on button buy
-Step 9: Hover over link samsungGalaxyZfold5
-Step 10: Click on button object
-Step 11: Click on link sortOptions (byTitle)
-Step 12: Click on link sortOptions (byPrice)
-Step 13: Hover over link accessories
-Step 14: Click on link samsung -> Navigate to page '/category/power-and-cables'
-Step 15: Click on link home -> Navigate to page '/'
-Step 16: Click on link iphone15Plus -> Navigate to page '/product/*'
-Step 17: Click on input storageOption ( 256Gb)
-Step 18: Click on input storageOption (yellow)
-Step 19: Click on input storageOption ( 512Gb) -> Navigate to page ''
-Step 20: Take full page screenshot as checkpoint
+Step 9: Click on link placeOrder -> Navigate to page '/cart'
+Step 10: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 11: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 12: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Order for Multiple Devices with Accessories,"Navigate to the home page, add Samsung accessories and a Google Pixel phone, fill in shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over link accessories
+Step 3: Click on link samsung2 -> Navigate to page '/category/power-and-cables'
+Step 4: Click on button addToCart (addToCart)
+Step 5: Click on link samsungGalaxyZfold4SiliconCover -> Navigate to page '/product/*'
+Step 6: Click on button increased
+Step 7: Hover over link phone
+Step 8: Click on link googlePixel -> Navigate to page '/category/google-pixel'
+Step 9: Click on button addToCart
+Step 10: Click on label colorStorageOption (storage512Gb)
+Step 11: Click on label colorStorageOption (colorBlack)
+Step 12: Click on button buy
+Step 13: Hover over link googlePixel8New
+Step 14: Click on link placeOrder -> Navigate to page '/cart'
+Step 15: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 16: Click on input email
+Step 17: Enter input value in input email
+Step 18: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 19: Click on input firstName
+Step 20: Enter input value in input firstName
+Step 21: Press key Tab on input firstName
+Step 22: Enter input value in input lastName
+Step 23: Press key Tab on input lastName
+Step 24: Enter input value in input address
+Step 25: Press key Tab on input address
+Step 26: Enter input value in input zipCode
+Step 27: Press key Tab on input zipCode
+Step 28: Enter input value in input city
+Step 29: Press key Tab on input city
+Step 30: Enter input value in input state
+Step 31: Press key Tab on input state
+Step 32: Enter input value in input phone
+Step 33: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 34: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 35: Take full page screenshot as checkpoint
+",Trivial,NEW
+3,Complete Order for Apple Phone and Accessories,"Navigate to the home page, add Samsung and Apple accessories, fill in shipping information, and successfully complete the order.","Step 1: Navigate to /
+Step 2: Hover over link accessories
+Step 3: Click on link samsung2 -> Navigate to page '/category/power-and-cables'
+Step 4: Click on button addToCart (addToCart2)
+Step 5: Click on link goToCart -> Navigate to page '/cart'
+Step 6: Hover over link phone
+Step 7: Click on link apple -> Navigate to page '/category/apple'
+Step 8: Click on button addToCart
+Step 9: Click on label colorStorageOption (storage512Gb)
+Step 10: Click on label colorStorageOption (colorNaturalTitanium)
+Step 11: Click on button buy
+Step 12: Click on link goToCart -> Navigate to page '/cart'
+Step 13: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 14: Click on input email
+Step 15: Enter input value in input email
+Step 16: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 17: Click on input firstName
+Step 18: Enter input value in input firstName
+Step 19: Click on input lastName
+Step 20: Enter input value in input lastName
+Step 21: Click on input address
+Step 22: Enter input value in input address
+Step 23: Click on input zipCode
+Step 24: Enter input value in input zipCode
+Step 25: Click on input city
+Step 26: Enter input value in input city
+Step 27: Click on input state
+Step 28: Enter input value in input state
+Step 29: Click on input phone
+Step 30: Enter input value in input phone
+Step 31: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 32: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 33: Take full page screenshot as checkpoint
 ",Trivial,NEW
