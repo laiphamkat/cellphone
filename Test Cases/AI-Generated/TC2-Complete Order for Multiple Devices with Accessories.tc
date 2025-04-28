@@ -28,11 +28,25 @@
         <name>button_addToCart_liNthOfType</name>
     </variable>
     <variable>
-        <defaultValue>'0'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>9342a8b2-9468-4bf7-9f4e-e145b444ca5b</id>
         <masked>false</masked>
         <name>button_addToCart_nth</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>b93c8bfd-f908-4f1e-bfab-1503249f5106</id>
+        <masked>false</masked>
+        <name>button_purchase_buttonNthOfType</name>
+    </variable>
+    <variable>
+        <defaultValue>'Buy'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>7aa55bd3-60c1-43d5-8191-affc69c4b7c6</id>
+        <masked>false</masked>
+        <name>button_purchase_buttonTitle</name>
     </variable>
     <variable>
         <defaultValue>'add'</defaultValue>
@@ -105,18 +119,39 @@
         <name>label_colorStorageOption_for_1</name>
     </variable>
     <variable>
-        <defaultValue>'512 GB'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>98fba37d-6381-461c-86b3-bdeda4497bd9</id>
         <masked>false</masked>
         <name>label_colorStorageOption_internalText</name>
     </variable>
     <variable>
-        <defaultValue>'Black'</defaultValue>
+        <defaultValue>''</defaultValue>
         <description>Dynamic locator variable</description>
         <id>bfff0725-1068-47db-9b07-fdf80b1dcf19</id>
         <masked>false</masked>
         <name>label_colorStorageOption_internalText_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'/product/samsung-galaxy-s23-ultra-smartview-cases?sort=price'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>9d5ff2f1-1195-46cc-8395-e05d2a634766</id>
+        <masked>false</masked>
+        <name>link_productDetail_href_variable</name>
+    </variable>
+    <variable>
+        <defaultValue>'Samsung Galaxy S23 Ultra Smartview Cases'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>6abf7c33-2993-4f84-9fe6-725125d41c21</id>
+        <masked>false</masked>
+        <name>link_productDetail_internalHasText</name>
+    </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>d575bc74-d9e4-4eb0-a8de-4b6af64e67cc</id>
+        <masked>false</masked>
+        <name>link_productDetail_liNthOfType</name>
     </variable>
     <variableLinks>
         <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
@@ -129,6 +164,18 @@
         <type>DATA_COLUMN</type>
         <value>button_addToCart_nth</value>
         <variableId>9342a8b2-9468-4bf7-9f4e-e145b444ca5b</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchase_buttonNthOfType</value>
+        <variableId>b93c8bfd-f908-4f1e-bfab-1503249f5106</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>button_purchase_buttonTitle</value>
+        <variableId>7aa55bd3-60c1-43d5-8191-affc69c4b7c6</variableId>
     </variableLinks>
     <variableLinks>
         <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
@@ -201,5 +248,23 @@
         <type>DATA_COLUMN</type>
         <value>label_colorStorageOption_internalText_1</value>
         <variableId>bfff0725-1068-47db-9b07-fdf80b1dcf19</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_productDetail_href_variable</value>
+        <variableId>9d5ff2f1-1195-46cc-8395-e05d2a634766</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_productDetail_internalHasText</value>
+        <variableId>6abf7c33-2993-4f84-9fe6-725125d41c21</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>c99eae0f-afca-4028-94d7-aef4f04a0bcf</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_productDetail_liNthOfType</value>
+        <variableId>d575bc74-d9e4-4eb0-a8de-4b6af64e67cc</variableId>
     </variableLinks>
 </TestCaseEntity>

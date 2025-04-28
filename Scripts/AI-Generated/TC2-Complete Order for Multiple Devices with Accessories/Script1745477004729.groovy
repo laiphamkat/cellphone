@@ -44,21 +44,23 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_p
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 4-Click on button addToCart addToCart.png')
 
-"Step 5: Click on link samsungGalaxyZfold4SiliconCover -> Navigate to page '/product/*'"
+"Step 5: Click on link productDetail (samsungGalaxyS23UltraSmartviewCases) -> Navigate to page '/product/*'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category/power-and-cables?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_power_and_cables/link_samsungGalaxyZfold4SiliconCover'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_power_and_cables/link_productDetail"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_power_and_cables/link_productDetail', ['link_productDetail_href_variable': link_productDetail_href_variable, 'link_productDetail_internalHasText': link_productDetail_internalHasText, 'link_productDetail_liNthOfType': link_productDetail_liNthOfType]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on link samsungGalaxyZfold4SiliconCover - Navigate to page product.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 5-Click on link productDetail samsungGalaxyS23UltraSmartviewCases - Navigate to page product.png')
 
-"Step 6: Click on button increased"
+"Step 6: Click on button purchase (buy)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_increased'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_product/button_purchase"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_product/button_purchase', ['button_purchase_buttonNthOfType': button_purchase_buttonNthOfType, 'button_purchase_buttonTitle': button_purchase_buttonTitle]))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on button increased.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 6-Click on button purchase buy.png')
 
 "Step 7: Hover over link phone"
 
