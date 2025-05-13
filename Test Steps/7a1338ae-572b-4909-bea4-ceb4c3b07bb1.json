@@ -1,0 +1,29 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over link accessories",
+        "step 3: Click on link apple2 -> Navigate to page '/category/chekhly-na-iphone'",
+        "step 4: Click on link productAppleAdapter -> Navigate to page '/product/*'",
+        "step 5: Click on button buy",
+        "step 6: Click on link placeOrder -> Navigate to page '/cart'",
+        "step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'",
+        "step 8: Click on input email",
+        "step 9: Enter input value in input email",
+        "step 10: Press key Tab on input email",
+        "step 11: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'",
+        "step 12: Click on input firstName",
+        "step 13: Enter input value in input firstName",
+        "step 14: Press key Tab on input firstName",
+        "step 15: Enter input value in input lastName",
+        "step 16: Press key Tab on input lastName",
+        "step 17: Click on input address",
+        "step 18: Enter input value in input address",
+        "step 19: Press key Tab on input address",
+        "step 20: Press key Tab on input zipCode",
+        "step 21: Press key Tab on input city",
+        "step 22: Click on input state",
+        "step 23: Enter input value in input state",
+        "step 24: Click on input phone -> Navigate to page ''",
+        "step 25: Take full page screenshot as checkpoint"
+    ]
+}
