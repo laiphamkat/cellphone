@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>1cd7a16a-5bde-4ab9-809a-6b384bc8f10a</id>
+        </flow>
+    </customField>
+    <description>Start at the home page, click on the main object, hover over the span, and select the Apple link. Navigate to the iPhone 15 case page and verify the home page.</description>
+    <name>TC10-Navigate to Apple iPhone 15 Case from Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6d56b42c-85f8-468d-855c-750e8ca33cf2</testCaseGuid>
+</TestCaseEntity>
