@@ -22,7 +22,7 @@ TrueTestScripts.navigate("/")
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.mouseOver(findTestObject('AI-Generated/Page_home/link_phone_1'))
+WebUI.mouseOver(findTestObject('Archived/Archived_20250526/Page_home/link_phone_1'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Hover over link phone.png')
 
@@ -30,7 +30,7 @@ WebUI.takeScreenshot(reportLocation + '/TC4/Step 2-Hover over link phone.png')
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_apple'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20250526/Page_home/link_apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC4/Step 3-Click on link apple - Navigate to page .png')
 
